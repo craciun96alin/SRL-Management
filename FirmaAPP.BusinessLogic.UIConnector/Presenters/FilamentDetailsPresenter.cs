@@ -17,7 +17,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             this._view = view;
         }
         #endregion
-
+        #region Public functions
         public void AddOrUpdateFilament(Filament filament)
         {
             try
@@ -67,5 +67,6 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 throw ex;
             }
         }
+        #endregion
     }
 }

@@ -3,6 +3,7 @@ using AppContext = FirmaAPP.Common.AppContext;
 using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
 using System;
+using FirmaAPP.Common;
 
 namespace FirmaAPP.BusinessLogic.UIConnector
 {
@@ -36,15 +37,42 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             
         }
 
-        public bool VerifyCurrentUser()
+        public bool VerifyIfCurrentUserIsAdmin(string password)
         {
-            if(AppContext.CurrentUserId != null)
+            try
             {
                 UsersBLL usersBLL = new UsersBLL();
+                if(AppContext.CurrentUserId == null)
+                {
+                    throw new Exception("Numele si parola");
+                }
+                User user = usersBLL.GetUserById(AppContext.CurrentUserId);
+                if (!VerifyUserCredentials(user, password)) 
+                {
+                    throw new Exception("Numele si parola");
+                }
                 usersBLL.UpdateLastLogin(AppContext.CurrentUserId);
-                return true;
+                if (user.UserRole == Enums.UserRole.Admin)
+                    return true;
+                else
+                    return false;
             }
-            return false;
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private bool VerifyUserCredentials(User user, string password)
+        {
+            if (user.Password != null)
+            {
+                if (password != AppHelper.Decrypt(user.Password, AppTranslations.PassPhrase))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         public void SetAppSettings()

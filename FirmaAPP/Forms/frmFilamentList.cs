@@ -14,12 +14,12 @@ namespace FirmaAPP
         private FilamentListPresenter _presenter;
         private frmMainForm _mainForm;
         #endregion
-
+        #region Constructor
         public frmFilamentList()
         {
             InitializeComponent();
         }
-
+        #endregion
         #region View
 
         public List<Filament> Filaments
@@ -152,7 +152,6 @@ namespace FirmaAPP
             deleteFilament();
         }
         #endregion
-
         #region private functions
         private void editFilament(Filament filament)
         {
@@ -212,7 +211,6 @@ namespace FirmaAPP
             return true;
         }
         #endregion
-
         #region public functions
         public void AttachMainForm(frmMainForm form)
         {

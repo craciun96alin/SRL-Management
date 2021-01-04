@@ -32,12 +32,12 @@
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEditFilament = new System.Windows.Forms.Label();
             this.lbDeleteFilament = new System.Windows.Forms.Label();
-            this.btnEditFilament = new System.Windows.Forms.Button();
-            this.btnDeleteFilament = new System.Windows.Forms.Button();
             this.lbAddFilament = new System.Windows.Forms.Label();
-            this.btnAddFilament = new System.Windows.Forms.Button();
             this.panelFilamentGrid = new System.Windows.Forms.Panel();
             this.dataGridFilament = new System.Windows.Forms.DataGridView();
+            this.btnEditFilament = new System.Windows.Forms.Button();
+            this.btnDeleteFilament = new System.Windows.Forms.Button();
+            this.btnAddFilament = new System.Windows.Forms.Button();
             this.panelFilamentMenu.SuspendLayout();
             this.panelCUDFilament.SuspendLayout();
             this.panelFilamentGrid.SuspendLayout();
@@ -94,6 +94,45 @@
             this.lbDeleteFilament.Text = "Șterge";
             this.lbDeleteFilament.Click += new System.EventHandler(this.lbDeleteFilament_Click);
             // 
+            // lbAddFilament
+            // 
+            this.lbAddFilament.AutoSize = true;
+            this.lbAddFilament.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAddFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbAddFilament.Location = new System.Drawing.Point(25, 78);
+            this.lbAddFilament.Name = "lbAddFilament";
+            this.lbAddFilament.Size = new System.Drawing.Size(57, 18);
+            this.lbAddFilament.TabIndex = 1;
+            this.lbAddFilament.Text = "Adaugă";
+            // 
+            // panelFilamentGrid
+            // 
+            this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
+            this.panelFilamentGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFilamentGrid.Location = new System.Drawing.Point(0, 100);
+            this.panelFilamentGrid.Name = "panelFilamentGrid";
+            this.panelFilamentGrid.Size = new System.Drawing.Size(1198, 554);
+            this.panelFilamentGrid.TabIndex = 1;
+            // 
+            // dataGridFilament
+            // 
+            this.dataGridFilament.AllowUserToAddRows = false;
+            this.dataGridFilament.AllowUserToDeleteRows = false;
+            this.dataGridFilament.AllowUserToOrderColumns = true;
+            this.dataGridFilament.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridFilament.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridFilament.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataGridFilament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridFilament.Location = new System.Drawing.Point(0, 0);
+            this.dataGridFilament.Name = "dataGridFilament";
+            this.dataGridFilament.ReadOnly = true;
+            this.dataGridFilament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dataGridFilament.RowTemplate.Height = 24;
+            this.dataGridFilament.Size = new System.Drawing.Size(1198, 554);
+            this.dataGridFilament.TabIndex = 0;
+            this.dataGridFilament.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridFilament_CellDoubleClick);
+            // 
             // btnEditFilament
             // 
             this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
@@ -118,17 +157,6 @@
             this.btnDeleteFilament.UseVisualStyleBackColor = true;
             this.btnDeleteFilament.Click += new System.EventHandler(this.btnDeleteFilament_Click);
             // 
-            // lbAddFilament
-            // 
-            this.lbAddFilament.AutoSize = true;
-            this.lbAddFilament.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAddFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbAddFilament.Location = new System.Drawing.Point(25, 78);
-            this.lbAddFilament.Name = "lbAddFilament";
-            this.lbAddFilament.Size = new System.Drawing.Size(57, 18);
-            this.lbAddFilament.TabIndex = 1;
-            this.lbAddFilament.Text = "Adaugă";
-            // 
             // btnAddFilament
             // 
             this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
@@ -142,35 +170,6 @@
             this.btnAddFilament.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAddFilament.UseVisualStyleBackColor = true;
             this.btnAddFilament.Click += new System.EventHandler(this.btnAddFilament_Click);
-            // 
-            // panelFilamentGrid
-            // 
-            this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
-            this.panelFilamentGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFilamentGrid.Location = new System.Drawing.Point(0, 100);
-            this.panelFilamentGrid.Name = "panelFilamentGrid";
-            this.panelFilamentGrid.Size = new System.Drawing.Size(1198, 554);
-            this.panelFilamentGrid.TabIndex = 1;
-            // 
-            // dataGridFilament
-            // 
-            this.dataGridFilament.AllowUserToAddRows = false;
-            this.dataGridFilament.AllowUserToDeleteRows = false;
-            this.dataGridFilament.AllowUserToOrderColumns = true;
-            this.dataGridFilament.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridFilament.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridFilament.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.dataGridFilament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridFilament.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridFilament.Location = new System.Drawing.Point(0, 0);
-            this.dataGridFilament.Name = "dataGridFilament";
-            this.dataGridFilament.ReadOnly = true;
-            this.dataGridFilament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dataGridFilament.RowTemplate.Height = 24;
-            this.dataGridFilament.Size = new System.Drawing.Size(1198, 554);
-            this.dataGridFilament.TabIndex = 0;
-            this.dataGridFilament.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridFilament_CellDoubleClick);
             // 
             // frmFilamentList
             // 

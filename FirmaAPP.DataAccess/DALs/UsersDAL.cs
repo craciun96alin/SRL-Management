@@ -17,8 +17,9 @@ namespace FirmaAPP.DataAccess
 
         public User GetUserByName(string userName)
         {
+            string[] name = userName.Split(' ');
             User currentUser = context.Users.
-                Where(name => name.FirstName == userName)
+                Where(u => u.FirstName == name[0] &&( u.LastName == name[1] || u.LastName == null))
                 .FirstOrDefault();
             return currentUser;
         }
@@ -35,6 +36,24 @@ namespace FirmaAPP.DataAccess
         {
             var user = context.Users.Where(n => n.UserID == userID).FirstOrDefault();
             return user;
+        }
+
+        public void AddUser(User user)
+        {
+            context.Add<User>(user);
+            context.SaveChanges();
+        }
+
+        public void UpdateUser(User user)
+        {
+            context.Update<User>(user);
+            context.SaveChanges();
+        }
+
+        public void DeleteUser(User user)
+        {
+            context.Remove<User>(user);
+            context.SaveChanges();
         }
     }
 }

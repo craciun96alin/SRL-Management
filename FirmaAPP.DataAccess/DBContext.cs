@@ -1,4 +1,5 @@
 ﻿using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
@@ -10,7 +11,9 @@ namespace FirmaAPP.DataAccess
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-             optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=EFCore-FirmaDB;Trusted_Connection=True"); // For Testing
+            optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=Test3;Trusted_Connection=True"); // For Testing 2
+
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=EFCore-FirmaDB;Trusted_Connection=True"); // For Testing
             // optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=SRLDB;Trusted_Connection=True"); // The good one
         }
 
@@ -42,6 +45,10 @@ namespace FirmaAPP.DataAccess
 
             SetUpAppSettings(modelBuilder);
             SetUpBusinessDetails(modelBuilder);
+
+            modelBuilder.Entity<User>().HasData(new User[] {
+                new User{UserID = 1, UserRole = Enums.UserRole.Admin ,FirstName = "Admin"}
+            });
         }
 
         #region SetUpDB

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirmaAPP.Common;
+using System;
 using System.Collections.Generic;
 
 namespace FirmaAPP.BusinessObject
@@ -8,7 +9,8 @@ namespace FirmaAPP.BusinessObject
         public int UserID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int UserRole { get; set; }
+        public string Password { get; set; }
+        public Enums.UserRole UserRole { get; set; }
         public DateTime? LastLogin { get; set; }
 
         public AppSettings AppSettings { get; set; }

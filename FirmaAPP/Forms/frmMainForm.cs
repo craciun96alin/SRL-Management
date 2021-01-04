@@ -234,7 +234,6 @@ namespace FirmaAPP
             {
                 ShowMessage(ex.Message);
             }
-
         }
 
         private void MinimizeOpenedForms()

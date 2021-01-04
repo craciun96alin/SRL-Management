@@ -140,6 +140,8 @@
     <Compile Include="Presenters\StartFormPresenter.cs" />
     <Compile Include="Presenters\TshirtDetailsPresenter.cs" />
     <Compile Include="Presenters\TshirtListPresenter.cs" />
+    <Compile Include="Presenters\UserDetailsPresenter.cs" />
+    <Compile Include="Presenters\UserListPresenter.cs" />
     <Compile Include="Presenters\VinylDetailsPresenter.cs" />
     <Compile Include="Presenters\VinylListPresenter.cs" />
     <Compile Include="Presenters\_3DDesignDetailsPresenter.cs" />
@@ -174,6 +176,8 @@
     <Compile Include="ViewInterfaces\IStartFormView.cs" />
     <Compile Include="ViewInterfaces\ITshirtDetailsView.cs" />
     <Compile Include="ViewInterfaces\ITshirtListView.cs" />
+    <Compile Include="ViewInterfaces\IUserDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IUsersListView.cs" />
     <Compile Include="ViewInterfaces\IVinylDetailsView.cs" />
     <Compile Include="ViewInterfaces\IVinylListView.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -4,14 +4,16 @@ using FirmaAPP.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirmaAPP.DataAccess.Migrations
 {
     [DbContext(typeof(DBContext))]
-    partial class DBContextModelSnapshot : ModelSnapshot
+    [Migration("20210103201505_Create-adminUser")]
+    partial class CreateadminUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -502,7 +504,7 @@ namespace FirmaAPP.DataAccess.Migrations
                         {
                             UserID = 1,
                             FirstName = "Admin",
-                            UserRole = 0
+                            UserRole = 1
                         });
                 });
 

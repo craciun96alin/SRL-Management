@@ -297,6 +297,18 @@
     <Compile Include="Forms\frmTshirtList.Designer.cs">
       <DependentUpon>frmTshirtList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUserDetails.Designer.cs">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmUsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmUsersList.Designer.cs">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmVinylDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -387,6 +399,12 @@
     <EmbeddedResource Include="Forms\frmTshirtList.resx">
       <DependentUpon>frmTshirtList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUserDetails.resx">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUsersList.resx">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmVinylDetails.resx">
       <DependentUpon>frmVinylDetails.cs</DependentUpon>
     </EmbeddedResource>
@@ -454,6 +472,10 @@
     <ProjectReference Include="..\FirmaAPP.Common\FirmaAPP.Common.csproj">
       <Project>{a0c0993a-4d99-4915-8af5-d787b3e63e93}</Project>
       <Name>FirmaAPP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FirmaAPP.DataAccess\FirmaAPP.DataAccess.csproj">
+      <Project>{D8DDC2AD-3CF8-4729-9F38-7E93D7CD9194}</Project>
+      <Name>FirmaAPP.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

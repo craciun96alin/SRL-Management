@@ -296,6 +296,18 @@
     <Compile Include="Migrations\20201209202830_MakeBillIdNotUnique.designer.cs">
       <DependentUpon>20201209202830_MakeBillIdNotUnique.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20210103193749_add-password-to-users.cs" />
+    <Compile Include="Migrations\20210103193749_add-password-to-users.designer.cs">
+      <DependentUpon>20210103193749_add-password-to-users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210103201505_Create-adminUser.cs" />
+    <Compile Include="Migrations\20210103201505_Create-adminUser.designer.cs">
+      <DependentUpon>20210103201505_Create-adminUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210103224605_ModifyUserRole.cs" />
+    <Compile Include="Migrations\20210103224605_ModifyUserRole.designer.cs">
+      <DependentUpon>20210103224605_ModifyUserRole.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\DBContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

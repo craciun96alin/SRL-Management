@@ -8,6 +8,8 @@ namespace FirmaAPP.Common
 {
     public static class AppTranslations
     {
+        public static string PassPhrase = "as23f";
+
         public static string BillAcquisitionType = "Achiziții";
         public static string BillSellingType = "Vânzări";
 
@@ -53,8 +55,11 @@ namespace FirmaAPP.Common
         public static string MoneyWasUpdated = "Capitalul firmei a fost actualizat! Verificați în detaliile firmei.";
 
         public static string VerifyNameToBeCompleted = " Trebuie completat campul \"Nume\"!";
+        public static string VerifyPasswordToBeCompleted = " Trebuie completat campul \"Parolă\"!";
         public static string NameAlreadyExist = " Numele este deja existent, vă rugăm alegeți un nume unic!";
         public static string VerifyRatingToBeCompleted = " Trebuie să selectați rating-ul!";
         public static string VerifyFileToBeCompleted = " Trebuie să selectați un fișier!";
+
+        public static string User = "User-ul";
     }
 }

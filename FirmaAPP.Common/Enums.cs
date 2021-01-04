@@ -160,5 +160,10 @@ namespace FirmaAPP.Common
             Cash = 2
         }
 
+        public enum UserRole
+        {
+            Admin = 0,
+            Normal = 1
+        }
     }
 }

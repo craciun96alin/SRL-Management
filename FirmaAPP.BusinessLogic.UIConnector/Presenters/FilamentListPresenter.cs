@@ -35,7 +35,6 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             {
                 throw ex;
             }
-
         }
     }
 }

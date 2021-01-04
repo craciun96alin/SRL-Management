@@ -1,4 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.UIConnector;
+using FirmaAPP.DataAccess;
+using FirmaAPP.Forms;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -13,14 +15,15 @@ namespace FirmaAPP
         private StartFormPresenter _presenter;
 
         #endregion
-
+        #region View
         public List<string> UserNames
         {
             set
             {
-                foreach(string s in value)
+                cbUserName.Items.Clear();
+                foreach(string userName in value)
                 {
-                    cbUserName.Items.Add(s);
+                    cbUserName.Items.Add(userName);
                 }
             }
         }
@@ -29,38 +32,53 @@ namespace FirmaAPP
         {
             _presenter = presenter;
         }
-
+        #endregion
+        #region Constructor
         public frmStartForm()
         {
             InitializeComponent();
         }
-
+        #endregion
+        #region Events
         private void frmStartForm_Load(object sender, EventArgs e)
         {
-            AppContext.ActiveForms = new List<Form>();
+            using (var client = new DBContext())
+            {
+                client.Database.EnsureCreated();
+            }
 
+            AppContext.ActiveForms = new List<Form>();
             StartFormPresenter presenter = new StartFormPresenter(this);
             this.AttachPresenter(presenter);
             _presenter.GetUsers();
+            toolTipPassword.SetToolTip(tbPassword, "Password");
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-
-
-            if (_presenter.VerifyCurrentUser())
+            try
             {
-                frmMainForm childForm = new frmMainForm();
-                _presenter.SetAppSettings();
-                childForm.Show();
+                if (_presenter.VerifyIfCurrentUserIsAdmin(tbPassword.Text))
+                {
+                    frmUsersList childForm = new frmUsersList();
+                    UserListPresenter UserListPresenter = new UserListPresenter(childForm);
+                    childForm.AttachPresenter(UserListPresenter);
+                    childForm.AttachParentForm(this);
+                    childForm.Show();
+                }
+                else
+                {
+                    frmMainForm childForm = new frmMainForm();
+                    _presenter.SetAppSettings();
+                    childForm.Show();
+                    this.Enabled = false;
+                    this.Visible = false;
+                }
 
-
-                this.Enabled = false;
-                this.Visible = false;
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Trebuie să alegi un utilizator înainte!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show(ex.Message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -68,5 +86,12 @@ namespace FirmaAPP
         {
             _presenter.SetCurrentUser(cbUserName.SelectedItem.ToString());
         }
+        #endregion
+        #region override functions
+        public override void Refresh()
+        {
+            _presenter.GetUsers();
+        }
+        #endregion
     }
 }

@@ -28,17 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAddProvider = new System.Windows.Forms.Button();
             this.cbProviders = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -51,51 +45,46 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnAddProvider = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.lbName = new System.Windows.Forms.Label();
             this.lbType = new System.Windows.Forms.Label();
-            this.lbColor = new System.Windows.Forms.Label();
-            this.lbStock = new System.Windows.Forms.Label();
-            this.lbRating = new System.Windows.Forms.Label();
-            this.lbDescription = new System.Windows.Forms.Label();
-            this.tbDescription = new System.Windows.Forms.RichTextBox();
             this.tbName = new System.Windows.Forms.TextBox();
             this.cbType = new System.Windows.Forms.ComboBox();
-            this.cbColor = new System.Windows.Forms.ComboBox();
-            this.numericUpDownStock = new System.Windows.Forms.NumericUpDown();
-            this.lbgrame = new System.Windows.Forms.Label();
+            this.btnConfirm = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.lbTitle = new System.Windows.Forms.Label();
+            this.panelFilamentInformations = new System.Windows.Forms.Panel();
+            this.lbRating = new System.Windows.Forms.Label();
+            this.lbDescription = new System.Windows.Forms.Label();
             this.btnStar1 = new System.Windows.Forms.Button();
             this.btnStar2 = new System.Windows.Forms.Button();
             this.btnStar3 = new System.Windows.Forms.Button();
             this.btnStar4 = new System.Windows.Forms.Button();
             this.btnStar5 = new System.Windows.Forms.Button();
-            this.btnConfirm = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.lbTitle = new System.Windows.Forms.Label();
+            this.tbDescription = new System.Windows.Forms.RichTextBox();
+            this.lbgrame = new System.Windows.Forms.Label();
+            this.cbColor = new System.Windows.Forms.ComboBox();
+            this.numericUpDownStock = new System.Windows.Forms.NumericUpDown();
+            this.lbStock = new System.Windows.Forms.Label();
+            this.lbColor = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.panelFilamentInformations = new System.Windows.Forms.Panel();
             this.cbProvider = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
             this.panelFilamentInformations.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnAddProvider
-            // 
-            this.btnAddProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddProvider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAddProvider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddProvider.Location = new System.Drawing.Point(503, 115);
-            this.btnAddProvider.Name = "btnAddProvider";
-            this.btnAddProvider.Size = new System.Drawing.Size(24, 26);
-            this.btnAddProvider.TabIndex = 23;
-            this.btnAddProvider.UseVisualStyleBackColor = true;
             // 
             // cbProviders
             // 
             this.cbProviders.FormattingEnabled = true;
             this.cbProviders.Location = new System.Drawing.Point(162, 117);
             this.cbProviders.Name = "cbProviders";
-            this.cbProviders.Size = new System.Drawing.Size(329, 25);
+            this.cbProviders.Size = new System.Drawing.Size(329, 24);
             this.cbProviders.TabIndex = 22;
             // 
             // label9
@@ -146,66 +135,6 @@
             this.button2.Text = "Adaugă";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(318, 301);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(39, 38);
-            this.button3.TabIndex = 17;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(279, 301);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(39, 38);
-            this.button4.TabIndex = 16;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(240, 301);
-            this.button5.Margin = new System.Windows.Forms.Padding(0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(39, 38);
-            this.button5.TabIndex = 15;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(201, 301);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(39, 38);
-            this.button6.TabIndex = 14;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(162, 301);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(39, 38);
-            this.button7.TabIndex = 13;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -236,7 +165,7 @@
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(162, 231);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(329, 25);
+            this.comboBox2.Size = new System.Drawing.Size(329, 24);
             this.comboBox2.TabIndex = 9;
             // 
             // comboBox1
@@ -244,7 +173,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(162, 192);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(329, 25);
+            this.comboBox1.Size = new System.Drawing.Size(329, 24);
             this.comboBox1.TabIndex = 8;
             // 
             // textBox1
@@ -334,6 +263,77 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "*Nume:";
             // 
+            // btnAddProvider
+            // 
+            this.btnAddProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddProvider.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAddProvider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddProvider.Location = new System.Drawing.Point(503, 115);
+            this.btnAddProvider.Name = "btnAddProvider";
+            this.btnAddProvider.Size = new System.Drawing.Size(24, 26);
+            this.btnAddProvider.TabIndex = 23;
+            this.btnAddProvider.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(318, 301);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(39, 38);
+            this.button3.TabIndex = 17;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(279, 301);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(39, 38);
+            this.button4.TabIndex = 16;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(240, 301);
+            this.button5.Margin = new System.Windows.Forms.Padding(0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(39, 38);
+            this.button5.TabIndex = 15;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(201, 301);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(39, 38);
+            this.button6.TabIndex = 14;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(162, 301);
+            this.button7.Margin = new System.Windows.Forms.Padding(0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(39, 38);
+            this.button7.TabIndex = 13;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // lbName
             // 
             this.lbName.AutoSize = true;
@@ -358,29 +358,88 @@
             this.lbType.TabIndex = 1;
             this.lbType.Text = "*Tip:";
             // 
-            // lbColor
+            // tbName
             // 
-            this.lbColor.AutoSize = true;
-            this.lbColor.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbColor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbColor.Location = new System.Drawing.Point(12, 223);
-            this.lbColor.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
-            this.lbColor.Name = "lbColor";
-            this.lbColor.Size = new System.Drawing.Size(131, 34);
-            this.lbColor.TabIndex = 2;
-            this.lbColor.Text = "*Culoare:";
+            this.tbName.Location = new System.Drawing.Point(162, 153);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(329, 22);
+            this.tbName.TabIndex = 7;
             // 
-            // lbStock
+            // cbType
             // 
-            this.lbStock.AutoSize = true;
-            this.lbStock.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbStock.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbStock.Location = new System.Drawing.Point(12, 262);
-            this.lbStock.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
-            this.lbStock.Name = "lbStock";
-            this.lbStock.Size = new System.Drawing.Size(91, 34);
-            this.lbStock.TabIndex = 3;
-            this.lbStock.Text = "*Stoc:";
+            this.cbType.FormattingEnabled = true;
+            this.cbType.Location = new System.Drawing.Point(162, 192);
+            this.cbType.Name = "cbType";
+            this.cbType.Size = new System.Drawing.Size(329, 24);
+            this.cbType.TabIndex = 8;
+            // 
+            // btnConfirm
+            // 
+            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
+            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirm.Location = new System.Drawing.Point(293, 512);
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.Size = new System.Drawing.Size(91, 32);
+            this.btnConfirm.TabIndex = 18;
+            this.btnConfirm.Text = "Confirmă";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(400, 512);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(91, 32);
+            this.btnCancel.TabIndex = 19;
+            this.btnCancel.Text = "Renunță";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // lbTitle
+            // 
+            this.lbTitle.AutoSize = true;
+            this.lbTitle.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbTitle.Location = new System.Drawing.Point(152, 29);
+            this.lbTitle.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
+            this.lbTitle.Name = "lbTitle";
+            this.lbTitle.Size = new System.Drawing.Size(328, 57);
+            this.lbTitle.TabIndex = 20;
+            this.lbTitle.Text = "Detalii filament";
+            // 
+            // panelFilamentInformations
+            // 
+            this.panelFilamentInformations.Controls.Add(this.cbProvider);
+            this.panelFilamentInformations.Controls.Add(this.label10);
+            this.panelFilamentInformations.Controls.Add(this.lbTitle);
+            this.panelFilamentInformations.Controls.Add(this.btnCancel);
+            this.panelFilamentInformations.Controls.Add(this.btnConfirm);
+            this.panelFilamentInformations.Controls.Add(this.btnStar5);
+            this.panelFilamentInformations.Controls.Add(this.btnStar4);
+            this.panelFilamentInformations.Controls.Add(this.btnStar3);
+            this.panelFilamentInformations.Controls.Add(this.btnStar2);
+            this.panelFilamentInformations.Controls.Add(this.btnStar1);
+            this.panelFilamentInformations.Controls.Add(this.lbgrame);
+            this.panelFilamentInformations.Controls.Add(this.numericUpDownStock);
+            this.panelFilamentInformations.Controls.Add(this.cbColor);
+            this.panelFilamentInformations.Controls.Add(this.cbType);
+            this.panelFilamentInformations.Controls.Add(this.tbName);
+            this.panelFilamentInformations.Controls.Add(this.tbDescription);
+            this.panelFilamentInformations.Controls.Add(this.lbDescription);
+            this.panelFilamentInformations.Controls.Add(this.lbRating);
+            this.panelFilamentInformations.Controls.Add(this.lbStock);
+            this.panelFilamentInformations.Controls.Add(this.lbColor);
+            this.panelFilamentInformations.Controls.Add(this.lbType);
+            this.panelFilamentInformations.Controls.Add(this.lbName);
+            this.panelFilamentInformations.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelFilamentInformations.Location = new System.Drawing.Point(0, 0);
+            this.panelFilamentInformations.Name = "panelFilamentInformations";
+            this.panelFilamentInformations.Size = new System.Drawing.Size(611, 556);
+            this.panelFilamentInformations.TabIndex = 0;
             // 
             // lbRating
             // 
@@ -405,62 +464,6 @@
             this.lbDescription.Size = new System.Drawing.Size(135, 34);
             this.lbDescription.TabIndex = 5;
             this.lbDescription.Text = "Descriere:";
-            // 
-            // tbDescription
-            // 
-            this.tbDescription.Location = new System.Drawing.Point(162, 351);
-            this.tbDescription.Name = "tbDescription";
-            this.tbDescription.Size = new System.Drawing.Size(329, 140);
-            this.tbDescription.TabIndex = 6;
-            this.tbDescription.Text = "";
-            // 
-            // tbName
-            // 
-            this.tbName.Location = new System.Drawing.Point(162, 153);
-            this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(329, 22);
-            this.tbName.TabIndex = 7;
-            // 
-            // cbType
-            // 
-            this.cbType.FormattingEnabled = true;
-            this.cbType.Location = new System.Drawing.Point(162, 192);
-            this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(329, 24);
-            this.cbType.TabIndex = 8;
-            // 
-            // cbColor
-            // 
-            this.cbColor.FormattingEnabled = true;
-            this.cbColor.Location = new System.Drawing.Point(162, 231);
-            this.cbColor.Name = "cbColor";
-            this.cbColor.Size = new System.Drawing.Size(329, 24);
-            this.cbColor.TabIndex = 9;
-            // 
-            // numericUpDownStock
-            // 
-            this.numericUpDownStock.DecimalPlaces = 2;
-            this.numericUpDownStock.Location = new System.Drawing.Point(162, 271);
-            this.numericUpDownStock.Maximum = new decimal(new int[] {
-            9999999,
-            0,
-            0,
-            0});
-            this.numericUpDownStock.Name = "numericUpDownStock";
-            this.numericUpDownStock.Size = new System.Drawing.Size(329, 22);
-            this.numericUpDownStock.TabIndex = 10;
-            // 
-            // lbgrame
-            // 
-            this.lbgrame.AutoSize = true;
-            this.lbgrame.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbgrame.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbgrame.Location = new System.Drawing.Point(497, 262);
-            this.lbgrame.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
-            this.lbgrame.Name = "lbgrame";
-            this.lbgrame.Size = new System.Drawing.Size(88, 34);
-            this.lbgrame.TabIndex = 11;
-            this.lbgrame.Text = "grame";
             // 
             // btnStar1
             // 
@@ -527,43 +530,70 @@
             this.btnStar5.UseVisualStyleBackColor = true;
             this.btnStar5.Click += new System.EventHandler(this.btnStar5_Click);
             // 
-            // btnConfirm
+            // tbDescription
             // 
-            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
-            this.btnConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirm.Location = new System.Drawing.Point(293, 512);
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(91, 32);
-            this.btnConfirm.TabIndex = 18;
-            this.btnConfirm.Text = "Confirmă";
-            this.btnConfirm.UseVisualStyleBackColor = false;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            this.tbDescription.Location = new System.Drawing.Point(162, 351);
+            this.tbDescription.Name = "tbDescription";
+            this.tbDescription.Size = new System.Drawing.Size(329, 140);
+            this.tbDescription.TabIndex = 6;
+            this.tbDescription.Text = "";
             // 
-            // btnCancel
+            // lbgrame
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Red;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(400, 512);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(91, 32);
-            this.btnCancel.TabIndex = 19;
-            this.btnCancel.Text = "Renunță";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.lbgrame.AutoSize = true;
+            this.lbgrame.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbgrame.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbgrame.Location = new System.Drawing.Point(497, 262);
+            this.lbgrame.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
+            this.lbgrame.Name = "lbgrame";
+            this.lbgrame.Size = new System.Drawing.Size(88, 34);
+            this.lbgrame.TabIndex = 11;
+            this.lbgrame.Text = "grame";
             // 
-            // lbTitle
+            // cbColor
             // 
-            this.lbTitle.AutoSize = true;
-            this.lbTitle.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbTitle.Location = new System.Drawing.Point(152, 29);
-            this.lbTitle.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
-            this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(328, 57);
-            this.lbTitle.TabIndex = 20;
-            this.lbTitle.Text = "Detalii filament";
+            this.cbColor.FormattingEnabled = true;
+            this.cbColor.Location = new System.Drawing.Point(162, 231);
+            this.cbColor.Name = "cbColor";
+            this.cbColor.Size = new System.Drawing.Size(329, 24);
+            this.cbColor.TabIndex = 9;
+            // 
+            // numericUpDownStock
+            // 
+            this.numericUpDownStock.DecimalPlaces = 2;
+            this.numericUpDownStock.Location = new System.Drawing.Point(162, 271);
+            this.numericUpDownStock.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.numericUpDownStock.Name = "numericUpDownStock";
+            this.numericUpDownStock.Size = new System.Drawing.Size(329, 22);
+            this.numericUpDownStock.TabIndex = 10;
+            // 
+            // lbStock
+            // 
+            this.lbStock.AutoSize = true;
+            this.lbStock.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbStock.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbStock.Location = new System.Drawing.Point(12, 262);
+            this.lbStock.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
+            this.lbStock.Name = "lbStock";
+            this.lbStock.Size = new System.Drawing.Size(91, 34);
+            this.lbStock.TabIndex = 3;
+            this.lbStock.Text = "*Stoc:";
+            // 
+            // lbColor
+            // 
+            this.lbColor.AutoSize = true;
+            this.lbColor.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbColor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbColor.Location = new System.Drawing.Point(12, 223);
+            this.lbColor.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
+            this.lbColor.Name = "lbColor";
+            this.lbColor.Size = new System.Drawing.Size(131, 34);
+            this.lbColor.TabIndex = 2;
+            this.lbColor.Text = "*Culoare:";
             // 
             // label10
             // 
@@ -576,36 +606,6 @@
             this.label10.Size = new System.Drawing.Size(140, 34);
             this.label10.TabIndex = 21;
             this.label10.Text = "*Furnizor:";
-            // 
-            // panelFilamentInformations
-            // 
-            this.panelFilamentInformations.Controls.Add(this.cbProvider);
-            this.panelFilamentInformations.Controls.Add(this.label10);
-            this.panelFilamentInformations.Controls.Add(this.lbTitle);
-            this.panelFilamentInformations.Controls.Add(this.btnCancel);
-            this.panelFilamentInformations.Controls.Add(this.btnConfirm);
-            this.panelFilamentInformations.Controls.Add(this.btnStar5);
-            this.panelFilamentInformations.Controls.Add(this.btnStar4);
-            this.panelFilamentInformations.Controls.Add(this.btnStar3);
-            this.panelFilamentInformations.Controls.Add(this.btnStar2);
-            this.panelFilamentInformations.Controls.Add(this.btnStar1);
-            this.panelFilamentInformations.Controls.Add(this.lbgrame);
-            this.panelFilamentInformations.Controls.Add(this.numericUpDownStock);
-            this.panelFilamentInformations.Controls.Add(this.cbColor);
-            this.panelFilamentInformations.Controls.Add(this.cbType);
-            this.panelFilamentInformations.Controls.Add(this.tbName);
-            this.panelFilamentInformations.Controls.Add(this.tbDescription);
-            this.panelFilamentInformations.Controls.Add(this.lbDescription);
-            this.panelFilamentInformations.Controls.Add(this.lbRating);
-            this.panelFilamentInformations.Controls.Add(this.lbStock);
-            this.panelFilamentInformations.Controls.Add(this.lbColor);
-            this.panelFilamentInformations.Controls.Add(this.lbType);
-            this.panelFilamentInformations.Controls.Add(this.lbName);
-            this.panelFilamentInformations.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelFilamentInformations.Location = new System.Drawing.Point(0, 0);
-            this.panelFilamentInformations.Name = "panelFilamentInformations";
-            this.panelFilamentInformations.Size = new System.Drawing.Size(611, 556);
-            this.panelFilamentInformations.TabIndex = 0;
             // 
             // cbProvider
             // 
@@ -627,9 +627,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Load += new System.EventHandler(this.frmFilamentDetails_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).EndInit();
             this.panelFilamentInformations.ResumeLayout(false);
             this.panelFilamentInformations.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -660,26 +660,26 @@
         private System.Windows.Forms.Button btnAddProvider;
         private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.Label lbType;
-        private System.Windows.Forms.Label lbColor;
-        private System.Windows.Forms.Label lbStock;
-        private System.Windows.Forms.Label lbRating;
-        private System.Windows.Forms.Label lbDescription;
-        private System.Windows.Forms.RichTextBox tbDescription;
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.ComboBox cbType;
-        private System.Windows.Forms.ComboBox cbColor;
-        private System.Windows.Forms.NumericUpDown numericUpDownStock;
-        private System.Windows.Forms.Label lbgrame;
-        private System.Windows.Forms.Button btnStar1;
-        private System.Windows.Forms.Button btnStar2;
-        private System.Windows.Forms.Button btnStar3;
-        private System.Windows.Forms.Button btnStar4;
-        private System.Windows.Forms.Button btnStar5;
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lbTitle;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panelFilamentInformations;
         private System.Windows.Forms.ComboBox cbProvider;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnStar5;
+        private System.Windows.Forms.Button btnStar4;
+        private System.Windows.Forms.Button btnStar3;
+        private System.Windows.Forms.Button btnStar2;
+        private System.Windows.Forms.Button btnStar1;
+        private System.Windows.Forms.Label lbgrame;
+        private System.Windows.Forms.NumericUpDown numericUpDownStock;
+        private System.Windows.Forms.ComboBox cbColor;
+        private System.Windows.Forms.RichTextBox tbDescription;
+        private System.Windows.Forms.Label lbDescription;
+        private System.Windows.Forms.Label lbRating;
+        private System.Windows.Forms.Label lbStock;
+        private System.Windows.Forms.Label lbColor;
     }
 }
