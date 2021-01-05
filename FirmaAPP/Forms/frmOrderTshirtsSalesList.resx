@@ -117,4 +117,508 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAddSale.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panelGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnBackOrderStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 78</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBackOrderStatus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbEditSale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnNextOrderStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnEditSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 42</value>
+  </data>
+  <data name="&gt;&gt;gbOrderStatus.Name" xml:space="preserve">
+    <value>gbOrderStatus</value>
+  </data>
+  <data name="btnBackOrderStatus.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddSale.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="lbDeleteSale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <data name="&gt;&gt;btnAddSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;panelOrdersForBuyMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbDeleteSale.Text" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="&gt;&gt;panelGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbEditSale.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbOrderStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 117</value>
+  </data>
+  <data name="&gt;&gt;panelOrdersForBuyMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBackOrderStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnAddSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbOrderStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelCUDFilament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 117</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSale.Name" xml:space="preserve">
+    <value>btnDeleteSale</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vânzări tricouri</value>
+  </data>
+  <data name="btnEditSale.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 36</value>
+  </data>
+  <data name="gbOrderStatus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelBackOrderStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="dataGridSalesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbEditSale.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbOrderStatus.Parent" xml:space="preserve">
+    <value>panelOrderOptions</value>
+  </data>
+  <data name="lbEditSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 30</value>
+  </data>
+  <data name="lbDeleteSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbAddSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelBackOrderStatus.Text" xml:space="preserve">
+    <value>Înapoi</value>
+  </data>
+  <data name="lbDeleteSale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lbAddSale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btnDeleteSale.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;panelGrid.Name" xml:space="preserve">
+    <value>panelGrid</value>
+  </data>
+  <data name="labelNextOrderStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gbOrderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnNextOrderStatus.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panelOrderOptions.Parent" xml:space="preserve">
+    <value>panelOrdersForBuyMenu</value>
+  </data>
+  <data name="&gt;&gt;panelOrderOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelBackOrderStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 92</value>
+  </data>
+  <data name="&gt;&gt;btnBackOrderStatus.Name" xml:space="preserve">
+    <value>btnBackOrderStatus</value>
+  </data>
+  <data name="btnDeleteSale.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="panelGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gbOrderStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;gbOrderStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbAddSale.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnBackOrderStatus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lbAddSale.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnEditSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnAddSale.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbDeleteSale.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteSale.Name" xml:space="preserve">
+    <value>lbDeleteSale</value>
+  </data>
+  <data name="&gt;&gt;btnBackOrderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNextOrderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNextOrderStatus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnNextOrderStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnAddSale.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnBackOrderStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnBackOrderStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="panelGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 117</value>
+  </data>
+  <data name="lbAddSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 92</value>
+  </data>
+  <data name="&gt;&gt;panelOrderOptions.Name" xml:space="preserve">
+    <value>panelOrderOptions</value>
+  </data>
+  <data name="btnAddSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 78</value>
+  </data>
+  <data name="&gt;&gt;panelOrdersForBuyMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="labelNextOrderStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 18</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNextOrderStatus.Name" xml:space="preserve">
+    <value>btnNextOrderStatus</value>
+  </data>
+  <data name="panelOrdersForBuyMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbEditSale.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteSale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelCUDFilament.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbEditSale.Text" xml:space="preserve">
+    <value>Modifică</value>
+  </data>
+  <data name="&gt;&gt;panelGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridSalesList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnNextOrderStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbAddSale.Name" xml:space="preserve">
+    <value>lbAddSale</value>
+  </data>
+  <data name="btnAddSale.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbAddSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 18</value>
+  </data>
+  <data name="panelOrderOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelBackOrderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelBackOrderStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridSalesList.Parent" xml:space="preserve">
+    <value>panelGrid</value>
+  </data>
+  <data name="lbDeleteSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 26</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Parent" xml:space="preserve">
+    <value>panelOrdersForBuyMenu</value>
+  </data>
+  <data name="&gt;&gt;labelBackOrderStatus.Parent" xml:space="preserve">
+    <value>gbOrderStatus</value>
+  </data>
+  <data name="&gt;&gt;labelNextOrderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDeleteSale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnBackOrderStatus.Parent" xml:space="preserve">
+    <value>gbOrderStatus</value>
+  </data>
+  <data name="labelNextOrderStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnEditSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelNextOrderStatus.Text" xml:space="preserve">
+    <value>Înainte</value>
+  </data>
+  <data name="panelOrdersForBuyMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lbEditSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbAddSale.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelOrderOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 0</value>
+  </data>
+  <data name="&gt;&gt;btnNextOrderStatus.Parent" xml:space="preserve">
+    <value>gbOrderStatus</value>
+  </data>
+  <data name="btnNextOrderStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 78</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOrderTshirtsSalesList</value>
+  </data>
+  <data name="btnAddSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="&gt;&gt;labelBackOrderStatus.Name" xml:space="preserve">
+    <value>labelBackOrderStatus</value>
+  </data>
+  <data name="panelOrderOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 373</value>
+  </data>
+  <data name="panelOrdersForBuyMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 117</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNextOrderStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="&gt;&gt;dataGridSalesList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeleteSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="&gt;&gt;btnEditSale.Name" xml:space="preserve">
+    <value>btnEditSale</value>
+  </data>
+  <data name="dataGridSalesList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelNextOrderStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAddSale.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelBackOrderStatus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnEditSale.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;lbAddSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOrderOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelNextOrderStatus.Parent" xml:space="preserve">
+    <value>gbOrderStatus</value>
+  </data>
+  <data name="&gt;&gt;btnAddSale.Name" xml:space="preserve">
+    <value>btnAddSale</value>
+  </data>
+  <data name="&gt;&gt;dataGridSalesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeleteSale.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="panelCUDFilament.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;dataGridSalesList.Name" xml:space="preserve">
+    <value>dataGridSalesList</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSale.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelOrdersForBuyMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dataGridSalesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 373</value>
+  </data>
+  <data name="lbAddSale.Text" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 490</value>
+  </data>
+  <data name="btnEditSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 63</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Name" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="labelBackOrderStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 117</value>
+  </data>
+  <data name="btnEditSale.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbEditSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 67</value>
+  </data>
+  <data name="&gt;&gt;lbEditSale.Name" xml:space="preserve">
+    <value>lbEditSale</value>
+  </data>
+  <data name="&gt;&gt;btnEditSale.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelCUDFilament.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbEditSale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="labelNextOrderStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panelOrdersForBuyMenu.Name" xml:space="preserve">
+    <value>panelOrdersForBuyMenu</value>
+  </data>
+  <data name="labelNextOrderStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 92</value>
+  </data>
+  <data name="lbEditSale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <data name="labelBackOrderStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelNextOrderStatus.Name" xml:space="preserve">
+    <value>labelNextOrderStatus</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>CUD</value>
+  </data>
+  <data name="panelOrderOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 117</value>
+  </data>
+  <data name="btnNextOrderStatus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnBackOrderStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
 </root>

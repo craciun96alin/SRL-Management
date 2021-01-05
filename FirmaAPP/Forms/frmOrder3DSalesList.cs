@@ -85,15 +85,23 @@ namespace FirmaAPP
         }
         private void btnAddSale_Click(object sender, EventArgs e)
         {
-            frmOrder3DSalesDetails childForm = new frmOrder3DSalesDetails();
-            Order3DSalesDetailsPresenter presenter = new Order3DSalesDetailsPresenter(childForm);
-            childForm.MdiParent = this.MdiParent;
-            childForm.AttachMainForm(_mainForm);
-            childForm.AttachParentForm(this);
-            childForm.AttachPresenter(presenter);
-            childForm.Init();
-            childForm.Order = new Order();
-            childForm.Show();
+            try
+            {
+                frmOrder3DSalesDetails childForm = new frmOrder3DSalesDetails();
+                Order3DSalesDetailsPresenter presenter = new Order3DSalesDetailsPresenter(childForm);
+                childForm.MdiParent = this.MdiParent;
+                childForm.AttachMainForm(_mainForm);
+                childForm.AttachParentForm(this);
+                childForm.AttachPresenter(presenter);
+                childForm.Init();
+                childForm.Order = new Order();
+                childForm.Show();
+            }
+            catch (Exception ex)
+            {
+                ShowMessage(ex.Message);
+                Refresh();
+            }
         }
         private void btnDeleteSale_Click(object sender, EventArgs e)
         {
@@ -140,17 +148,25 @@ namespace FirmaAPP
         }
         private void editSale3DOrder(Order order)
         {
-            if (VerifySelectedRowForEdit())
+            try
             {
-                frmOrder3DSalesDetails childForm = new frmOrder3DSalesDetails();
-                Order3DSalesDetailsPresenter presenter = new Order3DSalesDetailsPresenter(childForm);
-                childForm.MdiParent = this.MdiParent;
-                childForm.AttachMainForm(_mainForm);
-                childForm.AttachParentForm(this);
-                childForm.AttachPresenter(presenter);
-                childForm.Init();
-                childForm.Order = order;
-                childForm.ShowDialog();
+                if (VerifySelectedRowForEdit())
+                {
+                    frmOrder3DSalesDetails childForm = new frmOrder3DSalesDetails();
+                    Order3DSalesDetailsPresenter presenter = new Order3DSalesDetailsPresenter(childForm);
+                    childForm.MdiParent = this.MdiParent;
+                    childForm.AttachMainForm(_mainForm);
+                    childForm.AttachParentForm(this);
+                    childForm.AttachPresenter(presenter);
+                    childForm.Init();
+                    childForm.Order = order;
+                    childForm.ShowDialog();
+                }
+            }
+            catch (Exception ex)
+            {
+                ShowMessage(ex.Message);
+                Refresh();
             }
         }
         private bool VerifySelectedRowForEdit()

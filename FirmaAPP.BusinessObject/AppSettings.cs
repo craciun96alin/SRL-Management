@@ -11,7 +11,6 @@ namespace FirmaAPP.BusinessObject
         public string BillFolder { get; set; }
         public string _3DDesignFolder { get; set; }
         public string _3DPrintFolder { get; set; }
-
         public int UserID { get; set; }
         public User _user { get; set; }
     }

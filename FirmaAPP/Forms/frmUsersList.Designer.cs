@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsersList));
             this.panelUserGrid = new System.Windows.Forms.Panel();
             this.dataGridUser = new System.Windows.Forms.DataGridView();
             this.panelFilamentMenu = new System.Windows.Forms.Panel();
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEditUser = new System.Windows.Forms.Label();
             this.lbDeleteUser = new System.Windows.Forms.Label();
+            this.lbAddUser = new System.Windows.Forms.Label();
             this.btnEditUser = new System.Windows.Forms.Button();
             this.btnDeleteUser = new System.Windows.Forms.Button();
-            this.lbAddUser = new System.Windows.Forms.Label();
             this.btnAddUser = new System.Windows.Forms.Button();
             this.panelUserGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUser)).BeginInit();
@@ -46,15 +47,13 @@
             // 
             // panelUserGrid
             // 
+            resources.ApplyResources(this.panelUserGrid, "panelUserGrid");
             this.panelUserGrid.Controls.Add(this.dataGridUser);
-            this.panelUserGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelUserGrid.Location = new System.Drawing.Point(0, 100);
             this.panelUserGrid.Name = "panelUserGrid";
-            this.panelUserGrid.Size = new System.Drawing.Size(1198, 554);
-            this.panelUserGrid.TabIndex = 3;
             // 
             // dataGridUser
             // 
+            resources.ApplyResources(this.dataGridUser, "dataGridUser");
             this.dataGridUser.AllowUserToAddRows = false;
             this.dataGridUser.AllowUserToDeleteRows = false;
             this.dataGridUser.AllowUserToOrderColumns = true;
@@ -63,125 +62,82 @@
             this.dataGridUser.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridUser.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridUser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridUser.Location = new System.Drawing.Point(0, 0);
             this.dataGridUser.Name = "dataGridUser";
             this.dataGridUser.ReadOnly = true;
             this.dataGridUser.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridUser.RowTemplate.Height = 24;
-            this.dataGridUser.Size = new System.Drawing.Size(1198, 554);
-            this.dataGridUser.TabIndex = 0;
             this.dataGridUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUser_CellClick);
             this.dataGridUser.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUser_CellDoubleClick);
             // 
             // panelFilamentMenu
             // 
+            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
             this.panelFilamentMenu.Controls.Add(this.panelCUDFilament);
-            this.panelFilamentMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFilamentMenu.Location = new System.Drawing.Point(0, 0);
             this.panelFilamentMenu.Name = "panelFilamentMenu";
-            this.panelFilamentMenu.Size = new System.Drawing.Size(1198, 100);
-            this.panelFilamentMenu.TabIndex = 2;
             // 
             // panelCUDFilament
             // 
+            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Controls.Add(this.lbEditUser);
             this.panelCUDFilament.Controls.Add(this.lbDeleteUser);
             this.panelCUDFilament.Controls.Add(this.btnEditUser);
             this.panelCUDFilament.Controls.Add(this.btnDeleteUser);
             this.panelCUDFilament.Controls.Add(this.lbAddUser);
             this.panelCUDFilament.Controls.Add(this.btnAddUser);
-            this.panelCUDFilament.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelCUDFilament.Location = new System.Drawing.Point(0, 0);
             this.panelCUDFilament.Name = "panelCUDFilament";
-            this.panelCUDFilament.Size = new System.Drawing.Size(262, 100);
-            this.panelCUDFilament.TabIndex = 0;
             // 
             // lbEditUser
             // 
-            this.lbEditUser.AutoSize = true;
-            this.lbEditUser.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lbEditUser, "lbEditUser");
             this.lbEditUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbEditUser.Location = new System.Drawing.Point(144, 53);
-            this.lbEditUser.Margin = new System.Windows.Forms.Padding(0);
             this.lbEditUser.Name = "lbEditUser";
-            this.lbEditUser.Size = new System.Drawing.Size(111, 30);
-            this.lbEditUser.TabIndex = 5;
-            this.lbEditUser.Text = "Modifică";
             this.lbEditUser.Click += new System.EventHandler(this.lbEditUser_Click);
             // 
             // lbDeleteUser
             // 
-            this.lbDeleteUser.AutoSize = true;
-            this.lbDeleteUser.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lbDeleteUser, "lbDeleteUser");
             this.lbDeleteUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbDeleteUser.Location = new System.Drawing.Point(144, 12);
-            this.lbDeleteUser.Margin = new System.Windows.Forms.Padding(0);
             this.lbDeleteUser.Name = "lbDeleteUser";
-            this.lbDeleteUser.Size = new System.Drawing.Size(90, 30);
-            this.lbDeleteUser.TabIndex = 4;
-            this.lbDeleteUser.Text = "Șterge";
             this.lbDeleteUser.Click += new System.EventHandler(this.lbDeleteUser_Click);
+            // 
+            // lbAddUser
+            // 
+            resources.ApplyResources(this.lbAddUser, "lbAddUser");
+            this.lbAddUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbAddUser.Name = "lbAddUser";
             // 
             // btnEditUser
             // 
+            resources.ApplyResources(this.btnEditUser, "btnEditUser");
             this.btnEditUser.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEditUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnEditUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditUser.Location = new System.Drawing.Point(106, 49);
             this.btnEditUser.Name = "btnEditUser";
-            this.btnEditUser.Size = new System.Drawing.Size(46, 42);
-            this.btnEditUser.TabIndex = 3;
             this.btnEditUser.UseVisualStyleBackColor = true;
             this.btnEditUser.Click += new System.EventHandler(this.btnEditUser_Click);
             // 
             // btnDeleteUser
             // 
+            resources.ApplyResources(this.btnDeleteUser, "btnDeleteUser");
             this.btnDeleteUser.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDeleteUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDeleteUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteUser.Location = new System.Drawing.Point(108, 10);
             this.btnDeleteUser.Name = "btnDeleteUser";
-            this.btnDeleteUser.Size = new System.Drawing.Size(44, 36);
-            this.btnDeleteUser.TabIndex = 2;
             this.btnDeleteUser.UseVisualStyleBackColor = true;
             this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
             // 
-            // lbAddUser
-            // 
-            this.lbAddUser.AutoSize = true;
-            this.lbAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAddUser.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbAddUser.Location = new System.Drawing.Point(25, 78);
-            this.lbAddUser.Name = "lbAddUser";
-            this.lbAddUser.Size = new System.Drawing.Size(57, 18);
-            this.lbAddUser.TabIndex = 1;
-            this.lbAddUser.Text = "Adaugă";
-            // 
             // btnAddUser
             // 
+            resources.ApplyResources(this.btnAddUser, "btnAddUser");
             this.btnAddUser.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddUser.Location = new System.Drawing.Point(3, 3);
             this.btnAddUser.Name = "btnAddUser";
-            this.btnAddUser.Size = new System.Drawing.Size(102, 78);
-            this.btnAddUser.TabIndex = 0;
-            this.btnAddUser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAddUser.UseVisualStyleBackColor = true;
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // frmUsersList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1198, 654);
             this.Controls.Add(this.panelUserGrid);
             this.Controls.Add(this.panelFilamentMenu);
             this.Name = "frmUsersList";
-            this.Text = "Listă useri";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmUsersList_FormClosed);
             this.Load += new System.EventHandler(this.frmUsersList_Load);
             this.panelUserGrid.ResumeLayout(false);

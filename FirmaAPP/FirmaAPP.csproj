@@ -329,30 +329,57 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frm3DDesignDetails.en-US.resx">
+      <DependentUpon>frm3DDesignDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm3DDesignDetails.resx">
       <DependentUpon>frm3DDesignDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm3DDesignsList.en-US.resx">
+      <DependentUpon>frm3DDesignsList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm3DDesignsList.resx">
       <DependentUpon>frm3DDesignsList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm3DPrintDetails.en-US.resx">
+      <DependentUpon>frm3DPrintDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm3DPrintDetails.resx">
       <DependentUpon>frm3DPrintDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm3DPrintsList.en-US.resx">
+      <DependentUpon>frm3DPrintsList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm3DPrintsList.resx">
       <DependentUpon>frm3DPrintsList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBillDetails.en-US.resx">
+      <DependentUpon>frmBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmBillDetails.resx">
       <DependentUpon>frmBillDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomerDetails.en-US.resx">
+      <DependentUpon>frmCustomerDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCustomerDetails.resx">
       <DependentUpon>frmCustomerDetails.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomersList.en-US.resx">
+      <DependentUpon>frmCustomersList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCustomersList.resx">
       <DependentUpon>frmCustomersList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFilamentDetails.en-US.resx">
+      <DependentUpon>frmFilamentDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFilamentDetails.resx">
       <DependentUpon>frmFilamentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFilamentList.en-US.resx">
+      <DependentUpon>frmFilamentList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmFilamentList.resx">
       <DependentUpon>frmFilamentList.cs</DependentUpon>
@@ -360,11 +387,23 @@
     <EmbeddedResource Include="Forms\frmMainForm.resx">
       <DependentUpon>frmMainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrder3DSalesDetails.en-US.resx">
+      <DependentUpon>frmOrder3DSalesDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrder3DSalesDetails.resx">
       <DependentUpon>frmOrder3DSalesDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrder3DSalesList.en-US.resx">
+      <DependentUpon>frmOrder3DSalesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrderAcquisitionDetails.en-US.resx">
+      <DependentUpon>frmOrderAcquisitionDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrderAcquisitionDetails.resx">
       <DependentUpon>frmOrderAcquisitionDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrderAcquisitionsList.en-US.resx">
+      <DependentUpon>frmOrderAcquisitionsList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrderAcquisitionsList.resx">
       <DependentUpon>frmOrderAcquisitionsList.cs</DependentUpon>
@@ -372,41 +411,89 @@
     <EmbeddedResource Include="Forms\frmOrder3DSalesList.resx">
       <DependentUpon>frmOrder3DSalesList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrderTshirtSalesDetails.en-US.resx">
+      <DependentUpon>frmOrderTshirtSalesDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrderTshirtsSalesList.en-US.resx">
+      <DependentUpon>frmOrderTshirtsSalesList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrderTshirtsSalesList.resx">
       <DependentUpon>frmOrderTshirtsSalesList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrderTshirtSalesDetails.resx">
       <DependentUpon>frmOrderTshirtSalesDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOtherPurchaseDetails.en-US.resx">
+      <DependentUpon>frmOtherPurchaseDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOtherPurchaseDetails.resx">
       <DependentUpon>frmOtherPurchaseDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOtherPurchaseList.en-US.resx">
+      <DependentUpon>frmOtherPurchaseList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOtherPurchaseList.resx">
       <DependentUpon>frmOtherPurchaseList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProviderDetails.en-US.resx">
+      <DependentUpon>frmProviderDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmProviderDetails.resx">
       <DependentUpon>frmProviderDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProviderList.en-US.resx">
+      <DependentUpon>frmProviderList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmProviderList.resx">
       <DependentUpon>frmProviderList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSettings.en-US.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStartForm.en-US.resx">
+      <DependentUpon>frmStartForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmStartForm.resx">
       <DependentUpon>frmStartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStartForm.ro-RO.resx">
+      <DependentUpon>frmStartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTshirtDetails.en-US.resx">
+      <DependentUpon>frmTshirtDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmTshirtDetails.resx">
       <DependentUpon>frmTshirtDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTshirtList.en-US.resx">
+      <DependentUpon>frmTshirtList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmTshirtList.resx">
       <DependentUpon>frmTshirtList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUserDetails.en-US.resx">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmUserDetails.resx">
       <DependentUpon>frmUserDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUsersList.en-US.resx">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmUsersList.resx">
       <DependentUpon>frmUsersList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUsersList.ro-RO.resx">
+      <DependentUpon>frmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVinylDetails.en-US.resx">
+      <DependentUpon>frmVinylDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmVinylDetails.resx">
       <DependentUpon>frmVinylDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVinylList.en-US.resx">
+      <DependentUpon>frmVinylList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmVinylList.resx">
       <DependentUpon>frmVinylList.cs</DependentUpon>
@@ -440,6 +527,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\uk-flag.png" />
+    <None Include="Resources\Flag_of_Romania.png" />
     <None Include="Resources\ViewDirectoryIcon.png" />
     <None Include="Resources\none-icon.jpg" />
     <None Include="Resources\3DIcon %282%29.png" />

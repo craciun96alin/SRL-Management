@@ -52,7 +52,8 @@ namespace FirmaAPP
                 UpdateRating();
                 tbDescription.Text = value.Description;
                 FilamentId = value.FilamentID;
-                cbProvider.SelectedIndex = value.Provider != null ? cbProvider.FindStringExact(value.Provider.Name) : 0;
+                if (cbProvider.Items.Count > 0)
+                    cbProvider.SelectedIndex = value.Provider != null ? cbProvider.FindStringExact(value.Provider.Name) : 0;
             }
         }
 

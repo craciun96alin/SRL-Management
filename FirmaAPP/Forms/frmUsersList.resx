@@ -117,4 +117,307 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;lbEditUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Name" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelFilamentMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAddUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 78</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelUserGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnDeleteUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Name" xml:space="preserve">
+    <value>panelFilamentMenu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEditUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 42</value>
+  </data>
+  <data name="&gt;&gt;btnEditUser.Name" xml:space="preserve">
+    <value>btnEditUser</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmUsersList</value>
+  </data>
+  <data name="lbDeleteUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="lbDeleteUser.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="panelCUDFilament.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnAddUser.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbEditUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <data name="&gt;&gt;panelUserGrid.Name" xml:space="preserve">
+    <value>panelUserGrid</value>
+  </data>
+  <data name="lbDeleteUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <data name="panelCUDFilament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 100</value>
+  </data>
+  <data name="lbDeleteUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 12</value>
+  </data>
+  <data name="&gt;&gt;dataGridUser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeleteUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 36</value>
+  </data>
+  <data name="lbDeleteUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbEditUser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbAddUser.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dataGridUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDeleteUser.Text" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelFilamentMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 100</value>
+  </data>
+  <data name="panelFilamentMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbAddUser.Text" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lbEditUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 30</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelFilamentMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbAddUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteUser.Name" xml:space="preserve">
+    <value>lbDeleteUser</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteUser.Name" xml:space="preserve">
+    <value>btnDeleteUser</value>
+  </data>
+  <data name="&gt;&gt;lbAddUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;panelUserGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="btnDeleteUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 10</value>
+  </data>
+  <data name="lbAddUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnEditUser.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="dataGridUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 554</value>
+  </data>
+  <data name="btnEditUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 49</value>
+  </data>
+  <data name="&gt;&gt;btnAddUser.Name" xml:space="preserve">
+    <value>btnAddUser</value>
+  </data>
+  <data name="btnAddUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteUser.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridUser.Parent" xml:space="preserve">
+    <value>panelUserGrid</value>
+  </data>
+  <data name="&gt;&gt;lbAddUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbEditUser.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dataGridUser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnDeleteUser.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnEditUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelUserGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEditUser.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="lbEditUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="panelUserGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbEditUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGridUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAddUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panelUserGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
+  </data>
+  <data name="btnDeleteUser.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;panelUserGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEditUser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAddUser.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Parent" xml:space="preserve">
+    <value>panelFilamentMenu</value>
+  </data>
+  <data name="panelUserGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 554</value>
+  </data>
+  <data name="panelCUDFilament.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbAddUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 78</value>
+  </data>
+  <data name="lbDeleteUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAddUser.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;lbEditUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;btnAddUser.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Listă useri</value>
+  </data>
+  <data name="&gt;&gt;btnAddUser.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dataGridUser.Name" xml:space="preserve">
+    <value>dataGridUser</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 654</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteUser.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbEditUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 53</value>
+  </data>
+  <data name="&gt;&gt;lbAddUser.Name" xml:space="preserve">
+    <value>lbAddUser</value>
+  </data>
+  <data name="panelCUDFilament.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbAddUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 18</value>
+  </data>
+  <data name="btnEditUser.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbEditUser.Text" xml:space="preserve">
+    <value>Modifică</value>
+  </data>
+  <data name="&gt;&gt;lbEditUser.Name" xml:space="preserve">
+    <value>lbEditUser</value>
+  </data>
+  <data name="lbAddUser.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ro-RO</value>
+  </metadata>
 </root>

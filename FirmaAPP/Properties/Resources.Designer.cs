@@ -153,6 +153,16 @@ namespace FirmaAPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Flag_of_Romania {
+            get {
+                object obj = ResourceManager.GetObject("Flag_of_Romania", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NextIcon {
             get {
                 object obj = ResourceManager.GetObject("NextIcon", resourceCulture);
@@ -216,6 +226,16 @@ namespace FirmaAPP.Properties {
         internal static System.Drawing.Bitmap TshirtIcon {
             get {
                 object obj = ResourceManager.GetObject("TshirtIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uk_flag {
+            get {
+                object obj = ResourceManager.GetObject("uk-flag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

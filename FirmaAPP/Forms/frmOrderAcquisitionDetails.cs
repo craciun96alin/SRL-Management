@@ -714,9 +714,12 @@ namespace FirmaAPP
                 }
 
                 initProvider();
-                initVinyl(cbProvider.SelectedValue.ToString());
-                initFilament(cbProvider.SelectedValue.ToString());
-                initTshirt(cbProvider.SelectedValue.ToString());
+                if (cbProvider.Items.Count > 0)
+                {
+                    initVinyl(cbProvider.SelectedValue.ToString());
+                    initFilament(cbProvider.SelectedValue.ToString());
+                    initTshirt(cbProvider.SelectedValue.ToString());
+                }
             }
             catch (Exception ex)
             {

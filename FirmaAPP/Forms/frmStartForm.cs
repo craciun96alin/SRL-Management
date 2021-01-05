@@ -3,6 +3,8 @@ using FirmaAPP.DataAccess;
 using FirmaAPP.Forms;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Threading;
 using System.Windows.Forms;
 using AppContext = FirmaAPP.Common.AppContext;
 
@@ -36,12 +38,15 @@ namespace FirmaAPP
         #region Constructor
         public frmStartForm()
         {
+
             InitializeComponent();
         }
         #endregion
         #region Events
         private void frmStartForm_Load(object sender, EventArgs e)
         {
+
+
             using (var client = new DBContext())
             {
                 client.Database.EnsureCreated();
@@ -93,5 +98,23 @@ namespace FirmaAPP
             _presenter.GetUsers();
         }
         #endregion
+
+        private void btnRo_Click(object sender, EventArgs e)
+        {
+            this.ResetText();
+            this.Text = "Bine ai venit:";
+            CultureInfo info = CultureInfo.CreateSpecificCulture("ro-RO");
+            Thread.CurrentThread.CurrentUICulture = info;
+            Thread.CurrentThread.CurrentCulture = info;
+        }
+
+        private void btnEng_Click(object sender, EventArgs e)
+        {
+            this.ResetText();
+            this.Text = "Welcome:";
+            CultureInfo info = CultureInfo.CreateSpecificCulture("en-US");
+            Thread.CurrentThread.CurrentUICulture = info;
+            Thread.CurrentThread.CurrentCulture = info;
+        }
     }
 }

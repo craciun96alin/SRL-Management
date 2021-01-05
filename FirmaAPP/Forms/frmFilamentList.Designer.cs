@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFilamentList));
             this.panelFilamentMenu = new System.Windows.Forms.Panel();
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEditFilament = new System.Windows.Forms.Label();
@@ -46,76 +47,51 @@
             // 
             // panelFilamentMenu
             // 
+            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
             this.panelFilamentMenu.Controls.Add(this.panelCUDFilament);
-            this.panelFilamentMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFilamentMenu.Location = new System.Drawing.Point(0, 0);
             this.panelFilamentMenu.Name = "panelFilamentMenu";
-            this.panelFilamentMenu.Size = new System.Drawing.Size(1198, 100);
-            this.panelFilamentMenu.TabIndex = 0;
             // 
             // panelCUDFilament
             // 
+            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Controls.Add(this.lbEditFilament);
             this.panelCUDFilament.Controls.Add(this.lbDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.btnEditFilament);
             this.panelCUDFilament.Controls.Add(this.btnDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.lbAddFilament);
             this.panelCUDFilament.Controls.Add(this.btnAddFilament);
-            this.panelCUDFilament.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelCUDFilament.Location = new System.Drawing.Point(0, 0);
             this.panelCUDFilament.Name = "panelCUDFilament";
-            this.panelCUDFilament.Size = new System.Drawing.Size(262, 100);
-            this.panelCUDFilament.TabIndex = 0;
             // 
             // lbEditFilament
             // 
-            this.lbEditFilament.AutoSize = true;
-            this.lbEditFilament.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lbEditFilament, "lbEditFilament");
             this.lbEditFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbEditFilament.Location = new System.Drawing.Point(144, 53);
-            this.lbEditFilament.Margin = new System.Windows.Forms.Padding(0);
             this.lbEditFilament.Name = "lbEditFilament";
-            this.lbEditFilament.Size = new System.Drawing.Size(111, 30);
-            this.lbEditFilament.TabIndex = 5;
-            this.lbEditFilament.Text = "Modifică";
             this.lbEditFilament.Click += new System.EventHandler(this.lbEditFilament_Click);
             // 
             // lbDeleteFilament
             // 
-            this.lbDeleteFilament.AutoSize = true;
-            this.lbDeleteFilament.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lbDeleteFilament, "lbDeleteFilament");
             this.lbDeleteFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbDeleteFilament.Location = new System.Drawing.Point(144, 12);
-            this.lbDeleteFilament.Margin = new System.Windows.Forms.Padding(0);
             this.lbDeleteFilament.Name = "lbDeleteFilament";
-            this.lbDeleteFilament.Size = new System.Drawing.Size(90, 30);
-            this.lbDeleteFilament.TabIndex = 4;
-            this.lbDeleteFilament.Text = "Șterge";
             this.lbDeleteFilament.Click += new System.EventHandler(this.lbDeleteFilament_Click);
             // 
             // lbAddFilament
             // 
-            this.lbAddFilament.AutoSize = true;
-            this.lbAddFilament.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lbAddFilament, "lbAddFilament");
             this.lbAddFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbAddFilament.Location = new System.Drawing.Point(25, 78);
             this.lbAddFilament.Name = "lbAddFilament";
-            this.lbAddFilament.Size = new System.Drawing.Size(57, 18);
-            this.lbAddFilament.TabIndex = 1;
-            this.lbAddFilament.Text = "Adaugă";
             // 
             // panelFilamentGrid
             // 
+            resources.ApplyResources(this.panelFilamentGrid, "panelFilamentGrid");
             this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
-            this.panelFilamentGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFilamentGrid.Location = new System.Drawing.Point(0, 100);
             this.panelFilamentGrid.Name = "panelFilamentGrid";
-            this.panelFilamentGrid.Size = new System.Drawing.Size(1198, 554);
-            this.panelFilamentGrid.TabIndex = 1;
             // 
             // dataGridFilament
             // 
+            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.AllowUserToAddRows = false;
             this.dataGridFilament.AllowUserToDeleteRows = false;
             this.dataGridFilament.AllowUserToOrderColumns = true;
@@ -124,62 +100,44 @@
             this.dataGridFilament.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridFilament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridFilament.Location = new System.Drawing.Point(0, 0);
             this.dataGridFilament.Name = "dataGridFilament";
             this.dataGridFilament.ReadOnly = true;
             this.dataGridFilament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridFilament.RowTemplate.Height = 24;
-            this.dataGridFilament.Size = new System.Drawing.Size(1198, 554);
-            this.dataGridFilament.TabIndex = 0;
             this.dataGridFilament.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridFilament_CellDoubleClick);
             // 
             // btnEditFilament
             // 
+            resources.ApplyResources(this.btnEditFilament, "btnEditFilament");
             this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEditFilament.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnEditFilament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditFilament.Location = new System.Drawing.Point(106, 49);
             this.btnEditFilament.Name = "btnEditFilament";
-            this.btnEditFilament.Size = new System.Drawing.Size(46, 42);
-            this.btnEditFilament.TabIndex = 3;
             this.btnEditFilament.UseVisualStyleBackColor = true;
             this.btnEditFilament.Click += new System.EventHandler(this.btnEditFilament_Click);
             // 
             // btnDeleteFilament
             // 
+            resources.ApplyResources(this.btnDeleteFilament, "btnDeleteFilament");
             this.btnDeleteFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDeleteFilament.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnDeleteFilament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteFilament.Location = new System.Drawing.Point(108, 10);
             this.btnDeleteFilament.Name = "btnDeleteFilament";
-            this.btnDeleteFilament.Size = new System.Drawing.Size(44, 36);
-            this.btnDeleteFilament.TabIndex = 2;
             this.btnDeleteFilament.UseVisualStyleBackColor = true;
             this.btnDeleteFilament.Click += new System.EventHandler(this.btnDeleteFilament_Click);
             // 
             // btnAddFilament
             // 
+            resources.ApplyResources(this.btnAddFilament, "btnAddFilament");
             this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddFilament.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAddFilament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddFilament.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddFilament.Location = new System.Drawing.Point(3, 3);
             this.btnAddFilament.Name = "btnAddFilament";
-            this.btnAddFilament.Size = new System.Drawing.Size(102, 78);
-            this.btnAddFilament.TabIndex = 0;
-            this.btnAddFilament.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAddFilament.UseVisualStyleBackColor = true;
             this.btnAddFilament.Click += new System.EventHandler(this.btnAddFilament_Click);
             // 
             // frmFilamentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1198, 654);
             this.Controls.Add(this.panelFilamentGrid);
             this.Controls.Add(this.panelFilamentMenu);
             this.Name = "frmFilamentList";
-            this.Text = "Listă filament";
+            this.ShowIcon = false;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmFilament_FormClosed);
             this.Load += new System.EventHandler(this.frmFilament_Load);
             this.panelFilamentMenu.ResumeLayout(false);

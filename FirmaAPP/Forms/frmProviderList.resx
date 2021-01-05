@@ -117,4 +117,307 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;panelCUDFilament.Name" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelFilamentMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lbAddFilament.Name" xml:space="preserve">
+    <value>lbAddFilament</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteProvider.Name" xml:space="preserve">
+    <value>lbDeleteProvider</value>
+  </data>
+  <data name="&gt;&gt;btnEditProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteProvider.Name" xml:space="preserve">
+    <value>btnDeleteProvider</value>
+  </data>
+  <data name="lbDeleteProvider.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAddProvider.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAddProvider.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelProviderGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 554</value>
+  </data>
+  <data name="panelProviderGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnEditProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 49</value>
+  </data>
+  <data name="lbEditProvider.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <data name="&gt;&gt;btnEditProvider.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmProviderList</value>
+  </data>
+  <data name="&gt;&gt;lbEditProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDeleteProvider.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbEditProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnEditProvider.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbDeleteProvider.Text" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="panelProviderGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteProvider.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="panelCUDFilament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 100</value>
+  </data>
+  <data name="&gt;&gt;btnAddProvider.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnDeleteProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 36</value>
+  </data>
+  <data name="btnDeleteProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnEditProvider.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="lbAddFilament.Text" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="panelFilamentMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 100</value>
+  </data>
+  <data name="panelFilamentMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnAddProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEditProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 42</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbAddFilament.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAddFilament.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;btnAddProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbEditProvider.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteProvider.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelCUDFilament.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridProvider.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnDeleteProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 10</value>
+  </data>
+  <data name="lbAddFilament.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDeleteProvider.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="panelCUDFilament.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteProvider.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelProviderGrid.Name" xml:space="preserve">
+    <value>panelProviderGrid</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbEditProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 30</value>
+  </data>
+  <data name="panelFilamentMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataGridProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 554</value>
+  </data>
+  <data name="&gt;&gt;panelProviderGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDeleteProvider.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnEditProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditProvider.Name" xml:space="preserve">
+    <value>btnEditProvider</value>
+  </data>
+  <data name="dataGridProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbAddFilament.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 78</value>
+  </data>
+  <data name="lbEditProvider.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDeleteProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 12</value>
+  </data>
+  <data name="&gt;&gt;btnAddProvider.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="&gt;&gt;panelCUDFilament.Parent" xml:space="preserve">
+    <value>panelFilamentMenu</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Listă furnizori</value>
+  </data>
+  <data name="&gt;&gt;btnAddProvider.Name" xml:space="preserve">
+    <value>btnAddProvider</value>
+  </data>
+  <data name="&gt;&gt;panelFilamentMenu.Name" xml:space="preserve">
+    <value>panelFilamentMenu</value>
+  </data>
+  <data name="lbEditProvider.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;dataGridProvider.Parent" xml:space="preserve">
+    <value>panelProviderGrid</value>
+  </data>
+  <data name="lbEditProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 53</value>
+  </data>
+  <data name="&gt;&gt;lbEditProvider.Parent" xml:space="preserve">
+    <value>panelCUDFilament</value>
+  </data>
+  <data name="btnAddProvider.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;panelProviderGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbEditProvider.Name" xml:space="preserve">
+    <value>lbEditProvider</value>
+  </data>
+  <data name="btnAddProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnAddProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 78</value>
+  </data>
+  <data name="btnAddProvider.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDeleteProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="lbAddFilament.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridProvider.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelCUDFilament.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lbDeleteProvider.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbAddFilament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 654</value>
+  </data>
+  <data name="lbDeleteProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbEditProvider.Text" xml:space="preserve">
+    <value>Modifică</value>
+  </data>
+  <data name="lbAddFilament.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbAddFilament.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelProviderGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeleteProvider.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEditProvider.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panelProviderGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
+  </data>
+  <data name="&gt;&gt;dataGridProvider.Name" xml:space="preserve">
+    <value>dataGridProvider</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
 </root>

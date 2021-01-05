@@ -70,7 +70,8 @@ namespace FirmaAPP
                 _order.UserID = Common.AppContext.CurrentUserId;
                 _order.ShippingPrice = (float)numericShippingPrice.Value;
                 _order.TotalPrice = _presenter.GetOrderTotalPriceWithoutShipping() + (float)numericShippingPrice.Value;
-                _order.ProviderID = _presenter.GetCustomerIDByName(cbCustomer.Text.ToString());
+
+                _order.ProviderID = _presenter.GetCustomerIDByName(cbCustomer.Text.ToString()); // TO DO: check this looking  fishy
                 _order.Description = tbOrderDescription.Text;
                 return _order;
             }
@@ -633,9 +634,12 @@ namespace FirmaAPP
 
                 initCustomer();
                 initProviders();
-                initVinyl(cbVinylProvider.SelectedValue.ToString());
-                initOtherPurchase(cbOtherPuchaseProvider.SelectedValue.ToString());
-                initTshirt(cbTshirtProvider.SelectedValue.ToString());
+                if(cbVinylProvider.SelectedValue != null)
+                    initVinyl(cbVinylProvider.SelectedValue.ToString());
+                if (cbOtherPuchaseProvider.SelectedValue != null)
+                    initOtherPurchase(cbOtherPuchaseProvider.SelectedValue.ToString());
+                if (cbTshirtProvider.SelectedValue != null)
+                    initTshirt(cbTshirtProvider.SelectedValue.ToString());
             }
             catch (Exception ex)
             {
