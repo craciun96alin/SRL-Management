@@ -35,9 +35,11 @@ namespace FirmaAPP
                     Color = Enums.ParseEnum<Enums.Color>(cbColor.SelectedValue.ToString()),
                     Stock = (float)numericUpDownStock.Value,
                     Rating = (Enums.Rating)_rating,
-                    Description = tbDescription.Text,
-                    Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString()),
+                    Description = tbDescription.Text
                 };
+                if (cbProvider.SelectedValue != null)
+                    _filament.Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString());
+
                 _filament.ProviderID = _filament.Provider != null ? _filament.Provider.ProviderID : (int?)null;
                 return _filament;
             }
@@ -207,6 +209,17 @@ namespace FirmaAPP
                     this.Close();
             }
         }
+        private void btnAddNewProvider_Click(object sender, EventArgs e)
+        {
+            frmProviderDetails childForm = new frmProviderDetails();
+            ProviderDetailsPresenter presenter = new ProviderDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.Provider = new Provider();
+            childForm.ShowDialog();
+        }
         #endregion
         #region public functions
         public void AttachMainForm(frmMainForm form)
@@ -233,6 +246,12 @@ namespace FirmaAPP
                 _parentForm.Refresh();
                 this.Close();
             }
+        }
+        #endregion
+        #region override functions
+        public override void Refresh()
+        {
+            this.Init();
         }
         #endregion
     }

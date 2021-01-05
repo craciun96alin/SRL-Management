@@ -11,6 +11,8 @@ namespace FirmaAPP.BusinessLogic.Core
         private bool VerifyInputData(Vinyl vinyl)
         {
             VinylDAL vDAL = new VinylDAL();
+            if (vinyl.Provider == null)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyProviderToBeCompleted);
             if (vinyl.Name == string.Empty)
                 throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyNameToBeCompleted);
             if (vinyl.Rating == Enums.Rating.Nedefinit)

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;lbTitle.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnStar1.Location" type="System.Drawing.Point, System.Drawing">
@@ -143,6 +143,9 @@
   <data name="lbmetrii.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
+  <data name="lbName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
   <data name="lbTitle.Text" xml:space="preserve">
     <value>Detalii consumabil</value>
   </data>
@@ -152,11 +155,18 @@
   <data name="btnStar2.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 38</value>
   </data>
-  <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 273</value>
+  <data name="btnStar5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;btnStar5.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbmetrii.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 262</value>
   </data>
   <data name="&gt;&gt;numericUpDownStock.Name" xml:space="preserve">
     <value>numericUpDownStock</value>
@@ -183,7 +193,7 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnStar3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="panelOtherPurchaseInformations.Size" type="System.Drawing.Size, System.Drawing">
     <value>560, 491</value>
@@ -191,9 +201,8 @@
   <data name="btnConfirm.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 32</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbmetrii.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;btnAddNewProvider.Parent" xml:space="preserve">
+    <value>panelOtherPurchaseInformations</value>
   </data>
   <data name="&gt;&gt;panelOtherPurchaseInformations.Parent" xml:space="preserve">
     <value>$this</value>
@@ -214,7 +223,7 @@
     <value>318, 223</value>
   </data>
   <data name="&gt;&gt;btnStar2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;tbDescription.Name" xml:space="preserve">
     <value>tbDescription</value>
@@ -246,8 +255,14 @@
   <data name="btnStar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="btnAddNewProvider.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <data name="lbTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 33</value>
+  </data>
+  <data name="&gt;&gt;lbRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
@@ -257,6 +272,9 @@
   </data>
   <data name="lbTitle.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
+  </data>
+  <data name="btnAddNewProvider.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="lbDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 34</value>
@@ -273,9 +291,6 @@
   <data name="lbDescription.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="lbmetrii.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;btnStar1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -289,7 +304,7 @@
     <value>329, 22</value>
   </data>
   <data name="&gt;&gt;btnStar1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;lbStock.Name" xml:space="preserve">
     <value>lbStock</value>
@@ -328,7 +343,7 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbStock.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="&gt;&gt;lbTitle.Name" xml:space="preserve">
     <value>lbTitle</value>
@@ -350,6 +365,9 @@
   </data>
   <data name="btnStar4.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnStar5.Name" xml:space="preserve">
+    <value>btnStar5</value>
   </data>
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
@@ -381,8 +399,8 @@
   <data name="lbRating.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 262</value>
+  <data name="btnAddNewProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 112</value>
   </data>
   <data name="&gt;&gt;lbDescription.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="&gt;&gt;numericUpDownStock.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -403,13 +424,13 @@
     <value>12, 145</value>
   </data>
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
-  <data name="lbTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 57</value>
+  <data name="btnStar3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="lbTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
+  <data name="&gt;&gt;lbDescription.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="btnStar4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -429,11 +450,14 @@
   <data name="&gt;&gt;btnConfirm.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
   </data>
-  <data name="lbRating.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 223</value>
+  <data name="lbStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 34</value>
+  </data>
+  <data name="btnAddNewProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
   </data>
   <data name="&gt;&gt;lbName.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="&gt;&gt;tbDescription.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
@@ -441,26 +465,26 @@
   <data name="lbStock.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="lbmetrii.Text" xml:space="preserve">
-    <value>buc</value>
+  <data name="lbStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
   </data>
   <data name="lbRating.Text" xml:space="preserve">
     <value>*Rating:</value>
   </data>
-  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 22</value>
+  <data name="&gt;&gt;tbDescription.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>*Furnizor:</value>
   </data>
-  <data name="lbRating.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;btnStar4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbRating.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbmetrii.Text" xml:space="preserve">
+    <value>buc</value>
   </data>
-  <data name="&gt;&gt;tbDescription.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="lbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 34</value>
   </data>
   <data name="&gt;&gt;lbDescription.Name" xml:space="preserve">
     <value>lbDescription</value>
@@ -469,10 +493,13 @@
     <value>279, 223</value>
   </data>
   <data name="&gt;&gt;btnConfirm.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewProvider.Name" xml:space="preserve">
+    <value>btnAddNewProvider</value>
   </data>
   <data name="&gt;&gt;cbProvider.Name" xml:space="preserve">
     <value>cbProvider</value>
@@ -484,7 +511,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;panelOtherPurchaseInformations.Name" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
@@ -498,11 +525,11 @@
   <data name="&gt;&gt;btnStar1.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
   </data>
-  <data name="lbStock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 34</value>
-  </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewProvider.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lbDescription.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
@@ -516,14 +543,17 @@
   <data name="lbTitle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 30pt</value>
   </data>
-  <data name="btnStar5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="lbRating.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;lbmetrii.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
+  </data>
+  <data name="btnAddNewProvider.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnStar5.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lbRating.Name" xml:space="preserve">
     <value>lbRating</value>
@@ -541,7 +571,7 @@
     <value>91, 32</value>
   </data>
   <data name="&gt;&gt;btnStar4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="lbStock.Text" xml:space="preserve">
     <value>*Stoc:</value>
@@ -570,11 +600,11 @@
   <data name="btnConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;lbDescription.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="lbTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="btnAddNewProvider.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
   <data name="lbRating.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 34</value>
@@ -582,8 +612,8 @@
   <data name="lbDescription.Text" xml:space="preserve">
     <value>Descriere:</value>
   </data>
-  <data name="btnStar3.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="lbRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 223</value>
   </data>
   <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 153</value>
@@ -595,22 +625,19 @@
     <value>tbName</value>
   </data>
   <data name="&gt;&gt;lbRating.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
-  </data>
-  <data name="&gt;&gt;btnStar4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="numericUpDownStock.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 193</value>
   </data>
   <data name="&gt;&gt;cbProvider.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="lbStock.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
+  <data name="lbmetrii.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;btnStar3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -618,8 +645,14 @@
   <data name="&gt;&gt;lbRating.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
   </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>560, 491</value>
+  </data>
+  <data name="btnStar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 38</value>
   </data>
   <data name="&gt;&gt;lbStock.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -628,7 +661,7 @@
     <value>panelOtherPurchaseInformations</value>
   </data>
   <data name="&gt;&gt;numericUpDownStock.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;lbName.Parent" xml:space="preserve">
     <value>panelOtherPurchaseInformations</value>
@@ -637,7 +670,7 @@
     <value>22</value>
   </data>
   <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="btnStar5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -666,17 +699,20 @@
   <data name="lbName.Text" xml:space="preserve">
     <value>*Nume:</value>
   </data>
-  <data name="lbName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 34</value>
+  <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 273</value>
   </data>
-  <data name="btnStar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 38</value>
+  <data name="lbTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 57</value>
   </data>
-  <data name="lbName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="btnAddNewProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lbTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
-  <data name="&gt;&gt;btnStar5.Name" xml:space="preserve">
-    <value>btnStar5</value>
+  <data name="btnAddNewProvider.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;btnStar1.Name" xml:space="preserve">
     <value>btnStar1</value>

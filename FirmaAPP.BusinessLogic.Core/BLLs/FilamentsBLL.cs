@@ -11,6 +11,8 @@ namespace FirmaAPP.BusinessLogic.Core
         private bool VerifyInputData(Filament filament)
         {
             FilamentsDAL fDAL = new FilamentsDAL();
+            if (filament.Provider == null)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyProviderToBeCompleted);
             if (filament.Name == string.Empty)
                 throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyNameToBeCompleted);
             if (filament.Rating == Enums.Rating.Nedefinit)

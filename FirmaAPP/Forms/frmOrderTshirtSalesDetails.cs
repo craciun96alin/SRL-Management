@@ -70,8 +70,8 @@ namespace FirmaAPP
                 _order.UserID = Common.AppContext.CurrentUserId;
                 _order.ShippingPrice = (float)numericShippingPrice.Value;
                 _order.TotalPrice = _presenter.GetOrderTotalPriceWithoutShipping() + (float)numericShippingPrice.Value;
-
-                _order.ProviderID = _presenter.GetCustomerIDByName(cbCustomer.Text.ToString()); // TO DO: check this looking  fishy
+                if (cbCustomer.SelectedValue != null)
+                    _order.CustomerID = _presenter.GetCustomerIDByName(cbCustomer.Text.ToString());
                 _order.Description = tbOrderDescription.Text;
                 return _order;
             }
@@ -272,7 +272,8 @@ namespace FirmaAPP
             {
                 ShowMessage(ex.Message);
                 _parentForm.Refresh();
-                this.Close();
+                if (ex.Message.Contains(AppTranslations.SuccesInfoBox))
+                    this.Close();
             }
         }
         #region Order Details

@@ -33,9 +33,11 @@ namespace FirmaAPP
                     OtherPurchaseID = this.OtherPurchaseId,
                     Stock = (float)numericUpDownStock.Value,
                     Rating = (Enums.Rating)_rating,
-                    Description = tbDescription.Text,
-                    Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString())
+                    Description = tbDescription.Text
                 };
+                if (cbProvider.SelectedValue != null)
+                    _otherPurchase.Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString());
+
                 _otherPurchase.ProviderID = _otherPurchase.Provider != null ? _otherPurchase.Provider.ProviderID : (int?)null;
 
                 return _otherPurchase;
@@ -196,6 +198,17 @@ namespace FirmaAPP
                     this.Close();
             }
         }
+        private void btnAddNewProvider_Click(object sender, EventArgs e)
+        {
+            frmProviderDetails childForm = new frmProviderDetails();
+            ProviderDetailsPresenter presenter = new ProviderDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.Provider = new Provider();
+            childForm.ShowDialog();
+        }
         #endregion
         #region public functions
         public void AttachMainForm(frmMainForm form)
@@ -221,5 +234,12 @@ namespace FirmaAPP
             }
         }
         #endregion
+        #region override functions
+        public override void Refresh()
+        {
+            this.Init();
+        }
+        #endregion
+
     }
 }

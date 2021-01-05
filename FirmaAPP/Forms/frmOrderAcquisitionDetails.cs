@@ -28,7 +28,7 @@ namespace FirmaAPP
             panelVinylDetails.Height -= gbVinyl.Height;
         }
         #endregion
-        #region IFilamentDetailsViewMembers
+        #region ViewMembers
         public int OrderAcquisitionId { get; set; }
         public List<OtherPurchaseOrder> OtherPurchases
         {
@@ -248,7 +248,8 @@ namespace FirmaAPP
                 _order.UserID = Common.AppContext.CurrentUserId;
                 _order.ShippingPrice = (float)numericShippingPrice.Value;
                 _order.TotalPrice = _presenter.GetOrderTotalPrice() + (float)numericShippingPrice.Value;
-                _order.ProviderID = _presenter.GetProviderIDByName(cbProvider.Text.ToString());
+                if (cbProvider.SelectedValue != null)
+                    _order.ProviderID = _presenter.GetProviderIDByName(cbProvider.Text.ToString());
                 _order.Description = tbOrderDescription.Text;
                 return _order;
             }
@@ -829,7 +830,8 @@ namespace FirmaAPP
             {
                 ShowMessage(ex.Message);
                 _parentForm.Refresh();
-                this.Close();
+                if (ex.Message.Contains(AppTranslations.SuccesInfoBox))
+                    this.Close();
             }
         }
 

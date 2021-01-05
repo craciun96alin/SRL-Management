@@ -33,12 +33,12 @@
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEditFilament = new System.Windows.Forms.Label();
             this.lbDeleteFilament = new System.Windows.Forms.Label();
-            this.lbAddFilament = new System.Windows.Forms.Label();
-            this.panelFilamentGrid = new System.Windows.Forms.Panel();
-            this.dataGridFilament = new System.Windows.Forms.DataGridView();
             this.btnEditFilament = new System.Windows.Forms.Button();
             this.btnDeleteFilament = new System.Windows.Forms.Button();
+            this.lbAddFilament = new System.Windows.Forms.Label();
             this.btnAddFilament = new System.Windows.Forms.Button();
+            this.panelFilamentGrid = new System.Windows.Forms.Panel();
+            this.dataGridFilament = new System.Windows.Forms.DataGridView();
             this.panelFilamentMenu.SuspendLayout();
             this.panelCUDFilament.SuspendLayout();
             this.panelFilamentGrid.SuspendLayout();
@@ -47,20 +47,20 @@
             // 
             // panelFilamentMenu
             // 
-            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
             this.panelFilamentMenu.Controls.Add(this.panelCUDFilament);
+            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.Name = "panelFilamentMenu";
             // 
             // panelCUDFilament
             // 
-            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Controls.Add(this.lbEditFilament);
             this.panelCUDFilament.Controls.Add(this.lbDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.btnEditFilament);
             this.panelCUDFilament.Controls.Add(this.btnDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.lbAddFilament);
             this.panelCUDFilament.Controls.Add(this.btnAddFilament);
+            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Name = "panelCUDFilament";
             // 
             // lbEditFilament
@@ -77,21 +77,44 @@
             this.lbDeleteFilament.Name = "lbDeleteFilament";
             this.lbDeleteFilament.Click += new System.EventHandler(this.lbDeleteFilament_Click);
             // 
+            // btnEditFilament
+            // 
+            this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
+            resources.ApplyResources(this.btnEditFilament, "btnEditFilament");
+            this.btnEditFilament.Name = "btnEditFilament";
+            this.btnEditFilament.UseVisualStyleBackColor = true;
+            this.btnEditFilament.Click += new System.EventHandler(this.btnEditFilament_Click);
+            // 
+            // btnDeleteFilament
+            // 
+            this.btnDeleteFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            resources.ApplyResources(this.btnDeleteFilament, "btnDeleteFilament");
+            this.btnDeleteFilament.Name = "btnDeleteFilament";
+            this.btnDeleteFilament.UseVisualStyleBackColor = true;
+            this.btnDeleteFilament.Click += new System.EventHandler(this.btnDeleteFilament_Click);
+            // 
             // lbAddFilament
             // 
             resources.ApplyResources(this.lbAddFilament, "lbAddFilament");
             this.lbAddFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbAddFilament.Name = "lbAddFilament";
             // 
+            // btnAddFilament
+            // 
+            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddFilament, "btnAddFilament");
+            this.btnAddFilament.Name = "btnAddFilament";
+            this.btnAddFilament.UseVisualStyleBackColor = true;
+            this.btnAddFilament.Click += new System.EventHandler(this.btnAddFilament_Click);
+            // 
             // panelFilamentGrid
             // 
-            resources.ApplyResources(this.panelFilamentGrid, "panelFilamentGrid");
             this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
+            resources.ApplyResources(this.panelFilamentGrid, "panelFilamentGrid");
             this.panelFilamentGrid.Name = "panelFilamentGrid";
             // 
             // dataGridFilament
             // 
-            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.AllowUserToAddRows = false;
             this.dataGridFilament.AllowUserToDeleteRows = false;
             this.dataGridFilament.AllowUserToOrderColumns = true;
@@ -100,35 +123,12 @@
             this.dataGridFilament.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridFilament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.Name = "dataGridFilament";
             this.dataGridFilament.ReadOnly = true;
             this.dataGridFilament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridFilament.RowTemplate.Height = 24;
             this.dataGridFilament.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridFilament_CellDoubleClick);
-            // 
-            // btnEditFilament
-            // 
-            resources.ApplyResources(this.btnEditFilament, "btnEditFilament");
-            this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEditFilament.Name = "btnEditFilament";
-            this.btnEditFilament.UseVisualStyleBackColor = true;
-            this.btnEditFilament.Click += new System.EventHandler(this.btnEditFilament_Click);
-            // 
-            // btnDeleteFilament
-            // 
-            resources.ApplyResources(this.btnDeleteFilament, "btnDeleteFilament");
-            this.btnDeleteFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDeleteFilament.Name = "btnDeleteFilament";
-            this.btnDeleteFilament.UseVisualStyleBackColor = true;
-            this.btnDeleteFilament.Click += new System.EventHandler(this.btnDeleteFilament_Click);
-            // 
-            // btnAddFilament
-            // 
-            resources.ApplyResources(this.btnAddFilament, "btnAddFilament");
-            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddFilament.Name = "btnAddFilament";
-            this.btnAddFilament.UseVisualStyleBackColor = true;
-            this.btnAddFilament.Click += new System.EventHandler(this.btnAddFilament_Click);
             // 
             // frmFilamentList
             // 

@@ -174,9 +174,6 @@
   <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1198, 654</value>
-  </data>
   <data name="panelFilamentGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>1198, 554</value>
   </data>
@@ -185,9 +182,6 @@
   </data>
   <data name="&gt;&gt;lbDelete.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelFilamentGrid.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="btnAdd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -204,14 +198,17 @@
   <data name="&gt;&gt;lbEdit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 10</value>
+  </data>
   <data name="&gt;&gt;panelVinylMenu.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;dataGridTshirts.Parent" xml:space="preserve">
-    <value>panelFilamentGrid</value>
+  <data name="dataGridTshirts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -219,11 +216,11 @@
   <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
+  <data name="lbAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
   <data name="btnEdit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
-    <value>btnEdit</value>
   </data>
   <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -240,9 +237,6 @@
   <data name="lbDelete.Text" xml:space="preserve">
     <value>Șterge</value>
   </data>
-  <data name="panelVinylMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
   <data name="&gt;&gt;panelCUDFilament.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -251,9 +245,6 @@
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -285,6 +276,9 @@
   <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
     <value>panelCUDFilament</value>
   </data>
@@ -315,6 +309,9 @@
   <data name="lbEdit.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;lbEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="lbAdd.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -342,8 +339,8 @@
   <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 78</value>
   </data>
-  <data name="dataGridTshirts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;panelFilamentGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="panelVinylMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>1198, 100</value>
@@ -366,11 +363,14 @@
   <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
     <value>panelCUDFilament</value>
   </data>
-  <data name="&gt;&gt;lbEdit.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="panelVinylMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;lbAdd.Parent" xml:space="preserve">
     <value>panelCUDFilament</value>
+  </data>
+  <data name="lbEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI, 14pt</value>
   </data>
   <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
     <value>panelCUDFilament</value>
@@ -387,14 +387,14 @@
   <data name="lbEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 53</value>
   </data>
-  <data name="lbAdd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1198, 654</value>
   </data>
   <data name="lbAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 78</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbAdd.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -405,11 +405,11 @@
   <data name="panelCUDFilament.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 10</value>
+  <data name="&gt;&gt;dataGridTshirts.Parent" xml:space="preserve">
+    <value>panelFilamentGrid</value>
   </data>
-  <data name="lbEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei UI, 14pt</value>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
   </data>
   <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>

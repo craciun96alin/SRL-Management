@@ -8,6 +8,18 @@ namespace FirmaAPP.BusinessLogic.Core
 {
     public class OrdersBLL
     {
+        private bool VerifyInputData(Order order)
+        {
+            OrdersDAL oDAL = new OrdersDAL();
+            if (order.Provider == null && order.OrderType == Enums.OrderType.Achiziție)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyProviderToBeCompleted);
+            if(order.Customer == null && order.OrderType != Enums.OrderType.Achiziție)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyCustomerToBeCompleted);
+
+            return true;
+        }
+
+
         public List<Order> GetAllAcquisitionOrders()
         {
             try
@@ -120,6 +132,7 @@ namespace FirmaAPP.BusinessLogic.Core
         {
             try
             {
+                VerifyInputData(order);
                 OrdersDAL oDAL = new OrdersDAL();
                 int orderID = oDAL.AddOrder(order);
                 return orderID;

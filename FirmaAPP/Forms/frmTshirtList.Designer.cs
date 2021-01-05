@@ -33,12 +33,12 @@
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEdit = new System.Windows.Forms.Label();
             this.lbDelete = new System.Windows.Forms.Label();
-            this.lbAdd = new System.Windows.Forms.Label();
-            this.panelFilamentGrid = new System.Windows.Forms.Panel();
-            this.dataGridTshirts = new System.Windows.Forms.DataGridView();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.lbAdd = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.panelFilamentGrid = new System.Windows.Forms.Panel();
+            this.dataGridTshirts = new System.Windows.Forms.DataGridView();
             this.panelVinylMenu.SuspendLayout();
             this.panelCUDFilament.SuspendLayout();
             this.panelFilamentGrid.SuspendLayout();
@@ -77,11 +77,35 @@
             this.lbDelete.Name = "lbDelete";
             this.lbDelete.Click += new System.EventHandler(this.lbDelete_Click);
             // 
+            // btnEdit
+            // 
+            resources.ApplyResources(this.btnEdit, "btnEdit");
+            this.btnEdit.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnDelete
+            // 
+            resources.ApplyResources(this.btnDelete, "btnDelete");
+            this.btnDelete.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // lbAdd
             // 
             resources.ApplyResources(this.lbAdd, "lbAdd");
             this.lbAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbAdd.Name = "lbAdd";
+            // 
+            // btnAdd
+            // 
+            resources.ApplyResources(this.btnAdd, "btnAdd");
+            this.btnAdd.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // panelFilamentGrid
             // 
@@ -105,30 +129,6 @@
             this.dataGridTshirts.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridTshirts.RowTemplate.Height = 24;
             this.dataGridTshirts.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridTshirts_CellDoubleClick);
-            // 
-            // btnEdit
-            // 
-            resources.ApplyResources(this.btnEdit, "btnEdit");
-            this.btnEdit.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-            // 
-            // btnDelete
-            // 
-            resources.ApplyResources(this.btnDelete, "btnDelete");
-            this.btnDelete.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnAdd
-            // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
-            this.btnAdd.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // frmTshirtsList
             // 

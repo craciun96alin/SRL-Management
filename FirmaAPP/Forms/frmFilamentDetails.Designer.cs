@@ -56,6 +56,11 @@
             this.panelFilamentInformations = new System.Windows.Forms.Panel();
             this.cbProvider = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnStar5 = new System.Windows.Forms.Button();
+            this.btnStar4 = new System.Windows.Forms.Button();
+            this.btnStar3 = new System.Windows.Forms.Button();
+            this.btnStar2 = new System.Windows.Forms.Button();
+            this.btnStar1 = new System.Windows.Forms.Button();
             this.lbgrame = new System.Windows.Forms.Label();
             this.numericUpDownStock = new System.Windows.Forms.NumericUpDown();
             this.cbColor = new System.Windows.Forms.ComboBox();
@@ -64,17 +69,13 @@
             this.lbRating = new System.Windows.Forms.Label();
             this.lbStock = new System.Windows.Forms.Label();
             this.lbColor = new System.Windows.Forms.Label();
-            this.btnStar5 = new System.Windows.Forms.Button();
-            this.btnStar4 = new System.Windows.Forms.Button();
-            this.btnStar3 = new System.Windows.Forms.Button();
-            this.btnStar2 = new System.Windows.Forms.Button();
-            this.btnStar1 = new System.Windows.Forms.Button();
             this.btnAddProvider = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.btnAddNewProvider = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panelFilamentInformations.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
@@ -82,8 +83,8 @@
             // 
             // cbProviders
             // 
-            resources.ApplyResources(this.cbProviders, "cbProviders");
             this.cbProviders.FormattingEnabled = true;
+            resources.ApplyResources(this.cbProviders, "cbProviders");
             this.cbProviders.Name = "cbProviders";
             // 
             // label9
@@ -100,15 +101,15 @@
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            resources.ApplyResources(this.button2, "button2");
             this.button2.BackColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -120,8 +121,8 @@
             // 
             // numericUpDown1
             // 
-            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
             this.numericUpDown1.DecimalPlaces = 2;
+            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
             this.numericUpDown1.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -131,14 +132,14 @@
             // 
             // comboBox2
             // 
-            resources.ApplyResources(this.comboBox2, "comboBox2");
             this.comboBox2.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox2, "comboBox2");
             this.comboBox2.Name = "comboBox2";
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             // 
             // textBox1
@@ -206,22 +207,22 @@
             // 
             // cbType
             // 
-            resources.ApplyResources(this.cbType, "cbType");
             this.cbType.FormattingEnabled = true;
+            resources.ApplyResources(this.cbType, "cbType");
             this.cbType.Name = "cbType";
             // 
             // btnConfirm
             // 
-            resources.ApplyResources(this.btnConfirm, "btnConfirm");
             this.btnConfirm.BackColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.btnConfirm, "btnConfirm");
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // btnCancel
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -234,7 +235,7 @@
             // 
             // panelFilamentInformations
             // 
-            resources.ApplyResources(this.panelFilamentInformations, "panelFilamentInformations");
+            this.panelFilamentInformations.Controls.Add(this.btnAddNewProvider);
             this.panelFilamentInformations.Controls.Add(this.cbProvider);
             this.panelFilamentInformations.Controls.Add(this.label10);
             this.panelFilamentInformations.Controls.Add(this.lbTitle);
@@ -257,12 +258,13 @@
             this.panelFilamentInformations.Controls.Add(this.lbColor);
             this.panelFilamentInformations.Controls.Add(this.lbType);
             this.panelFilamentInformations.Controls.Add(this.lbName);
+            resources.ApplyResources(this.panelFilamentInformations, "panelFilamentInformations");
             this.panelFilamentInformations.Name = "panelFilamentInformations";
             // 
             // cbProvider
             // 
-            resources.ApplyResources(this.cbProvider, "cbProvider");
             this.cbProvider.FormattingEnabled = true;
+            resources.ApplyResources(this.cbProvider, "cbProvider");
             this.cbProvider.Name = "cbProvider";
             // 
             // label10
@@ -270,6 +272,46 @@
             resources.ApplyResources(this.label10, "label10");
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label10.Name = "label10";
+            // 
+            // btnStar5
+            // 
+            this.btnStar5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            resources.ApplyResources(this.btnStar5, "btnStar5");
+            this.btnStar5.Name = "btnStar5";
+            this.btnStar5.UseVisualStyleBackColor = true;
+            this.btnStar5.Click += new System.EventHandler(this.btnStar5_Click);
+            // 
+            // btnStar4
+            // 
+            this.btnStar4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            resources.ApplyResources(this.btnStar4, "btnStar4");
+            this.btnStar4.Name = "btnStar4";
+            this.btnStar4.UseVisualStyleBackColor = true;
+            this.btnStar4.Click += new System.EventHandler(this.btnStar4_Click);
+            // 
+            // btnStar3
+            // 
+            this.btnStar3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.btnStar3, "btnStar3");
+            this.btnStar3.Name = "btnStar3";
+            this.btnStar3.UseVisualStyleBackColor = true;
+            this.btnStar3.Click += new System.EventHandler(this.btnStar3_Click);
+            // 
+            // btnStar2
+            // 
+            this.btnStar2.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.btnStar2, "btnStar2");
+            this.btnStar2.Name = "btnStar2";
+            this.btnStar2.UseVisualStyleBackColor = true;
+            this.btnStar2.Click += new System.EventHandler(this.btnStar2_Click);
+            // 
+            // btnStar1
+            // 
+            this.btnStar1.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.btnStar1, "btnStar1");
+            this.btnStar1.Name = "btnStar1";
+            this.btnStar1.UseVisualStyleBackColor = true;
+            this.btnStar1.Click += new System.EventHandler(this.btnStar1_Click);
             // 
             // lbgrame
             // 
@@ -279,8 +321,8 @@
             // 
             // numericUpDownStock
             // 
-            resources.ApplyResources(this.numericUpDownStock, "numericUpDownStock");
             this.numericUpDownStock.DecimalPlaces = 2;
+            resources.ApplyResources(this.numericUpDownStock, "numericUpDownStock");
             this.numericUpDownStock.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -290,8 +332,8 @@
             // 
             // cbColor
             // 
-            resources.ApplyResources(this.cbColor, "cbColor");
             this.cbColor.FormattingEnabled = true;
+            resources.ApplyResources(this.cbColor, "cbColor");
             this.cbColor.Name = "cbColor";
             // 
             // tbDescription
@@ -323,87 +365,56 @@
             this.lbColor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbColor.Name = "lbColor";
             // 
-            // btnStar5
-            // 
-            resources.ApplyResources(this.btnStar5, "btnStar5");
-            this.btnStar5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.btnStar5.Name = "btnStar5";
-            this.btnStar5.UseVisualStyleBackColor = true;
-            this.btnStar5.Click += new System.EventHandler(this.btnStar5_Click);
-            // 
-            // btnStar4
-            // 
-            resources.ApplyResources(this.btnStar4, "btnStar4");
-            this.btnStar4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.btnStar4.Name = "btnStar4";
-            this.btnStar4.UseVisualStyleBackColor = true;
-            this.btnStar4.Click += new System.EventHandler(this.btnStar4_Click);
-            // 
-            // btnStar3
-            // 
-            resources.ApplyResources(this.btnStar3, "btnStar3");
-            this.btnStar3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar3.Name = "btnStar3";
-            this.btnStar3.UseVisualStyleBackColor = true;
-            this.btnStar3.Click += new System.EventHandler(this.btnStar3_Click);
-            // 
-            // btnStar2
-            // 
-            resources.ApplyResources(this.btnStar2, "btnStar2");
-            this.btnStar2.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar2.Name = "btnStar2";
-            this.btnStar2.UseVisualStyleBackColor = true;
-            this.btnStar2.Click += new System.EventHandler(this.btnStar2_Click);
-            // 
-            // btnStar1
-            // 
-            resources.ApplyResources(this.btnStar1, "btnStar1");
-            this.btnStar1.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar1.Name = "btnStar1";
-            this.btnStar1.UseVisualStyleBackColor = true;
-            this.btnStar1.Click += new System.EventHandler(this.btnStar1_Click);
-            // 
             // btnAddProvider
             // 
-            resources.ApplyResources(this.btnAddProvider, "btnAddProvider");
             this.btnAddProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddProvider, "btnAddProvider");
             this.btnAddProvider.Name = "btnAddProvider";
             this.btnAddProvider.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            resources.ApplyResources(this.button3, "button3");
             this.button3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            resources.ApplyResources(this.button4, "button4");
             this.button4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            resources.ApplyResources(this.button5, "button5");
             this.button5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.button5, "button5");
             this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            resources.ApplyResources(this.button6, "button6");
             this.button6.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.button6, "button6");
             this.button6.Name = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            resources.ApplyResources(this.button7, "button7");
             this.button7.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            resources.ApplyResources(this.button7, "button7");
             this.button7.Name = "button7";
             this.button7.UseVisualStyleBackColor = true;
+            // 
+            // btnAddNewProvider
+            // 
+            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
+            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
+            this.btnAddNewProvider.Name = "btnAddNewProvider";
+            this.btnAddNewProvider.UseVisualStyleBackColor = true;
+            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
             // 
             // frmFilamentDetails
             // 
@@ -469,5 +480,6 @@
         private System.Windows.Forms.Label lbRating;
         private System.Windows.Forms.Label lbStock;
         private System.Windows.Forms.Label lbColor;
+        private System.Windows.Forms.Button btnAddNewProvider;
     }
 }

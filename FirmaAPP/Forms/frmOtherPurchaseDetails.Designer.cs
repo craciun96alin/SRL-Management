@@ -30,11 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOtherPurchaseDetails));
             this.panelOtherPurchaseInformations = new System.Windows.Forms.Panel();
+            this.btnAddNewProvider = new System.Windows.Forms.Button();
             this.cbProvider = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.lbTitle = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnConfirm = new System.Windows.Forms.Button();
+            this.btnStar5 = new System.Windows.Forms.Button();
+            this.btnStar4 = new System.Windows.Forms.Button();
+            this.btnStar3 = new System.Windows.Forms.Button();
+            this.btnStar2 = new System.Windows.Forms.Button();
+            this.btnStar1 = new System.Windows.Forms.Button();
             this.lbmetrii = new System.Windows.Forms.Label();
             this.numericUpDownStock = new System.Windows.Forms.NumericUpDown();
             this.tbName = new System.Windows.Forms.TextBox();
@@ -43,11 +49,6 @@
             this.lbRating = new System.Windows.Forms.Label();
             this.lbStock = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
-            this.btnStar5 = new System.Windows.Forms.Button();
-            this.btnStar4 = new System.Windows.Forms.Button();
-            this.btnStar3 = new System.Windows.Forms.Button();
-            this.btnStar2 = new System.Windows.Forms.Button();
-            this.btnStar1 = new System.Windows.Forms.Button();
             this.panelOtherPurchaseInformations.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +57,7 @@
             // 
             resources.ApplyResources(this.panelOtherPurchaseInformations, "panelOtherPurchaseInformations");
             this.panelOtherPurchaseInformations.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            this.panelOtherPurchaseInformations.Controls.Add(this.btnAddNewProvider);
             this.panelOtherPurchaseInformations.Controls.Add(this.cbProvider);
             this.panelOtherPurchaseInformations.Controls.Add(this.label10);
             this.panelOtherPurchaseInformations.Controls.Add(this.lbTitle);
@@ -75,6 +77,15 @@
             this.panelOtherPurchaseInformations.Controls.Add(this.lbStock);
             this.panelOtherPurchaseInformations.Controls.Add(this.lbName);
             this.panelOtherPurchaseInformations.Name = "panelOtherPurchaseInformations";
+            // 
+            // btnAddNewProvider
+            // 
+            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
+            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
+            this.btnAddNewProvider.Name = "btnAddNewProvider";
+            this.btnAddNewProvider.UseVisualStyleBackColor = true;
+            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
             // 
             // cbProvider
             // 
@@ -109,6 +120,46 @@
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            // 
+            // btnStar5
+            // 
+            resources.ApplyResources(this.btnStar5, "btnStar5");
+            this.btnStar5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            this.btnStar5.Name = "btnStar5";
+            this.btnStar5.UseVisualStyleBackColor = true;
+            this.btnStar5.Click += new System.EventHandler(this.btnStar5_Click);
+            // 
+            // btnStar4
+            // 
+            resources.ApplyResources(this.btnStar4, "btnStar4");
+            this.btnStar4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
+            this.btnStar4.Name = "btnStar4";
+            this.btnStar4.UseVisualStyleBackColor = true;
+            this.btnStar4.Click += new System.EventHandler(this.btnStar4_Click);
+            // 
+            // btnStar3
+            // 
+            resources.ApplyResources(this.btnStar3, "btnStar3");
+            this.btnStar3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.btnStar3.Name = "btnStar3";
+            this.btnStar3.UseVisualStyleBackColor = true;
+            this.btnStar3.Click += new System.EventHandler(this.btnStar3_Click);
+            // 
+            // btnStar2
+            // 
+            resources.ApplyResources(this.btnStar2, "btnStar2");
+            this.btnStar2.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.btnStar2.Name = "btnStar2";
+            this.btnStar2.UseVisualStyleBackColor = true;
+            this.btnStar2.Click += new System.EventHandler(this.btnStar2_Click);
+            // 
+            // btnStar1
+            // 
+            resources.ApplyResources(this.btnStar1, "btnStar1");
+            this.btnStar1.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
+            this.btnStar1.Name = "btnStar1";
+            this.btnStar1.UseVisualStyleBackColor = true;
+            this.btnStar1.Click += new System.EventHandler(this.btnStar1_Click);
             // 
             // lbmetrii
             // 
@@ -161,46 +212,6 @@
             this.lbName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbName.Name = "lbName";
             // 
-            // btnStar5
-            // 
-            resources.ApplyResources(this.btnStar5, "btnStar5");
-            this.btnStar5.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.btnStar5.Name = "btnStar5";
-            this.btnStar5.UseVisualStyleBackColor = true;
-            this.btnStar5.Click += new System.EventHandler(this.btnStar5_Click);
-            // 
-            // btnStar4
-            // 
-            resources.ApplyResources(this.btnStar4, "btnStar4");
-            this.btnStar4.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOff;
-            this.btnStar4.Name = "btnStar4";
-            this.btnStar4.UseVisualStyleBackColor = true;
-            this.btnStar4.Click += new System.EventHandler(this.btnStar4_Click);
-            // 
-            // btnStar3
-            // 
-            resources.ApplyResources(this.btnStar3, "btnStar3");
-            this.btnStar3.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar3.Name = "btnStar3";
-            this.btnStar3.UseVisualStyleBackColor = true;
-            this.btnStar3.Click += new System.EventHandler(this.btnStar3_Click);
-            // 
-            // btnStar2
-            // 
-            resources.ApplyResources(this.btnStar2, "btnStar2");
-            this.btnStar2.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar2.Name = "btnStar2";
-            this.btnStar2.UseVisualStyleBackColor = true;
-            this.btnStar2.Click += new System.EventHandler(this.btnStar2_Click);
-            // 
-            // btnStar1
-            // 
-            resources.ApplyResources(this.btnStar1, "btnStar1");
-            this.btnStar1.BackgroundImage = global::FirmaAPP.Properties.Resources.StarOn;
-            this.btnStar1.Name = "btnStar1";
-            this.btnStar1.UseVisualStyleBackColor = true;
-            this.btnStar1.Click += new System.EventHandler(this.btnStar1_Click);
-            // 
             // frmOtherPurchaseDetails
             // 
             resources.ApplyResources(this, "$this");
@@ -237,5 +248,6 @@
         private System.Windows.Forms.Label lbRating;
         private System.Windows.Forms.Label lbStock;
         private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.Button btnAddNewProvider;
     }
 }

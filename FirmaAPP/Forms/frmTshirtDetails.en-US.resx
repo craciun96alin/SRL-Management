@@ -281,7 +281,4 @@
   <data name="lbName.Text" xml:space="preserve">
     <value>*Name:</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
 </root>

@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAddNewProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 112</value>
+  </data>
   <data name="cbProvider.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 116</value>
+    <value>186, 116</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -135,7 +138,7 @@
     <value>NoControl</value>
   </data>
   <data name="lbTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 35</value>
+    <value>140, 31</value>
   </data>
   <data name="lbTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>309, 57</value>
@@ -147,7 +150,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>412, 434</value>
+    <value>424, 434</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Cancel</value>
@@ -156,7 +159,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnConfirm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>305, 434</value>
+    <value>317, 434</value>
   </data>
   <data name="btnConfirm.Text" xml:space="preserve">
     <value>Confirm</value>
@@ -165,37 +168,37 @@
     <value>NoControl</value>
   </data>
   <data name="btnStar5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>330, 223</value>
+    <value>342, 223</value>
   </data>
   <data name="btnStar4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnStar4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 223</value>
+    <value>303, 223</value>
   </data>
   <data name="btnStar3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnStar3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 223</value>
+    <value>264, 223</value>
   </data>
   <data name="btnStar2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnStar2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 223</value>
+    <value>225, 223</value>
   </data>
   <data name="btnStar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnStar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 223</value>
+    <value>186, 223</value>
   </data>
   <data name="lbmetrii.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lbmetrii.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 184</value>
+    <value>521, 184</value>
   </data>
   <data name="lbmetrii.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 34</value>
@@ -204,13 +207,13 @@
     <value>pieces</value>
   </data>
   <data name="numericUpDownStock.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 193</value>
+    <value>186, 193</value>
   </data>
   <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 153</value>
+    <value>186, 153</value>
   </data>
   <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 273</value>
+    <value>186, 273</value>
   </data>
   <data name="lbDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -243,12 +246,9 @@
     <value>*Name:</value>
   </data>
   <data name="panelOtherPurchaseInformations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>592, 491</value>
+    <value>617, 491</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>592, 491</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>617, 491</value>
   </data>
 </root>

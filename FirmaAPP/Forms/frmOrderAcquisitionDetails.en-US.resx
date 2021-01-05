@@ -321,10 +321,10 @@
     <value>361, 122</value>
   </data>
   <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 34</value>
+    <value>166, 34</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>*Total Prices:</value>
+    <value>*Total Price:</value>
   </data>
   <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -583,8 +583,5 @@
   </data>
   <data name="lbTitle.Text" xml:space="preserve">
     <value>Acquisition Details</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

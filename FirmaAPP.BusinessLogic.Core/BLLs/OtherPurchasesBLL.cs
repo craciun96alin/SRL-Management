@@ -11,6 +11,8 @@ namespace FirmaAPP.BusinessLogic.Core
         private bool VerifyInputData(OtherPurchase otherPurchase)
         {
             OtherPurchasesDAL opDAL = new OtherPurchasesDAL();
+            if (otherPurchase.Provider == null)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyProviderToBeCompleted);
             if (otherPurchase.Name == string.Empty)
                 throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyNameToBeCompleted);
             if (otherPurchase.Rating == Enums.Rating.Nedefinit)

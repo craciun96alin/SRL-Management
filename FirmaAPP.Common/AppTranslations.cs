@@ -54,6 +54,8 @@ namespace FirmaAPP.Common
 
         public static string MoneyWasUpdated = "Capitalul firmei a fost actualizat! Verificați în detaliile firmei.";
 
+        public static string VerifyCustomerToBeCompleted = " Trebuie ales un client!";
+        public static string VerifyProviderToBeCompleted = " Trebuie ales un furnizor!";
         public static string VerifyNameToBeCompleted = " Trebuie completat campul \"Nume\"!";
         public static string VerifyPasswordToBeCompleted = " Trebuie completat campul \"Parolă\"!";
         public static string NameAlreadyExist = " Numele este deja existent, vă rugăm alegeți un nume unic!";

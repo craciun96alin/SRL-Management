@@ -12,6 +12,8 @@ namespace FirmaAPP.BusinessLogic.Core
         private bool VerifyInputData(Tshirt tshirt)
         {
             TshirtsDAL tDAL = new TshirtsDAL();
+            if(tshirt.Provider == null)
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyProviderToBeCompleted);
             if (tshirt.Name == string.Empty)
                 throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.VerifyNameToBeCompleted);
             if(tshirt.Rating == Enums.Rating.Nedefinit)
