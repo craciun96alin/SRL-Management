@@ -220,7 +220,7 @@ namespace FirmaAPP.BusinessLogic.Core
             }
             else
             {
-                throw new Exception("Atenție: Înainte de a adăuga facturi trebuie să definești folder-ul destinat facturilor din setări!");
+                throw new Exception(AppTranslations.WarningInfoBox + AppTranslations.FirstDefineBillDirectory);
             }
             return fileName;
         }

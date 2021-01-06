@@ -44,12 +44,12 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 UsersBLL usersBLL = new UsersBLL();
                 if(AppContext.CurrentUserId == null)
                 {
-                    throw new Exception("Numele si parola");
+                    throw new Exception(AppTranslations.LoginFailed);
                 }
                 User user = usersBLL.GetUserById(AppContext.CurrentUserId);
                 if (!VerifyUserCredentials(user, password)) 
                 {
-                    throw new Exception("Numele si parola");
+                    throw new Exception(AppTranslations.LoginFailed);
                 }
                 usersBLL.UpdateLastLogin(AppContext.CurrentUserId);
                 if (user.UserRole == Enums.UserRole.Admin)

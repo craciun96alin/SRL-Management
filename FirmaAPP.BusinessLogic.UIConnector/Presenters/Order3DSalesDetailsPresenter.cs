@@ -386,7 +386,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     _view.Order.BillID = AppTranslations.BillForNoBillIndex;
                 }
                 oBLL.UpdateOrder(_view.Order);
-                throw new Exception("Succes: Factura " + bill.BillName + " a fost adăugată!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Bill + " " + bill.BillName + AppTranslations.AddWithSuccess);
             }
             catch (Exception ex)
             {

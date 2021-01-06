@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirmaAPP.Common.Properties
-{
-
-
+namespace FirmaAPP.Common.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,521 @@ namespace FirmaAPP.Common.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FirmaAPP.Common.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proiectarea.
+        /// </summary>
+        internal static string _3DDesign {
+            get {
+                return ResourceManager.GetString("_3DDesign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Piesa 3D.
+        /// </summary>
+        internal static string _3DPrint {
+            get {
+                return ResourceManager.GetString("_3DPrint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comanda de achiziție.
+        /// </summary>
+        internal static string AcquisitionOrder {
+            get {
+                return ResourceManager.GetString("AcquisitionOrder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to a fost adăugat/ă!.
+        /// </summary>
+        internal static string AddWithSuccess {
+            get {
+                return ResourceManager.GetString("AddWithSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Factura.
+        /// </summary>
+        internal static string Bill {
+            get {
+                return ResourceManager.GetString("Bill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Achiziții.
+        /// </summary>
+        internal static string BillAcquisitionType {
+            get {
+                return ResourceManager.GetString("BillAcquisitionType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vânzări.
+        /// </summary>
+        internal static string BillSellingType {
+            get {
+                return ResourceManager.GetString("BillSellingType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toate datele noi introduse se vor pierde. Doriți să continuați?.
+        /// </summary>
+        internal static string CancelConfirmation {
+            get {
+                return ResourceManager.GetString("CancelConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clientul.
+        /// </summary>
+        internal static string Customer {
+            get {
+                return ResourceManager.GetString("Customer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Doriți să ștergeți .
+        /// </summary>
+        internal static string DeleteQuestion {
+            get {
+                return ResourceManager.GetString("DeleteQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to a fost editat/ă!.
+        /// </summary>
+        internal static string EditWithSuccess {
+            get {
+                return ResourceManager.GetString("EditWithSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eroare.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eroare:.
+        /// </summary>
+        internal static string ErrorInfoBox {
+            get {
+                return ResourceManager.GetString("ErrorInfoBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filamentul.
+        /// </summary>
+        internal static string Filament {
+            get {
+                return ResourceManager.GetString("Filament", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fișierul nu este disponibil! Verificați adresa fișierului din setări!.
+        /// </summary>
+        internal static string FileDoNotExist {
+            get {
+                return ResourceManager.GetString("FileDoNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Înainte de a adăuga facturi trebuie să definești folder-ul destinat facturilor din setări!.
+        /// </summary>
+        internal static string FirstDefineBillDirectory {
+            get {
+                return ResourceManager.GetString("FirstDefineBillDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numele și parola nu se potrivesc!.
+        /// </summary>
+        internal static string LoginFailed {
+            get {
+                return ResourceManager.GetString("LoginFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ești sigur de datele introduse?.
+        /// </summary>
+        internal static string MessageBoxInfoConfirmation {
+            get {
+                return ResourceManager.GetString("MessageBoxInfoConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Capitalul firmei a fost actualizat! Verificați în detaliile firmei..
+        /// </summary>
+        internal static string MoneyWasUpdated {
+            get {
+                return ResourceManager.GetString("MoneyWasUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numele este deja existent, vă rugăm alegeți un nume unic!.
+        /// </summary>
+        internal static string NameAlreadyExist {
+            get {
+                return ResourceManager.GetString("NameAlreadyExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fară factură!.
+        /// </summary>
+        internal static string NoBill {
+            get {
+                return ResourceManager.GetString("NoBill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comanda .
+        /// </summary>
+        internal static string Order {
+            get {
+                return ResourceManager.GetString("Order", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consumabilul.
+        /// </summary>
+        internal static string OtherPurchase {
+            get {
+                return ResourceManager.GetString("OtherPurchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parolele introduse nu sunt similare!.
+        /// </summary>
+        internal static string PasswordsDoseNotMatch {
+            get {
+                return ResourceManager.GetString("PasswordsDoseNotMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Furnizorul.
+        /// </summary>
+        internal static string Provider {
+            get {
+                return ResourceManager.GetString("Provider", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adăugare tricou nou?.
+        /// </summary>
+        internal static string QAddNewTshirt {
+            get {
+                return ResourceManager.GetString("QAddNewTshirt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Doriți să folosiți capitalul din casa firmei?.
+        /// </summary>
+        internal static string QPayWithCash {
+            get {
+                return ResourceManager.GetString("QPayWithCash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Doriți să folosiți capitalul de pe cardul firmei?.
+        /// </summary>
+        internal static string QPayWithCreditCart {
+            get {
+                return ResourceManager.GetString("QPayWithCreditCart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Doriți să folosiți capitalul din banii extra?.
+        /// </summary>
+        internal static string QPayWithExtraMoney {
+            get {
+                return ResourceManager.GetString("QPayWithExtraMoney", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to a fost șters!.
+        /// </summary>
+        internal static string RemoveWithSuccess {
+            get {
+                return ResourceManager.GetString("RemoveWithSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RON.
+        /// </summary>
+        internal static string RON {
+            get {
+                return ResourceManager.GetString("RON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selectează cel puțin un rând!.
+        /// </summary>
+        internal static string SelectAtLeastOneRow {
+            get {
+                return ResourceManager.GetString("SelectAtLeastOneRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selectează maxim un rând!.
+        /// </summary>
+        internal static string SelectAtMostOneRow {
+            get {
+                return ResourceManager.GetString("SelectAtMostOneRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setările.
+        /// </summary>
+        internal static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stocul este gol.
+        /// </summary>
+        internal static string StockIsEmpty {
+            get {
+                return ResourceManager.GetString("StockIsEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Succes.
+        /// </summary>
+        internal static string Succes {
+            get {
+                return ResourceManager.GetString("Succes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Succes:.
+        /// </summary>
+        internal static string SuccesInfoBox {
+            get {
+                return ResourceManager.GetString("SuccesInfoBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Consumabilul.
+        /// </summary>
+        internal static string Supplie {
+            get {
+                return ResourceManager.GetString("Supplie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tricoul.
+        /// </summary>
+        internal static string Tshirt {
+            get {
+                return ResourceManager.GetString("Tshirt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tricoul nu este salvat în stoc.Doriți introducerea lui?.
+        /// </summary>
+        internal static string TshirtIsNotInStock {
+            get {
+                return ResourceManager.GetString("TshirtIsNotInStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Utilizatorul.
+        /// </summary>
+        internal static string User {
+            get {
+                return ResourceManager.GetString("User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie ales un client!.
+        /// </summary>
+        internal static string VerifyCustomerToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyCustomerToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie să selectați un fișier!.
+        /// </summary>
+        internal static string VerifyFileToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyFileToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie completat campul \&quot;Nume\&quot;!.
+        /// </summary>
+        internal static string VerifyNameToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyNameToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie completat campul \&quot;Parolă\&quot;!.
+        /// </summary>
+        internal static string VerifyPasswordToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyPasswordToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie ales un client!.
+        /// </summary>
+        internal static string VerifyProviderToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyProviderToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trebuie să selectați rating-ul!.
+        /// </summary>
+        internal static string VerifyRatingToBeCompleted {
+            get {
+                return ResourceManager.GetString("VerifyRatingToBeCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vinyl-ul.
+        /// </summary>
+        internal static string Vinyl {
+            get {
+                return ResourceManager.GetString("Vinyl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Atenție.
+        /// </summary>
+        internal static string Warning {
+            get {
+                return ResourceManager.GetString("Warning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Atenție:.
+        /// </summary>
+        internal static string WarningInfoBox {
+            get {
+                return ResourceManager.GetString("WarningInfoBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Atenție!.
+        /// </summary>
+        internal static string WarningMessageBoxTitle {
+            get {
+                return ResourceManager.GetString("WarningMessageBoxTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bine ai venit:.
+        /// </summary>
+        internal static string Welcome {
+            get {
+                return ResourceManager.GetString("Welcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nu poți deschide aceeași formă de mai multe ori..
+        /// </summary>
+        internal static string WindowIsOpenAlready {
+            get {
+                return ResourceManager.GetString("WindowIsOpenAlready", resourceCulture);
             }
         }
     }

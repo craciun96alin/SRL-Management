@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +40,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     tBLL.DeleteTshirt(t);
                     tshirtsNames += t.Name + ", ";
                 }
-                throw new Exception("Succes: Tricoul " + tshirtsNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Tshirt + " " + tshirtsNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

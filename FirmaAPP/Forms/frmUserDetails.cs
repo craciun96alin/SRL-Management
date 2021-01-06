@@ -94,7 +94,7 @@ namespace FirmaAPP.Forms
             {
                 if(tbPassword.Text != tbPaswordAgain.Text)
                 {
-                    throw new Exception("Parolele introduse nu sunt similare!");
+                    throw new Exception(AppTranslations.PasswordsDoseNotMatch);
                 }
                 if (MessageBox.Show(AppTranslations.MessageBoxInfoConfirmation, AppTranslations.WarningMessageBoxTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {

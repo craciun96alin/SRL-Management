@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 
@@ -28,7 +29,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     fBLL.DeleteVinyl(v);
                     vinylsNames += v.Name + ", ";
                 }
-                throw new Exception("Succes: Vinyl-ul " + vinylsNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Vinyl +" " + vinylsNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

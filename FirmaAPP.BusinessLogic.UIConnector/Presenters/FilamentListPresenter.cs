@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 
@@ -28,7 +29,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     fBLL.DeleteFilament(f);
                     filamentsNames += f.Name + ", ";
                 }
-                throw new Exception("Succes: Filamentul " + filamentsNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Filament + " " + filamentsNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

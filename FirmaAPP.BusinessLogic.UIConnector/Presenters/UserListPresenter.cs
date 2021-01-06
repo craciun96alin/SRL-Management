@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 using AppContext = FirmaAPP.Common.AppContext;
@@ -29,7 +30,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     uBLL.DeleteUser(u);
                     UsersNames += u.FirstName + " " + u.LastName +", ";
                 }
-                throw new Exception("Succes: Userul " + UsersNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.User + " " + UsersNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

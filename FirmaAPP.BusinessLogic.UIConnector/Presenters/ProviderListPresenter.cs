@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 
@@ -36,7 +37,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     pBLL.DeleteProvider(p);
                     providersNames += p.Name + ", ";
                 }
-                throw new Exception("Succes: Furnizorul " + providersNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Provider + " " + providersNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

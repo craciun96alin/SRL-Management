@@ -1,5 +1,6 @@
 ﻿using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 using System;
 using System.Collections.Generic;
 
@@ -36,7 +37,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     opBLL.DeleteOtherPurchase(op);
                     otherPurchasesNames += op.Name + ", ";
                 }
-                throw new Exception("Succes: Consumabilul " + otherPurchasesNames + " a fost șters!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Supplie + " " + otherPurchasesNames + AppTranslations.RemoveWithSuccess);
 
             }
             catch (Exception ex)

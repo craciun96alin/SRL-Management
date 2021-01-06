@@ -8,60 +8,79 @@ namespace FirmaAPP.Common
 {
     public static class AppTranslations
     {
+
         public static string PassPhrase = "as23f";
 
-        public static string BillAcquisitionType = "Achiziții";
-        public static string BillSellingType = "Vânzări";
+        public static string BillAcquisitionType = Properties.Resources.BillAcquisitionType;
+        public static string BillSellingType = Properties.Resources.BillSellingType;
 
-        public static string Warning = "Atenție";
-        public static string WarningInfoBox = "Atenție: ";
-        public static string Succes = "Succes";
-        public static string SuccesInfoBox = "Succes: ";
-        public static string Error = "Eroare";
-        public static string ErrorInfoBox = "Eroare: ";
+        public static string Warning = Properties.Resources.Warning;
+        public static string WarningInfoBox = Properties.Resources.WarningInfoBox;
+        public static string Succes = Properties.Resources.Succes;
+        public static string SuccesInfoBox = Properties.Resources.SuccesInfoBox;
+        public static string Error = Properties.Resources.Error;
+        public static string ErrorInfoBox = Properties.Resources.ErrorInfoBox;
 
-        public static string WarningMessageBoxTitle = "Atenție!";
-        public static string MessageBoxInfoConfirmation = "Ești sigur de datele introduse?";
+        public static string WarningMessageBoxTitle = Properties.Resources.WarningMessageBoxTitle;
+        public static string MessageBoxInfoConfirmation = Properties.Resources.MessageBoxInfoConfirmation;
 
-        public static string SelectAtMostOneRow = "Selectează maxim un rând!";
-        public static string SelectAtLeastOneRow = "Selectează cel puțin un rând!";
-        public static string DeleteQuestion = "Doriți să ștergeți ";
-        public static string AddWithSuccess = "a fost adăugat/ă!";
-        public static string EditWithSuccess = "a fost editat/ă!";
-        public static string RemoveWithSuccess = "a fost șters!";
+        public static string SelectAtMostOneRow = Properties.Resources.SelectAtMostOneRow;
+        public static string SelectAtLeastOneRow = Properties.Resources.SelectAtLeastOneRow;
+        public static string DeleteQuestion = Properties.Resources.DeleteQuestion;
+        public static string AddWithSuccess = Properties.Resources.AddWithSuccess;
+        public static string EditWithSuccess = Properties.Resources.EditWithSuccess;
+        public static string RemoveWithSuccess = Properties.Resources.RemoveWithSuccess;
 
-        public  const string Customer = "Clientul";
-        public static string Filament = "Filamentul";
-        public static string AcquisitionOrder = "Comanda de achiziție";
-        public static string Vinyl = "Vinyl-ul";
-        public static string _3DDesign = "Proiectarea";
-        public static string _3DPrint = "Piesa 3D";
-        public static string Tshirt = "Tricoul";
-        public static string Bill = "Factura";
-        public static string Provider = "Furnizorul";
-        public static string OtherPurchase = "Consumabilul";
+        public static string Customer = Properties.Resources.Customer;
+        public static string Filament = Properties.Resources.Filament;
+        public static string AcquisitionOrder = Properties.Resources.AcquisitionOrder;
+        public static string Vinyl = Properties.Resources.Vinyl;
+        public static string _3DDesign = Properties.Resources._3DDesign;
+        public static string _3DPrint = Properties.Resources._3DPrint;
+        public static string Tshirt = Properties.Resources.Tshirt;
+        public static string Bill = Properties.Resources.Bill;
+        public static string Provider = Properties.Resources.Provider;
+        public static string OtherPurchase = Properties.Resources.OtherPurchase;
+        public static string User = Properties.Resources.User;
 
-        public static string FileDoNotExist = "Fișierul nu este disponibil! Verificați adresa fișierului din setări!";
-        
+        public static string FileDoNotExist = Properties.Resources.FileDoNotExist;
+        public static string NoBill = Properties.Resources.NoBill;
         public static int BillForNoBillIndex = 2;
 
-        public static string RON = " RON";
-        public static string CancelConfirmation = "Toate datele noi introduse se vor pierde. Doriți să continuați?";
+        public static string RON = Properties.Resources.RON;
+        public static string CancelConfirmation = Properties.Resources.CancelConfirmation;
 
-        public static string QPayWithExtraMoney = "Doriți să folosiți capitalul din banii extra?";
-        public static string QPayWithCreditCart = "Doriți să folosiți capitalul de pe cardul firmei?";
-        public static string QPayWithCash = "Doriți să folosiți capitalul din casa firmei?";
+        public static string QPayWithExtraMoney = Properties.Resources.QPayWithExtraMoney;
+        public static string QPayWithCreditCart = Properties.Resources.QPayWithCreditCart;
+        public static string QPayWithCash = Properties.Resources.QPayWithCash;
 
-        public static string MoneyWasUpdated = "Capitalul firmei a fost actualizat! Verificați în detaliile firmei.";
+        public static string MoneyWasUpdated = Properties.Resources.MoneyWasUpdated;
 
-        public static string VerifyCustomerToBeCompleted = " Trebuie ales un client!";
-        public static string VerifyProviderToBeCompleted = " Trebuie ales un furnizor!";
-        public static string VerifyNameToBeCompleted = " Trebuie completat campul \"Nume\"!";
-        public static string VerifyPasswordToBeCompleted = " Trebuie completat campul \"Parolă\"!";
-        public static string NameAlreadyExist = " Numele este deja existent, vă rugăm alegeți un nume unic!";
-        public static string VerifyRatingToBeCompleted = " Trebuie să selectați rating-ul!";
-        public static string VerifyFileToBeCompleted = " Trebuie să selectați un fișier!";
+        public static string VerifyCustomerToBeCompleted = Properties.Resources.VerifyCustomerToBeCompleted;
+        public static string VerifyProviderToBeCompleted = Properties.Resources.VerifyProviderToBeCompleted;
+        public static string VerifyNameToBeCompleted = Properties.Resources.VerifyNameToBeCompleted;
+        public static string VerifyPasswordToBeCompleted = Properties.Resources.VerifyPasswordToBeCompleted;
+        public static string NameAlreadyExist = Properties.Resources.NameAlreadyExist;
+        public static string VerifyRatingToBeCompleted = Properties.Resources.VerifyRatingToBeCompleted;
+        public static string VerifyFileToBeCompleted = Properties.Resources.VerifyFileToBeCompleted;
+        public static string TshirtIsNotInStock = Properties.Resources.TshirtIsNotInStock;
+        public static string StockIsEmpty = Properties.Resources.StockIsEmpty;
 
-        public static string User = "User-ul";
+        public static string QAddNewTshirt = Properties.Resources.QAddNewTshirt;
+
+        public static string WindowIsOpenAlready = Properties.Resources.WindowIsOpenAlready;
+
+        public static string Welcome = Properties.Resources.Welcome;
+
+        public static string PasswordsDoseNotMatch = Properties.Resources.PasswordsDoseNotMatch;
+        public static string Supplie = Properties.Resources.Supplie;
+
+        public static string Order = Properties.Resources.Order;
+
+        public static string Settings = Properties.Resources.Settings;
+
+        public static string FirstDefineBillDirectory = Properties.Resources.FirstDefineBillDirectory;
+
+        public static string LoginFailed = Properties.Resources.LoginFailed;
     }
 }

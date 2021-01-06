@@ -118,103 +118,103 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AcquisitionOrder" xml:space="preserve">
-    <value>Comanda de achiziție</value>
+    <value>The acquisition order </value>
   </data>
   <data name="AddWithSuccess" xml:space="preserve">
-    <value>a fost adăugat/ă!</value>
+    <value>was added!</value>
   </data>
   <data name="Bill" xml:space="preserve">
-    <value>Factura</value>
+    <value>The bill</value>
   </data>
   <data name="BillAcquisitionType" xml:space="preserve">
-    <value>Achiziții</value>
+    <value>Acquisitions</value>
   </data>
   <data name="BillSellingType" xml:space="preserve">
-    <value>Vânzări</value>
+    <value>Sales</value>
   </data>
   <data name="CancelConfirmation" xml:space="preserve">
-    <value>Toate datele noi introduse se vor pierde. Doriți să continuați?</value>
+    <value>New data will be lost! Do you want to continue?</value>
   </data>
   <data name="Customer" xml:space="preserve">
-    <value>Clientul</value>
+    <value>The customer</value>
   </data>
   <data name="DeleteQuestion" xml:space="preserve">
-    <value>Doriți să ștergeți </value>
+    <value>Do you want to delete </value>
   </data>
   <data name="EditWithSuccess" xml:space="preserve">
-    <value>a fost editat/ă!</value>
+    <value>was updated!</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Eroare</value>
+    <value>Eroarr</value>
   </data>
   <data name="ErrorInfoBox" xml:space="preserve">
-    <value>Eroare:</value>
+    <value>Eroarr:</value>
   </data>
   <data name="Filament" xml:space="preserve">
-    <value>Filamentul</value>
+    <value>The filament</value>
   </data>
   <data name="FileDoNotExist" xml:space="preserve">
-    <value>Fișierul nu este disponibil! Verificați adresa fișierului din setări!</value>
+    <value>File do not exist! Please verify the address in settings!</value>
   </data>
   <data name="FirstDefineBillDirectory" xml:space="preserve">
-    <value>Înainte de a adăuga facturi trebuie să definești folder-ul destinat facturilor din setări!</value>
+    <value>First, you need to define the bill directory from Settings!</value>
   </data>
   <data name="LoginFailed" xml:space="preserve">
-    <value>Numele și parola nu se potrivesc!</value>
+    <value>The name and password dose not match!</value>
   </data>
   <data name="MessageBoxInfoConfirmation" xml:space="preserve">
-    <value>Ești sigur de datele introduse?</value>
+    <value>Are you sure?</value>
   </data>
   <data name="MoneyWasUpdated" xml:space="preserve">
-    <value>Capitalul firmei a fost actualizat! Verificați în detaliile firmei.</value>
+    <value>The company money was updated! Can check on company details!</value>
   </data>
   <data name="NameAlreadyExist" xml:space="preserve">
-    <value>Numele este deja existent, vă rugăm alegeți un nume unic!</value>
+    <value>The name already exist! </value>
   </data>
   <data name="NoBill" xml:space="preserve">
-    <value>Fară factură!</value>
+    <value>No bill!</value>
   </data>
   <data name="Order" xml:space="preserve">
-    <value>Comanda </value>
+    <value>The Order</value>
   </data>
   <data name="OtherPurchase" xml:space="preserve">
-    <value>Consumabilul</value>
+    <value>The other purchase </value>
   </data>
   <data name="PasswordsDoseNotMatch" xml:space="preserve">
-    <value>Parolele introduse nu sunt similare!</value>
+    <value>The passwords dosen't match!</value>
   </data>
   <data name="Provider" xml:space="preserve">
-    <value>Furnizorul</value>
+    <value>The provider</value>
   </data>
   <data name="QAddNewTshirt" xml:space="preserve">
-    <value>Adăugare tricou nou?</value>
+    <value>Do you want to add a new T-shirt?</value>
   </data>
   <data name="QPayWithCash" xml:space="preserve">
-    <value>Doriți să folosiți capitalul din casa firmei?</value>
+    <value>Do you want to use Cash Money?</value>
   </data>
   <data name="QPayWithCreditCart" xml:space="preserve">
-    <value>Doriți să folosiți capitalul de pe cardul firmei?</value>
+    <value>Do you want to use Digital Money?</value>
   </data>
   <data name="QPayWithExtraMoney" xml:space="preserve">
-    <value>Doriți să folosiți capitalul din banii extra?</value>
+    <value>Do you want to use Extra Money?</value>
   </data>
   <data name="RemoveWithSuccess" xml:space="preserve">
-    <value>a fost șters!</value>
+    <value>was removed!</value>
   </data>
   <data name="RON" xml:space="preserve">
     <value>RON</value>
   </data>
   <data name="SelectAtLeastOneRow" xml:space="preserve">
-    <value>Selectează cel puțin un rând!</value>
+    <value>Select at least one row!</value>
   </data>
   <data name="SelectAtMostOneRow" xml:space="preserve">
-    <value>Selectează maxim un rând!</value>
+    <value>Select at most one row!</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Setările</value>
+    <value>The settings</value>
   </data>
   <data name="StockIsEmpty" xml:space="preserve">
-    <value>Stocul este gol</value>
+    <value>The stock is empty</value>
   </data>
   <data name="Succes" xml:space="preserve">
     <value>Succes</value>
@@ -223,57 +223,57 @@
     <value>Succes:</value>
   </data>
   <data name="Supplie" xml:space="preserve">
-    <value>Consumabilul</value>
+    <value>The Consumable</value>
   </data>
   <data name="Tshirt" xml:space="preserve">
-    <value>Tricoul</value>
+    <value>The T-shirt</value>
   </data>
   <data name="TshirtIsNotInStock" xml:space="preserve">
-    <value>Tricoul nu este salvat în stoc.Doriți introducerea lui?</value>
+    <value>The t-shirt is not in yout stock. Do you want to add it?</value>
   </data>
   <data name="User" xml:space="preserve">
-    <value>Utilizatorul</value>
+    <value>The user</value>
   </data>
   <data name="VerifyCustomerToBeCompleted" xml:space="preserve">
-    <value>Trebuie ales un client!</value>
+    <value>Must select a Customer</value>
   </data>
   <data name="VerifyFileToBeCompleted" xml:space="preserve">
-    <value>Trebuie să selectați un fișier!</value>
+    <value>Must select a file!</value>
   </data>
   <data name="VerifyNameToBeCompleted" xml:space="preserve">
-    <value>Trebuie completat campul \"Nume\"!</value>
+    <value>The \"Name\" field is mandatory!</value>
   </data>
   <data name="VerifyPasswordToBeCompleted" xml:space="preserve">
-    <value>Trebuie completat campul \"Parolă\"!</value>
+    <value>The \"Password\" field is mandatory!</value>
   </data>
   <data name="VerifyProviderToBeCompleted" xml:space="preserve">
-    <value>Trebuie ales un client!</value>
+    <value> Must select a Provider!</value>
   </data>
   <data name="VerifyRatingToBeCompleted" xml:space="preserve">
-    <value>Trebuie să selectați rating-ul!</value>
+    <value>Must select rating!</value>
   </data>
   <data name="Vinyl" xml:space="preserve">
-    <value>Vinyl-ul</value>
+    <value>The vinyl</value>
   </data>
   <data name="Warning" xml:space="preserve">
-    <value>Atenție</value>
+    <value>Warning</value>
   </data>
   <data name="WarningInfoBox" xml:space="preserve">
-    <value>Atenție:</value>
+    <value>Warning:</value>
   </data>
   <data name="WarningMessageBoxTitle" xml:space="preserve">
-    <value>Atenție!</value>
+    <value>Warning!</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>Bine ai venit:</value>
+    <value>Welcome:</value>
   </data>
   <data name="WindowIsOpenAlready" xml:space="preserve">
-    <value>Nu poți deschide aceeași formă de mai multe ori.</value>
+    <value>The window is already open!</value>
   </data>
   <data name="_3DDesign" xml:space="preserve">
-    <value>Proiectarea</value>
+    <value>The design</value>
   </data>
   <data name="_3DPrint" xml:space="preserve">
-    <value>Piesa 3D</value>
+    <value>The 3D print</value>
   </data>
 </root>

@@ -2,6 +2,7 @@
 using AppContext = FirmaAPP.Common.AppContext;
 using FirmaAPP.BusinessLogic.Core;
 using FirmaAPP.BusinessObject;
+using FirmaAPP.Common;
 
 namespace FirmaAPP.BusinessLogic.UIConnector
 {
@@ -27,12 +28,12 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 if (appSettings.AppSettingsID == 0)
                 {
                     asBLL.AddAppSettings(appSettings);
-                    throw new Exception("Succes: Setările au fost adăugate!");
+                    throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Settings + AppTranslations.AddWithSuccess); 
                 }
                 else
                 {
                     asBLL.UpdateAppSettings(appSettings);
-                    throw new Exception("Succes: Setările au fost editate!");
+                    throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Settings + AppTranslations.AddWithSuccess);
                 }
             }
             catch (Exception ex)

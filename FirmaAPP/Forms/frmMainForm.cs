@@ -228,7 +228,7 @@ namespace FirmaAPP
                     childForm.Show();
                 }
                 else
-                    MessageBox.Show("Nu poți deschide aceeași formă de mai multe ori.", "Atenție!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show(AppTranslations.WindowIsOpenAlready, AppTranslations.WarningMessageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             catch (Exception ex)
             {

@@ -34,7 +34,6 @@ namespace FirmaAPP.BusinessObject
         public Bill Bill { get; set; } // 1-1
         public User User { get; set; }
 
-        [DisplayName(AppTranslations.Customer)]
         public string CustomerName => Customer != null ? Customer.FirstName +" "+ Customer.LastName: string.Empty;
         [DisplayName("Furnizor")]
         public string ProviderName => Provider != null ? Provider.Name : string.Empty;

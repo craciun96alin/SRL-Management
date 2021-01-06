@@ -17,16 +17,27 @@ namespace FirmaAPP.Common
 
         public enum Color
         {
-            Alta = 0,
-            Alb = 1,
-            Negru = 2,
-            Roșu = 3,
-            Albastru_deschis = 4,
-            Albastru = 5,
-            Albastru_regal = 6,
+            [Description("Other")]
+            Other = 0,
+            [Description("White")]
+            White = 1,
+            [Description("Black")]
+            Black = 2,
+            [Description("Red")]
+            Red = 3,
+            [Description ("Light blue")]
+            Light_blue = 4,
+            [Description("Blue")]
+            Blue = 5,
+            [Description("Royal Blue")]
+            Royal_blue = 6,
+            [Description("Red")]
             Verde = 7,
+            [Description("Red")]
             Galben = 8,
+            [Description("Red")]
             Gri = 9,
+            [Description("Red")]
             Portocaliu = 10
         }
 

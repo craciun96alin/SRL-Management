@@ -39,7 +39,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     oBLL.DeleteOrder(o);
                     ordersIDs += o.OrderID + ", ";
                 }
-                throw new Exception("Succes: Comanda " + ordersIDs + " a fost ștearsă!");
+                throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Order + " " + ordersIDs + AppTranslations.RemoveWithSuccess);
             }
             catch (Exception ex)
             {

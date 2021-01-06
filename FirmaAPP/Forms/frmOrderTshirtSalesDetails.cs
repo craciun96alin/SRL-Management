@@ -377,7 +377,7 @@ namespace FirmaAPP
                 }
                 else
                 {
-                    var result = MessageBox.Show("Tricoul nu este salvat în stoc. Doriți introducerea lui?", "Adăugare tricou nou?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    var result = MessageBox.Show(AppTranslations.TshirtIsNotInStock, AppTranslations.QAddNewTshirt, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (result == DialogResult.Yes)
                     {
                         Tshirt tshirt = new Tshirt

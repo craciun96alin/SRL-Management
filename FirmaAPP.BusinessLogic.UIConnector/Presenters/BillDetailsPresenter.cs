@@ -37,7 +37,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 else
                 {
                     //tBLL.UpdateBill(bill);
-                    //throw new Exception("Succes: Factura " + bill.BillName + " a fost editată!");
+                    //throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Vinyl +" " + bill.BillName + AppTranslations.EditWithSuccess);
                 }
             }
             catch (Exception ex)

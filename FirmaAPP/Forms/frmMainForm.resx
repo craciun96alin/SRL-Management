@@ -117,7 +117,1036 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;MainMenuPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnProvider.Text" xml:space="preserve">
+    <value>Furnizori</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnOrderForBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="BtnFilament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="&gt;&gt;btnVinyl.Name" xml:space="preserve">
+    <value>btnVinyl</value>
+  </data>
+  <data name="btnSelling3DOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnProvidersCustomers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuOrders.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn3DPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSelling3DOrders.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForSell.Name" xml:space="preserve">
+    <value>btnOrderForSell</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSupplies.Name" xml:space="preserve">
+    <value>pnlSubMenuSupplies</value>
+  </data>
+  <data name="&gt;&gt;btnSelling3DOrders.Parent" xml:space="preserve">
+    <value>pnlSubMenuSellingOrders</value>
+  </data>
+  <data name="&gt;&gt;btnTshirt.Parent" xml:space="preserve">
+    <value>pnlSubMenuSupplies</value>
+  </data>
+  <data name="&gt;&gt;refreshToolStripMenuItem.Name" xml:space="preserve">
+    <value>refreshToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;BtnFilament.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelMessageBox.Name" xml:space="preserve">
+    <value>panelMessageBox</value>
+  </data>
+  <data name="&gt;&gt;btnSellingTshirtOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 42</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuProvidersCustomers.Name" xml:space="preserve">
+    <value>pnlSubMenuProvidersCustomers</value>
+  </data>
+  <data name="btn3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 37</value>
+  </data>
+  <data name="MainMenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 701</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LogoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSupplies.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnProvider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnSelling3DOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>70, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btn3D.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;btnProvidersCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnOrderForBuy.Text" xml:space="preserve">
+    <value>Cumpărare</value>
+  </data>
+  <data name="btnVinyl.Text" xml:space="preserve">
+    <value>Vinyl</value>
+  </data>
+  <data name="LogoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tbInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSubMenuSupplies.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnProvidersCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 235</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripInfoBox.Name" xml:space="preserve">
+    <value>contextMenuStripInfoBox</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSupplies.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="btnProvider.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuOrders.Name" xml:space="preserve">
+    <value>pnlSubMenuOrders</value>
+  </data>
+  <data name="btnSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnlSubMenuSupplies.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn3DDesign.Text" xml:space="preserve">
+    <value>Proiectări 3D</value>
+  </data>
+  <data name="btn3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.8pt</value>
+  </data>
+  <data name="MainMenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn3D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlSubMenuOrders.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="btn3DDesign.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="btnOtherPurchase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSupplies.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="btnOrderForSell.Text" xml:space="preserve">
+    <value>Vânzări</value>
+  </data>
+  <data name="tbInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnVinyl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="btnOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 38</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlSubMenu3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 533</value>
+  </data>
+  <data name="pnlSubMenuSellingOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 56</value>
+  </data>
+  <data name="&gt;&gt;MainMenuPanel.Name" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="btnOtherPurchase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="btnTshirt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSellingOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOrderForSell.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnCustomer.Name" xml:space="preserve">
+    <value>btnCustomer</value>
+  </data>
+  <data name="btn3DDesign.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnSellingTshirtOrders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn3D.Text" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="btnCustomer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSupplies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 38</value>
+  </data>
+  <data name="&gt;&gt;btnSupplies.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSupplies.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;btn3DDesign.Parent" xml:space="preserve">
+    <value>pnlSubMenu3D</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSellingOrders.Parent" xml:space="preserve">
+    <value>pnlSubMenuOrders</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForBuy.Name" xml:space="preserve">
+    <value>btnOrderForBuy</value>
+  </data>
+  <data name="btnTshirt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSupplies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOtherPurchase.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnOrderForSell.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tbInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuOrders.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn3DPrint.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSellingTshirtOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>70, 0, 0, 0</value>
+  </data>
+  <data name="BtnFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn3DDesign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="pnlSubMenuSupplies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 111</value>
+  </data>
+  <data name="btn3DDesign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnCustomer.Text" xml:space="preserve">
+    <value>Clienți</value>
+  </data>
+  <data name="&gt;&gt;panelChildForms.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOrders.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.8pt</value>
+  </data>
+  <data name="&gt;&gt;btn3DDesign.Name" xml:space="preserve">
+    <value>btn3DDesign</value>
+  </data>
+  <data name="btnSellingTshirtOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="btn3DDesign.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn3DDesign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn3D.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnTshirt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="&gt;&gt;btnCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelChildForms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 0</value>
+  </data>
+  <data name="&gt;&gt;panelMessageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnProvider.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panelChildForms.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Name" xml:space="preserve">
+    <value>btnOrders</value>
+  </data>
+  <data name="btnCustomer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelMessageBox</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Name" xml:space="preserve">
+    <value>btnSettings</value>
+  </data>
+  <data name="btnSelling3DOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnlSubMenuSellingOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="btnSupplies.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.8pt</value>
+  </data>
+  <data name="btnOrders.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BtnFilament.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="refreshToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 24</value>
+  </data>
+  <data name="pnlSubMenuOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pnlSubMenuSellingOrders.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MainMenuPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuProvidersCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSubMenuProvidersCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 65</value>
+  </data>
+  <data name="btnCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnProvider.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSupplies.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVinyl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="btnProvidersCustomers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="panelChildForms.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSellingOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOrderForBuy.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn3DPrint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnProvidersCustomers.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnProvider.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSellingTshirtOrders.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnOrders.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnTshirt.Name" xml:space="preserve">
+    <value>btnTshirt</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Mesaje informaționale:</value>
+  </data>
+  <data name="btnVinyl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCustomer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="tbInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOrderForSell.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="btn3DPrint.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="btnSellingTshirtOrders.Text" xml:space="preserve">
+    <value>Tricouri</value>
+  </data>
+  <data name="LogoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 73</value>
+  </data>
+  <data name="&gt;&gt;btnOtherPurchase.Name" xml:space="preserve">
+    <value>btnOtherPurchase</value>
+  </data>
+  <data name="&gt;&gt;btnSellingTshirtOrders.Name" xml:space="preserve">
+    <value>btnSellingTshirtOrders</value>
+  </data>
+  <data name="btnOrderForSell.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="&gt;&gt;btnVinyl.Parent" xml:space="preserve">
+    <value>pnlSubMenuSupplies</value>
+  </data>
+  <data name="pnlSubMenuSellingOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnSelling3DOrders.Text" xml:space="preserve">
+    <value>3D</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panelMessageBox.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="btnSupplies.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnProvider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSupplies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LogoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelMessageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 208</value>
+  </data>
+  <data name="pnlSubMenuProvidersCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pnlSubMenuProvidersCustomers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSelling3DOrders.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="pnlSubMenuSellingOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSellingTshirtOrders.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripInfoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn3DDesign.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnProvider.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnOtherPurchase.Parent" xml:space="preserve">
+    <value>pnlSubMenuSupplies</value>
+  </data>
+  <data name="btnOrderForSell.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnTshirt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="btnSelling3DOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="BtnFilament.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="MainMenuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForSell.Parent" xml:space="preserve">
+    <value>pnlSubMenuOrders</value>
+  </data>
+  <data name="btnOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 338</value>
+  </data>
+  <data name="btnProvidersCustomers.Text" xml:space="preserve">
+    <value>Furnizori/Clienți</value>
+  </data>
+  <data name="btnSellingTshirtOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn3D.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnOtherPurchase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForBuy.Parent" xml:space="preserve">
+    <value>pnlSubMenuOrders</value>
+  </data>
+  <data name="BtnFilament.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTshirt.Text" xml:space="preserve">
+    <value>Tricou</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuSellingOrders.Name" xml:space="preserve">
+    <value>pnlSubMenuSellingOrders</value>
+  </data>
+  <data name="&gt;&gt;BtnFilament.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSubMenuOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 120</value>
+  </data>
+  <data name="btnOrderForBuy.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="contextMenuStripInfoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 28</value>
+  </data>
+  <data name="panelChildForms.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnProvidersCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSelling3DOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlSubMenuSupplies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlSubMenu3D.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForBuy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOrderForBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlSubMenuSupplies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 124</value>
+  </data>
+  <data name="btnOtherPurchase.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 598</value>
+  </data>
+  <data name="pnlSubMenu3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 65</value>
+  </data>
+  <data name="pnlSubMenuProvidersCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 273</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCustomer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="btn3DDesign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelMessageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;btnProvider.Parent" xml:space="preserve">
+    <value>pnlSubMenuProvidersCustomers</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="btnSellingTshirtOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnVinyl.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="pnlSubMenuOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelMessageBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenu3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSubMenu3D.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuProvidersCustomers.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="btnProvider.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnFilament.Text" xml:space="preserve">
+    <value>Filament</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMainForm</value>
+  </data>
+  <data name="btn3DPrint.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrint.Name" xml:space="preserve">
+    <value>btn3DPrint</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSellingTshirtOrders.Parent" xml:space="preserve">
+    <value>pnlSubMenuSellingOrders</value>
+  </data>
+  <data name="&gt;&gt;btn3D.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOrderForSell.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;BtnFilament.Parent" xml:space="preserve">
+    <value>pnlSubMenuSupplies</value>
+  </data>
+  <data name="&gt;&gt;refreshToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSelling3DOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;panelChildForms.Name" xml:space="preserve">
+    <value>panelChildForms</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrint.Parent" xml:space="preserve">
+    <value>pnlSubMenu3D</value>
+  </data>
+  <data name="btn3DPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 191</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForSell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelChildForms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbInfo.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOtherPurchase.Text" xml:space="preserve">
+    <value>Altele</value>
+  </data>
+  <data name="btnSupplies.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSupplies.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenu3D.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnProvider.Name" xml:space="preserve">
+    <value>btnProvider</value>
+  </data>
+  <data name="btn3DPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="btnOrderForBuy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="refreshToolStripMenuItem.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;btn3D.Name" xml:space="preserve">
+    <value>btn3D</value>
+  </data>
+  <data name="btnTshirt.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnOrders.Text" xml:space="preserve">
+    <value>Comenzi</value>
+  </data>
+  <data name="MainMenuPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnSupplies.Name" xml:space="preserve">
+    <value>btnSupplies</value>
+  </data>
+  <data name="pnlSubMenu3D.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnSupplies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 73</value>
+  </data>
+  <data name="btnSellingTshirtOrders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOtherPurchase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenu3D.Name" xml:space="preserve">
+    <value>pnlSubMenu3D</value>
+  </data>
+  <data name="&gt;&gt;btnProvidersCustomers.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn3DPrint.Text" xml:space="preserve">
+    <value>Piese 3D</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="btn3D.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btn3DDesign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.8pt</value>
+  </data>
+  <data name="&gt;&gt;btnVinyl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOtherPurchase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenu3D.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="BtnFilament.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForSell.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOrderForSell.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="&gt;&gt;btnTshirt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbInfo.Parent" xml:space="preserve">
+    <value>panelMessageBox</value>
+  </data>
+  <data name="&gt;&gt;btnOtherPurchase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOrderForBuy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTshirt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelChildForms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1216, 701</value>
+  </data>
+  <data name="btnOtherPurchase.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProvidersCustomers.Name" xml:space="preserve">
+    <value>btnProvidersCustomers</value>
+  </data>
+  <data name="&gt;&gt;tbInfo.Name" xml:space="preserve">
+    <value>tbInfo</value>
+  </data>
+  <data name="btnProvidersCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 38</value>
+  </data>
+  <data name="pnlSubMenuOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 376</value>
+  </data>
+  <data name="&gt;&gt;MainMenuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOtherPurchase.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panelMessageBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnCustomer.Parent" xml:space="preserve">
+    <value>pnlSubMenuProvidersCustomers</value>
+  </data>
+  <data name="&gt;&gt;BtnFilament.Name" xml:space="preserve">
+    <value>BtnFilament</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTshirt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSelling3DOrders.Name" xml:space="preserve">
+    <value>btnSelling3DOrders</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1468, 701</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="btnOrderForBuy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnProvidersCustomers.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnVinyl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnProvider.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlSubMenuProvidersCustomers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSettings.Parent" xml:space="preserve">
+    <value>MainMenuPanel</value>
+  </data>
+  <data name="LogoPanel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnProvidersCustomers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOrderForSell.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LogoPanel.Name" xml:space="preserve">
+    <value>LogoPanel</value>
+  </data>
+  <data name="btnTshirt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnSellingTshirtOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="panelChildForms.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn3D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tbInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn3DPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVinyl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="BtnFilament.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnFilament.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSupplies.Text" xml:space="preserve">
+    <value>Consumabile</value>
+  </data>
+  <data name="btnTshirt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn3D.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelMessageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 640</value>
+  </data>
+  <data name="&gt;&gt;btn3DDesign.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOrderForBuy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSelling3DOrders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOrders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuProvidersCustomers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnProvidersCustomers.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 496</value>
+  </data>
+  <data name="btnOrderForBuy.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="btnProvidersCustomers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.8pt</value>
+  </data>
+  <data name="btnVinyl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSelling3DOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnVinyl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="MainMenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
   <metadata name="contextMenuStripInfoBox.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>65</value>
   </metadata>
 </root>

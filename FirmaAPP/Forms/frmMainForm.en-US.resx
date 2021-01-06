@@ -117,163 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AcquisitionOrder" xml:space="preserve">
-    <value>Comanda de achiziție</value>
+  <data name="btn3DDesign.Text" xml:space="preserve">
+    <value>Designs</value>
   </data>
-  <data name="AddWithSuccess" xml:space="preserve">
-    <value>a fost adăugat/ă!</value>
+  <data name="btn3DPrint.Text" xml:space="preserve">
+    <value>Prints</value>
   </data>
-  <data name="Bill" xml:space="preserve">
-    <value>Factura</value>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
-  <data name="BillAcquisitionType" xml:space="preserve">
-    <value>Achiziții</value>
+  <data name="btnSellingTshirtOrders.Text" xml:space="preserve">
+    <value>T-shirts</value>
   </data>
-  <data name="BillSellingType" xml:space="preserve">
-    <value>Vânzări</value>
+  <data name="btnOrderForSell.Text" xml:space="preserve">
+    <value>Sales</value>
   </data>
-  <data name="CancelConfirmation" xml:space="preserve">
-    <value>Toate datele noi introduse se vor pierde. Doriți să continuați?</value>
+  <data name="btnOrderForBuy.Text" xml:space="preserve">
+    <value>Acquisitions</value>
   </data>
-  <data name="Customer" xml:space="preserve">
-    <value>Clientul</value>
+  <data name="btnOrders.Text" xml:space="preserve">
+    <value>Orders</value>
   </data>
-  <data name="DeleteQuestion" xml:space="preserve">
-    <value>Doriți să ștergeți </value>
+  <data name="btnCustomer.Text" xml:space="preserve">
+    <value>Customers</value>
   </data>
-  <data name="EditWithSuccess" xml:space="preserve">
-    <value>a fost editat/ă!</value>
+  <data name="btnProvider.Text" xml:space="preserve">
+    <value>Providers</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>Eroare</value>
+  <data name="btnProvidersCustomers.Text" xml:space="preserve">
+    <value>Providers/Customers</value>
   </data>
-  <data name="ErrorInfoBox" xml:space="preserve">
-    <value>Eroare:</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
   </data>
-  <data name="Filament" xml:space="preserve">
-    <value>Filamentul</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Informational messages:</value>
   </data>
-  <data name="FileDoNotExist" xml:space="preserve">
-    <value>Fișierul nu este disponibil! Verificați adresa fișierului din setări!</value>
+  <data name="btnOtherPurchase.Text" xml:space="preserve">
+    <value>Others</value>
   </data>
-  <data name="FirstDefineBillDirectory" xml:space="preserve">
-    <value>Înainte de a adăuga facturi trebuie să definești folder-ul destinat facturilor din setări!</value>
+  <data name="btnVinyl.Text" xml:space="preserve">
+    <value>Vinyls</value>
   </data>
-  <data name="LoginFailed" xml:space="preserve">
-    <value>Numele și parola nu se potrivesc!</value>
+  <data name="BtnFilament.Text" xml:space="preserve">
+    <value>Filaments</value>
   </data>
-  <data name="MessageBoxInfoConfirmation" xml:space="preserve">
-    <value>Ești sigur de datele introduse?</value>
+  <data name="btnTshirt.Text" xml:space="preserve">
+    <value>T-shirts</value>
   </data>
-  <data name="MoneyWasUpdated" xml:space="preserve">
-    <value>Capitalul firmei a fost actualizat! Verificați în detaliile firmei.</value>
+  <data name="btnSupplies.Text" xml:space="preserve">
+    <value>Supplies</value>
   </data>
-  <data name="NameAlreadyExist" xml:space="preserve">
-    <value>Numele este deja existent, vă rugăm alegeți un nume unic!</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
-  <data name="NoBill" xml:space="preserve">
-    <value>Fară factură!</value>
+  <data name="Atenție:" xml:space="preserve">
+    <value>Provider</value>
   </data>
-  <data name="Order" xml:space="preserve">
-    <value>Comanda </value>
+  <data name="&quot;Atenție:&quot;" xml:space="preserve">
+    <value>Provider</value>
   </data>
-  <data name="OtherPurchase" xml:space="preserve">
-    <value>Consumabilul</value>
+  <data name="AppTranslations.VerifyProviderToBeCompleted" xml:space="preserve">
+    <value>ddds</value>
   </data>
-  <data name="PasswordsDoseNotMatch" xml:space="preserve">
-    <value>Parolele introduse nu sunt similare!</value>
+  <data name="Trebuie ales un furnizor!" xml:space="preserve">
+    <value>cxz</value>
   </data>
-  <data name="Provider" xml:space="preserve">
-    <value>Furnizorul</value>
-  </data>
-  <data name="QAddNewTshirt" xml:space="preserve">
-    <value>Adăugare tricou nou?</value>
-  </data>
-  <data name="QPayWithCash" xml:space="preserve">
-    <value>Doriți să folosiți capitalul din casa firmei?</value>
-  </data>
-  <data name="QPayWithCreditCart" xml:space="preserve">
-    <value>Doriți să folosiți capitalul de pe cardul firmei?</value>
-  </data>
-  <data name="QPayWithExtraMoney" xml:space="preserve">
-    <value>Doriți să folosiți capitalul din banii extra?</value>
-  </data>
-  <data name="RemoveWithSuccess" xml:space="preserve">
-    <value>a fost șters!</value>
-  </data>
-  <data name="RON" xml:space="preserve">
-    <value>RON</value>
-  </data>
-  <data name="SelectAtLeastOneRow" xml:space="preserve">
-    <value>Selectează cel puțin un rând!</value>
-  </data>
-  <data name="SelectAtMostOneRow" xml:space="preserve">
-    <value>Selectează maxim un rând!</value>
-  </data>
-  <data name="Settings" xml:space="preserve">
-    <value>Setările</value>
-  </data>
-  <data name="StockIsEmpty" xml:space="preserve">
-    <value>Stocul este gol</value>
-  </data>
-  <data name="Succes" xml:space="preserve">
-    <value>Succes</value>
-  </data>
-  <data name="SuccesInfoBox" xml:space="preserve">
-    <value>Succes:</value>
-  </data>
-  <data name="Supplie" xml:space="preserve">
-    <value>Consumabilul</value>
-  </data>
-  <data name="Tshirt" xml:space="preserve">
-    <value>Tricoul</value>
-  </data>
-  <data name="TshirtIsNotInStock" xml:space="preserve">
-    <value>Tricoul nu este salvat în stoc.Doriți introducerea lui?</value>
-  </data>
-  <data name="User" xml:space="preserve">
-    <value>Utilizatorul</value>
-  </data>
-  <data name="VerifyCustomerToBeCompleted" xml:space="preserve">
-    <value>Trebuie ales un client!</value>
-  </data>
-  <data name="VerifyFileToBeCompleted" xml:space="preserve">
-    <value>Trebuie să selectați un fișier!</value>
-  </data>
-  <data name="VerifyNameToBeCompleted" xml:space="preserve">
-    <value>Trebuie completat campul \"Nume\"!</value>
-  </data>
-  <data name="VerifyPasswordToBeCompleted" xml:space="preserve">
-    <value>Trebuie completat campul \"Parolă\"!</value>
-  </data>
-  <data name="VerifyProviderToBeCompleted" xml:space="preserve">
-    <value>Trebuie ales un client!</value>
-  </data>
-  <data name="VerifyRatingToBeCompleted" xml:space="preserve">
-    <value>Trebuie să selectați rating-ul!</value>
-  </data>
-  <data name="Vinyl" xml:space="preserve">
-    <value>Vinyl-ul</value>
-  </data>
-  <data name="Warning" xml:space="preserve">
-    <value>Atenție</value>
-  </data>
-  <data name="WarningInfoBox" xml:space="preserve">
-    <value>Atenție:</value>
-  </data>
-  <data name="WarningMessageBoxTitle" xml:space="preserve">
-    <value>Atenție!</value>
-  </data>
-  <data name="Welcome" xml:space="preserve">
-    <value>Bine ai venit:</value>
-  </data>
-  <data name="WindowIsOpenAlready" xml:space="preserve">
-    <value>Nu poți deschide aceeași formă de mai multe ori.</value>
-  </data>
-  <data name="_3DDesign" xml:space="preserve">
-    <value>Proiectarea</value>
-  </data>
-  <data name="_3DPrint" xml:space="preserve">
-    <value>Piesa 3D</value>
+  <data name="VerifyProviderToBeCompleteVerifyProviderToBeCompleted" xml:space="preserve">
+    <value>asd</value>
   </data>
 </root>

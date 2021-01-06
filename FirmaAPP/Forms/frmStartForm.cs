@@ -1,4 +1,5 @@
 ﻿using FirmaAPP.BusinessLogic.UIConnector;
+using FirmaAPP.Common;
 using FirmaAPP.DataAccess;
 using FirmaAPP.Forms;
 using System;
@@ -102,7 +103,7 @@ namespace FirmaAPP
         private void btnRo_Click(object sender, EventArgs e)
         {
             this.ResetText();
-            this.Text = "Bine ai venit:";
+            this.Text = AppTranslations.Welcome;
             CultureInfo info = CultureInfo.CreateSpecificCulture("ro-RO");
             Thread.CurrentThread.CurrentUICulture = info;
             Thread.CurrentThread.CurrentCulture = info;
@@ -111,7 +112,7 @@ namespace FirmaAPP
         private void btnEng_Click(object sender, EventArgs e)
         {
             this.ResetText();
-            this.Text = "Welcome:";
+            this.Text = AppTranslations.Welcome;
             CultureInfo info = CultureInfo.CreateSpecificCulture("en-US");
             Thread.CurrentThread.CurrentUICulture = info;
             Thread.CurrentThread.CurrentCulture = info;
