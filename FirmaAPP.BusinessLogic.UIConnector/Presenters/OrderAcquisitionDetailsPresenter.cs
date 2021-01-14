@@ -132,7 +132,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 foreach (VinylOrder vo in vinylOrders)
                 {
                     Vinyl vinyl = vBLL.GetVinylByID(vo.VinylID);
-                    string VinylName = vinyl.VinylID + "," + vinyl.Name + "," + vinyl.Type + "," + vinyl.Color + "," + vinyl.Rating + "," + vo.Quantity.ToString() + "," + vo.TotalPrice.ToString();
+                    string VinylName = vinyl.VinylID + "," + vinyl.Name + "," + vinyl.Type + "," + vinyl.Color.Name + "," + vinyl.Rating + "," + vo.Quantity.ToString() + "," + vo.TotalPrice.ToString();
                     vinylsName.Add(VinylName);
                 }
                 return vinylsName;
@@ -199,7 +199,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             foreach (FilamentOrder fo in filamentOrders)
             {
                 Filament filament = opBLL.GetFilamentByID(fo.FilamentID);
-                string FilamentName = filament.FilamentID + "," + filament.Name + "," + filament.Type + "," + filament.Color + "," + filament.Rating + "," + fo.Quantity.ToString() + "," + fo.TotalPrice.ToString();
+                string FilamentName = filament.FilamentID + "," + filament.Name + "," + filament.Type + "," + filament.Color.Name + "," + filament.Rating + "," + fo.Quantity.ToString() + "," + fo.TotalPrice.ToString();
                 filamentsName.Add(FilamentName);
             }
             return filamentsName;
@@ -259,7 +259,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             foreach (TshirtOrder to in tshirtOrders)
             {
                 Tshirt tshirt = tBLL.GetTshirtByID(to.TshirtID);
-                string tshirtName = tshirt.TshirtID + "," + tshirt.Type + "," + tshirt.Color + "," + tshirt.Rating + "," + tshirt.Sex + "," + tshirt.Size + "," + to.Quantity.ToString() + "," + to.TotalPrice.ToString();
+                string tshirtName = tshirt.TshirtID + "," + tshirt.Type + "," + tshirt.Color.Name + "," + tshirt.Rating + "," + tshirt.Sex + "," + tshirt.Size + "," + to.Quantity.ToString() + "," + to.TotalPrice.ToString();
                 tshirtsName.Add(tshirtName);
             }
             return tshirtsName;

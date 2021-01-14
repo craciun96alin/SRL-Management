@@ -67,6 +67,62 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 throw ex;
             }
         }
+
+        public List<string> GetAllAttributeColorNames()
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var colorsName = aBLL.GetAllAttributeColorNames();
+                return colorsName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<string> GetAllAttributeFilamentsTypeNames()
+        {
+            try
+            {
+                AttributeFilamentsTypeBLL pBLL = new AttributeFilamentsTypeBLL();
+                var FilamentsTypeName = pBLL.GetAllAttributeFilamentsTypeNames();
+                return FilamentsTypeName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public AttributeColor GetColorAttributeByName(string name)
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var color = aBLL.GetAttributeColorByName(name);
+                return color;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public AttributeFilamentsType GetFilamentsTypeAttributeByName(string name)
+        {
+            try
+            {
+                AttributeFilamentsTypeBLL aBLL = new AttributeFilamentsTypeBLL();
+                var FilamentsType = aBLL.GetAttributeFilamentsTypeByName(name);
+                return FilamentsType;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         #endregion
     }
 }

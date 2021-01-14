@@ -71,6 +71,7 @@
             this.btnEng.Name = "btnEng";
             this.btnEng.UseSelectable = true;
             this.btnEng.Click += new System.EventHandler(this.btnEng_Click);
+            this.btnEng.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnEng_MouseClick);
             // 
             // btnRo
             // 
@@ -80,6 +81,7 @@
             this.btnRo.Name = "btnRo";
             this.btnRo.UseSelectable = true;
             this.btnRo.Click += new System.EventHandler(this.btnRo_Click);
+            this.btnRo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnRo_MouseClick);
             // 
             // frmStartForm
             // 

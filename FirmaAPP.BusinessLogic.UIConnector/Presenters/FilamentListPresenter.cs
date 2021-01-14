@@ -8,11 +8,15 @@ namespace FirmaAPP.BusinessLogic.UIConnector
 {
     public class FilamentListPresenter
     {
+        #region private members
         private IFilamentListView _view;
+        #endregion
+        #region Constructor
         public FilamentListPresenter(IFilamentListView view)
         {
             this._view = view;
         }
+        #endregion
         public void Init()
         {
             FilamentsBLL fBLL = new FilamentsBLL();

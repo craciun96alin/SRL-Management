@@ -120,13 +120,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presenters\Attribute3DPrintsQualityDetailsPresenter.cs" />
     <Compile Include="Presenters\AppSettingsPresenter.cs" />
+    <Compile Include="Presenters\AttributeColorDetailsPresenter.cs" />
+    <Compile Include="Presenters\AttributeColorListPresenter.cs" />
     <Compile Include="Presenters\BillDetailsPresenter.cs" />
     <Compile Include="Presenters\BusinessDetailsPresenter.cs" />
     <Compile Include="Presenters\CustomerDetailsPresenter.cs" />
     <Compile Include="Presenters\CustomerListPresenter.cs" />
     <Compile Include="Presenters\FilamentDetailsPresenter.cs" />
     <Compile Include="Presenters\FilamentListPresenter.cs" />
+    <Compile Include="Presenters\AttributeFilamentsTypeListPresenter.cs" />
+    <Compile Include="Presenters\AttributeFilamentsTypeDetailsPresenter.cs" />
     <Compile Include="Presenters\Order3DSalesDetailsPresenter.cs" />
     <Compile Include="Presenters\OrderAcquisitionDetailsPresenter.cs" />
     <Compile Include="Presenters\OrderAcquisitionListPresenter.cs" />
@@ -140,14 +145,19 @@
     <Compile Include="Presenters\StartFormPresenter.cs" />
     <Compile Include="Presenters\TshirtDetailsPresenter.cs" />
     <Compile Include="Presenters\TshirtListPresenter.cs" />
+    <Compile Include="Presenters\AttributeTshirtsTypeListPresenter.cs" />
+    <Compile Include="Presenters\AttributeTshirtsTypeDetailsPresenter.cs" />
     <Compile Include="Presenters\UserDetailsPresenter.cs" />
     <Compile Include="Presenters\UserListPresenter.cs" />
     <Compile Include="Presenters\VinylDetailsPresenter.cs" />
     <Compile Include="Presenters\VinylListPresenter.cs" />
+    <Compile Include="Presenters\AttributeVinylsTypeListPresenter.cs" />
+    <Compile Include="Presenters\AttributeVinylsTypeDetailsPresenter.cs" />
     <Compile Include="Presenters\_3DDesignDetailsPresenter.cs" />
     <Compile Include="Presenters\_3DDesignListPresenter.cs" />
     <Compile Include="Presenters\_3DPrintDetailsPresenter.cs" />
     <Compile Include="Presenters\_3DPrintListPresenter.cs" />
+    <Compile Include="Presenters\Attribute3DPrintsQualityListPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RichTextBoxExtensions.cs" />
@@ -157,6 +167,16 @@
     <Compile Include="ViewInterfaces\I3DPrintDetailsView.cs" />
     <Compile Include="ViewInterfaces\I3DPrintListView.cs" />
     <Compile Include="ViewInterfaces\IAppSettingsView.cs" />
+    <Compile Include="ViewInterfaces\IAttribute3DPrintsQualityDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IAttribute3DPrintsQualityListView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeColorDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeColorsListView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeFilamentsTypeListView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeFilamentsTypeDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeTshirtsTypeListView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeTshirtsTypeDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeVinylsTypeListView.cs" />
+    <Compile Include="ViewInterfaces\IAttributeVinylsTypeDetailsView.cs" />
     <Compile Include="ViewInterfaces\IBillDetailsView.cs" />
     <Compile Include="ViewInterfaces\IBusinessDetailsView.cs" />
     <Compile Include="ViewInterfaces\ICustomerDetailsView.cs" />

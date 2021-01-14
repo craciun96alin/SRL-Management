@@ -108,8 +108,25 @@ namespace FirmaAPP.DataAccess
                 .HasOne<Provider>(s => s.Provider)
                 .WithMany(g => g.Filaments)
                 .HasForeignKey(s => s.ProviderID);
+
+            // Set up One-to-Many relationship with FilamentsType
+            modelBuilder.Entity<Filament>()
+                .HasOne<AttributeFilamentsType>(s => s.Type)
+                .WithMany(g => g.Filaments)
+                .HasForeignKey(s => s.AttributeFilamentsTypeID);
+
+            // Set up One-to-Many relationship with Colors
+            modelBuilder.Entity<Filament>()
+                .HasOne<AttributeColor>(s => s.Color)
+                .WithMany(g => g.Filaments)
+                .HasForeignKey(s => s.AttributeColorID);
+
             modelBuilder.Entity<Filament>().Ignore(f => f.ProviderName);
             modelBuilder.Entity<Filament>().Ignore(f => f.Provider);
+            modelBuilder.Entity<Filament>().Ignore(f => f.Color);
+            modelBuilder.Entity<Filament>().Ignore(f => f.ColorName);
+            modelBuilder.Entity<Filament>().Ignore(f => f.Type);
+            modelBuilder.Entity<Filament>().Ignore(f => f.TypeName);
         }
 
         private void SetUpFilamentOrders(ModelBuilder modelBuilder)
@@ -164,8 +181,25 @@ namespace FirmaAPP.DataAccess
                 .HasOne<Provider>(s => s.Provider)
                 .WithMany(g => g.Vinyls)
                 .HasForeignKey(s => s.ProviderID);
+
+            // Set up One-to-Many relationship with VinylsType
+            modelBuilder.Entity<Vinyl>()
+                .HasOne<AttributeVinylsType>(s => s.Type)
+                .WithMany(g => g.Vinyls)
+                .HasForeignKey(s => s.AttributeVinylsTypeID);
+
+            // Set up One-to-Many relationship with Colors
+            modelBuilder.Entity<Vinyl>()
+                .HasOne<AttributeColor>(s => s.Color)
+                .WithMany(g => g.Vinyls)
+                .HasForeignKey(s => s.AttributeColorID);
+
             modelBuilder.Entity<Vinyl>().Ignore(f => f.ProviderName);
             modelBuilder.Entity<Vinyl>().Ignore(f => f.Provider);
+            modelBuilder.Entity<Vinyl>().Ignore(f => f.Color);
+            modelBuilder.Entity<Vinyl>().Ignore(f => f.ColorName);
+            modelBuilder.Entity<Vinyl>().Ignore(f => f.Type);
+            modelBuilder.Entity<Vinyl>().Ignore(f => f.TypeName);
         }
 
         private void SetUpVinylOrders(ModelBuilder modelBuilder)
@@ -194,8 +228,26 @@ namespace FirmaAPP.DataAccess
                 .HasOne<Provider>(s => s.Provider)
                 .WithMany(g => g.Tshirts)
                 .HasForeignKey(s => s.ProviderID);
+
+            // Set up One-to-Many relationship with TshirtsType
+            modelBuilder.Entity<Tshirt>()
+                .HasOne<AttributeTshirtsType>(s => s.Type)
+                .WithMany(g => g.Tshirts)
+                .HasForeignKey(s => s.AttributeTshirtsTypeID);
+
+            // Set up One-to-Many relationship with Colors
+            modelBuilder.Entity<Tshirt>()
+                .HasOne<AttributeColor>(s => s.Color)
+                .WithMany(g => g.Tshirts)
+                .HasForeignKey(s => s.AttributeColorID);
+
             modelBuilder.Entity<Tshirt>().Ignore(f => f.ProviderName);
             modelBuilder.Entity<Tshirt>().Ignore(f => f.Provider);
+            modelBuilder.Entity<Tshirt>().Ignore(f => f.Color);
+            modelBuilder.Entity<Tshirt>().Ignore(f => f.ColorName);
+            modelBuilder.Entity<Tshirt>().Ignore(f => f.Type);
+            modelBuilder.Entity<Tshirt>().Ignore(f => f.TypeName);
+            modelBuilder.Entity<Tshirt>().Ignore(f => f.Id);
         }
 
         private void SetUpTshirtOrders(ModelBuilder modelBuilder)
@@ -237,6 +289,12 @@ namespace FirmaAPP.DataAccess
                 .HasOne<_3DDesign>(_3dd => _3dd._3DDesign)
                 .WithMany(op => op._3DDesignOrders)
                 .HasForeignKey(_3dd => _3dd._3DDesignID);
+
+            // Set up One-to-Many relationship with Quality
+            modelBuilder.Entity<_3DPrintOrder>()
+                .HasOne<Attribute3DPrintsQuality>(s => s.PrintQuality)
+                .WithMany(g => g._3DPrintOrders)
+                .HasForeignKey(s => s.Attribute3DPrintsQualityID);
 
         }
 
@@ -307,6 +365,12 @@ namespace FirmaAPP.DataAccess
 
         public DbSet<AppSettings> AppSettings { get; set; }
         public DbSet<BusinessDetails> BusinessDetails { get; set; }
+
+        public DbSet<AttributeColor> AttributeColor { get; set; }
+        public DbSet<AttributeFilamentsType> AttributeFilamentsType { get; set; }
+        public DbSet<AttributeVinylsType> AttributeVinylsType { get; set; }
+        public DbSet<AttributeTshirtsType> AttributeTshirtsType { get; set; }
+        public DbSet<Attribute3DPrintsQuality> Attribute3DPrintsQuality { get; set; }
         #endregion
     }
 }

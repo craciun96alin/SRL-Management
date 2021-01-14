@@ -108,7 +108,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 foreach (FilamentOrder fo in filamentOrders)
                 {
                     Filament filament = fBLL.GetFilamentByID(fo.FilamentID);
-                    string filamentName = filament.FilamentID + "," + filament.Name + "," + filament.Type + "," + filament.Color + "," + filament.Rating + "," + fo.Quantity.ToString() + "," + filament.ProviderName;
+                    string filamentName = filament.FilamentID + "," + filament.Name + "," + filament.Type + "," + filament.Color.Name + "," + filament.Rating + "," + fo.Quantity.ToString() + "," + filament.ProviderName;
                     filamentsName.Add(filamentName);
                 }
                 return filamentsName;
@@ -184,7 +184,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                     _3DPrint _3DP = pBLL.Get3DPrintByID(po._3DPrintID);
                     Filament f = fBLL.GetFilamentByID(po.FilamentID);
                     string _3DPrintName = _3DP._3DPrintID + "," + _3DP.Name + "," + f.Name + "," + po.PrintingTimeInMin
-                        + "," + po.Wheight + "," + po.Infill + "," + po.Quality + "," + po.PrintsQuantity + "," + po.TotalPrice;
+                        + "," + po.Wheight + "," + po.Infill + "," + po.PrintQuality.Name + "," + po.PrintsQuantity + "," + po.TotalPrice;
                     _3DPrintsName.Add(_3DPrintName);
                 }
                 return _3DPrintsName;
@@ -193,6 +193,11 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             {
                 throw ex;
             }
+        }
+
+        public Attribute3DPrintsQuality GeAttribute3DPrintsQualityByName(string v)
+        {
+            throw new NotImplementedException();
         }
 
         public List<_3DPrintOrder> Get3DPrintOrdersByOrderID(int orderID)
@@ -387,6 +392,20 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 }
                 oBLL.UpdateOrder(_view.Order);
                 throw new Exception(AppTranslations.SuccesInfoBox + AppTranslations.Bill + " " + bill.BillName + AppTranslations.AddWithSuccess);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<string> GetAllAttribute3DPrintsQualityNames()
+        {
+            try
+            {
+                Attribute3DPrintsQualityBLL _3DPrintsQualityBLL = new Attribute3DPrintsQualityBLL();
+                var printsQuality = _3DPrintsQualityBLL.GetAllAttribute3DPrintsQualitysNames();
+                return printsQuality;
             }
             catch (Exception ex)
             {

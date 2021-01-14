@@ -175,7 +175,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 {
                     Tshirt tshirt = tBLL.GetTshirtByID(to.TshirtID);
                     Provider provider = pBLL.GetProviderByID(tshirt.ProviderID);
-                    string tshirtName = tshirt.TshirtID + "," + provider.Name +","+ tshirt.Type + "," + tshirt.Color + "," + tshirt.Rating + "," + tshirt.Sex + "," + tshirt.Size + "," + to.Quantity.ToString() + "," + to.TotalPrice.ToString();
+                    string tshirtName = tshirt.TshirtID + "," + provider.Name +","+ tshirt.Type + "," + tshirt.Color.Name + "," + tshirt.Rating + "," + tshirt.Sex + "," + tshirt.Size + "," + to.Quantity.ToString() + "," + to.TotalPrice.ToString();
                     tshirtsName.Add(tshirtName);
                 }
                 return tshirtsName;
@@ -231,7 +231,7 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 foreach (VinylOrder vo in vinylOrders)
                 {
                     Vinyl vinyl = vBLL.GetVinylByID(vo.VinylID);
-                    string VinylName = vinyl.VinylID + "," + vinyl.Name + "," + vinyl.Type + "," + vinyl.Color + "," + vinyl.Rating + "," + vo.Quantity.ToString() + "," +vinyl.ProviderName;
+                    string VinylName = vinyl.VinylID + "," + vinyl.Name + "," + vinyl.Type + "," + vinyl.Color.Name + "," + vinyl.Rating + "," + vo.Quantity.ToString() + "," +vinyl.ProviderName;
                     vinylsName.Add(VinylName);
                 }
                 return vinylsName;

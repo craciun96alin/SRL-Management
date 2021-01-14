@@ -33,6 +33,13 @@
             this.panelAddCancelButtons = new System.Windows.Forms.Panel();
             this.btnConfirm = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.panelAttribute = new System.Windows.Forms.Panel();
+            this.btn3DPrintsQuality = new System.Windows.Forms.Button();
+            this.btnVinylsType = new System.Windows.Forms.Button();
+            this.btnFilamentsType = new System.Windows.Forms.Button();
+            this.btnTshirtsType = new System.Windows.Forms.Button();
+            this.btnColors = new System.Windows.Forms.Button();
+            this.btnAttributes = new System.Windows.Forms.Button();
             this.panelBusinessDetails = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -64,23 +71,24 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnBusinessDetails = new System.Windows.Forms.Button();
             this.panel3DDetails = new System.Windows.Forms.Panel();
+            this.btn3DPrintFolder = new System.Windows.Forms.Button();
             this.tb3DPrintFolderPath = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnAdd3DDesignFolder = new System.Windows.Forms.Button();
             this.tb3DDesignFolderPath = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btn3DSettings = new System.Windows.Forms.Button();
             this.panelBillDetails = new System.Windows.Forms.Panel();
+            this.btnAddBill = new System.Windows.Forms.Button();
             this.tbBillFolderPath = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btnBillSettings = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
             this.openFolder = new System.Windows.Forms.FolderBrowserDialog();
-            this.btn3DPrintFolder = new System.Windows.Forms.Button();
-            this.btnAdd3DDesignFolder = new System.Windows.Forms.Button();
-            this.btnAddBill = new System.Windows.Forms.Button();
             this.panelMainSettings.SuspendLayout();
             this.panelAddCancelButtons.SuspendLayout();
+            this.panelAttribute.SuspendLayout();
             this.panelBusinessDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericExtraMoney)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericCashMoney)).BeginInit();
@@ -95,6 +103,8 @@
             resources.ApplyResources(this.panelMainSettings, "panelMainSettings");
             this.panelMainSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             this.panelMainSettings.Controls.Add(this.panelAddCancelButtons);
+            this.panelMainSettings.Controls.Add(this.panelAttribute);
+            this.panelMainSettings.Controls.Add(this.btnAttributes);
             this.panelMainSettings.Controls.Add(this.panelBusinessDetails);
             this.panelMainSettings.Controls.Add(this.btnBusinessDetails);
             this.panelMainSettings.Controls.Add(this.panel3DDetails);
@@ -106,30 +116,112 @@
             // 
             // panelAddCancelButtons
             // 
-            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
             this.panelAddCancelButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             this.panelAddCancelButtons.Controls.Add(this.btnConfirm);
             this.panelAddCancelButtons.Controls.Add(this.btnCancel);
+            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
             this.panelAddCancelButtons.Name = "panelAddCancelButtons";
             // 
             // btnConfirm
             // 
-            resources.ApplyResources(this.btnConfirm, "btnConfirm");
             this.btnConfirm.BackColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.btnConfirm, "btnConfirm");
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.UseVisualStyleBackColor = false;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // btnCancel
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // panelAttribute
+            // 
+            this.panelAttribute.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            this.panelAttribute.Controls.Add(this.btn3DPrintsQuality);
+            this.panelAttribute.Controls.Add(this.btnVinylsType);
+            this.panelAttribute.Controls.Add(this.btnFilamentsType);
+            this.panelAttribute.Controls.Add(this.btnTshirtsType);
+            this.panelAttribute.Controls.Add(this.btnColors);
+            resources.ApplyResources(this.panelAttribute, "panelAttribute");
+            this.panelAttribute.Name = "panelAttribute";
+            // 
+            // btn3DPrintsQuality
+            // 
+            this.btn3DPrintsQuality.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btn3DPrintsQuality, "btn3DPrintsQuality");
+            this.btn3DPrintsQuality.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn3DPrintsQuality.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btn3DPrintsQuality.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btn3DPrintsQuality.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn3DPrintsQuality.Name = "btn3DPrintsQuality";
+            this.btn3DPrintsQuality.UseVisualStyleBackColor = false;
+            this.btn3DPrintsQuality.Click += new System.EventHandler(this.btn3DPrintsQuality_Click);
+            // 
+            // btnVinylsType
+            // 
+            this.btnVinylsType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnVinylsType, "btnVinylsType");
+            this.btnVinylsType.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVinylsType.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btnVinylsType.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btnVinylsType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVinylsType.Name = "btnVinylsType";
+            this.btnVinylsType.UseVisualStyleBackColor = false;
+            this.btnVinylsType.Click += new System.EventHandler(this.btnVinylsType_Click);
+            // 
+            // btnFilamentsType
+            // 
+            this.btnFilamentsType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnFilamentsType, "btnFilamentsType");
+            this.btnFilamentsType.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnFilamentsType.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btnFilamentsType.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btnFilamentsType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnFilamentsType.Name = "btnFilamentsType";
+            this.btnFilamentsType.UseVisualStyleBackColor = false;
+            this.btnFilamentsType.Click += new System.EventHandler(this.btnFilamentsType_Click);
+            // 
+            // btnTshirtsType
+            // 
+            this.btnTshirtsType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnTshirtsType, "btnTshirtsType");
+            this.btnTshirtsType.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTshirtsType.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btnTshirtsType.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btnTshirtsType.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTshirtsType.Name = "btnTshirtsType";
+            this.btnTshirtsType.UseVisualStyleBackColor = false;
+            this.btnTshirtsType.Click += new System.EventHandler(this.btnTshirtsType_Click);
+            // 
+            // btnColors
+            // 
+            this.btnColors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnColors, "btnColors");
+            this.btnColors.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnColors.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btnColors.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btnColors.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnColors.Name = "btnColors";
+            this.btnColors.UseVisualStyleBackColor = false;
+            this.btnColors.Click += new System.EventHandler(this.btnColors_Click);
+            // 
+            // btnAttributes
+            // 
+            this.btnAttributes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnAttributes, "btnAttributes");
+            this.btnAttributes.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAttributes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
+            this.btnAttributes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
+            this.btnAttributes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAttributes.Name = "btnAttributes";
+            this.btnAttributes.UseVisualStyleBackColor = false;
+            this.btnAttributes.Click += new System.EventHandler(this.btnAttributes_Click);
             // 
             // panelBusinessDetails
             // 
-            resources.ApplyResources(this.panelBusinessDetails, "panelBusinessDetails");
             this.panelBusinessDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelBusinessDetails.Controls.Add(this.label18);
             this.panelBusinessDetails.Controls.Add(this.label17);
@@ -159,6 +251,7 @@
             this.panelBusinessDetails.Controls.Add(this.label3);
             this.panelBusinessDetails.Controls.Add(this.tbBusinessName);
             this.panelBusinessDetails.Controls.Add(this.label4);
+            resources.ApplyResources(this.panelBusinessDetails, "panelBusinessDetails");
             this.panelBusinessDetails.Name = "panelBusinessDetails";
             // 
             // label18
@@ -181,8 +274,8 @@
             // 
             // numericExtraMoney
             // 
-            resources.ApplyResources(this.numericExtraMoney, "numericExtraMoney");
             this.numericExtraMoney.DecimalPlaces = 2;
+            resources.ApplyResources(this.numericExtraMoney, "numericExtraMoney");
             this.numericExtraMoney.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -192,8 +285,8 @@
             // 
             // numericCashMoney
             // 
-            resources.ApplyResources(this.numericCashMoney, "numericCashMoney");
             this.numericCashMoney.DecimalPlaces = 2;
+            resources.ApplyResources(this.numericCashMoney, "numericCashMoney");
             this.numericCashMoney.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -203,8 +296,8 @@
             // 
             // numericDigitalMoney
             // 
-            resources.ApplyResources(this.numericDigitalMoney, "numericDigitalMoney");
             this.numericDigitalMoney.DecimalPlaces = 2;
+            resources.ApplyResources(this.numericDigitalMoney, "numericDigitalMoney");
             this.numericDigitalMoney.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -342,8 +435,8 @@
             // 
             // btnBusinessDetails
             // 
-            resources.ApplyResources(this.btnBusinessDetails, "btnBusinessDetails");
             this.btnBusinessDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btnBusinessDetails, "btnBusinessDetails");
             this.btnBusinessDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBusinessDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btnBusinessDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -354,7 +447,6 @@
             // 
             // panel3DDetails
             // 
-            resources.ApplyResources(this.panel3DDetails, "panel3DDetails");
             this.panel3DDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel3DDetails.Controls.Add(this.btn3DPrintFolder);
             this.panel3DDetails.Controls.Add(this.tb3DPrintFolderPath);
@@ -362,7 +454,17 @@
             this.panel3DDetails.Controls.Add(this.btnAdd3DDesignFolder);
             this.panel3DDetails.Controls.Add(this.tb3DDesignFolderPath);
             this.panel3DDetails.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel3DDetails, "panel3DDetails");
             this.panel3DDetails.Name = "panel3DDetails";
+            // 
+            // btn3DPrintFolder
+            // 
+            this.btn3DPrintFolder.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            resources.ApplyResources(this.btn3DPrintFolder, "btn3DPrintFolder");
+            this.btn3DPrintFolder.FlatAppearance.BorderSize = 0;
+            this.btn3DPrintFolder.Name = "btn3DPrintFolder";
+            this.btn3DPrintFolder.UseVisualStyleBackColor = true;
+            this.btn3DPrintFolder.Click += new System.EventHandler(this.btn3DPrintFolder_Click);
             // 
             // tb3DPrintFolderPath
             // 
@@ -374,6 +476,15 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Name = "label2";
+            // 
+            // btnAdd3DDesignFolder
+            // 
+            this.btnAdd3DDesignFolder.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            resources.ApplyResources(this.btnAdd3DDesignFolder, "btnAdd3DDesignFolder");
+            this.btnAdd3DDesignFolder.FlatAppearance.BorderSize = 0;
+            this.btnAdd3DDesignFolder.Name = "btnAdd3DDesignFolder";
+            this.btnAdd3DDesignFolder.UseVisualStyleBackColor = true;
+            this.btnAdd3DDesignFolder.Click += new System.EventHandler(this.btnAdd3DDesignFolder_Click);
             // 
             // tb3DDesignFolderPath
             // 
@@ -388,8 +499,8 @@
             // 
             // btn3DSettings
             // 
-            resources.ApplyResources(this.btn3DSettings, "btn3DSettings");
             this.btn3DSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            resources.ApplyResources(this.btn3DSettings, "btn3DSettings");
             this.btn3DSettings.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn3DSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btn3DSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -400,12 +511,21 @@
             // 
             // panelBillDetails
             // 
-            resources.ApplyResources(this.panelBillDetails, "panelBillDetails");
             this.panelBillDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelBillDetails.Controls.Add(this.btnAddBill);
             this.panelBillDetails.Controls.Add(this.tbBillFolderPath);
             this.panelBillDetails.Controls.Add(this.label10);
+            resources.ApplyResources(this.panelBillDetails, "panelBillDetails");
             this.panelBillDetails.Name = "panelBillDetails";
+            // 
+            // btnAddBill
+            // 
+            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            resources.ApplyResources(this.btnAddBill, "btnAddBill");
+            this.btnAddBill.FlatAppearance.BorderSize = 0;
+            this.btnAddBill.Name = "btnAddBill";
+            this.btnAddBill.UseVisualStyleBackColor = true;
+            this.btnAddBill.Click += new System.EventHandler(this.btnAddBill_Click);
             // 
             // tbBillFolderPath
             // 
@@ -420,8 +540,8 @@
             // 
             // btnBillSettings
             // 
+            this.btnBillSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             resources.ApplyResources(this.btnBillSettings, "btnBillSettings");
-            this.btnBillSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
             this.btnBillSettings.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBillSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btnBillSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -432,8 +552,8 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.lbTitle);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // lbTitle
@@ -441,37 +561,6 @@
             resources.ApplyResources(this.lbTitle, "lbTitle");
             this.lbTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbTitle.Name = "lbTitle";
-            // 
-            // openFolder
-            // 
-            resources.ApplyResources(this.openFolder, "openFolder");
-            // 
-            // btn3DPrintFolder
-            // 
-            resources.ApplyResources(this.btn3DPrintFolder, "btn3DPrintFolder");
-            this.btn3DPrintFolder.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btn3DPrintFolder.FlatAppearance.BorderSize = 0;
-            this.btn3DPrintFolder.Name = "btn3DPrintFolder";
-            this.btn3DPrintFolder.UseVisualStyleBackColor = true;
-            this.btn3DPrintFolder.Click += new System.EventHandler(this.btn3DPrintFolder_Click);
-            // 
-            // btnAdd3DDesignFolder
-            // 
-            resources.ApplyResources(this.btnAdd3DDesignFolder, "btnAdd3DDesignFolder");
-            this.btnAdd3DDesignFolder.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAdd3DDesignFolder.FlatAppearance.BorderSize = 0;
-            this.btnAdd3DDesignFolder.Name = "btnAdd3DDesignFolder";
-            this.btnAdd3DDesignFolder.UseVisualStyleBackColor = true;
-            this.btnAdd3DDesignFolder.Click += new System.EventHandler(this.btnAdd3DDesignFolder_Click);
-            // 
-            // btnAddBill
-            // 
-            resources.ApplyResources(this.btnAddBill, "btnAddBill");
-            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAddBill.FlatAppearance.BorderSize = 0;
-            this.btnAddBill.Name = "btnAddBill";
-            this.btnAddBill.UseVisualStyleBackColor = true;
-            this.btnAddBill.Click += new System.EventHandler(this.btnAddBill_Click);
             // 
             // frmSettings
             // 
@@ -484,6 +573,7 @@
             this.Load += new System.EventHandler(this.frmSettings_Load);
             this.panelMainSettings.ResumeLayout(false);
             this.panelAddCancelButtons.ResumeLayout(false);
+            this.panelAttribute.ResumeLayout(false);
             this.panelBusinessDetails.ResumeLayout(false);
             this.panelBusinessDetails.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericExtraMoney)).EndInit();
@@ -551,5 +641,12 @@
         private System.Windows.Forms.Panel panelAddCancelButtons;
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Panel panelAttribute;
+        private System.Windows.Forms.Button btn3DPrintsQuality;
+        private System.Windows.Forms.Button btnVinylsType;
+        private System.Windows.Forms.Button btnFilamentsType;
+        private System.Windows.Forms.Button btnTshirtsType;
+        private System.Windows.Forms.Button btnColors;
+        private System.Windows.Forms.Button btnAttributes;
     }
 }

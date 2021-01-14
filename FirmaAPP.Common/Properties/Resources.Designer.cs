@@ -97,6 +97,51 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Calitatea printării 3D.
+        /// </summary>
+        internal static string Attribute3DPrintsQuality {
+            get {
+                return ResourceManager.GetString("Attribute3DPrintsQuality", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Culoare.
+        /// </summary>
+        internal static string AttributeColor {
+            get {
+                return ResourceManager.GetString("AttributeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tipul de filament.
+        /// </summary>
+        internal static string AttributeFilamentsType {
+            get {
+                return ResourceManager.GetString("AttributeFilamentsType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tipul de tricou.
+        /// </summary>
+        internal static string AttributeTshirtsType {
+            get {
+                return ResourceManager.GetString("AttributeTshirtsType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tipul de vinyl.
+        /// </summary>
+        internal static string AttributeVinylsType {
+            get {
+                return ResourceManager.GetString("AttributeVinylsType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Factura.
         /// </summary>
         internal static string Bill {
@@ -133,6 +178,15 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Culoare.
+        /// </summary>
+        internal static string Color {
+            get {
+                return ResourceManager.GetString("Color", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clientul.
         /// </summary>
         internal static string Customer {
@@ -147,6 +201,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string DeleteQuestion {
             get {
                 return ResourceManager.GetString("DeleteQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Descriere.
+        /// </summary>
+        internal static string Description {
+            get {
+                return ResourceManager.GetString("Description", resourceCulture);
             }
         }
         
@@ -228,6 +291,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string MoneyWasUpdated {
             get {
                 return ResourceManager.GetString("MoneyWasUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nume.
+        /// </summary>
+        internal static string Name {
+            get {
+                return ResourceManager.GetString("Name", resourceCulture);
             }
         }
         
@@ -367,6 +439,24 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mărime.
+        /// </summary>
+        internal static string Size {
+            get {
+                return ResourceManager.GetString("Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stoc.
+        /// </summary>
+        internal static string Stock {
+            get {
+                return ResourceManager.GetString("Stock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Stocul este gol.
         /// </summary>
         internal static string StockIsEmpty {
@@ -417,6 +507,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string TshirtIsNotInStock {
             get {
                 return ResourceManager.GetString("TshirtIsNotInStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tip.
+        /// </summary>
+        internal static string Type {
+            get {
+                return ResourceManager.GetString("Type", resourceCulture);
             }
         }
         

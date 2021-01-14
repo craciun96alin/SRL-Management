@@ -145,6 +145,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALs\AppSettingsDAL.cs" />
+    <Compile Include="DALs\Attribute3DPrintsQualityDAL.cs" />
+    <Compile Include="DALs\AttributeColorDAL.cs" />
+    <Compile Include="DALs\AttributeFilamentsTypeDAL.cs" />
+    <Compile Include="DALs\AttributeTshirtsTypeDAL.cs" />
+    <Compile Include="DALs\AttributeVinylsTypeDAL.cs" />
     <Compile Include="DALs\BillsDAL.cs" />
     <Compile Include="DALs\BusinessDetailsDAL.cs" />
     <Compile Include="DALs\CustomersDAL.cs" />
@@ -307,6 +312,22 @@
     <Compile Include="Migrations\20210103224605_ModifyUserRole.cs" />
     <Compile Include="Migrations\20210103224605_ModifyUserRole.designer.cs">
       <DependentUpon>20210103224605_ModifyUserRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210108222342_CreateAttributes.cs" />
+    <Compile Include="Migrations\20210108222342_CreateAttributes.designer.cs">
+      <DependentUpon>20210108222342_CreateAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210109224230_AttributesRename.cs" />
+    <Compile Include="Migrations\20210109224230_AttributesRename.designer.cs">
+      <DependentUpon>20210109224230_AttributesRename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210114205421_attributesNullable.cs" />
+    <Compile Include="Migrations\20210114205421_attributesNullable.designer.cs">
+      <DependentUpon>20210114205421_attributesNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20210114205853_attributesChangeContext.cs" />
+    <Compile Include="Migrations\20210114205853_attributesChangeContext.designer.cs">
+      <DependentUpon>20210114205853_attributesChangeContext.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DBContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />

@@ -48,12 +48,22 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 TshirtsDAL tDAL = new TshirtsDAL();
                 ProvidersDAL pDAL = new ProvidersDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeTshirtsTypeDAL attDAL = new AttributeTshirtsTypeDAL();
                 var tshirts = tDAL.GetAllTshirts();
                 foreach (Tshirt t in tshirts)
                 {
                     if (t.Provider == null && t.ProviderID != null)
                     {
                         t.Provider = pDAL.GetProviderById(t.ProviderID);
+                    }
+                    if (t.Color == null && t.AttributeColorID != null)
+                    {
+                        t.Color = acDAL.GetAttributeColorByID(t.AttributeColorID);
+                    }
+                    if (t.Type == null && t.AttributeTshirtsTypeID != null)
+                    {
+                        t.Type = attDAL.GetAttributeTshirtsTypeByID(t.AttributeTshirtsTypeID);
                     }
                 }
                 return tshirts;
@@ -93,7 +103,7 @@ namespace FirmaAPP.BusinessLogic.Core
                 var Tshirts = tDAL.GetTshirtsByProviderId(provider.ProviderID);
                 foreach (Tshirt t in Tshirts)
                 {
-                    var TshirtName =  t.Type + ", " + t.Color + ", " + t.Rating;
+                    var TshirtName =  t.Type + ", " + t.Color.Name + ", " + t.Rating;
                     TshirtsName.Add(TshirtName);
                 }
                 return TshirtsName.Distinct().ToList();

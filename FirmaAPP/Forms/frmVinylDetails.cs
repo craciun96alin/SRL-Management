@@ -30,24 +30,28 @@ namespace FirmaAPP
                 {
                     Name = tbName.Text,
                     VinylID = VinylId,
-                    Type = Enums.ParseEnum<Enums.VinylType>(cbType.SelectedValue.ToString()),
-                    Color = Enums.ParseEnum<Enums.Color>(cbColor.SelectedValue.ToString()),
                     Stock = (float)numericUpDownStock.Value,
                     Rating = (Enums.Rating)_rating,
                     Description = tbDescription.Text
                 };
                 if (cbProvider.SelectedValue != null)
                     _vinyl.Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString());
-
                 _vinyl.ProviderID = _vinyl.Provider != null ? _vinyl.Provider.ProviderID : (int?)null;
+
+                if (cbColor.SelectedValue != null)
+                    _vinyl.Color = _presenter.GetColorAttributeByName(cbColor.SelectedValue.ToString());
+                _vinyl.AttributeColorID = _vinyl.Color != null ? _vinyl.Color.AttributeColorID : (int?)null;
+
+                if (cbType.SelectedValue != null)
+                    _vinyl.Type = _presenter.GetVinylsTypeAttributeByName(cbType.SelectedValue.ToString());
+                _vinyl.AttributeVinylsTypeID = _vinyl.Type != null ? _vinyl.Type.AttributeVinylsTypeID : (int?)null;
+
 
                 return _vinyl;
             }
             set
             {
                 tbName.Text = value.Name;
-                cbType.SelectedIndex = (short)Enums.ParseEnum<Enums.VinylType>(value.Type.ToString());
-                cbColor.SelectedIndex = (short)Enums.ParseEnum<Enums.Color>(value.Color.ToString());
                 numericUpDownStock.Value = (decimal)value.Stock;
                 Enums.Rating r = Enums.ParseEnum<Enums.Rating>(value.Rating.ToString());
                 _rating = (short)r;
@@ -56,6 +60,12 @@ namespace FirmaAPP
                 VinylId = value.VinylID;
                 if (cbProvider.Items.Count > 0)
                     cbProvider.SelectedIndex = value.Provider != null ? cbProvider.FindStringExact(value.Provider.Name) : 0;
+
+                if (cbColor.Items.Count > 0)
+                    cbColor.SelectedIndex = value.Color != null ? cbColor.FindStringExact(value.Color.Name) : 0;
+
+                if (cbType.Items.Count > 0)
+                    cbType.SelectedIndex = value.Type != null ? cbType.FindStringExact(value.Type.Name) : 0;
             }
         }
 
@@ -229,8 +239,8 @@ namespace FirmaAPP
         {
             try
             {
-                cbType.DataSource = Enum.GetNames(typeof(Common.Enums.VinylType));
-                cbColor.DataSource = Enum.GetNames(typeof(Common.Enums.Color));
+                cbType.DataSource = _presenter.GetAllAttributeVinylsTypeNames();
+                cbColor.DataSource = _presenter.GetAllAttributeColorNames();
                 cbProvider.DataSource = _presenter.GetAllProvidersName();
             }
             catch (Exception ex)

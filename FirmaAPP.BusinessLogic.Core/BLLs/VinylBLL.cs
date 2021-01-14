@@ -46,12 +46,24 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 VinylDAL vDAL = new VinylDAL();
                 ProvidersDAL pDAL = new ProvidersDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeVinylsTypeDAL avtDAL = new AttributeVinylsTypeDAL();
                 var vinyls = vDAL.GetAllVinyls();
                 foreach (Vinyl v in vinyls)
                 {
                     if (v.Provider == null && v.ProviderID != null)
                     {
                         v.Provider = pDAL.GetProviderById(v.ProviderID);
+                    }
+
+                    if (v.Color == null && v.AttributeColorID != null)
+                    {
+                        v.Color = acDAL.GetAttributeColorByID(v.AttributeColorID);
+                    }
+
+                    if (v.Type == null && v.AttributeVinylsTypeID != null)
+                    {
+                        v.Type = avtDAL.GetAttributeVinylsTypeByID(v.AttributeVinylsTypeID);
                     }
                 }
                 return vinyls;
@@ -98,7 +110,7 @@ namespace FirmaAPP.BusinessLogic.Core
                 var vinyls = vDAL.GetVinylsByProviderId(provider.ProviderID);
                 foreach(Vinyl v in vinyls)
                 {
-                    var vinylName = v.VinylID + ", "+ v.Name + ", " + v.Type + ", " + v.Color + ", " + v.Rating;
+                    var vinylName = v.VinylID + ", "+ v.Name + ", " + v.Type + ", " + v.Color.Name + ", " + v.Rating;
                     vinylsName.Add(vinylName);
                 }
                 return vinylsName;

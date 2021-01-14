@@ -33,8 +33,6 @@ namespace FirmaAPP
                     TshirtID = this.TshirtId,
                     Size = Enums.ParseEnum<Enums.TshirtSize>(cbSize.SelectedValue.ToString()),
                     Sex = Enums.ParseEnum<Enums.Sex>(cbSex.SelectedValue.ToString()),
-                    Type = Enums.ParseEnum<Enums.TshirtType>(cbType.SelectedValue.ToString()),
-                    Color = Enums.ParseEnum<Enums.Color>(cbColor.SelectedValue.ToString()),
                     Stock = (int)numericUpDownStock.Value,
                     Rating = (Enums.Rating)_rating,
                     Description = tbDescription.Text
@@ -43,6 +41,14 @@ namespace FirmaAPP
                     _tshirt.Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString());
                 _tshirt.ProviderID = _tshirt.Provider != null ? _tshirt.Provider.ProviderID : (int?)null;
 
+                if (cbColor.SelectedValue != null)
+                    _tshirt.Color = _presenter.GetColorAttributeByName(cbColor.SelectedValue.ToString());
+                _tshirt.AttributeColorID = _tshirt.Color != null ? _tshirt.Color.AttributeColorID : (int?)null;
+
+                if (cbType.SelectedValue != null)
+                    _tshirt.Type = _presenter.GetTshirtsTypeAttributeByName(cbType.SelectedValue.ToString());
+                _tshirt.AttributeTshirtsTypeID = _tshirt.Type != null ? _tshirt.Type.AttributeTshirtsTypeID : (int?)null;
+
                 return _tshirt;
             }
             set
@@ -50,16 +56,21 @@ namespace FirmaAPP
                 tbName.Text = value.Name;
                 cbSize.SelectedIndex = (short)Enums.ParseEnum<Enums.TshirtSize>(value.Size.ToString());
                 cbSex.SelectedIndex = (short)Enums.ParseEnum<Enums.Sex>(value.Sex.ToString());
-                cbType.SelectedIndex = (short)Enums.ParseEnum<Enums.TshirtType>(value.Type.ToString());
-                cbColor.SelectedIndex = (short)Enums.ParseEnum<Enums.Color>(value.Color.ToString());
                 numericUpDownStock.Value = (decimal)value.Stock;
                 Enums.Rating r = Enums.ParseEnum<Enums.Rating>(value.Rating.ToString());
                 _rating = (short)r;
                 UpdateRating();
                 tbDescription.Text = value.Description;
                 TshirtId = value.TshirtID;
+
                 if(cbProvider.Items.Count > 0)
                     cbProvider.SelectedIndex = value.Provider != null ? cbProvider.FindStringExact(value.Provider.Name) : 0;
+
+                if (cbColor.Items.Count > 0)
+                    cbColor.SelectedIndex = value.Color != null ? cbColor.FindStringExact(value.Color.Name) : 0;
+
+                if (cbType.Items.Count > 0)
+                    cbType.SelectedIndex = value.Type != null ? cbType.FindStringExact(value.Type.Name) : 0;
             }
         }
 
@@ -234,8 +245,8 @@ namespace FirmaAPP
             {
                 cbSize.DataSource = Enum.GetNames(typeof(Common.Enums.TshirtSize));
                 cbSex.DataSource = Enum.GetNames(typeof(Common.Enums.Sex));
-                cbType.DataSource = Enum.GetNames(typeof(Common.Enums.TshirtType));
-                cbColor.DataSource = Enum.GetNames(typeof(Common.Enums.Color));
+                cbType.DataSource = _presenter.GetAllAttributeTshirtsTypeNames();
+                cbColor.DataSource = _presenter.GetAllAttributeColorNames();
                 cbProvider.DataSource = _presenter.GetAllProvidersName();
             }
             catch (Exception ex)

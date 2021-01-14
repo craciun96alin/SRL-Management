@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FirmaAPP.Common
+﻿namespace FirmaAPP.Common
 {
     public static class AppTranslations
     {
@@ -82,5 +76,11 @@ namespace FirmaAPP.Common
         public static string FirstDefineBillDirectory = Properties.Resources.FirstDefineBillDirectory;
 
         public static string LoginFailed = Properties.Resources.LoginFailed;
+
+        public static string AttributeVinylsType = Properties.Resources.AttributeVinylsType;
+        public static string AttributeFilamentsType = Properties.Resources.AttributeFilamentsType;
+        public static string Attribute3DPrintsQuality = Properties.Resources.Attribute3DPrintsQuality;
+        public static string AttributeColor = Properties.Resources.AttributeColor;
+        public static string AttributeTshirtsType = Properties.Resources.AttributeTshirtsType;
     }
 }

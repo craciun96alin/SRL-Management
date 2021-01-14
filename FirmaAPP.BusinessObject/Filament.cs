@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using FirmaAPP.Common;
 
 namespace FirmaAPP.BusinessObject
@@ -9,22 +7,28 @@ namespace FirmaAPP.BusinessObject
     public class Filament
     {
         public int FilamentID { get; set; }
+        public int? AttributeFilamentsTypeID { get; set; }
+        public int? AttributeColorID { get; set; }
 
-        [DisplayName("Nume")]
+        [LocalizedDisplayName("Name")]
         public string Name { get; set; }
         public int? ProviderID { get; set; }
         
         public Provider Provider { get; set; }
-        [DisplayName("Furnizor")]
+        public AttributeColor Color { get; set; }
+        public AttributeFilamentsType Type { get; set; }
+
+        [LocalizedDisplayName("Provider")]
         public string ProviderName => Provider != null ? Provider.Name : string.Empty;
-        [DisplayName("Tip")]
-        public Enums.FilamentType Type { get; set; }
-        [DisplayName("Culoare")]
-        public Enums.Color Color { get; set; }
-        [DisplayName("Stoc(grame)")]
+        [LocalizedDisplayName("Type")]
+        public string TypeName => Type != null ? Type.Name : string.Empty;
+        [LocalizedDisplayName("Color")]
+        public string ColorName => Color != null ? Color.Name : string.Empty;
+        [LocalizedDisplayName("Stock")]
         public float Stock { get; set; }
+        [LocalizedDisplayName("Rating")]
         public Enums.Rating Rating { get; set; }
-        [DisplayName("Descriere")]
+        [LocalizedDisplayName("Description")]
         public string Description { get; set; }
 
         public IList<FilamentOrder> _filamentOrders { get; set; }

@@ -204,9 +204,9 @@
   <data name="&gt;&gt;tbPassword.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="toolTipPassword.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="toolTipPassword.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
+  </metadata>
   <data name="btnEng.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -255,9 +255,9 @@
   <data name="&gt;&gt;btnRo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>

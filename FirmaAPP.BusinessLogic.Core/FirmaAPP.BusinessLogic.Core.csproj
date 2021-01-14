@@ -121,6 +121,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLLs\AppSettingsBLL.cs" />
+    <Compile Include="BLLs\Attribute3DPrintsQualityBLL.cs" />
+    <Compile Include="BLLs\AttributeColorBLL.cs" />
+    <Compile Include="BLLs\AttributeFilamentsTypeBLL.cs" />
+    <Compile Include="BLLs\AttributeTshirtsTypeBLL.cs" />
+    <Compile Include="BLLs\AttributeVinylsTypeBLL.cs" />
     <Compile Include="BLLs\BillsBLL.cs" />
     <Compile Include="BLLs\BusinessDetailsBLL.cs" />
     <Compile Include="BLLs\CustomersBLL.cs" />

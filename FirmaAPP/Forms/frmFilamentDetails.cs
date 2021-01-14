@@ -13,7 +13,7 @@ namespace FirmaAPP
         private frmMainForm _mainForm;
         private Form _parentForm;
         #endregion
-        #region IFilamentDetailsViewMembers
+        #region ViewMembers
         public int FilamentId { get; set; }
 
         private short _rating = 0;
@@ -31,23 +31,26 @@ namespace FirmaAPP
                 {
                     Name = tbName.Text,
                     FilamentID = this.FilamentId,
-                    Type = Enums.ParseEnum<Enums.FilamentType>(cbType.SelectedValue.ToString()),
-                    Color = Enums.ParseEnum<Enums.Color>(cbColor.SelectedValue.ToString()),
                     Stock = (float)numericUpDownStock.Value,
                     Rating = (Enums.Rating)_rating,
                     Description = tbDescription.Text
                 };
                 if (cbProvider.SelectedValue != null)
                     _filament.Provider = _presenter.GetProviderByName(cbProvider.SelectedValue.ToString());
-
                 _filament.ProviderID = _filament.Provider != null ? _filament.Provider.ProviderID : (int?)null;
+
+                if (cbColor.SelectedValue != null)
+                    _filament.Color = _presenter.GetColorAttributeByName(cbColor.SelectedValue.ToString());
+                _filament.AttributeColorID = _filament.Color != null ? _filament.Color.AttributeColorID : (int?)null;
+
+                if (cbType.SelectedValue != null)
+                    _filament.Type = _presenter.GetFilamentsTypeAttributeByName(cbType.SelectedValue.ToString());
+                _filament.AttributeFilamentsTypeID = _filament.Type != null ? _filament.Type.AttributeFilamentsTypeID : (int?)null;
                 return _filament;
             }
             set
             {
                 tbName.Text = value.Name;
-                cbType.SelectedIndex = (short)Enums.ParseEnum<Enums.FilamentType>(value.Type.ToString());
-                cbColor.SelectedIndex = (short)Enums.ParseEnum<Enums.Color>(value.Color.ToString());
                 numericUpDownStock.Value = (decimal)value.Stock;
                 Enums.Rating r = Enums.ParseEnum<Enums.Rating>(value.Rating.ToString());
                 _rating = (short)r;
@@ -56,6 +59,12 @@ namespace FirmaAPP
                 FilamentId = value.FilamentID;
                 if (cbProvider.Items.Count > 0)
                     cbProvider.SelectedIndex = value.Provider != null ? cbProvider.FindStringExact(value.Provider.Name) : 0;
+
+                if (cbColor.Items.Count > 0)
+                    cbColor.SelectedIndex = value.Color != null ? cbColor.FindStringExact(value.Color.Name) : 0;
+
+                if (cbType.Items.Count > 0)
+                    cbType.SelectedIndex = value.Type != null ? cbType.FindStringExact(value.Type.Name) : 0;
             }
         }
 
@@ -236,8 +245,8 @@ namespace FirmaAPP
         {
             try
             {
-                cbType.DataSource = Enum.GetNames(typeof(Common.Enums.FilamentType));
-                cbColor.DataSource = Enum.GetNames(typeof(Common.Enums.Color));
+                cbType.DataSource = _presenter.GetAllAttributeFilamentsTypeNames();
+                cbColor.DataSource = _presenter.GetAllAttributeColorNames();
                 cbProvider.DataSource = _presenter.GetAllProvidersName();
             }
             catch (Exception ex)

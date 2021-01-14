@@ -102,20 +102,31 @@ namespace FirmaAPP
 
         private void btnRo_Click(object sender, EventArgs e)
         {
-            this.ResetText();
-            this.Text = AppTranslations.Welcome;
+ 
             CultureInfo info = CultureInfo.CreateSpecificCulture("ro-RO");
             Thread.CurrentThread.CurrentUICulture = info;
             Thread.CurrentThread.CurrentCulture = info;
+            Refresh();
         }
 
         private void btnEng_Click(object sender, EventArgs e)
         {
-            this.ResetText();
-            this.Text = AppTranslations.Welcome;
             CultureInfo info = CultureInfo.CreateSpecificCulture("en-US");
             Thread.CurrentThread.CurrentUICulture = info;
             Thread.CurrentThread.CurrentCulture = info;
+            Refresh();
+        }
+
+        private void btnRo_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.ResetText();
+            this.Text = "Bine ai venit:";//AppTranslations.Welcome;
+        }
+
+        private void btnEng_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.ResetText();
+            this.Text = "Welcome:"; //AppTranslations.Welcome;
         }
     }
 }

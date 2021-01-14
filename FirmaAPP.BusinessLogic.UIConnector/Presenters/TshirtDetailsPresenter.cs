@@ -57,6 +57,34 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             }
         }
 
+        public AttributeColor GetColorAttributeByName(string name)
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var color = aBLL.GetAttributeColorByName(name);
+                return color;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public AttributeTshirtsType GetTshirtsTypeAttributeByName(string name)
+        {
+            try
+            {
+                AttributeTshirtsTypeBLL aBLL = new AttributeTshirtsTypeBLL();
+                var tshirtsType = aBLL.GetAttributeTshirtsTypeByName(name);
+                return tshirtsType;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public List<string> GetAllProvidersName()
         {
             try
@@ -64,6 +92,34 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 ProvidersBLL pBLL = new ProvidersBLL();
                 var providersName = pBLL.GetAllProvidersName();
                 return providersName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<string> GetAllAttributeColorNames()
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var colorsName = aBLL.GetAllAttributeColorNames();
+                return colorsName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<string> GetAllAttributeTshirtsTypeNames()
+        {
+            try
+            {
+                AttributeTshirtsTypeBLL pBLL = new AttributeTshirtsTypeBLL();
+                var tshirtsTypeName = pBLL.GetAllAttributeTshirtsTypeNames();
+                return tshirtsTypeName;
             }
             catch (Exception ex)
             {

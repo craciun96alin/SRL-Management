@@ -276,4 +276,37 @@
   <data name="_3DPrint" xml:space="preserve">
     <value>Piesa 3D</value>
   </data>
+  <data name="Attribute3DPrintsQuality" xml:space="preserve">
+    <value>Calitatea printării 3D</value>
+  </data>
+  <data name="AttributeColor" xml:space="preserve">
+    <value>Culoare</value>
+  </data>
+  <data name="AttributeFilamentsType" xml:space="preserve">
+    <value>Tipul de filament</value>
+  </data>
+  <data name="AttributeTshirtsType" xml:space="preserve">
+    <value>Tipul de tricou</value>
+  </data>
+  <data name="AttributeVinylsType" xml:space="preserve">
+    <value>Tipul de vinyl</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Culoare</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Mărime</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stoc</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
 </root>

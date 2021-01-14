@@ -203,6 +203,9 @@
   <data name="btnFilamentDetails.Text" xml:space="preserve">
     <value>Filament Details</value>
   </data>
+  <data name="gbFilament.Text" xml:space="preserve">
+    <value>Add Filament</value>
+  </data>
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -251,9 +254,6 @@
   <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="gbFilament.Text" xml:space="preserve">
-    <value>Add Filament</value>
-  </data>
   <data name="btnRemoveFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -265,6 +265,9 @@
   </data>
   <data name="btn3DPrintDetails.Text" xml:space="preserve">
     <value>3D Print Details</value>
+  </data>
+  <data name="gb3DPrint.Text" xml:space="preserve">
+    <value>Add 3D Print</value>
   </data>
   <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -404,9 +407,6 @@
   <data name="label21.Text" xml:space="preserve">
     <value>*3D Print</value>
   </data>
-  <data name="gb3DPrint.Text" xml:space="preserve">
-    <value>Add 3D Print</value>
-  </data>
   <data name="btnRemove3DPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -418,6 +418,9 @@
   </data>
   <data name="btn3DDesignDetails.Text" xml:space="preserve">
     <value>3D Design Details</value>
+  </data>
+  <data name="gb3DDesign.Text" xml:space="preserve">
+    <value>Add 3D Design</value>
   </data>
   <data name="label39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -460,9 +463,6 @@
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>*Project:</value>
-  </data>
-  <data name="gb3DDesign.Text" xml:space="preserve">
-    <value>Add 3D Design</value>
   </data>
   <data name="btnRemove3DDesign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -542,6 +542,9 @@
   <data name="btnBillDetails.Text" xml:space="preserve">
     <value>Bill Details</value>
   </data>
+  <data name="gbOtherPurchase.Text" xml:space="preserve">
+    <value>Adaugă object</value>
+  </data>
   <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -599,9 +602,6 @@
   <data name="label36.Text" xml:space="preserve">
     <value>*Object:</value>
   </data>
-  <data name="gbOtherPurchase.Text" xml:space="preserve">
-    <value>Adaugă object</value>
-  </data>
   <data name="btnRemoveOtherPurchase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -635,7 +635,7 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>3D Order Details</value>
   </data>
 </root>

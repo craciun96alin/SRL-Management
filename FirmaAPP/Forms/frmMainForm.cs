@@ -9,10 +9,14 @@ namespace FirmaAPP
 {
     public partial class frmMainForm : Form
     {
+        #region Constructor
         public frmMainForm()
         {
             InitializeComponent();
         }
+        #endregion
+
+        #region public functions
         public void ShowMessage(string message)
         {
             tbInfo.AppendText(DateTime.Now.ToString()+": ", Color.Navy);
@@ -38,7 +42,7 @@ namespace FirmaAPP
                 tbInfo.AppendText(message + "\n");
             }
         }
-
+        #endregion
         #region Events
         private void frmMainForm_Load(object sender, EventArgs e)
         {
@@ -213,7 +217,7 @@ namespace FirmaAPP
         }
         #endregion
         #endregion
-
+        #region private functions
         private void OpenChildForm(Form childForm)
         {
             try
@@ -244,5 +248,6 @@ namespace FirmaAPP
                 form.BringToFront();
             }
         }
+        #endregion
     }
 }

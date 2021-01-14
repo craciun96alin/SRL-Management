@@ -39,6 +39,12 @@ namespace FirmaAPP.DataAccess
             return filaments;
         }
 
+        public Filament GetFilamentByID(int? filamentID)
+        {
+            var filament = context.Filaments.Where(f => f.FilamentID == filamentID).FirstOrDefault();
+            return filament;
+        }
+
         public Filament GetFilamentByNameAndProvider(string filamentName, int providerID)
         {
             var filament = context.Filaments.Where(v => (v.Name == filamentName) && (v.ProviderID == providerID)).FirstOrDefault();
@@ -51,11 +57,7 @@ namespace FirmaAPP.DataAccess
             return filaments;
         }
 
-        public Filament GetFilamentByID(int? filamentID)
-        {
-            var filament = context.Filaments.Where(f => f.FilamentID == filamentID).FirstOrDefault();
-            return filament;
-        }
+
 
         public int GetFilamentIDByName(string filamentName)
         {

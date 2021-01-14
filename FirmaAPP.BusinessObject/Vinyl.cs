@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations.Schema;
 using FirmaAPP.Common;
 
 namespace FirmaAPP.BusinessObject
@@ -8,20 +6,29 @@ namespace FirmaAPP.BusinessObject
     public class Vinyl
     {
         public int VinylID { get; set; }
-        [DisplayName("Nume")]
-        public string Name { get; set; }
-        public int? ProviderID { get; set; }
-        public Provider Provider { get; set; }
-        [DisplayName("Furnizor")]
-        public string ProviderName => Provider != null ? Provider.Name : string.Empty;
-        [DisplayName("Tip")]
-        public Enums.VinylType Type { get; set; }
-        [DisplayName("Culoare")]
-        public Enums.Color Color { get; set; }
-        [DisplayName("Stoc(metrii)")]
-        public float Stock { get; set; }
 
+        [LocalizedDisplayName("Name")]
+        public string Name { get; set; }
+
+        public int? ProviderID { get; set; }
+        public int? AttributeVinylsTypeID { get; set; }
+        public int? AttributeColorID { get; set; }
+
+        public Provider Provider { get; set; }
+        public AttributeColor Color { get; set; }
+        public AttributeVinylsType Type { get; set; }
+
+        [LocalizedDisplayName("Provider")]
+        public string ProviderName => Provider != null ? Provider.Name : string.Empty;
+        [LocalizedDisplayName("Type")]
+        public string TypeName => Type != null ? Type.Name : string.Empty;
+        [LocalizedDisplayName("Color")]
+        public string ColorName => Color != null ? Color.Name : string.Empty;
+        [LocalizedDisplayName("Stock")]
+        public float Stock { get; set; }
+        [LocalizedDisplayName("Rating")]
         public Enums.Rating Rating { get; set; }
+        [LocalizedDisplayName("Description")]
         public string Description { get; set; }
 
         public IList<VinylOrder> _vinylOrders { get; set; }

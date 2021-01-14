@@ -4,11 +4,47 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using System.IO;
+using System.ComponentModel;
+using System.Resources;
+using System.Globalization;
+using System.Collections;
 
 namespace FirmaAPP.Common
 {
+
+    public class LocalizedDisplayNameAttribute : DisplayNameAttribute
+    {
+        public LocalizedDisplayNameAttribute(string resourceId)
+            : base(GetMessageFromResource(resourceId))
+        { }
+
+        private static string GetMessageFromResource(string resourceId)
+        {
+            // TODO: Return the string from the resource file
+            ResourceManager MyResourceClass =
+new ResourceManager(typeof(Properties.Resources));
+
+            ResourceSet resourceSet =
+                MyResourceClass.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
+            foreach (DictionaryEntry entry in resourceSet)
+            {
+                if (entry.Key.ToString() == resourceId)
+                    return entry.Value.ToString();
+            }
+
+            //foreach (var a in Properties.Resources)
+            //{
+            //    if (a == resourceId)
+            //        return a;
+            //}
+            return "";
+        }
+    }
+
     public static class AppHelper
     {
+
+
         //This is used to update db safety
         public static void DetachLocal<T>(this DbContext context, T t, int entryId)
 where T : class, IIdentifier

@@ -12,8 +12,8 @@ namespace FirmaAPP.DataAccess
 
         public void AddTshirt(Tshirt tshirt)
         {
-            context.Add<Tshirt>(tshirt);
-            context.SaveChanges();
+           context.Add<Tshirt>(tshirt);
+           context.SaveChanges();
         }
 
         public void UpdateTshirt(Tshirt tshirt)
@@ -51,8 +51,8 @@ namespace FirmaAPP.DataAccess
         public int GetTshirtIDByAttributes(List<string> tshirtAttributes, int providerID)
         {
             var tshirtID = context.Tshirts.Where(t => 
-                                                      (t.Type == Enums.ParseEnum<Enums.TshirtType>(tshirtAttributes[0])) && 
-                                                      (t.Color == Enums.ParseEnum<Enums.Color>(tshirtAttributes[1])) &&
+                                                      //(t.Type == Enums.ParseEnum<Enums.TshirtType>(tshirtAttributes[0])) && 
+                                                     // (t.Color == Enums.ParseEnum<Enums.Color>(tshirtAttributes[1])) &&
                                                       (t.Rating == Enums.ParseEnum<Enums.Rating>(tshirtAttributes[2])) &&
                                                       (t.Sex == Enums.ParseEnum<Enums.Sex>(tshirtAttributes[3])) &&
                                                       (t.Size == Enums.ParseEnum<Enums.TshirtSize>(tshirtAttributes[4])) &&

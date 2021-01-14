@@ -34,7 +34,11 @@ namespace FirmaAPP
                     "FilamentId",
                     "ProviderId",
                     "Provider",
-                    "_filamentOrders"
+                    "_filamentOrders",
+                    "AttributeFilamentsTypeID",
+                    "AttributeColorID",
+                    "Color",
+                    "Type"
                 };
 
                 if (dataGridFilament.Columns.Count > 0)

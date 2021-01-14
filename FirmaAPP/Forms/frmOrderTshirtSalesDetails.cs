@@ -382,8 +382,8 @@ namespace FirmaAPP
                     {
                         Tshirt tshirt = new Tshirt
                         {
-                            Type = Enums.ParseEnum<Enums.TshirtType>(tshirtAttributes[0]),
-                            Color = Enums.ParseEnum<Enums.Color>(tshirtAttributes[1]),
+                          //  Type = Enums.ParseEnum<Enums.TshirtType>(tshirtAttributes[0]),
+                          //  Color = Enums.ParseEnum<Enums.Color>(tshirtAttributes[1]),
                             Rating = Enums.ParseEnum<Enums.Rating>(tshirtAttributes[2]),
                             Sex = Enums.ParseEnum<Enums.Sex>(tshirtAttributes[3]),
                             Size = Enums.ParseEnum<Enums.TshirtSize>(tshirtAttributes[4]),

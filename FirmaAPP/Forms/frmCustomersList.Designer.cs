@@ -33,12 +33,12 @@
             this.panelCUDCustomer = new System.Windows.Forms.Panel();
             this.lbEditCustomer = new System.Windows.Forms.Label();
             this.lbDeleteCustomer = new System.Windows.Forms.Label();
-            this.lbAddCustomer = new System.Windows.Forms.Label();
-            this.panelProviderGrid = new System.Windows.Forms.Panel();
-            this.dataGridCustomer = new System.Windows.Forms.DataGridView();
             this.btnEditCustomer = new System.Windows.Forms.Button();
             this.btnDeleteCustomer = new System.Windows.Forms.Button();
+            this.lbAddCustomer = new System.Windows.Forms.Label();
             this.btnAddCustomer = new System.Windows.Forms.Button();
+            this.panelProviderGrid = new System.Windows.Forms.Panel();
+            this.dataGridCustomer = new System.Windows.Forms.DataGridView();
             this.panelCustomerMenu.SuspendLayout();
             this.panelCUDCustomer.SuspendLayout();
             this.panelProviderGrid.SuspendLayout();
@@ -77,11 +77,35 @@
             this.lbDeleteCustomer.Name = "lbDeleteCustomer";
             this.lbDeleteCustomer.Click += new System.EventHandler(this.lbDeleteCustomer_Click);
             // 
+            // btnEditCustomer
+            // 
+            resources.ApplyResources(this.btnEditCustomer, "btnEditCustomer");
+            this.btnEditCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
+            this.btnEditCustomer.Name = "btnEditCustomer";
+            this.btnEditCustomer.UseVisualStyleBackColor = true;
+            this.btnEditCustomer.Click += new System.EventHandler(this.btnEditCustomer_Click);
+            // 
+            // btnDeleteCustomer
+            // 
+            resources.ApplyResources(this.btnDeleteCustomer, "btnDeleteCustomer");
+            this.btnDeleteCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnDeleteCustomer.Name = "btnDeleteCustomer";
+            this.btnDeleteCustomer.UseVisualStyleBackColor = true;
+            this.btnDeleteCustomer.Click += new System.EventHandler(this.btnDeleteCustomer_Click);
+            // 
             // lbAddCustomer
             // 
             resources.ApplyResources(this.lbAddCustomer, "lbAddCustomer");
             this.lbAddCustomer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbAddCustomer.Name = "lbAddCustomer";
+            // 
+            // btnAddCustomer
+            // 
+            resources.ApplyResources(this.btnAddCustomer, "btnAddCustomer");
+            this.btnAddCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddCustomer.Name = "btnAddCustomer";
+            this.btnAddCustomer.UseVisualStyleBackColor = true;
+            this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // panelProviderGrid
             // 
@@ -104,30 +128,6 @@
             this.dataGridCustomer.ReadOnly = true;
             this.dataGridCustomer.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridCustomer.RowTemplate.Height = 24;
-            // 
-            // btnEditCustomer
-            // 
-            resources.ApplyResources(this.btnEditCustomer, "btnEditCustomer");
-            this.btnEditCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEditCustomer.Name = "btnEditCustomer";
-            this.btnEditCustomer.UseVisualStyleBackColor = true;
-            this.btnEditCustomer.Click += new System.EventHandler(this.btnEditCustomer_Click);
-            // 
-            // btnDeleteCustomer
-            // 
-            resources.ApplyResources(this.btnDeleteCustomer, "btnDeleteCustomer");
-            this.btnDeleteCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDeleteCustomer.Name = "btnDeleteCustomer";
-            this.btnDeleteCustomer.UseVisualStyleBackColor = true;
-            this.btnDeleteCustomer.Click += new System.EventHandler(this.btnDeleteCustomer_Click);
-            // 
-            // btnAddCustomer
-            // 
-            resources.ApplyResources(this.btnAddCustomer, "btnAddCustomer");
-            this.btnAddCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.UseVisualStyleBackColor = true;
-            this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // frmCustomersList
             // 

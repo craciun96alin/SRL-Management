@@ -177,6 +177,66 @@
     <Compile Include="Forms\frm3DPrintsList.Designer.cs">
       <DependentUpon>frm3DPrintsList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmAttribute3DPrintsQualityDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttribute3DPrintsQualityDetails.Designer.cs">
+      <DependentUpon>frmAttribute3DPrintsQualityDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttribute3DPrintsQualityList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttribute3DPrintsQualityList.Designer.cs">
+      <DependentUpon>frmAttribute3DPrintsQualityList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeColorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeColorDetails.Designer.cs">
+      <DependentUpon>frmAttributeColorDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeColorsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeColorsList.Designer.cs">
+      <DependentUpon>frmAttributeColorsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeFilamentsTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeFilamentsTypeList.Designer.cs">
+      <DependentUpon>frmAttributeFilamentsTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeFilamentsTypeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeFilamentsTypeDetails.Designer.cs">
+      <DependentUpon>frmAttributeFilamentsTypeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeTshirtsTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeTshirtsTypeList.Designer.cs">
+      <DependentUpon>frmAttributeTshirtsTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeTshirtsTypeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeTshirtsTypeDetails.Designer.cs">
+      <DependentUpon>frmAttributeTshirtsTypeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeVinylsTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeVinylsTypeList.Designer.cs">
+      <DependentUpon>frmAttributeVinylsTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAttributeVinylsTypeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAttributeVinylsTypeDetails.Designer.cs">
+      <DependentUpon>frmAttributeVinylsTypeDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -352,6 +412,66 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frm3DPrintsList.resx">
       <DependentUpon>frm3DPrintsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttribute3DPrintsQualityDetails.en-US.resx">
+      <DependentUpon>frmAttribute3DPrintsQualityDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttribute3DPrintsQualityDetails.resx">
+      <DependentUpon>frmAttribute3DPrintsQualityDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttribute3DPrintsQualityList.en-US.resx">
+      <DependentUpon>frmAttribute3DPrintsQualityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttribute3DPrintsQualityList.resx">
+      <DependentUpon>frmAttribute3DPrintsQualityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeColorDetails.en-US.resx">
+      <DependentUpon>frmAttributeColorDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeColorDetails.resx">
+      <DependentUpon>frmAttributeColorDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeColorsList.en-US.resx">
+      <DependentUpon>frmAttributeColorsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeColorsList.resx">
+      <DependentUpon>frmAttributeColorsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeFilamentsTypeDetails.en-US.resx">
+      <DependentUpon>frmAttributeFilamentsTypeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeFilamentsTypeList.en-US.resx">
+      <DependentUpon>frmAttributeFilamentsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeFilamentsTypeList.resx">
+      <DependentUpon>frmAttributeFilamentsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeFilamentsTypeDetails.resx">
+      <DependentUpon>frmAttributeFilamentsTypeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeTshirtsTypeDetails.en-US.resx">
+      <DependentUpon>frmAttributeTshirtsTypeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeTshirtsTypeList.en-US.resx">
+      <DependentUpon>frmAttributeTshirtsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeTshirtsTypeList.resx">
+      <DependentUpon>frmAttributeTshirtsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeTshirtsTypeDetails.resx">
+      <DependentUpon>frmAttributeTshirtsTypeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeVinylsTypeDetails.en-US.resx">
+      <DependentUpon>frmAttributeVinylsTypeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeVinylsTypeList.en-US.resx">
+      <DependentUpon>frmAttributeVinylsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeVinylsTypeList.resx">
+      <DependentUpon>frmAttributeVinylsTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAttributeVinylsTypeDetails.resx">
+      <DependentUpon>frmAttributeVinylsTypeDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmBillDetails.en-US.resx">
       <DependentUpon>frmBillDetails.cs</DependentUpon>

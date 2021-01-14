@@ -126,10 +126,6 @@
   <data name="&gt;&gt;lbEditCustomer.Parent" xml:space="preserve">
     <value>panelCUDCustomer</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnAddCustomer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lbDeleteCustomer.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -137,11 +133,15 @@
   <data name="&gt;&gt;btnDeleteCustomer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="dataGridCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>1198, 554</value>
   </data>
   <data name="panelCustomerMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="btnAddCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
   <data name="lbAddCustomer.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 78</value>
@@ -152,9 +152,8 @@
   <data name="btnEditCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 42</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panelProviderGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;panelProviderGrid.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="dataGridCustomer.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -162,6 +161,7 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmCustomersList</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAddCustomer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -176,9 +176,6 @@
   </data>
   <data name="lbDeleteCustomer.Text" xml:space="preserve">
     <value>Șterge</value>
-  </data>
-  <data name="lbAddCustomer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="&gt;&gt;panelCUDCustomer.Parent" xml:space="preserve">
     <value>panelCustomerMenu</value>
@@ -195,8 +192,8 @@
   <data name="&gt;&gt;dataGridCustomer.Parent" xml:space="preserve">
     <value>panelProviderGrid</value>
   </data>
-  <data name="dataGridCustomer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="btnEditCustomer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="dataGridCustomer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -222,20 +219,20 @@
   <data name="&gt;&gt;btnAddCustomer.Name" xml:space="preserve">
     <value>btnAddCustomer</value>
   </data>
+  <data name="panelCUDCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;panelCUDCustomer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panelCUDCustomer.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="btnEditCustomer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="&gt;&gt;dataGridCustomer.Name" xml:space="preserve">
     <value>dataGridCustomer</value>
   </data>
-  <data name="panelCUDCustomer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lbAddCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="btnDeleteCustomer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -267,9 +264,6 @@
   <data name="&gt;&gt;panelCustomerMenu.Name" xml:space="preserve">
     <value>panelCustomerMenu</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="panelCUDCustomer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -278,6 +272,9 @@
   </data>
   <data name="btnEditCustomer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
+  </data>
+  <data name="lbAddCustomer.Text" xml:space="preserve">
+    <value>Adaugă</value>
   </data>
   <data name="&gt;&gt;lbDeleteCustomer.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -288,11 +285,11 @@
   <data name="lbAddCustomer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="panelProviderGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="lbEditCustomer.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft JhengHei UI, 14pt</value>
-  </data>
-  <data name="&gt;&gt;panelProviderGrid.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="lbDeleteCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 30</value>
@@ -302,6 +299,9 @@
   </data>
   <data name="panelCustomerMenu.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelCustomerMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;lbEditCustomer.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -315,6 +315,9 @@
   <data name="panelCustomerMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="&gt;&gt;btnEditCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btnAddCustomer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -327,11 +330,8 @@
   <data name="lbAddCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 18</value>
   </data>
-  <data name="panelCUDCustomer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 100</value>
-  </data>
-  <data name="&gt;&gt;btnEditCustomer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnAddCustomer.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="lbEditCustomer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -341,9 +341,6 @@
   </data>
   <data name="btnAddCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 78</value>
-  </data>
-  <data name="panelProviderGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 100</value>
   </data>
   <data name="panelCustomerMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>1198, 100</value>
@@ -366,8 +363,8 @@
   <data name="lbDeleteCustomer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;panelCustomerMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="panelCUDCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 100</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Listă clienți</value>
@@ -378,8 +375,8 @@
   <data name="btnEditCustomer.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;btnEditCustomer.Parent" xml:space="preserve">
-    <value>panelCUDCustomer</value>
+  <data name="dataGridCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="lbEditCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 30</value>
@@ -390,8 +387,8 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1198, 654</value>
   </data>
-  <data name="btnAddCustomer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbAddCustomer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -408,16 +405,16 @@
   <data name="&gt;&gt;btnEditCustomer.Name" xml:space="preserve">
     <value>btnEditCustomer</value>
   </data>
-  <data name="lbAddCustomer.Text" xml:space="preserve">
-    <value>Adaugă</value>
+  <data name="&gt;&gt;btnEditCustomer.Parent" xml:space="preserve">
+    <value>panelCUDCustomer</value>
+  </data>
+  <data name="panelProviderGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
   </data>
   <data name="lbEditCustomer.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 53</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
   </metadata>
 </root>

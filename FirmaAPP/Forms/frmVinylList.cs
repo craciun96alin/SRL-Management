@@ -35,7 +35,11 @@ namespace FirmaAPP
                     "VinylId",
                     "ProviderId",
                     "Provider",
-                    "_vinylOrders"
+                    "_vinylOrders",
+                    "AttributeVinylsTypeID",
+                    "AttributeColorID",
+                    "Color",
+                    "Type"
                 };
                 if (dataGridVinyl.Columns.Count > 0)
                 {

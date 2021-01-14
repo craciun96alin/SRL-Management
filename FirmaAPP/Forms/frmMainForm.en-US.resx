@@ -173,19 +173,4 @@
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="Atenție:" xml:space="preserve">
-    <value>Provider</value>
-  </data>
-  <data name="&quot;Atenție:&quot;" xml:space="preserve">
-    <value>Provider</value>
-  </data>
-  <data name="AppTranslations.VerifyProviderToBeCompleted" xml:space="preserve">
-    <value>ddds</value>
-  </data>
-  <data name="Trebuie ales un furnizor!" xml:space="preserve">
-    <value>cxz</value>
-  </data>
-  <data name="VerifyProviderToBeCompleteVerifyProviderToBeCompleted" xml:space="preserve">
-    <value>asd</value>
-  </data>
 </root>

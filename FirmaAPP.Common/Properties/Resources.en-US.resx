@@ -276,4 +276,37 @@
   <data name="_3DPrint" xml:space="preserve">
     <value>The 3D print</value>
   </data>
+  <data name="Attribute3DPrintsQuality" xml:space="preserve">
+    <value> The 3D print quality </value>
+  </data>
+  <data name="AttributeColor" xml:space="preserve">
+    <value> The color </value>
+  </data>
+  <data name="AttributeFilamentsType" xml:space="preserve">
+    <value> The filament type</value>
+  </data>
+  <data name="AttributeTshirtsType" xml:space="preserve">
+    <value> The t-shirt type</value>
+  </data>
+  <data name="AttributeVinylsType" xml:space="preserve">
+    <value> The vinyl type </value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
 </root>

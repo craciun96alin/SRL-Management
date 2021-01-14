@@ -121,6 +121,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSettings.cs" />
+    <Compile Include="Attribute3DPrintsQuality.cs" />
+    <Compile Include="AttributeColor.cs" />
+    <Compile Include="AttributeFilamentsType.cs" />
+    <Compile Include="AttributeTshirtsType.cs" />
+    <Compile Include="AttributeVinylsType.cs" />
     <Compile Include="Bill.cs" />
     <Compile Include="BusinessDetails.cs" />
     <Compile Include="Filament.cs" />

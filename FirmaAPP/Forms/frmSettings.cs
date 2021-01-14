@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using FirmaAPP.BusinessLogic.UIConnector;
 using FirmaAPP.BusinessObject;
 using System.Drawing;
+using FirmaAPP.Common;
 
 namespace FirmaAPP
 {
@@ -226,5 +227,81 @@ namespace FirmaAPP
         }
 
         #endregion
+
+
+        private void btnColors_Click(object sender, EventArgs e)
+        {
+            frmAttributeColorsList childForm = new frmAttributeColorsList();
+            AttributeColorListPresenter presenter = new AttributeColorListPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            //childForm.AttachParentForm();
+            childForm.AttachPresenter(presenter);
+            //childForm.Init();
+            childForm.ShowDialog();
+        }
+
+        private void btnVinylsType_Click(object sender, EventArgs e)
+        {
+            frmAttributeVinylsTypeList childForm = new frmAttributeVinylsTypeList();
+            AttributeVinylsTypeListPresenter presenter = new AttributeVinylsTypeListPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            //childForm.AttachParentForm();
+            childForm.AttachPresenter(presenter);
+            //childForm.Init();
+            childForm.ShowDialog();
+        }
+
+        private void btnAttributes_Click(object sender, EventArgs e)
+        {
+            panelAttribute.Visible = !panelAttribute.Visible;
+            if (panelAttribute.Visible)
+                btnAttributes.BackColor = Color.FromArgb(26, 117, 255);
+            else
+                btnAttributes.BackColor = Color.FromArgb(12, 7, 18);
+        }
+
+        private void btnTshirtsType_Click(object sender, EventArgs e)
+        {
+            frmAttributeTshirtsTypeList childForm = new frmAttributeTshirtsTypeList();
+            AttributeTshirtsTypeListPresenter presenter = new AttributeTshirtsTypeListPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            //childForm.AttachParentForm();
+            childForm.AttachPresenter(presenter);
+            //childForm.Init();
+            childForm.ShowDialog();
+        }
+
+        private void btnFilamentsType_Click(object sender, EventArgs e)
+        {
+            frmAttributeFilamentsTypeList childForm = new frmAttributeFilamentsTypeList();
+            AttributeFilamentsTypeListPresenter presenter = new AttributeFilamentsTypeListPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            //childForm.AttachParentForm();
+            childForm.AttachPresenter(presenter);
+            //childForm.Init();
+            childForm.ShowDialog();
+        }
+
+        private void btn3DPrintsQuality_Click(object sender, EventArgs e)
+        {
+            frmAttribute3DPrintsQualityList childForm = new frmAttribute3DPrintsQualityList();
+            Attribute3DPrintsQualityListPresenter presenter = new Attribute3DPrintsQualityListPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            //childForm.AttachParentForm();
+            childForm.AttachPresenter(presenter);
+            //childForm.Init();
+            childForm.ShowDialog();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(AppTranslations.CancelConfirmation, AppTranslations.WarningMessageBoxTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                this.Close();
+        }
     }
 }

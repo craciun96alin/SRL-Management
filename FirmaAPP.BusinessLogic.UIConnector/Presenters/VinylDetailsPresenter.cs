@@ -67,6 +67,62 @@ namespace FirmaAPP.BusinessLogic.UIConnector
                 throw ex;
             }
         }
+
+        public List<string> GetAllAttributeVinylsTypeNames()
+        {
+            try
+            {
+                AttributeVinylsTypeBLL pBLL = new AttributeVinylsTypeBLL();
+                var VinylsTypeName = pBLL.GetAllAttributeVinylsTypeNames();
+                return VinylsTypeName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<string> GetAllAttributeColorNames()
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var colorsName = aBLL.GetAllAttributeColorNames();
+                return colorsName;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public AttributeColor GetColorAttributeByName(string name)
+        {
+            try
+            {
+                AttributeColorBLL aBLL = new AttributeColorBLL();
+                var color = aBLL.GetAttributeColorByName(name);
+                return color;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public AttributeVinylsType GetVinylsTypeAttributeByName(string name)
+        {
+            try
+            {
+                AttributeVinylsTypeBLL aBLL = new AttributeVinylsTypeBLL();
+                var VinylsType = aBLL.GetAttributeVinylsTypeByName(name);
+                return VinylsType;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         #endregion
     }
 }

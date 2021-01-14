@@ -11,7 +11,7 @@ namespace FirmaAPP.BusinessObject
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int _3DPrintOrderID { get; set; }
-
+        public int? Attribute3DPrintsQualityID { get; set; }
         public int OrderID { get; set; }
         public Order Order { get; set; }
 
@@ -21,7 +21,7 @@ namespace FirmaAPP.BusinessObject
         public int? FilamentID { get; set; }
 
         public int Infill { get; set; }
-        public Common.Enums._3DPrintQuality Quality { get; set; }
+        public Attribute3DPrintsQuality PrintQuality { get; set; }
         public float Wheight { get; set; }
         public int PrintingTimeInMin { get; set; } // Will store the number of min
 

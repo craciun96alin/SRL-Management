@@ -47,12 +47,24 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 FilamentsDAL fDAL = new FilamentsDAL();
                 ProvidersDAL pDAL = new ProvidersDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeFilamentsTypeDAL aftDAL = new AttributeFilamentsTypeDAL();
                 var filaments = fDAL.GetAllFilaments();
                 foreach(Filament f in filaments)
                 {
                     if(f.Provider == null && f.ProviderID!=null)
                     {
                         f.Provider = pDAL.GetProviderById(f.ProviderID);
+                    }
+
+                    if (f.Color == null && f.AttributeColorID != null)
+                    {
+                        f.Color = acDAL.GetAttributeColorByID(f.AttributeColorID);
+                    }
+
+                    if (f.Type == null && f.AttributeFilamentsTypeID != null)
+                    {
+                        f.Type = aftDAL.GetAttributeFilamentsTypeByID(f.AttributeFilamentsTypeID);
                     }
                 }
                 return filaments;
@@ -115,7 +127,7 @@ namespace FirmaAPP.BusinessLogic.Core
                 var filaments = fDAL.GetFilamentsByProviderId(provider.ProviderID);
                 foreach (Filament f in filaments)
                 {
-                    var filamentName = f.FilamentID+", "+f.Name + ", " + f.Type + ", " + f.Color + ", " + f.Rating;
+                    var filamentName = f.FilamentID+", "+f.Name + ", " + f.Type + ", " + f.Color.Name + ", " + f.Rating;
                     filamentsName.Add(filamentName);
                 }
                 return filamentsName;
@@ -135,7 +147,7 @@ namespace FirmaAPP.BusinessLogic.Core
                 var filaments = fDAL.GetAllFilaments();
                 foreach (Filament f in filaments)
                 {
-                    var filamentName = f.Name + ", " + f.Type + ", " + f.Color;
+                    var filamentName = f.Name + ", " + f.Type + ", " + f.Color.Name;
                     filamentsName.Add(filamentName);
                 }
                 return filamentsName;

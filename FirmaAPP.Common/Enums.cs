@@ -15,31 +15,31 @@ namespace FirmaAPP.Common
             return (T)Enum.Parse(typeof(T), value, true);
         }
 
-        public enum Color
-        {
-            [Description("Other")]
-            Other = 0,
-            [Description("White")]
-            White = 1,
-            [Description("Black")]
-            Black = 2,
-            [Description("Red")]
-            Red = 3,
-            [Description ("Light blue")]
-            Light_blue = 4,
-            [Description("Blue")]
-            Blue = 5,
-            [Description("Royal Blue")]
-            Royal_blue = 6,
-            [Description("Red")]
-            Verde = 7,
-            [Description("Red")]
-            Galben = 8,
-            [Description("Red")]
-            Gri = 9,
-            [Description("Red")]
-            Portocaliu = 10
-        }
+        //public enum Color
+        //{
+        //    [Description("Other")]
+        //    Other = 0,
+        //    [Description("White")]
+        //    White = 1,
+        //    [Description("Black")]
+        //    Black = 2,
+        //    [Description("Red")]
+        //    Red = 3,
+        //    [Description ("Light blue")]
+        //    Light_blue = 4,
+        //    [Description("Blue")]
+        //    Blue = 5,
+        //    [Description("Royal Blue")]
+        //    Royal_blue = 6,
+        //    [Description("Red")]
+        //    Verde = 7,
+        //    [Description("Red")]
+        //    Galben = 8,
+        //    [Description("Red")]
+        //    Gri = 9,
+        //    [Description("Red")]
+        //    Portocaliu = 10
+        //}
 
         public enum Sex
         {
@@ -78,43 +78,43 @@ namespace FirmaAPP.Common
             Finalizată = 4, //green
             În_asteptare = 5, // lightyellow
         }
-        public enum TshirtType
-        {
-            Altul = 0,
-            Basic = 1,
-            Basic_free = 2,
-            Classic = 3,
-            Classic_new = 4,
-            Fantasy = 5,
-            Viper = 6,
-            Viper_free = 7,
-            Destiny = 8,
-            Slim_fit_Vneck = 9,
-            Pique_polo = 10,
-            Single_J = 11,
-            Urban = 12,
-            Cotton_Heavy =13,
-            Cotton = 14,
-            Collar_up = 15,
-            Joy = 16,
-            Perfection_plain = 17
-        }
-        public enum FilamentType
-        {
-            Altul = 0,
-            PLA = 1,
-            PETG =2,
-            TPU_Flex =3,
-            ABS = 4
-        }
+        //public enum TshirtType
+        //{
+        //    Altul = 0,
+        //    Basic = 1,
+        //    Basic_free = 2,
+        //    Classic = 3,
+        //    Classic_new = 4,
+        //    Fantasy = 5,
+        //    Viper = 6,
+        //    Viper_free = 7,
+        //    Destiny = 8,
+        //    Slim_fit_Vneck = 9,
+        //    Pique_polo = 10,
+        //    Single_J = 11,
+        //    Urban = 12,
+        //    Cotton_Heavy =13,
+        //    Cotton = 14,
+        //    Collar_up = 15,
+        //    Joy = 16,
+        //    Perfection_plain = 17
+        //}
+        //public enum FilamentType
+        //{
+        //    Altul = 0,
+        //    PLA = 1,
+        //    PETG =2,
+        //    TPU_Flex =3,
+        //    ABS = 4
+        //}
 
-        public enum VinylType
-        {
-            Altul = 0,
-            Normal = 1,
-            Flock = 2,
-            Glitter = 3
-        }
+        //public enum VinylType
+        //{
+        //    Altul = 0,
+        //    Normal = 1,
+        //    Flock = 2,
+        //    Glitter = 3
+        //}
 
         public enum Rating
         {
@@ -152,17 +152,17 @@ namespace FirmaAPP.Common
             Finlizată = 4 //Green
         }
 
-        public enum _3DPrintQuality
-        {
-            UltraDetail_005 = 0,
-            UltraDetail_007 = 1,
-            Detail_010 = 2,
-            Quality_015 = 3,
-            Speed_015 = 4,
-            Quality_020 = 5,
-            Speed_020 = 6,
-            Draft_030 = 7
-        }
+        //public enum _3DPrintQuality
+        //{
+        //    UltraDetail_005 = 0,
+        //    UltraDetail_007 = 1,
+        //    Detail_010 = 2,
+        //    Quality_015 = 3,
+        //    Speed_015 = 4,
+        //    Quality_020 = 5,
+        //    Speed_020 = 6,
+        //    Draft_030 = 7
+        //}
 
         public enum MoneyFrom
         {

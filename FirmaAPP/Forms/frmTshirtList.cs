@@ -35,7 +35,12 @@ namespace FirmaAPP
                     "TshirtID",
                     "ProviderID",
                     "Provider",
-                    "_tshirtOrders"
+                    "Color",
+                    "Type",
+                    "_tshirtOrders",
+                    "AttributeTshirtsTypeID",
+                    "AttributeColorID",
+                    "Id"
                 };
                 if (dataGridTshirts.Columns.Count > 0)
                 {

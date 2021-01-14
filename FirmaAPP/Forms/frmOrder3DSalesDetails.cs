@@ -140,6 +140,7 @@ namespace FirmaAPP
                 {
                     if (row.Cells["_3DPrintID"].Value != null)
                     {
+                        Attribute3DPrintsQuality a = _presenter.GeAttribute3DPrintsQualityByName(row.Cells["_3DPrintQuality"].Value.ToString());
                         _3DPrintOrder _3DPrintOrder = new _3DPrintOrder();
                         _3DPrintOrder._3DPrintID = Convert.ToInt32(row.Cells["_3DPrintID"].Value);
                         // _3DPrintOrder._3DPrint.Name = Convert.ToInt32(row.Cells["_3DPrintID"].Value);
@@ -147,7 +148,8 @@ namespace FirmaAPP
                         _3DPrintOrder.PrintingTimeInMin = Convert.ToInt32(row.Cells["PrintingTimeInMin"].Value);
                         _3DPrintOrder.Wheight = Convert.ToInt32(row.Cells["_3DPrintWeight"].Value);
                         _3DPrintOrder.Infill = Convert.ToInt32(row.Cells["_3DPrintInfill"].Value);
-                        _3DPrintOrder.Quality = Enums.ParseEnum<Enums._3DPrintQuality>(row.Cells["_3DPrintQuality"].Value.ToString());
+                        _3DPrintOrder.PrintQuality = a;
+                        _3DPrintOrder.Attribute3DPrintsQualityID = a.Attribute3DPrintsQualityID;
                         _3DPrintOrder.PrintsQuantity = Convert.ToInt32(row.Cells["_3DPrintsQuantity"].Value);    
                         _3DPrintOrder.TotalPrice = Convert.ToInt32(row.Cells["_3DPrintPrice"].Value);
 
@@ -729,7 +731,7 @@ namespace FirmaAPP
             {
                 cb3DPrintFilament.DataSource = _presenter.GetAllFilaments();
                 cb3DPrint.DataSource = _presenter.GetAll3DPrints();
-                cb3DPrintQuality.DataSource = Enum.GetNames(typeof(Common.Enums._3DPrintQuality));
+                cb3DPrintQuality.DataSource = _presenter.GetAllAttribute3DPrintsQualityNames();
             }
             catch (Exception ex)
             {
@@ -796,6 +798,18 @@ namespace FirmaAPP
         {
             if (MessageBox.Show(AppTranslations.CancelConfirmation, AppTranslations.WarningMessageBoxTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 this.Close();
+        }
+
+        private void btnAddNew3DPrintQuality_Click(object sender, EventArgs e)
+        {
+            frmAttribute3DPrintsQualityDetails childForm = new frmAttribute3DPrintsQualityDetails();
+            Attribute3DPrintsQualityDetailsPresenter presenter = new Attribute3DPrintsQualityDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.Attribute3DPrintsQuality = new Attribute3DPrintsQuality();
+            childForm.ShowDialog();
         }
     }
 }

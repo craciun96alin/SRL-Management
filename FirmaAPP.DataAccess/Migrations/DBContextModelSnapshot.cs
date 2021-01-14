@@ -46,6 +46,81 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.ToTable("AppSettings");
                 });
 
+            modelBuilder.Entity("FirmaAPP.BusinessObject.Attribute3DPrintsQuality", b =>
+                {
+                    b.Property<int>("Attribute3DPrintsQualityID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Attribute3DPrintsQualityID");
+
+                    b.ToTable("Attribute3DPrintsQuality");
+                });
+
+            modelBuilder.Entity("FirmaAPP.BusinessObject.AttributeColor", b =>
+                {
+                    b.Property<int>("AttributeColorID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AttributeColorID");
+
+                    b.ToTable("AttributeColor");
+                });
+
+            modelBuilder.Entity("FirmaAPP.BusinessObject.AttributeFilamentsType", b =>
+                {
+                    b.Property<int>("AttributeFilamentsTypeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AttributeFilamentsTypeID");
+
+                    b.ToTable("AttributeFilamentsType");
+                });
+
+            modelBuilder.Entity("FirmaAPP.BusinessObject.AttributeTshirtsType", b =>
+                {
+                    b.Property<int>("AttributeTshirtsTypeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AttributeTshirtsTypeID");
+
+                    b.ToTable("AttributeTshirtsType");
+                });
+
+            modelBuilder.Entity("FirmaAPP.BusinessObject.AttributeVinylsType", b =>
+                {
+                    b.Property<int>("AttributeVinylsTypeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AttributeVinylsTypeID");
+
+                    b.ToTable("AttributeVinylsType");
+                });
+
             modelBuilder.Entity("FirmaAPP.BusinessObject.Bill", b =>
                 {
                     b.Property<int>("BillID")
@@ -185,7 +260,13 @@ namespace FirmaAPP.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Color")
+                    b.Property<int?>("AttributeColorID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeColorsID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeFilamentsTypeID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -203,10 +284,11 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.Property<float>("Stock")
                         .HasColumnType("real");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
                     b.HasKey("FilamentID");
+
+                    b.HasIndex("AttributeColorID");
+
+                    b.HasIndex("AttributeFilamentsTypeID");
 
                     b.HasIndex("ProviderID");
 
@@ -406,7 +488,13 @@ namespace FirmaAPP.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Color")
+                    b.Property<int?>("AttributeColorID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeColorsID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeTshirtsTypeID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -430,10 +518,11 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
                     b.HasKey("TshirtID");
+
+                    b.HasIndex("AttributeColorID");
+
+                    b.HasIndex("AttributeTshirtsTypeID");
 
                     b.HasIndex("ProviderID");
 
@@ -513,7 +602,13 @@ namespace FirmaAPP.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Color")
+                    b.Property<int?>("AttributeColorID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeColorsID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("AttributeVinylsTypeID")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -531,10 +626,11 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.Property<float>("Stock")
                         .HasColumnType("real");
 
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
                     b.HasKey("VinylID");
+
+                    b.HasIndex("AttributeColorID");
+
+                    b.HasIndex("AttributeVinylsTypeID");
 
                     b.HasIndex("ProviderID");
 
@@ -687,6 +783,9 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.Property<int>("_3DPrintID")
                         .HasColumnType("int");
 
+                    b.Property<int?>("Attribute3DPrintsQualityID")
+                        .HasColumnType("int");
+
                     b.Property<int?>("FilamentID")
                         .HasColumnType("int");
 
@@ -699,9 +798,6 @@ namespace FirmaAPP.DataAccess.Migrations
                     b.Property<int>("PrintsQuantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("Quality")
-                        .HasColumnType("int");
-
                     b.Property<float>("TotalPrice")
                         .HasColumnType("real");
 
@@ -709,6 +805,8 @@ namespace FirmaAPP.DataAccess.Migrations
                         .HasColumnType("real");
 
                     b.HasKey("_3DPrintOrderID", "OrderID", "_3DPrintID");
+
+                    b.HasIndex("Attribute3DPrintsQualityID");
 
                     b.HasIndex("OrderID");
 
@@ -737,6 +835,14 @@ namespace FirmaAPP.DataAccess.Migrations
 
             modelBuilder.Entity("FirmaAPP.BusinessObject.Filament", b =>
                 {
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeColor", null)
+                        .WithMany("Filaments")
+                        .HasForeignKey("AttributeColorID");
+
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeFilamentsType", null)
+                        .WithMany("Filaments")
+                        .HasForeignKey("AttributeFilamentsTypeID");
+
                     b.HasOne("FirmaAPP.BusinessObject.Provider", null)
                         .WithMany("Filaments")
                         .HasForeignKey("ProviderID");
@@ -802,6 +908,14 @@ namespace FirmaAPP.DataAccess.Migrations
 
             modelBuilder.Entity("FirmaAPP.BusinessObject.Tshirt", b =>
                 {
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeColor", null)
+                        .WithMany("Tshirts")
+                        .HasForeignKey("AttributeColorID");
+
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeTshirtsType", null)
+                        .WithMany("Tshirts")
+                        .HasForeignKey("AttributeTshirtsTypeID");
+
                     b.HasOne("FirmaAPP.BusinessObject.Provider", null)
                         .WithMany("Tshirts")
                         .HasForeignKey("ProviderID");
@@ -824,6 +938,14 @@ namespace FirmaAPP.DataAccess.Migrations
 
             modelBuilder.Entity("FirmaAPP.BusinessObject.Vinyl", b =>
                 {
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeColor", null)
+                        .WithMany("Vinyls")
+                        .HasForeignKey("AttributeColorID");
+
+                    b.HasOne("FirmaAPP.BusinessObject.AttributeVinylsType", null)
+                        .WithMany("Vinyls")
+                        .HasForeignKey("AttributeVinylsTypeID");
+
                     b.HasOne("FirmaAPP.BusinessObject.Provider", null)
                         .WithMany("Vinyls")
                         .HasForeignKey("ProviderID");
@@ -868,6 +990,10 @@ namespace FirmaAPP.DataAccess.Migrations
 
             modelBuilder.Entity("FirmaAPP.BusinessObject._3DPrintOrder", b =>
                 {
+                    b.HasOne("FirmaAPP.BusinessObject.Attribute3DPrintsQuality", "PrintQuality")
+                        .WithMany("_3DPrintOrders")
+                        .HasForeignKey("Attribute3DPrintsQualityID");
+
                     b.HasOne("FirmaAPP.BusinessObject.Order", "Order")
                         .WithMany("_3DPrintOrders")
                         .HasForeignKey("OrderID")
