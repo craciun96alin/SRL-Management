@@ -43,7 +43,6 @@ namespace FirmaAPP.Common
 
         public enum Sex
         {
-            Alta = 0,
             M = 1,
             F = 2,
             Unisex = 3,
@@ -51,7 +50,6 @@ namespace FirmaAPP.Common
 
         public enum TshirtSize
         {
-            Alta = 0,
             XS = 1,
             S = 2,
             M = 3,

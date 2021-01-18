@@ -177,11 +177,14 @@
   <data name="btnAddNewTshirt.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="dataGridTshirt.TabIndex" type="System.Int32, mscorlib">
-    <value>162</value>
+  <data name="btnAddOtherPurchase.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;btnRemoveOtherPurchase.Parent" xml:space="preserve">
     <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
@@ -243,8 +246,8 @@
   <data name="&gt;&gt;btnAddTshirtInGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TshirtType.HeaderText" xml:space="preserve">
+    <value>Tip</value>
   </data>
   <data name="OtherPurchaseProvider.HeaderText" xml:space="preserve">
     <value>Furnizor</value>
@@ -252,14 +255,11 @@
   <data name="btnAddOtherPurchaseInGrid.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 25</value>
+  <data name="panelAddCancelButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="btnVinylDetails.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
   </data>
   <data name="&gt;&gt;label12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -276,8 +276,8 @@
   <data name="label5.Text" xml:space="preserve">
     <value>lei</value>
   </data>
-  <data name="&gt;&gt;cbOrderStatus.Name" xml:space="preserve">
-    <value>cbOrderStatus</value>
+  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btnAddVinyl.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -288,14 +288,14 @@
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>gbVinyl</value>
   </data>
-  <data name="lbDescription.Text" xml:space="preserve">
-    <value>Descriere:</value>
+  <data name="&gt;&gt;btnAddNewOtherPurchase.Name" xml:space="preserve">
+    <value>btnAddNewOtherPurchase</value>
   </data>
   <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
-  <data name="dataGridVinyl.TabIndex" type="System.Int32, mscorlib">
-    <value>155</value>
+  <data name="&gt;&gt;btnAddVinyl.Name" xml:space="preserve">
+    <value>btnAddVinyl</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Adaugă</value>
@@ -321,8 +321,8 @@
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;btnConfirm.Parent" xml:space="preserve">
-    <value>panelAddCancelButtons</value>
+  <data name="cbCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
   <data name="btnOrderDetails.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -351,11 +351,8 @@
   <data name="&gt;&gt;label22.Name" xml:space="preserve">
     <value>label22</value>
   </data>
-  <data name="&gt;&gt;btnAddOtherPurchaseInGrid.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnOrderDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>961, 46</value>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
   </data>
   <data name="btnAddNewOtherPurchase.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
@@ -390,9 +387,6 @@
   <data name="&gt;&gt;cbTshirtProvider.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 34</value>
-  </data>
   <data name="&gt;&gt;btnAddNewOtherPurchase.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -407,6 +401,9 @@
   </data>
   <data name="panelVinylDetails.Size" type="System.Drawing.Size, System.Drawing">
     <value>961, 424</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>panelOthersDetails</value>
   </data>
   <data name="btnViewBillFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 81</value>
@@ -471,9 +468,6 @@
   <data name="OtherPurchaseID.HeaderText" xml:space="preserve">
     <value>ID</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 19</value>
-  </data>
   <data name="dataGridOtherPurchase.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 235</value>
   </data>
@@ -498,6 +492,9 @@
   <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;btnAddOtherPurchase.Name" xml:space="preserve">
+    <value>btnAddOtherPurchase</value>
+  </data>
   <data name="tbBillDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 193</value>
   </data>
@@ -519,14 +516,14 @@
   <data name="&gt;&gt;label21.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnRemoveBill.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;labelTotalPrice.Name" xml:space="preserve">
     <value>labelTotalPrice</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
   </data>
   <data name="&gt;&gt;dataGridOtherPurchase.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -600,11 +597,14 @@
   <data name="&gt;&gt;panelTshirtDetails.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;btnTshirtsDetails.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
-  <data name="lbName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 16</value>
+  <data name="btnOrderDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>961, 46</value>
   </data>
   <data name="btnAddBillFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -617,6 +617,9 @@
   </data>
   <data name="&gt;&gt;cbViynl.Parent" xml:space="preserve">
     <value>gbVinyl</value>
+  </data>
+  <data name="&gt;&gt;tbBillName.Parent" xml:space="preserve">
+    <value>panelAddBillDetails</value>
   </data>
   <data name="dataGridVinyl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 235</value>
@@ -636,20 +639,17 @@
   <data name="btnAddBill.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 81</value>
   </data>
-  <data name="cbCustomer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 35</value>
-  </data>
   <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>*Furnizor:</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 34</value>
-  </data>
   <data name="&gt;&gt;btnConfirm.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOtherPurchaseDetails.Text" xml:space="preserve">
+    <value>Detalii Altele</value>
   </data>
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -665,9 +665,6 @@
   </data>
   <data name="&gt;&gt;label32.Parent" xml:space="preserve">
     <value>panelAddCancelButtons</value>
-  </data>
-  <data name="&gt;&gt;TshirtSex.Name" xml:space="preserve">
-    <value>TshirtSex</value>
   </data>
   <data name="&gt;&gt;panelTshirtDetails.Parent" xml:space="preserve">
     <value>panelMain</value>
@@ -690,8 +687,8 @@
   <data name="&gt;&gt;btnBillDetails.Parent" xml:space="preserve">
     <value>panelMain</value>
   </data>
-  <data name="&gt;&gt;TshirtType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnRemoveBill.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;labelTotalPrice.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -705,8 +702,14 @@
   <data name="&gt;&gt;VinylType.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;TshirtProvider.Name" xml:space="preserve">
     <value>TshirtProvider</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>*Dată deadline:</value>
   </data>
   <data name="&gt;&gt;dataGridVinyl.Name" xml:space="preserve">
     <value>dataGridVinyl</value>
@@ -761,9 +764,6 @@
   </data>
   <data name="btnRemoveVinyl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>20, 20, 0, 0</value>
-  </data>
-  <data name="tbBillFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 106</value>
   </data>
   <data name="btnBillDetails.TabIndex" type="System.Int32, mscorlib">
     <value>163</value>
@@ -849,6 +849,9 @@
   <data name="btnAddNewCustomer.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
     <value>gbOtherPurchase</value>
   </data>
@@ -867,8 +870,8 @@
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
   </data>
-  <data name="btnOtherPurchaseDetails.Text" xml:space="preserve">
-    <value>Detalii Altele</value>
+  <data name="&gt;&gt;TshirtType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panelTshirtMenu.Name" xml:space="preserve">
     <value>panelTshirtMenu</value>
@@ -881,6 +884,12 @@
   </data>
   <data name="dataGridOtherPurchase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
+  </data>
+  <data name="panelAddBillDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTshirtsDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 537</value>
   </data>
   <data name="&gt;&gt;btnAddNewVinyl.Name" xml:space="preserve">
     <value>btnAddNewVinyl</value>
@@ -917,6 +926,9 @@
   </data>
   <data name="label20.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 77</value>
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 122</value>
@@ -957,8 +969,8 @@
   <data name="btnOtherPurchaseDetails.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1577</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;OtherPurchaseProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="OtherPurchaseDescription.HeaderText" xml:space="preserve">
     <value>Descriere</value>
@@ -1020,14 +1032,14 @@
   <data name="label27.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnOtherPurchaseDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
   <data name="&gt;&gt;cbOrderStatus.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
   <data name="label32.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>*Preț total:</value>
   </data>
   <data name="btnRemoveVinyl.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 74</value>
@@ -1040,9 +1052,6 @@
   </data>
   <data name="cbTshirtProvider.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 35</value>
-  </data>
-  <data name="dateFinishedTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 22</value>
   </data>
   <data name="btnAddNewTshirt.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -1068,8 +1077,8 @@
   <data name="btnBillDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="label22.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
@@ -1092,8 +1101,8 @@
   <data name="&gt;&gt;numericShippingPrice.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbBillFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 162</value>
@@ -1182,14 +1191,11 @@
   <data name="&gt;&gt;label13.Name" xml:space="preserve">
     <value>label13</value>
   </data>
-  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
-    <value>panelOthersDetails</value>
+  <data name="&gt;&gt;btnTshirtsDetails.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;btnAddVinyl.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="labelTotalPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
   </data>
   <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 34</value>
@@ -1203,14 +1209,17 @@
   <data name="lbTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 9</value>
   </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelOrderDetails</value>
+  </data>
   <data name="btnTshirtsDetails.Size" type="System.Drawing.Size, System.Drawing">
     <value>961, 46</value>
   </data>
   <data name="dateTimeBill.Size" type="System.Drawing.Size, System.Drawing">
     <value>516, 22</value>
   </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Descriere:</value>
   </data>
   <data name="tbOrderDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 297</value>
@@ -1230,8 +1239,8 @@
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>*Dată deadline:</value>
+  <data name="&gt;&gt;dateDeadLine.Parent" xml:space="preserve">
+    <value>panelOrderDetails</value>
   </data>
   <data name="btnAddTshirtInGrid.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
@@ -1284,17 +1293,11 @@
   <data name="&gt;&gt;btnBillDetails.Name" xml:space="preserve">
     <value>btnBillDetails</value>
   </data>
-  <data name="&gt;&gt;dataGridOtherPurchase.Name" xml:space="preserve">
-    <value>dataGridOtherPurchase</value>
-  </data>
   <data name="btnViewBillFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 34</value>
-  </data>
-  <data name="btnBillDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
   </data>
   <data name="panelTshirtDetails.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1329,14 +1332,14 @@
   <data name="&gt;&gt;btnAddNewCustomer.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;panelMain.Name" xml:space="preserve">
-    <value>panelMain</value>
-  </data>
   <data name="&gt;&gt;panelOthersDetails.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label26.Parent" xml:space="preserve">
     <value>gbOtherPurchase</value>
+  </data>
+  <data name="btnRemoveTshirt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="panelTshirtMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -1359,8 +1362,8 @@
   <data name="btnAddOtherPurchase.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 74</value>
   </data>
-  <data name="&gt;&gt;tbBillDescription.Name" xml:space="preserve">
-    <value>tbBillDescription</value>
+  <data name="btnAddBillFile.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;lbColor.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -1389,8 +1392,8 @@
   <data name="&gt;&gt;label29.Name" xml:space="preserve">
     <value>label29</value>
   </data>
-  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>gbVinyl</value>
   </data>
   <data name="btnAddVinyl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 20, 20, 0</value>
@@ -1419,8 +1422,8 @@
   <data name="label27.Text" xml:space="preserve">
     <value>*Fișier:</value>
   </data>
-  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 77</value>
+  <data name="&gt;&gt;lbTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;gbVinyl.Name" xml:space="preserve">
     <value>gbVinyl</value>
@@ -1436,9 +1439,6 @@
   </data>
   <data name="&gt;&gt;gbOtherPurchase.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnAddVinyl.Name" xml:space="preserve">
-    <value>btnAddVinyl</value>
   </data>
   <data name="&gt;&gt;btnOrderDetails.Parent" xml:space="preserve">
     <value>panelMain</value>
@@ -1539,14 +1539,11 @@
   <data name="TshirtSex.HeaderText" xml:space="preserve">
     <value>Sex</value>
   </data>
-  <data name="label27.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
+  <data name="&gt;&gt;cbVinylProvider.Name" xml:space="preserve">
+    <value>cbVinylProvider</value>
   </data>
-  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;dateDeadLine.Parent" xml:space="preserve">
-    <value>panelOrderDetails</value>
+  <data name="btnOtherPurchaseDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
@@ -1584,8 +1581,8 @@
   <data name="&gt;&gt;btnViewBillFile.Parent" xml:space="preserve">
     <value>panel12</value>
   </data>
-  <data name="&gt;&gt;btnAddNewOtherPurchase.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;btnRemoveBill.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1605,8 +1602,8 @@
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
   </data>
-  <data name="btnRemoveBill.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;tbBillFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label23.Parent" xml:space="preserve">
     <value>gbOtherPurchase</value>
@@ -1619,9 +1616,6 @@
   </data>
   <data name="label27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;dataGridVinyl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tbBillFile.Parent" xml:space="preserve">
     <value>panelAddBillDetails</value>
@@ -1646,6 +1640,12 @@
   </data>
   <data name="panelAddBillDetails.Size" type="System.Drawing.Size, System.Drawing">
     <value>961, 340</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelAddCancelButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2555</value>
   </data>
   <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1686,6 +1686,9 @@
   <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 16.2pt</value>
   </data>
+  <data name="&gt;&gt;tbBillDescription.Name" xml:space="preserve">
+    <value>tbBillDescription</value>
+  </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1709,6 +1712,9 @@
   </data>
   <data name="btnAddVinylInGrid.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
+  </data>
+  <data name="btnRemoveVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="&gt;&gt;btnAddVinyl.Parent" xml:space="preserve">
     <value>panelVinylMenu</value>
@@ -1743,26 +1749,20 @@
   <data name="&gt;&gt;btnOtherPurchaseDetails.Name" xml:space="preserve">
     <value>btnOtherPurchaseDetails</value>
   </data>
+  <data name="btnOrderDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 78</value>
+  </data>
   <data name="cbViynl.Size" type="System.Drawing.Size, System.Drawing">
     <value>547, 24</value>
-  </data>
-  <data name="btnRemoveVinyl.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
   </data>
   <data name="cbTshirt.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
   </data>
-  <data name="gbTshirt.Text" xml:space="preserve">
-    <value>Adaugă tricou</value>
+  <data name="&gt;&gt;numericTshirtPrice.Name" xml:space="preserve">
+    <value>numericTshirtPrice</value>
   </data>
-  <data name="TshirtType.HeaderText" xml:space="preserve">
-    <value>Tip</value>
-  </data>
-  <data name="btnAddNewCustomer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1791,8 +1791,8 @@
   <data name="&gt;&gt;numericShippingPrice.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="btnAddOtherPurchase.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;panelOrderDetails.Name" xml:space="preserve">
+    <value>panelOrderDetails</value>
   </data>
   <data name="&gt;&gt;VinylColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1824,9 +1824,6 @@
   <data name="&gt;&gt;gbOtherPurchase.Parent" xml:space="preserve">
     <value>panelOthersDetails</value>
   </data>
-  <data name="&gt;&gt;panelAddCancelButtons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="btnTshirtsDetails.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -1842,17 +1839,14 @@
   <data name="btnAddTshirtInGrid.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="btnRemoveTshirt.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="dataGridTshirt.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panelTshirtMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label28.Text" xml:space="preserve">
-    <value>Descriere:</value>
   </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
@@ -1890,8 +1884,8 @@
   <data name="btnAddOtherPurchaseInGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 56</value>
   </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 19</value>
+  <data name="lbDescription.Text" xml:space="preserve">
+    <value>Descriere:</value>
   </data>
   <data name="dateCreateTime.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -1908,8 +1902,8 @@
   <data name="&gt;&gt;numericTshirtQuantity.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAddOtherPurchase.Name" xml:space="preserve">
-    <value>btnAddOtherPurchase</value>
+  <data name="&gt;&gt;dataGridOtherPurchase.Name" xml:space="preserve">
+    <value>dataGridOtherPurchase</value>
   </data>
   <data name="&gt;&gt;lbName.Name" xml:space="preserve">
     <value>lbName</value>
@@ -1917,20 +1911,17 @@
   <data name="btnAddNewCustomer.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="cbTshirtSize.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
   <data name="panel9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="&gt;&gt;panelAddBillDetails.Name" xml:space="preserve">
     <value>panelAddBillDetails</value>
   </data>
-  <data name="&gt;&gt;labelTotalPrice.Parent" xml:space="preserve">
-    <value>panelAddCancelButtons</value>
-  </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>60, 3, 60, 3</value>
   </data>
   <data name="VinylName.HeaderText" xml:space="preserve">
     <value>Nume</value>
@@ -2007,14 +1998,11 @@
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
-  <data name="&gt;&gt;btnAddNewOtherPurchase.Name" xml:space="preserve">
-    <value>btnAddNewOtherPurchase</value>
+  <data name="&gt;&gt;TshirtSex.Name" xml:space="preserve">
+    <value>TshirtSex</value>
   </data>
   <data name="&gt;&gt;label35.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateCreateTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 22</value>
   </data>
   <data name="TshirtRating.HeaderText" xml:space="preserve">
     <value>Rating</value>
@@ -2028,9 +2016,6 @@
   <data name="btnAddBillFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>711, 102</value>
   </data>
-  <data name="&gt;&gt;numericTshirtPrice.Name" xml:space="preserve">
-    <value>numericTshirtPrice</value>
-  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 34</value>
   </data>
@@ -2040,26 +2025,20 @@
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;gbVinyl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnAddNewCustomer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;OtherPurchaseProvider.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
   </data>
   <data name="&gt;&gt;btnAddNewTshirt.Parent" xml:space="preserve">
     <value>gbTshirt</value>
-  </data>
-  <data name="panelAddCancelButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
   </data>
   <data name="labelTotalPrice.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
   <data name="&gt;&gt;btnAddOtherPurchaseInGrid.Parent" xml:space="preserve">
     <value>gbOtherPurchase</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
   </data>
   <data name="&gt;&gt;btnRemoveVinyl.Name" xml:space="preserve">
     <value>btnRemoveVinyl</value>
@@ -2091,11 +2070,8 @@
   <data name="&gt;&gt;TshirtSex.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelOrderDetails.Name" xml:space="preserve">
-    <value>panelOrderDetails</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>gbVinyl</value>
+  <data name="labelTotalPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>961, 78</value>
@@ -2112,9 +2088,6 @@
   <data name="btnVinylDetails.TabIndex" type="System.Int32, mscorlib">
     <value>158</value>
   </data>
-  <data name="btnAddBillFile.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
   <data name="&gt;&gt;btnAddTshirtInGrid.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
@@ -2130,8 +2103,8 @@
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
-  <data name="panelAddBillDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="dateCreateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -2187,8 +2160,8 @@
   <data name="btnTshirtsDetails.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13pt</value>
   </data>
-  <data name="dataGridVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;panelAddCancelButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbName.Parent" xml:space="preserve">
     <value>panelAddBillDetails</value>
@@ -2250,11 +2223,8 @@
   <data name="panelVinylDetails.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 1153</value>
   </data>
-  <data name="panelAddCancelButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2555</value>
-  </data>
-  <data name="&gt;&gt;panelOrderDetails.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="gbVinyl.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
   </data>
   <data name="panelBillDetails.TabIndex" type="System.Int32, mscorlib">
     <value>164</value>
@@ -2264,6 +2234,9 @@
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 34</value>
+  </data>
+  <data name="&gt;&gt;cbVinylProvider.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="panelVinylMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>45, 15, 680, 10</value>
@@ -2283,14 +2256,20 @@
   <data name="&gt;&gt;VinylName.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;TshirtSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="&gt;&gt;cbVinylProvider.Parent" xml:space="preserve">
+    <value>gbVinyl</value>
+  </data>
   <data name="cbVinylProvider.Location" type="System.Drawing.Point, System.Drawing">
     <value>515, 87</value>
   </data>
   <data name="numericTshirtPrice.Location" type="System.Drawing.Point, System.Drawing">
     <value>526, 129</value>
-  </data>
-  <data name="cbCustomer.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
   </data>
   <data name="panelAddCancelButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>350, 60, 350, 40</value>
@@ -2304,11 +2283,14 @@
   <data name="gbOtherPurchase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;tbBillName.Parent" xml:space="preserve">
-    <value>panelAddBillDetails</value>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 34</value>
   </data>
   <data name="btnAddOtherPurchaseInGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnAddOtherPurchase.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnAddOtherPurchaseInGrid.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -2319,20 +2301,17 @@
   <data name="&gt;&gt;cbTshirtSex.Parent" xml:space="preserve">
     <value>gbTshirt</value>
   </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="labelTotalPrice.Location" type="System.Drawing.Point, System.Drawing">
     <value>492, 18</value>
   </data>
-  <data name="label32.Text" xml:space="preserve">
-    <value>*Preț total:</value>
+  <data name="lbDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
   </data>
   <data name="&gt;&gt;VinylRatin.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnTshirtsDetails.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;btnAddTshirtInGrid.Name" xml:space="preserve">
+    <value>btnAddTshirtInGrid</value>
   </data>
   <data name="&gt;&gt;btnAddBillFile.Name" xml:space="preserve">
     <value>btnAddBillFile</value>
@@ -2367,8 +2346,8 @@
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lbDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>73</value>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label21.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -2400,8 +2379,8 @@
   <data name="dateFinishedTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 216</value>
   </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnRemoveVinyl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
@@ -2451,8 +2430,8 @@
   <data name="lbColor.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;btnAddNewOtherPurchase.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;panelAddBillDetails.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2466,14 +2445,14 @@
   <data name="&gt;&gt;cbTshirtProvider.Parent" xml:space="preserve">
     <value>gbTshirt</value>
   </data>
-  <data name="&gt;&gt;cbVinylProvider.Parent" xml:space="preserve">
-    <value>gbVinyl</value>
-  </data>
-  <data name="&gt;&gt;lbDescription.Name" xml:space="preserve">
-    <value>lbDescription</value>
+  <data name="&gt;&gt;btnConfirm.Parent" xml:space="preserve">
+    <value>panelAddCancelButtons</value>
   </data>
   <data name="&gt;&gt;dateTimeBill.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="btnVinylDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;numericShippingPrice.Name" xml:space="preserve">
     <value>numericShippingPrice</value>
@@ -2496,8 +2475,8 @@
   <data name="&gt;&gt;btnAddOtherPurchaseInGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnOrderDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
@@ -2517,8 +2496,8 @@
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
   </data>
-  <data name="&gt;&gt;btnRemoveBill.Parent" xml:space="preserve">
-    <value>panel12</value>
+  <data name="gbTshirt.Text" xml:space="preserve">
+    <value>Adaugă tricou</value>
   </data>
   <data name="btnAddNewCustomer.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 30</value>
@@ -2589,11 +2568,8 @@
   <data name="btnOrderDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBillDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2055</value>
+  <data name="&gt;&gt;gbVinyl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2619,13 +2595,13 @@
   <data name="&gt;&gt;panelVinylDetails.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="btnTshirtsDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 537</value>
+  <data name="tbBillFile.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
   </data>
   <data name="&gt;&gt;OtherPurchaseQuantity.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnAddOtherPurchase.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="btnOrderDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;panelTshirtDetails.Type" xml:space="preserve">
@@ -2640,11 +2616,11 @@
   <data name="cbBillStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 64</value>
   </data>
-  <data name="btnRemoveVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;lbDescription.Name" xml:space="preserve">
+    <value>lbDescription</value>
   </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
+  <data name="&gt;&gt;cbViynl.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="btnRemoveBill.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 15</value>
@@ -2661,14 +2637,14 @@
   <data name="&gt;&gt;VinylName.Name" xml:space="preserve">
     <value>VinylName</value>
   </data>
+  <data name="dataGridVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;numericOtherPurchaseQuantity.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 34</value>
-  </data>
-  <data name="&gt;&gt;lbTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>515, 60</value>
@@ -2693,9 +2669,6 @@
   </data>
   <data name="&gt;&gt;TshirtRating.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
   </data>
   <data name="btnAddBill.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 15</value>
@@ -2745,6 +2718,9 @@
   <data name="&gt;&gt;lbTitle.Name" xml:space="preserve">
     <value>lbTitle</value>
   </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
@@ -2763,8 +2739,8 @@
   <data name="&gt;&gt;cbBillStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TshirtSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
   </data>
   <data name="btnOrderDetails.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13pt</value>
@@ -2778,17 +2754,23 @@
   <data name="&gt;&gt;panelVinylMenu.Parent" xml:space="preserve">
     <value>panelVinylDetails</value>
   </data>
+  <data name="&gt;&gt;btnRemoveBill.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
   <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 10.2pt</value>
   </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 122</value>
   </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
   <data name="btnRemoveTshirt.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 15</value>
   </data>
-  <data name="btnVinylDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="dateFinishedTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 22</value>
   </data>
   <data name="btnRemoveBill.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -2832,8 +2814,8 @@
   <data name="btnAddNewVinyl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="btnRemoveVinyl.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;panelMain.Name" xml:space="preserve">
+    <value>panelMain</value>
   </data>
   <data name="&gt;&gt;label23.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2841,11 +2823,11 @@
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="&gt;&gt;btnRemoveBill.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;btnAddOtherPurchaseInGrid.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 34</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 34</value>
@@ -2853,13 +2835,13 @@
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
-  <data name="&gt;&gt;btnAddNewCustomer.Parent" xml:space="preserve">
-    <value>panelOrderDetails</value>
-  </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="btnOtherPurchaseDetails.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRemoveVinyl.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
@@ -2871,11 +2853,14 @@
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;panelAddCancelButtons.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="dataGridVinyl.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
   </data>
-  <data name="btnVinylDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>38, 0, 0, 0</value>
+  <data name="btnVinylDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
@@ -2928,11 +2913,11 @@
   <data name="btnViewBillFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>246, 15</value>
   </data>
-  <data name="&gt;&gt;cbVinylProvider.Name" xml:space="preserve">
-    <value>cbVinylProvider</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>60, 3, 60, 3</value>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gbVinyl.Size" type="System.Drawing.Size, System.Drawing">
     <value>961, 136</value>
@@ -3027,6 +3012,9 @@
   <data name="label32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
+  <data name="&gt;&gt;cbOrderStatus.Name" xml:space="preserve">
+    <value>cbOrderStatus</value>
+  </data>
   <data name="&gt;&gt;cbOtherPurchase.Parent" xml:space="preserve">
     <value>gbOtherPurchase</value>
   </data>
@@ -3045,8 +3033,8 @@
   <data name="&gt;&gt;tbBillDescription.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;btnTshirtsDetails.Parent" xml:space="preserve">
-    <value>panelMain</value>
+  <data name="&gt;&gt;panelOrderDetails.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="lbDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
@@ -3075,8 +3063,11 @@
   <data name="tbBillFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>516, 22</value>
   </data>
-  <data name="gbVinyl.TabIndex" type="System.Int32, mscorlib">
-    <value>157</value>
+  <data name="btnBillDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2055</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewCustomer.Parent" xml:space="preserve">
+    <value>panelOrderDetails</value>
   </data>
   <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 16.2pt</value>
@@ -3084,8 +3075,8 @@
   <data name="&gt;&gt;TshirtColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;dataGridVinyl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gbVinyl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -3108,20 +3099,23 @@
   <data name="btnAddTshirt.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;cbVinylProvider.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnBillDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;tbOrderDescription.Parent" xml:space="preserve">
     <value>panelOrderDetails</value>
   </data>
-  <data name="tbBillFile.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
+  <data name="tbBillFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 106</value>
   </data>
   <data name="&gt;&gt;btnViewBillFile.Name" xml:space="preserve">
     <value>btnViewBillFile</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 34</value>
+  </data>
+  <data name="&gt;&gt;panelAddCancelButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;numericTshirtQuantity.Name" xml:space="preserve">
     <value>numericTshirtQuantity</value>
@@ -3195,14 +3189,17 @@
   <data name="&gt;&gt;gbOtherPurchase.Name" xml:space="preserve">
     <value>gbOtherPurchase</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panelOrderDetails</value>
+  <data name="btnRemoveBill.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="panelMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="btnOrderDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 78</value>
+  <data name="cbCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 35</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 25</value>
   </data>
   <data name="btnRemoveTshirt.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 74</value>
@@ -3261,8 +3258,8 @@
   <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;btnAddTshirtInGrid.Name" xml:space="preserve">
-    <value>btnAddTshirtInGrid</value>
+  <data name="&gt;&gt;labelTotalPrice.Parent" xml:space="preserve">
+    <value>panelAddCancelButtons</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>*Vinyl:</value>
@@ -3291,7 +3288,7 @@
   <data name="panelMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>982, 853</value>
   </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
@@ -3312,14 +3309,17 @@
   <data name="btnVinylDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="btnVinylDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>38, 0, 0, 0</value>
+  </data>
   <data name="panelTshirtDetails.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 583</value>
   </data>
   <data name="panelMain.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;cbViynl.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="cbTshirtSize.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
   </data>
   <data name="btnAddTshirtInGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -3356,9 +3356,6 @@
   </metadata>
   <metadata name="VinylRatin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
   </metadata>
   <metadata name="TshirtID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -124,7 +124,7 @@
     <value>a fost adăugat/ă!</value>
   </data>
   <data name="Bill" xml:space="preserve">
-    <value>Factura</value>
+    <value>Factură</value>
   </data>
   <data name="BillAcquisitionType" xml:space="preserve">
     <value>Achiziții</value>
@@ -308,5 +308,86 @@
   </data>
   <data name="Type" xml:space="preserve">
     <value>Tip</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresă</value>
+  </data>
+  <data name="BillFolder" xml:space="preserve">
+    <value>Folder facturi</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Oraș</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Țara</value>
+  </data>
+  <data name="County" xml:space="preserve">
+    <value>Județ</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Dată creare</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dată</value>
+  </data>
+  <data name="DeadLineDate" xml:space="preserve">
+    <value>Termen limită</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fișier</value>
+  </data>
+  <data name="FinalizeDate" xml:space="preserve">
+    <value>Data finalizare</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Prenume</value>
+  </data>
+  <data name="HoursOfWork" xml:space="preserve">
+    <value>Ore de muncă</value>
+  </data>
+  <data name="Infill" xml:space="preserve">
+    <value>Umplere</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Preț</value>
+  </data>
+  <data name="PrintingTimeInMin" xml:space="preserve">
+    <value>Timp de printare(min)</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Proiect</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Calitate</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Cantitate</value>
+  </data>
+  <data name="ShippingPrice" xml:space="preserve">
+    <value>Preț transport</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Preț total</value>
+  </data>
+  <data name="TVAPaying" xml:space="preserve">
+    <value>Plătitor TVA</value>
+  </data>
+  <data name="Wheight" xml:space="preserve">
+    <value>Greutate</value>
+  </data>
+  <data name="_3DDesignFolder" xml:space="preserve">
+    <value>Folder proiectări 3D</value>
+  </data>
+  <data name="_3DPrintFolder" xml:space="preserve">
+    <value>Folder printări 3D</value>
   </data>
 </root>

@@ -1,4 +1,6 @@
-﻿namespace FirmaAPP
+﻿using FirmaAPP.Common;
+
+namespace FirmaAPP
 {
     partial class frmOrder3DSalesDetails
     {
@@ -87,6 +89,7 @@
             this._3DPrintsQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this._3DPrintPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gb3DPrint = new System.Windows.Forms.GroupBox();
+            this.btnAddNew3DPrintQuality = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.numeric3DPrintInfill = new System.Windows.Forms.NumericUpDown();
@@ -181,7 +184,6 @@
             this.btnConfirm = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.openBillFile = new System.Windows.Forms.OpenFileDialog();
-            this.btnAddNew3DPrintQuality = new System.Windows.Forms.Button();
             this.panelTitle.SuspendLayout();
             this.panelOrderDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericShippingPrice)).BeginInit();
@@ -221,8 +223,8 @@
             // 
             // panelTitle
             // 
-            this.panelTitle.Controls.Add(this.lbTitle);
             resources.ApplyResources(this.panelTitle, "panelTitle");
+            this.panelTitle.Controls.Add(this.lbTitle);
             this.panelTitle.Name = "panelTitle";
             // 
             // lbTitle
@@ -233,8 +235,8 @@
             // 
             // btnOrderDetails
             // 
-            this.btnOrderDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
             resources.ApplyResources(this.btnOrderDetails, "btnOrderDetails");
+            this.btnOrderDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
             this.btnOrderDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnOrderDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btnOrderDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -245,6 +247,7 @@
             // 
             // panelOrderDetails
             // 
+            resources.ApplyResources(this.panelOrderDetails, "panelOrderDetails");
             this.panelOrderDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelOrderDetails.Controls.Add(this.label5);
             this.panelOrderDetails.Controls.Add(this.label6);
@@ -262,7 +265,6 @@
             this.panelOrderDetails.Controls.Add(this.label1);
             this.panelOrderDetails.Controls.Add(this.cbCustomer);
             this.panelOrderDetails.Controls.Add(this.label10);
-            resources.ApplyResources(this.panelOrderDetails, "panelOrderDetails");
             this.panelOrderDetails.Name = "panelOrderDetails";
             // 
             // label5
@@ -296,8 +298,8 @@
             // 
             // btnAddNewCustomer
             // 
-            this.btnAddNewCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddNewCustomer, "btnAddNewCustomer");
+            this.btnAddNewCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddNewCustomer.FlatAppearance.BorderSize = 0;
             this.btnAddNewCustomer.Name = "btnAddNewCustomer";
             this.btnAddNewCustomer.UseVisualStyleBackColor = true;
@@ -311,8 +313,8 @@
             // 
             // numericShippingPrice
             // 
-            this.numericShippingPrice.DecimalPlaces = 2;
             resources.ApplyResources(this.numericShippingPrice, "numericShippingPrice");
+            this.numericShippingPrice.DecimalPlaces = 2;
             this.numericShippingPrice.Name = "numericShippingPrice";
             this.numericShippingPrice.ValueChanged += new System.EventHandler(this.numericShippingPrice_ValueChanged);
             // 
@@ -330,8 +332,8 @@
             // 
             // dateDeadLine
             // 
-            this.dateDeadLine.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             resources.ApplyResources(this.dateDeadLine, "dateDeadLine");
+            this.dateDeadLine.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateDeadLine.Name = "dateDeadLine";
             // 
             // dateCreateTime
@@ -354,8 +356,8 @@
             // 
             // cbCustomer
             // 
-            this.cbCustomer.FormattingEnabled = true;
             resources.ApplyResources(this.cbCustomer, "cbCustomer");
+            this.cbCustomer.FormattingEnabled = true;
             this.cbCustomer.Name = "cbCustomer";
             // 
             // label10
@@ -377,21 +379,22 @@
             // 
             // panelFilamentDetails
             // 
+            resources.ApplyResources(this.panelFilamentDetails, "panelFilamentDetails");
             this.panelFilamentDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelFilamentDetails.Controls.Add(this.panel3);
             this.panelFilamentDetails.Controls.Add(this.gbFilament);
             this.panelFilamentDetails.Controls.Add(this.panelFilamentMenu);
-            resources.ApplyResources(this.panelFilamentDetails, "panelFilamentDetails");
             this.panelFilamentDetails.Name = "panelFilamentDetails";
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dataGridFilament);
             resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Controls.Add(this.dataGridFilament);
             this.panel3.Name = "panel3";
             // 
             // dataGridFilament
             // 
+            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridFilament.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -401,7 +404,6 @@
             this.FilamentColor,
             this.FilamentRating,
             this.FilamentQuantity});
-            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.Name = "dataGridFilament";
             this.dataGridFilament.RowTemplate.Height = 24;
             this.dataGridFilament.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridFilament_RowsAdded);
@@ -410,6 +412,7 @@
             // 
             resources.ApplyResources(this.FilamentID, "FilamentID");
             this.FilamentID.Name = "FilamentID";
+            this.FilamentID.ReadOnly = true;
             // 
             // FilamentName
             // 
@@ -443,6 +446,7 @@
             // 
             // gbFilament
             // 
+            resources.ApplyResources(this.gbFilament, "gbFilament");
             this.gbFilament.Controls.Add(this.cbFilamentProvider);
             this.gbFilament.Controls.Add(this.label7);
             this.gbFilament.Controls.Add(this.label11);
@@ -453,15 +457,14 @@
             this.gbFilament.Controls.Add(this.label14);
             this.gbFilament.Controls.Add(this.cbFilament);
             this.gbFilament.Controls.Add(this.label16);
-            resources.ApplyResources(this.gbFilament, "gbFilament");
             this.gbFilament.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gbFilament.Name = "gbFilament";
             this.gbFilament.TabStop = false;
             // 
             // cbFilamentProvider
             // 
-            this.cbFilamentProvider.FormattingEnabled = true;
             resources.ApplyResources(this.cbFilamentProvider, "cbFilamentProvider");
+            this.cbFilamentProvider.FormattingEnabled = true;
             this.cbFilamentProvider.Name = "cbFilamentProvider";
             this.cbFilamentProvider.SelectedIndexChanged += new System.EventHandler(this.cbFilamentProvider_SelectedIndexChanged);
             // 
@@ -479,8 +482,8 @@
             // 
             // btnAddFilamentInGrid
             // 
-            this.btnAddFilamentInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             resources.ApplyResources(this.btnAddFilamentInGrid, "btnAddFilamentInGrid");
+            this.btnAddFilamentInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             this.btnAddFilamentInGrid.FlatAppearance.BorderSize = 0;
             this.btnAddFilamentInGrid.Name = "btnAddFilamentInGrid";
             this.btnAddFilamentInGrid.UseVisualStyleBackColor = true;
@@ -488,8 +491,8 @@
             // 
             // btnAddNewFilament
             // 
-            this.btnAddNewFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddNewFilament, "btnAddNewFilament");
+            this.btnAddNewFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddNewFilament.FlatAppearance.BorderSize = 0;
             this.btnAddNewFilament.Name = "btnAddNewFilament";
             this.btnAddNewFilament.UseVisualStyleBackColor = true;
@@ -503,12 +506,12 @@
             // 
             // numericFilamentQuantity
             // 
+            resources.ApplyResources(this.numericFilamentQuantity, "numericFilamentQuantity");
             this.numericFilamentQuantity.Increment = new decimal(new int[] {
             1000,
             0,
             0,
             0});
-            resources.ApplyResources(this.numericFilamentQuantity, "numericFilamentQuantity");
             this.numericFilamentQuantity.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -524,8 +527,8 @@
             // 
             // cbFilament
             // 
-            this.cbFilament.FormattingEnabled = true;
             resources.ApplyResources(this.cbFilament, "cbFilament");
+            this.cbFilament.FormattingEnabled = true;
             this.cbFilament.Name = "cbFilament";
             // 
             // label16
@@ -536,16 +539,16 @@
             // 
             // panelFilamentMenu
             // 
+            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelFilamentMenu.Controls.Add(this.btnRemoveFilament);
             this.panelFilamentMenu.Controls.Add(this.btnAddFilament);
-            resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
             this.panelFilamentMenu.Name = "panelFilamentMenu";
             // 
             // btnRemoveFilament
             // 
-            this.btnRemoveFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnRemoveFilament, "btnRemoveFilament");
+            this.btnRemoveFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnRemoveFilament.FlatAppearance.BorderSize = 0;
             this.btnRemoveFilament.Name = "btnRemoveFilament";
             this.btnRemoveFilament.UseVisualStyleBackColor = true;
@@ -553,8 +556,8 @@
             // 
             // btnAddFilament
             // 
-            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddFilament, "btnAddFilament");
+            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddFilament.FlatAppearance.BorderSize = 0;
             this.btnAddFilament.Name = "btnAddFilament";
             this.btnAddFilament.UseVisualStyleBackColor = true;
@@ -573,21 +576,22 @@
             // 
             // panel3DPrintDetails
             // 
+            resources.ApplyResources(this.panel3DPrintDetails, "panel3DPrintDetails");
             this.panel3DPrintDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel3DPrintDetails.Controls.Add(this.panel2);
             this.panel3DPrintDetails.Controls.Add(this.gb3DPrint);
             this.panel3DPrintDetails.Controls.Add(this.panel3DPrintMenu);
-            resources.ApplyResources(this.panel3DPrintDetails, "panel3DPrintDetails");
             this.panel3DPrintDetails.Name = "panel3DPrintDetails";
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.dataGrid3DPrint);
             resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Controls.Add(this.dataGrid3DPrint);
             this.panel2.Name = "panel2";
             // 
             // dataGrid3DPrint
             // 
+            resources.ApplyResources(this.dataGrid3DPrint, "dataGrid3DPrint");
             this.dataGrid3DPrint.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGrid3DPrint.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid3DPrint.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -600,7 +604,6 @@
             this._3DPrintQuality,
             this._3DPrintsQuantity,
             this._3DPrintPrice});
-            resources.ApplyResources(this.dataGrid3DPrint, "dataGrid3DPrint");
             this.dataGrid3DPrint.Name = "dataGrid3DPrint";
             this.dataGrid3DPrint.RowTemplate.Height = 24;
             this.dataGrid3DPrint.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGrid3DPrint_RowsAdded);
@@ -610,6 +613,7 @@
             // 
             resources.ApplyResources(this._3DPrintID, "_3DPrintID");
             this._3DPrintID.Name = "_3DPrintID";
+            this._3DPrintID.ReadOnly = true;
             // 
             // _3DPrintName
             // 
@@ -627,21 +631,25 @@
             // 
             resources.ApplyResources(this.PrintingTimeInMin, "PrintingTimeInMin");
             this.PrintingTimeInMin.Name = "PrintingTimeInMin";
+            this.PrintingTimeInMin.ReadOnly = true;
             // 
             // _3DPrintWeight
             // 
             resources.ApplyResources(this._3DPrintWeight, "_3DPrintWeight");
             this._3DPrintWeight.Name = "_3DPrintWeight";
+            this._3DPrintWeight.ReadOnly = true;
             // 
             // _3DPrintInfill
             // 
             resources.ApplyResources(this._3DPrintInfill, "_3DPrintInfill");
             this._3DPrintInfill.Name = "_3DPrintInfill";
+            this._3DPrintInfill.ReadOnly = true;
             // 
             // _3DPrintQuality
             // 
             resources.ApplyResources(this._3DPrintQuality, "_3DPrintQuality");
             this._3DPrintQuality.Name = "_3DPrintQuality";
+            this._3DPrintQuality.ReadOnly = true;
             // 
             // _3DPrintsQuantity
             // 
@@ -653,9 +661,11 @@
             // 
             resources.ApplyResources(this._3DPrintPrice, "_3DPrintPrice");
             this._3DPrintPrice.Name = "_3DPrintPrice";
+            this._3DPrintPrice.ReadOnly = true;
             // 
             // gb3DPrint
             // 
+            resources.ApplyResources(this.gb3DPrint, "gb3DPrint");
             this.gb3DPrint.Controls.Add(this.btnAddNew3DPrintQuality);
             this.gb3DPrint.Controls.Add(this.label24);
             this.gb3DPrint.Controls.Add(this.label26);
@@ -681,10 +691,18 @@
             this.gb3DPrint.Controls.Add(this.label20);
             this.gb3DPrint.Controls.Add(this.cb3DPrint);
             this.gb3DPrint.Controls.Add(this.label21);
-            resources.ApplyResources(this.gb3DPrint, "gb3DPrint");
             this.gb3DPrint.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gb3DPrint.Name = "gb3DPrint";
             this.gb3DPrint.TabStop = false;
+            // 
+            // btnAddNew3DPrintQuality
+            // 
+            resources.ApplyResources(this.btnAddNew3DPrintQuality, "btnAddNew3DPrintQuality");
+            this.btnAddNew3DPrintQuality.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNew3DPrintQuality.FlatAppearance.BorderSize = 0;
+            this.btnAddNew3DPrintQuality.Name = "btnAddNew3DPrintQuality";
+            this.btnAddNew3DPrintQuality.UseVisualStyleBackColor = true;
+            this.btnAddNew3DPrintQuality.Click += new System.EventHandler(this.btnAddNew3DPrintQuality_Click);
             // 
             // label24
             // 
@@ -700,18 +718,18 @@
             // 
             // numeric3DPrintInfill
             // 
+            resources.ApplyResources(this.numeric3DPrintInfill, "numeric3DPrintInfill");
             this.numeric3DPrintInfill.Increment = new decimal(new int[] {
             5,
             0,
             0,
             0});
-            resources.ApplyResources(this.numeric3DPrintInfill, "numeric3DPrintInfill");
             this.numeric3DPrintInfill.Name = "numeric3DPrintInfill";
             // 
             // cb3DPrintFilament
             // 
-            this.cb3DPrintFilament.FormattingEnabled = true;
             resources.ApplyResources(this.cb3DPrintFilament, "cb3DPrintFilament");
+            this.cb3DPrintFilament.FormattingEnabled = true;
             this.cb3DPrintFilament.Name = "cb3DPrintFilament";
             // 
             // label25
@@ -776,8 +794,8 @@
             // 
             // cb3DPrintQuality
             // 
-            this.cb3DPrintQuality.FormattingEnabled = true;
             resources.ApplyResources(this.cb3DPrintQuality, "cb3DPrintQuality");
+            this.cb3DPrintQuality.FormattingEnabled = true;
             this.cb3DPrintQuality.Name = "cb3DPrintQuality";
             // 
             // label12
@@ -806,8 +824,8 @@
             // 
             // btnAdd3DPrintInGrid
             // 
-            this.btnAdd3DPrintInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             resources.ApplyResources(this.btnAdd3DPrintInGrid, "btnAdd3DPrintInGrid");
+            this.btnAdd3DPrintInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             this.btnAdd3DPrintInGrid.FlatAppearance.BorderSize = 0;
             this.btnAdd3DPrintInGrid.Name = "btnAdd3DPrintInGrid";
             this.btnAdd3DPrintInGrid.UseVisualStyleBackColor = true;
@@ -815,8 +833,8 @@
             // 
             // btnAddNew3DPrint
             // 
-            this.btnAddNew3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddNew3DPrint, "btnAddNew3DPrint");
+            this.btnAddNew3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddNew3DPrint.FlatAppearance.BorderSize = 0;
             this.btnAddNew3DPrint.Name = "btnAddNew3DPrint";
             this.btnAddNew3DPrint.UseVisualStyleBackColor = true;
@@ -830,12 +848,12 @@
             // 
             // numeric3DPrintingTimeInMin
             // 
+            resources.ApplyResources(this.numeric3DPrintingTimeInMin, "numeric3DPrintingTimeInMin");
             this.numeric3DPrintingTimeInMin.Increment = new decimal(new int[] {
             30,
             0,
             0,
             0});
-            resources.ApplyResources(this.numeric3DPrintingTimeInMin, "numeric3DPrintingTimeInMin");
             this.numeric3DPrintingTimeInMin.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -851,8 +869,8 @@
             // 
             // cb3DPrint
             // 
-            this.cb3DPrint.FormattingEnabled = true;
             resources.ApplyResources(this.cb3DPrint, "cb3DPrint");
+            this.cb3DPrint.FormattingEnabled = true;
             this.cb3DPrint.Name = "cb3DPrint";
             // 
             // label21
@@ -863,16 +881,16 @@
             // 
             // panel3DPrintMenu
             // 
+            resources.ApplyResources(this.panel3DPrintMenu, "panel3DPrintMenu");
             this.panel3DPrintMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel3DPrintMenu.Controls.Add(this.btnRemove3DPrint);
             this.panel3DPrintMenu.Controls.Add(this.btnAdd3DPrint);
-            resources.ApplyResources(this.panel3DPrintMenu, "panel3DPrintMenu");
             this.panel3DPrintMenu.Name = "panel3DPrintMenu";
             // 
             // btnRemove3DPrint
             // 
-            this.btnRemove3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnRemove3DPrint, "btnRemove3DPrint");
+            this.btnRemove3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnRemove3DPrint.FlatAppearance.BorderSize = 0;
             this.btnRemove3DPrint.Name = "btnRemove3DPrint";
             this.btnRemove3DPrint.UseVisualStyleBackColor = true;
@@ -880,8 +898,8 @@
             // 
             // btnAdd3DPrint
             // 
-            this.btnAdd3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAdd3DPrint, "btnAdd3DPrint");
+            this.btnAdd3DPrint.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAdd3DPrint.FlatAppearance.BorderSize = 0;
             this.btnAdd3DPrint.Name = "btnAdd3DPrint";
             this.btnAdd3DPrint.UseVisualStyleBackColor = true;
@@ -900,28 +918,28 @@
             // 
             // panel3DDesignDetails
             // 
+            resources.ApplyResources(this.panel3DDesignDetails, "panel3DDesignDetails");
             this.panel3DDesignDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel3DDesignDetails.Controls.Add(this.panel4);
             this.panel3DDesignDetails.Controls.Add(this.gb3DDesign);
             this.panel3DDesignDetails.Controls.Add(this.panel3DDesignMenu);
-            resources.ApplyResources(this.panel3DDesignDetails, "panel3DDesignDetails");
             this.panel3DDesignDetails.Name = "panel3DDesignDetails";
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.dataGrid3DDesign);
             resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.Controls.Add(this.dataGrid3DDesign);
             this.panel4.Name = "panel4";
             // 
             // dataGrid3DDesign
             // 
+            resources.ApplyResources(this.dataGrid3DDesign, "dataGrid3DDesign");
             this.dataGrid3DDesign.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGrid3DDesign.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid3DDesign.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this._3DDesignID,
             this._3DDesignName,
             this._3DDesignPrice});
-            resources.ApplyResources(this.dataGrid3DDesign, "dataGrid3DDesign");
             this.dataGrid3DDesign.Name = "dataGrid3DDesign";
             this.dataGrid3DDesign.RowTemplate.Height = 24;
             this.dataGrid3DDesign.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGrid3DDesign_RowsAdded);
@@ -931,6 +949,7 @@
             // 
             resources.ApplyResources(this._3DDesignID, "_3DDesignID");
             this._3DDesignID.Name = "_3DDesignID";
+            this._3DDesignID.ReadOnly = true;
             // 
             // _3DDesignName
             // 
@@ -946,6 +965,7 @@
             // 
             // gb3DDesign
             // 
+            resources.ApplyResources(this.gb3DDesign, "gb3DDesign");
             this.gb3DDesign.Controls.Add(this.label39);
             this.gb3DDesign.Controls.Add(this.label27);
             this.gb3DDesign.Controls.Add(this.btnAdd3DDesignInGrid);
@@ -954,7 +974,6 @@
             this.gb3DDesign.Controls.Add(this.label31);
             this.gb3DDesign.Controls.Add(this.cb3DDesign);
             this.gb3DDesign.Controls.Add(this.label33);
-            resources.ApplyResources(this.gb3DDesign, "gb3DDesign");
             this.gb3DDesign.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gb3DDesign.Name = "gb3DDesign";
             this.gb3DDesign.TabStop = false;
@@ -973,8 +992,8 @@
             // 
             // btnAdd3DDesignInGrid
             // 
-            this.btnAdd3DDesignInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             resources.ApplyResources(this.btnAdd3DDesignInGrid, "btnAdd3DDesignInGrid");
+            this.btnAdd3DDesignInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             this.btnAdd3DDesignInGrid.FlatAppearance.BorderSize = 0;
             this.btnAdd3DDesignInGrid.Name = "btnAdd3DDesignInGrid";
             this.btnAdd3DDesignInGrid.UseVisualStyleBackColor = true;
@@ -982,8 +1001,8 @@
             // 
             // btnAddNew3DDesign
             // 
-            this.btnAddNew3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddNew3DDesign, "btnAddNew3DDesign");
+            this.btnAddNew3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddNew3DDesign.FlatAppearance.BorderSize = 0;
             this.btnAddNew3DDesign.Name = "btnAddNew3DDesign";
             this.btnAddNew3DDesign.UseVisualStyleBackColor = true;
@@ -991,8 +1010,8 @@
             // 
             // numeric3DDesignPrice
             // 
-            this.numeric3DDesignPrice.DecimalPlaces = 2;
             resources.ApplyResources(this.numeric3DDesignPrice, "numeric3DDesignPrice");
+            this.numeric3DDesignPrice.DecimalPlaces = 2;
             this.numeric3DDesignPrice.Name = "numeric3DDesignPrice";
             // 
             // label31
@@ -1003,8 +1022,8 @@
             // 
             // cb3DDesign
             // 
-            this.cb3DDesign.FormattingEnabled = true;
             resources.ApplyResources(this.cb3DDesign, "cb3DDesign");
+            this.cb3DDesign.FormattingEnabled = true;
             this.cb3DDesign.Name = "cb3DDesign";
             // 
             // label33
@@ -1015,16 +1034,16 @@
             // 
             // panel3DDesignMenu
             // 
+            resources.ApplyResources(this.panel3DDesignMenu, "panel3DDesignMenu");
             this.panel3DDesignMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel3DDesignMenu.Controls.Add(this.btnRemove3DDesign);
             this.panel3DDesignMenu.Controls.Add(this.btnAdd3DDesign);
-            resources.ApplyResources(this.panel3DDesignMenu, "panel3DDesignMenu");
             this.panel3DDesignMenu.Name = "panel3DDesignMenu";
             // 
             // btnRemove3DDesign
             // 
-            this.btnRemove3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnRemove3DDesign, "btnRemove3DDesign");
+            this.btnRemove3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnRemove3DDesign.FlatAppearance.BorderSize = 0;
             this.btnRemove3DDesign.Name = "btnRemove3DDesign";
             this.btnRemove3DDesign.UseVisualStyleBackColor = true;
@@ -1032,8 +1051,8 @@
             // 
             // btnAdd3DDesign
             // 
-            this.btnAdd3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAdd3DDesign, "btnAdd3DDesign");
+            this.btnAdd3DDesign.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAdd3DDesign.FlatAppearance.BorderSize = 0;
             this.btnAdd3DDesign.Name = "btnAdd3DDesign";
             this.btnAdd3DDesign.UseVisualStyleBackColor = true;
@@ -1060,13 +1079,14 @@
             // 
             // panelBillDetails
             // 
+            resources.ApplyResources(this.panelBillDetails, "panelBillDetails");
             this.panelBillDetails.Controls.Add(this.panelAddBillDetails);
             this.panelBillDetails.Controls.Add(this.panel12);
-            resources.ApplyResources(this.panelBillDetails, "panelBillDetails");
             this.panelBillDetails.Name = "panelBillDetails";
             // 
             // panelAddBillDetails
             // 
+            resources.ApplyResources(this.panelAddBillDetails, "panelAddBillDetails");
             this.panelAddBillDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panelAddBillDetails.Controls.Add(this.label37);
             this.panelAddBillDetails.Controls.Add(this.dateTimeBill);
@@ -1079,7 +1099,6 @@
             this.panelAddBillDetails.Controls.Add(this.tbBillDescription);
             this.panelAddBillDetails.Controls.Add(this.lbDescription);
             this.panelAddBillDetails.Controls.Add(this.lbName);
-            resources.ApplyResources(this.panelAddBillDetails, "panelAddBillDetails");
             this.panelAddBillDetails.Name = "panelAddBillDetails";
             // 
             // label37
@@ -1090,14 +1109,14 @@
             // 
             // dateTimeBill
             // 
-            this.dateTimeBill.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             resources.ApplyResources(this.dateTimeBill, "dateTimeBill");
+            this.dateTimeBill.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeBill.Name = "dateTimeBill";
             // 
             // btnAddBillFile
             // 
-            this.btnAddBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             resources.ApplyResources(this.btnAddBillFile, "btnAddBillFile");
+            this.btnAddBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             this.btnAddBillFile.FlatAppearance.BorderSize = 0;
             this.btnAddBillFile.Name = "btnAddBillFile";
             this.btnAddBillFile.UseVisualStyleBackColor = true;
@@ -1116,8 +1135,8 @@
             // 
             // cbBillStatus
             // 
-            this.cbBillStatus.FormattingEnabled = true;
             resources.ApplyResources(this.cbBillStatus, "cbBillStatus");
+            this.cbBillStatus.FormattingEnabled = true;
             this.cbBillStatus.Name = "cbBillStatus";
             // 
             // lbColor
@@ -1150,17 +1169,17 @@
             // 
             // panel12
             // 
+            resources.ApplyResources(this.panel12, "panel12");
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel12.Controls.Add(this.btnViewBillFile);
             this.panel12.Controls.Add(this.btnRemoveBill);
             this.panel12.Controls.Add(this.btnAddBill);
-            resources.ApplyResources(this.panel12, "panel12");
             this.panel12.Name = "panel12";
             // 
             // btnViewBillFile
             // 
-            this.btnViewBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.ViewIcon;
             resources.ApplyResources(this.btnViewBillFile, "btnViewBillFile");
+            this.btnViewBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.ViewIcon;
             this.btnViewBillFile.FlatAppearance.BorderSize = 0;
             this.btnViewBillFile.Name = "btnViewBillFile";
             this.btnViewBillFile.UseVisualStyleBackColor = true;
@@ -1168,8 +1187,8 @@
             // 
             // btnRemoveBill
             // 
-            this.btnRemoveBill.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnRemoveBill, "btnRemoveBill");
+            this.btnRemoveBill.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnRemoveBill.FlatAppearance.BorderSize = 0;
             this.btnRemoveBill.Name = "btnRemoveBill";
             this.btnRemoveBill.UseVisualStyleBackColor = true;
@@ -1177,8 +1196,8 @@
             // 
             // btnAddBill
             // 
-            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddBill, "btnAddBill");
+            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddBill.FlatAppearance.BorderSize = 0;
             this.btnAddBill.Name = "btnAddBill";
             this.btnAddBill.UseVisualStyleBackColor = true;
@@ -1186,8 +1205,8 @@
             // 
             // btnBillDetails
             // 
-            this.btnBillDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             resources.ApplyResources(this.btnBillDetails, "btnBillDetails");
+            this.btnBillDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             this.btnBillDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBillDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btnBillDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -1198,14 +1217,15 @@
             // 
             // panelOthersDetails
             // 
+            resources.ApplyResources(this.panelOthersDetails, "panelOthersDetails");
             this.panelOthersDetails.Controls.Add(this.dataGridOtherPurchase);
             this.panelOthersDetails.Controls.Add(this.gbOtherPurchase);
             this.panelOthersDetails.Controls.Add(this.panel9);
-            resources.ApplyResources(this.panelOthersDetails, "panelOthersDetails");
             this.panelOthersDetails.Name = "panelOthersDetails";
             // 
             // dataGridOtherPurchase
             // 
+            resources.ApplyResources(this.dataGridOtherPurchase, "dataGridOtherPurchase");
             this.dataGridOtherPurchase.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridOtherPurchase.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridOtherPurchase.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1215,7 +1235,6 @@
             this.OtherPurchaseDescription,
             this.OtherPurchaseQuantity,
             this.OtherPurchaseProvider});
-            resources.ApplyResources(this.dataGridOtherPurchase, "dataGridOtherPurchase");
             this.dataGridOtherPurchase.Name = "dataGridOtherPurchase";
             this.dataGridOtherPurchase.RowTemplate.Height = 24;
             this.dataGridOtherPurchase.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridOtherPurchase_RowsAdded);
@@ -1224,6 +1243,7 @@
             // 
             resources.ApplyResources(this.OtherPurchaseID, "OtherPurchaseID");
             this.OtherPurchaseID.Name = "OtherPurchaseID";
+            this.OtherPurchaseID.ReadOnly = true;
             // 
             // OtherPurchaseName
             // 
@@ -1257,6 +1277,7 @@
             // 
             // gbOtherPurchase
             // 
+            resources.ApplyResources(this.gbOtherPurchase, "gbOtherPurchase");
             this.gbOtherPurchase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.gbOtherPurchase.Controls.Add(this.cbOtherPuchaseProvider);
             this.gbOtherPurchase.Controls.Add(this.label29);
@@ -1268,15 +1289,14 @@
             this.gbOtherPurchase.Controls.Add(this.label35);
             this.gbOtherPurchase.Controls.Add(this.cbOtherPurchase);
             this.gbOtherPurchase.Controls.Add(this.label36);
-            resources.ApplyResources(this.gbOtherPurchase, "gbOtherPurchase");
             this.gbOtherPurchase.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gbOtherPurchase.Name = "gbOtherPurchase";
             this.gbOtherPurchase.TabStop = false;
             // 
             // cbOtherPuchaseProvider
             // 
-            this.cbOtherPuchaseProvider.FormattingEnabled = true;
             resources.ApplyResources(this.cbOtherPuchaseProvider, "cbOtherPuchaseProvider");
+            this.cbOtherPuchaseProvider.FormattingEnabled = true;
             this.cbOtherPuchaseProvider.Name = "cbOtherPuchaseProvider";
             this.cbOtherPuchaseProvider.SelectedIndexChanged += new System.EventHandler(this.cbOtherPuchaseProvider_SelectedIndexChanged);
             // 
@@ -1294,8 +1314,8 @@
             // 
             // btnAddOtherPurchaseInGrid
             // 
-            this.btnAddOtherPurchaseInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             resources.ApplyResources(this.btnAddOtherPurchaseInGrid, "btnAddOtherPurchaseInGrid");
+            this.btnAddOtherPurchaseInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
             this.btnAddOtherPurchaseInGrid.FlatAppearance.BorderSize = 0;
             this.btnAddOtherPurchaseInGrid.Name = "btnAddOtherPurchaseInGrid";
             this.btnAddOtherPurchaseInGrid.UseVisualStyleBackColor = true;
@@ -1303,8 +1323,8 @@
             // 
             // btnAddNewOtherPurchase
             // 
-            this.btnAddNewOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddNewOtherPurchase, "btnAddNewOtherPurchase");
+            this.btnAddNewOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddNewOtherPurchase.FlatAppearance.BorderSize = 0;
             this.btnAddNewOtherPurchase.Name = "btnAddNewOtherPurchase";
             this.btnAddNewOtherPurchase.UseVisualStyleBackColor = true;
@@ -1318,8 +1338,8 @@
             // 
             // numericOtherPurchaseQuantity
             // 
-            this.numericOtherPurchaseQuantity.DecimalPlaces = 2;
             resources.ApplyResources(this.numericOtherPurchaseQuantity, "numericOtherPurchaseQuantity");
+            this.numericOtherPurchaseQuantity.DecimalPlaces = 2;
             this.numericOtherPurchaseQuantity.Name = "numericOtherPurchaseQuantity";
             // 
             // label35
@@ -1330,8 +1350,8 @@
             // 
             // cbOtherPurchase
             // 
-            this.cbOtherPurchase.FormattingEnabled = true;
             resources.ApplyResources(this.cbOtherPurchase, "cbOtherPurchase");
+            this.cbOtherPurchase.FormattingEnabled = true;
             this.cbOtherPurchase.Name = "cbOtherPurchase";
             // 
             // label36
@@ -1342,16 +1362,16 @@
             // 
             // panel9
             // 
+            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
             this.panel9.Controls.Add(this.btnRemoveOtherPurchase);
             this.panel9.Controls.Add(this.btnAddOtherPurchase);
-            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
             // btnRemoveOtherPurchase
             // 
-            this.btnRemoveOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnRemoveOtherPurchase, "btnRemoveOtherPurchase");
+            this.btnRemoveOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnRemoveOtherPurchase.FlatAppearance.BorderSize = 0;
             this.btnRemoveOtherPurchase.Name = "btnRemoveOtherPurchase";
             this.btnRemoveOtherPurchase.UseVisualStyleBackColor = true;
@@ -1359,8 +1379,8 @@
             // 
             // btnAddOtherPurchase
             // 
-            this.btnAddOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddOtherPurchase, "btnAddOtherPurchase");
+            this.btnAddOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddOtherPurchase.FlatAppearance.BorderSize = 0;
             this.btnAddOtherPurchase.Name = "btnAddOtherPurchase";
             this.btnAddOtherPurchase.UseVisualStyleBackColor = true;
@@ -1368,8 +1388,8 @@
             // 
             // btnOtherPurchaseDetails
             // 
-            this.btnOtherPurchaseDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             resources.ApplyResources(this.btnOtherPurchaseDetails, "btnOtherPurchaseDetails");
+            this.btnOtherPurchaseDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             this.btnOtherPurchaseDetails.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnOtherPurchaseDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(41)))), ((int)(((byte)(102)))));
             this.btnOtherPurchaseDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(117)))), ((int)(((byte)(255)))));
@@ -1380,12 +1400,12 @@
             // 
             // panelAddCancelButtons
             // 
+            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
             this.panelAddCancelButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
             this.panelAddCancelButtons.Controls.Add(this.labelTotalPrice);
             this.panelAddCancelButtons.Controls.Add(this.label32);
             this.panelAddCancelButtons.Controls.Add(this.btnConfirm);
             this.panelAddCancelButtons.Controls.Add(this.btnCancel);
-            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
             this.panelAddCancelButtons.Name = "panelAddCancelButtons";
             // 
             // labelTotalPrice
@@ -1402,28 +1422,23 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
             resources.ApplyResources(this.btnConfirm, "btnConfirm");
+            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.UseVisualStyleBackColor = false;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Red;
             resources.ApplyResources(this.btnCancel, "btnCancel");
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // btnAddNew3DPrintQuality
+            // openBillFile
             // 
-            this.btnAddNew3DPrintQuality.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            resources.ApplyResources(this.btnAddNew3DPrintQuality, "btnAddNew3DPrintQuality");
-            this.btnAddNew3DPrintQuality.FlatAppearance.BorderSize = 0;
-            this.btnAddNew3DPrintQuality.Name = "btnAddNew3DPrintQuality";
-            this.btnAddNew3DPrintQuality.UseVisualStyleBackColor = true;
-            this.btnAddNew3DPrintQuality.Click += new System.EventHandler(this.btnAddNew3DPrintQuality_Click);
+            resources.ApplyResources(this.openBillFile, "openBillFile");
             // 
             // frmOrder3DSalesDetails
             // 
@@ -1506,12 +1521,6 @@
         private System.Windows.Forms.Panel panelFilamentDetails;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridFilament;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentColor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentQuantity;
         private System.Windows.Forms.GroupBox gbFilament;
         private System.Windows.Forms.ComboBox cbFilamentProvider;
         private System.Windows.Forms.Label label7;
@@ -1530,15 +1539,6 @@
         private System.Windows.Forms.Panel panel3DPrintDetails;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGrid3DPrint;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintFilament;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PrintingTimeInMin;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintWeight;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintInfill;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintQuality;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintsQuantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintPrice;
         private System.Windows.Forms.GroupBox gb3DPrint;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.NumericUpDown numeric3DPrintInfill;
@@ -1585,12 +1585,6 @@
         private System.Windows.Forms.Button btnOtherPurchaseDetails;
         private System.Windows.Forms.Panel panelOthersDetails;
         private System.Windows.Forms.DataGridView dataGridOtherPurchase;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseDescription;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseQuantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseProvider;
         private System.Windows.Forms.GroupBox gbOtherPurchase;
         private System.Windows.Forms.ComboBox cbOtherPuchaseProvider;
         private System.Windows.Forms.Label label29;
@@ -1605,9 +1599,6 @@
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button btnRemoveOtherPurchase;
         private System.Windows.Forms.Button btnAddOtherPurchase;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignPrice;
         private System.Windows.Forms.Panel panelBillDetails;
         private System.Windows.Forms.Panel panelAddBillDetails;
         private System.Windows.Forms.Label label37;
@@ -1636,5 +1627,29 @@
         private System.Windows.Forms.Button btnConfirm;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnAddNew3DPrintQuality;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentColor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentRating;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintFilament;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PrintingTimeInMin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintWeight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintInfill;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintQuality;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintsQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DPrintPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _3DDesignPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseRating;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseDescription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseProvider;
     }
 }

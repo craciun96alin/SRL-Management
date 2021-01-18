@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using FirmaAPP.Common;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirmaAPP.BusinessObject
 {
@@ -18,8 +14,11 @@ namespace FirmaAPP.BusinessObject
         public int TshirtID { get; set; }
         public Tshirt Tshirt { get; set; }
 
+        [LocalizedDisplayName("Quantity")]
         public int Quantity { get; set; }
+        [LocalizedDisplayName("Type")]
         public short PrintingType { get; set; }
-        public float TotalPrice { get; set; }     
+        [LocalizedDisplayName("TotalPrice")]
+        public float TotalPrice { get; set; }
     }
 }

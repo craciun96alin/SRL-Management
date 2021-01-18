@@ -1,4 +1,6 @@
-﻿namespace FirmaAPP
+﻿using FirmaAPP.Common;
+
+namespace FirmaAPP
 {
     partial class frmOrderTshirtSalesDetails
     {
@@ -39,6 +41,7 @@
             this.panelAddBillDetails = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
             this.dateTimeBill = new System.Windows.Forms.DateTimePicker();
+            this.btnAddBillFile = new System.Windows.Forms.Button();
             this.tbBillFile = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.cbBillStatus = new System.Windows.Forms.ComboBox();
@@ -48,38 +51,34 @@
             this.lbDescription = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.btnViewBillFile = new System.Windows.Forms.Button();
+            this.btnRemoveBill = new System.Windows.Forms.Button();
+            this.btnAddBill = new System.Windows.Forms.Button();
             this.btnBillDetails = new System.Windows.Forms.Button();
             this.panelOthersDetails = new System.Windows.Forms.Panel();
             this.dataGridOtherPurchase = new System.Windows.Forms.DataGridView();
-            this.OtherPurchaseID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbOtherPurchase = new System.Windows.Forms.GroupBox();
             this.cbOtherPuchaseProvider = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.btnAddOtherPurchaseInGrid = new System.Windows.Forms.Button();
+            this.btnAddNewOtherPurchase = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.numericOtherPurchaseQuantity = new System.Windows.Forms.NumericUpDown();
             this.label24 = new System.Windows.Forms.Label();
             this.cbOtherPurchase = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.btnRemoveOtherPurchase = new System.Windows.Forms.Button();
+            this.btnAddOtherPurchase = new System.Windows.Forms.Button();
             this.btnOtherPurchaseDetails = new System.Windows.Forms.Button();
             this.panelVinylDetails = new System.Windows.Forms.Panel();
             this.dataGridVinyl = new System.Windows.Forms.DataGridView();
-            this.VinylID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylRatin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbVinyl = new System.Windows.Forms.GroupBox();
             this.cbVinylProvider = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnAddVinylInGrid = new System.Windows.Forms.Button();
+            this.btnAddNewVinyl = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.numericVinylQuantity = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
@@ -87,18 +86,11 @@
             this.cbViynl = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panelVinylMenu = new System.Windows.Forms.Panel();
+            this.btnRemoveVinyl = new System.Windows.Forms.Button();
+            this.btnAddVinyl = new System.Windows.Forms.Button();
             this.btnVinylDetails = new System.Windows.Forms.Button();
             this.panelTshirtDetails = new System.Windows.Forms.Panel();
             this.dataGridTshirt = new System.Windows.Forms.DataGridView();
-            this.TshirtID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtSex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtSize = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbTshirt = new System.Windows.Forms.GroupBox();
             this.cbTshirtProvider = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -107,6 +99,8 @@
             this.cbTshirtSex = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.btnAddTshirtInGrid = new System.Windows.Forms.Button();
+            this.btnAddNewTshirt = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.numericTshirtQuantity = new System.Windows.Forms.NumericUpDown();
             this.label19 = new System.Windows.Forms.Label();
@@ -115,12 +109,15 @@
             this.cbTshirt = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.panelTshirtMenu = new System.Windows.Forms.Panel();
+            this.btnRemoveTshirt = new System.Windows.Forms.Button();
+            this.btnAddTshirt = new System.Windows.Forms.Button();
             this.btnTshirtsDetails = new System.Windows.Forms.Button();
             this.panelOrderDetails = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.dateFinishedTime = new System.Windows.Forms.DateTimePicker();
             this.tbOrderDescription = new System.Windows.Forms.RichTextBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.btnAddNewCustomer = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.numericShippingPrice = new System.Windows.Forms.NumericUpDown();
@@ -136,23 +133,28 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
             this.openBillFile = new System.Windows.Forms.OpenFileDialog();
-            this.btnAddBillFile = new System.Windows.Forms.Button();
-            this.btnViewBillFile = new System.Windows.Forms.Button();
-            this.btnRemoveBill = new System.Windows.Forms.Button();
-            this.btnAddBill = new System.Windows.Forms.Button();
-            this.btnAddOtherPurchaseInGrid = new System.Windows.Forms.Button();
-            this.btnAddNewOtherPurchase = new System.Windows.Forms.Button();
-            this.btnRemoveOtherPurchase = new System.Windows.Forms.Button();
-            this.btnAddOtherPurchase = new System.Windows.Forms.Button();
-            this.btnAddVinylInGrid = new System.Windows.Forms.Button();
-            this.btnAddNewVinyl = new System.Windows.Forms.Button();
-            this.btnRemoveVinyl = new System.Windows.Forms.Button();
-            this.btnAddVinyl = new System.Windows.Forms.Button();
-            this.btnAddTshirtInGrid = new System.Windows.Forms.Button();
-            this.btnAddNewTshirt = new System.Windows.Forms.Button();
-            this.btnRemoveTshirt = new System.Windows.Forms.Button();
-            this.btnAddTshirt = new System.Windows.Forms.Button();
-            this.btnAddNewCustomer = new System.Windows.Forms.Button();
+            this.TshirtID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtSex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtSize = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylRatin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseProvider = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMain.SuspendLayout();
             this.panelAddCancelButtons.SuspendLayout();
             this.panelBillDetails.SuspendLayout();
@@ -271,6 +273,15 @@
             this.dateTimeBill.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimeBill.Name = "dateTimeBill";
             // 
+            // btnAddBillFile
+            // 
+            resources.ApplyResources(this.btnAddBillFile, "btnAddBillFile");
+            this.btnAddBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            this.btnAddBillFile.FlatAppearance.BorderSize = 0;
+            this.btnAddBillFile.Name = "btnAddBillFile";
+            this.btnAddBillFile.UseVisualStyleBackColor = true;
+            this.btnAddBillFile.Click += new System.EventHandler(this.btnAddBillFile_Click);
+            // 
             // tbBillFile
             // 
             resources.ApplyResources(this.tbBillFile, "tbBillFile");
@@ -325,6 +336,33 @@
             this.panel12.Controls.Add(this.btnAddBill);
             this.panel12.Name = "panel12";
             // 
+            // btnViewBillFile
+            // 
+            resources.ApplyResources(this.btnViewBillFile, "btnViewBillFile");
+            this.btnViewBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.ViewIcon;
+            this.btnViewBillFile.FlatAppearance.BorderSize = 0;
+            this.btnViewBillFile.Name = "btnViewBillFile";
+            this.btnViewBillFile.UseVisualStyleBackColor = true;
+            this.btnViewBillFile.Click += new System.EventHandler(this.btnViewBillFile_Click);
+            // 
+            // btnRemoveBill
+            // 
+            resources.ApplyResources(this.btnRemoveBill, "btnRemoveBill");
+            this.btnRemoveBill.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnRemoveBill.FlatAppearance.BorderSize = 0;
+            this.btnRemoveBill.Name = "btnRemoveBill";
+            this.btnRemoveBill.UseVisualStyleBackColor = true;
+            this.btnRemoveBill.Click += new System.EventHandler(this.btnRemoveBill_Click);
+            // 
+            // btnAddBill
+            // 
+            resources.ApplyResources(this.btnAddBill, "btnAddBill");
+            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddBill.FlatAppearance.BorderSize = 0;
+            this.btnAddBill.Name = "btnAddBill";
+            this.btnAddBill.UseVisualStyleBackColor = true;
+            this.btnAddBill.Click += new System.EventHandler(this.btnAddBill_Click);
+            // 
             // btnBillDetails
             // 
             resources.ApplyResources(this.btnBillDetails, "btnBillDetails");
@@ -360,41 +398,6 @@
             this.dataGridOtherPurchase.Name = "dataGridOtherPurchase";
             this.dataGridOtherPurchase.RowTemplate.Height = 24;
             this.dataGridOtherPurchase.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridOtherPurchase_RowsAdded);
-            // 
-            // OtherPurchaseID
-            // 
-            resources.ApplyResources(this.OtherPurchaseID, "OtherPurchaseID");
-            this.OtherPurchaseID.Name = "OtherPurchaseID";
-            // 
-            // OtherPurchaseName
-            // 
-            resources.ApplyResources(this.OtherPurchaseName, "OtherPurchaseName");
-            this.OtherPurchaseName.Name = "OtherPurchaseName";
-            this.OtherPurchaseName.ReadOnly = true;
-            // 
-            // OtherPurchaseRating
-            // 
-            resources.ApplyResources(this.OtherPurchaseRating, "OtherPurchaseRating");
-            this.OtherPurchaseRating.Name = "OtherPurchaseRating";
-            this.OtherPurchaseRating.ReadOnly = true;
-            // 
-            // OtherPurchaseDescription
-            // 
-            resources.ApplyResources(this.OtherPurchaseDescription, "OtherPurchaseDescription");
-            this.OtherPurchaseDescription.Name = "OtherPurchaseDescription";
-            this.OtherPurchaseDescription.ReadOnly = true;
-            // 
-            // OtherPurchaseQuantity
-            // 
-            resources.ApplyResources(this.OtherPurchaseQuantity, "OtherPurchaseQuantity");
-            this.OtherPurchaseQuantity.Name = "OtherPurchaseQuantity";
-            this.OtherPurchaseQuantity.ReadOnly = true;
-            // 
-            // OtherPurchaseProvider
-            // 
-            resources.ApplyResources(this.OtherPurchaseProvider, "OtherPurchaseProvider");
-            this.OtherPurchaseProvider.Name = "OtherPurchaseProvider";
-            this.OtherPurchaseProvider.ReadOnly = true;
             // 
             // gbOtherPurchase
             // 
@@ -432,6 +435,24 @@
             resources.ApplyResources(this.label22, "label22");
             this.label22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label22.Name = "label22";
+            // 
+            // btnAddOtherPurchaseInGrid
+            // 
+            resources.ApplyResources(this.btnAddOtherPurchaseInGrid, "btnAddOtherPurchaseInGrid");
+            this.btnAddOtherPurchaseInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            this.btnAddOtherPurchaseInGrid.FlatAppearance.BorderSize = 0;
+            this.btnAddOtherPurchaseInGrid.Name = "btnAddOtherPurchaseInGrid";
+            this.btnAddOtherPurchaseInGrid.UseVisualStyleBackColor = true;
+            this.btnAddOtherPurchaseInGrid.Click += new System.EventHandler(this.btnAddOtherPurchaseInGrid_Click);
+            // 
+            // btnAddNewOtherPurchase
+            // 
+            resources.ApplyResources(this.btnAddNewOtherPurchase, "btnAddNewOtherPurchase");
+            this.btnAddNewOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNewOtherPurchase.FlatAppearance.BorderSize = 0;
+            this.btnAddNewOtherPurchase.Name = "btnAddNewOtherPurchase";
+            this.btnAddNewOtherPurchase.UseVisualStyleBackColor = true;
+            this.btnAddNewOtherPurchase.Click += new System.EventHandler(this.btnAddNewOtherPurchase_Click);
             // 
             // label23
             // 
@@ -471,6 +492,24 @@
             this.panel9.Controls.Add(this.btnAddOtherPurchase);
             this.panel9.Name = "panel9";
             // 
+            // btnRemoveOtherPurchase
+            // 
+            resources.ApplyResources(this.btnRemoveOtherPurchase, "btnRemoveOtherPurchase");
+            this.btnRemoveOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnRemoveOtherPurchase.FlatAppearance.BorderSize = 0;
+            this.btnRemoveOtherPurchase.Name = "btnRemoveOtherPurchase";
+            this.btnRemoveOtherPurchase.UseVisualStyleBackColor = true;
+            this.btnRemoveOtherPurchase.Click += new System.EventHandler(this.btnRemoveOtherPurchase_Click);
+            // 
+            // btnAddOtherPurchase
+            // 
+            resources.ApplyResources(this.btnAddOtherPurchase, "btnAddOtherPurchase");
+            this.btnAddOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddOtherPurchase.FlatAppearance.BorderSize = 0;
+            this.btnAddOtherPurchase.Name = "btnAddOtherPurchase";
+            this.btnAddOtherPurchase.UseVisualStyleBackColor = true;
+            this.btnAddOtherPurchase.Click += new System.EventHandler(this.btnAddOtherPurchase_Click);
+            // 
             // btnOtherPurchaseDetails
             // 
             resources.ApplyResources(this.btnOtherPurchaseDetails, "btnOtherPurchaseDetails");
@@ -508,47 +547,6 @@
             this.dataGridVinyl.RowTemplate.Height = 24;
             this.dataGridVinyl.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridVinyl_RowsAdded);
             // 
-            // VinylID
-            // 
-            resources.ApplyResources(this.VinylID, "VinylID");
-            this.VinylID.Name = "VinylID";
-            // 
-            // VinylName
-            // 
-            resources.ApplyResources(this.VinylName, "VinylName");
-            this.VinylName.Name = "VinylName";
-            this.VinylName.ReadOnly = true;
-            // 
-            // VinylType
-            // 
-            resources.ApplyResources(this.VinylType, "VinylType");
-            this.VinylType.Name = "VinylType";
-            this.VinylType.ReadOnly = true;
-            // 
-            // VinylColor
-            // 
-            resources.ApplyResources(this.VinylColor, "VinylColor");
-            this.VinylColor.Name = "VinylColor";
-            this.VinylColor.ReadOnly = true;
-            // 
-            // VinylRatin
-            // 
-            resources.ApplyResources(this.VinylRatin, "VinylRatin");
-            this.VinylRatin.Name = "VinylRatin";
-            this.VinylRatin.ReadOnly = true;
-            // 
-            // VinylQuantity
-            // 
-            resources.ApplyResources(this.VinylQuantity, "VinylQuantity");
-            this.VinylQuantity.Name = "VinylQuantity";
-            this.VinylQuantity.ReadOnly = true;
-            // 
-            // VinylProvider
-            // 
-            resources.ApplyResources(this.VinylProvider, "VinylProvider");
-            this.VinylProvider.Name = "VinylProvider";
-            this.VinylProvider.ReadOnly = true;
-            // 
             // gbVinyl
             // 
             resources.ApplyResources(this.gbVinyl, "gbVinyl");
@@ -579,6 +577,24 @@
             resources.ApplyResources(this.label7, "label7");
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Name = "label7";
+            // 
+            // btnAddVinylInGrid
+            // 
+            resources.ApplyResources(this.btnAddVinylInGrid, "btnAddVinylInGrid");
+            this.btnAddVinylInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            this.btnAddVinylInGrid.FlatAppearance.BorderSize = 0;
+            this.btnAddVinylInGrid.Name = "btnAddVinylInGrid";
+            this.btnAddVinylInGrid.UseVisualStyleBackColor = true;
+            this.btnAddVinylInGrid.Click += new System.EventHandler(this.btnAddVinylInGrid_Click);
+            // 
+            // btnAddNewVinyl
+            // 
+            resources.ApplyResources(this.btnAddNewVinyl, "btnAddNewVinyl");
+            this.btnAddNewVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNewVinyl.FlatAppearance.BorderSize = 0;
+            this.btnAddNewVinyl.Name = "btnAddNewVinyl";
+            this.btnAddNewVinyl.UseVisualStyleBackColor = true;
+            this.btnAddNewVinyl.Click += new System.EventHandler(this.btnAddNewVinyl_Click);
             // 
             // label9
             // 
@@ -629,6 +645,24 @@
             this.panelVinylMenu.Controls.Add(this.btnAddVinyl);
             this.panelVinylMenu.Name = "panelVinylMenu";
             // 
+            // btnRemoveVinyl
+            // 
+            resources.ApplyResources(this.btnRemoveVinyl, "btnRemoveVinyl");
+            this.btnRemoveVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnRemoveVinyl.FlatAppearance.BorderSize = 0;
+            this.btnRemoveVinyl.Name = "btnRemoveVinyl";
+            this.btnRemoveVinyl.UseVisualStyleBackColor = true;
+            this.btnRemoveVinyl.Click += new System.EventHandler(this.btnRemoveVinyl_Click);
+            // 
+            // btnAddVinyl
+            // 
+            resources.ApplyResources(this.btnAddVinyl, "btnAddVinyl");
+            this.btnAddVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddVinyl.FlatAppearance.BorderSize = 0;
+            this.btnAddVinyl.Name = "btnAddVinyl";
+            this.btnAddVinyl.UseVisualStyleBackColor = true;
+            this.btnAddVinyl.Click += new System.EventHandler(this.btnAddVinyl_Click);
+            // 
             // btnVinylDetails
             // 
             resources.ApplyResources(this.btnVinylDetails, "btnVinylDetails");
@@ -667,57 +701,6 @@
             this.dataGridTshirt.Name = "dataGridTshirt";
             this.dataGridTshirt.RowTemplate.Height = 24;
             this.dataGridTshirt.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridTshirt_RowsAdded);
-            // 
-            // TshirtID
-            // 
-            resources.ApplyResources(this.TshirtID, "TshirtID");
-            this.TshirtID.Name = "TshirtID";
-            this.TshirtID.ReadOnly = true;
-            // 
-            // TshirtProvider
-            // 
-            resources.ApplyResources(this.TshirtProvider, "TshirtProvider");
-            this.TshirtProvider.Name = "TshirtProvider";
-            // 
-            // TshirtType
-            // 
-            resources.ApplyResources(this.TshirtType, "TshirtType");
-            this.TshirtType.Name = "TshirtType";
-            this.TshirtType.ReadOnly = true;
-            // 
-            // TshirtColor
-            // 
-            resources.ApplyResources(this.TshirtColor, "TshirtColor");
-            this.TshirtColor.Name = "TshirtColor";
-            this.TshirtColor.ReadOnly = true;
-            // 
-            // TshirtRating
-            // 
-            resources.ApplyResources(this.TshirtRating, "TshirtRating");
-            this.TshirtRating.Name = "TshirtRating";
-            this.TshirtRating.ReadOnly = true;
-            // 
-            // TshirtSex
-            // 
-            resources.ApplyResources(this.TshirtSex, "TshirtSex");
-            this.TshirtSex.Name = "TshirtSex";
-            // 
-            // TshirtSize
-            // 
-            resources.ApplyResources(this.TshirtSize, "TshirtSize");
-            this.TshirtSize.Name = "TshirtSize";
-            // 
-            // TshirtQuantity
-            // 
-            resources.ApplyResources(this.TshirtQuantity, "TshirtQuantity");
-            this.TshirtQuantity.Name = "TshirtQuantity";
-            this.TshirtQuantity.ReadOnly = true;
-            // 
-            // TshirtPrice
-            // 
-            resources.ApplyResources(this.TshirtPrice, "TshirtPrice");
-            this.TshirtPrice.Name = "TshirtPrice";
-            this.TshirtPrice.ReadOnly = true;
             // 
             // gbTshirt
             // 
@@ -786,6 +769,24 @@
             this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label17.Name = "label17";
             // 
+            // btnAddTshirtInGrid
+            // 
+            resources.ApplyResources(this.btnAddTshirtInGrid, "btnAddTshirtInGrid");
+            this.btnAddTshirtInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
+            this.btnAddTshirtInGrid.FlatAppearance.BorderSize = 0;
+            this.btnAddTshirtInGrid.Name = "btnAddTshirtInGrid";
+            this.btnAddTshirtInGrid.UseVisualStyleBackColor = true;
+            this.btnAddTshirtInGrid.Click += new System.EventHandler(this.btnAddTshirtInGrid_Click);
+            // 
+            // btnAddNewTshirt
+            // 
+            resources.ApplyResources(this.btnAddNewTshirt, "btnAddNewTshirt");
+            this.btnAddNewTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNewTshirt.FlatAppearance.BorderSize = 0;
+            this.btnAddNewTshirt.Name = "btnAddNewTshirt";
+            this.btnAddNewTshirt.UseVisualStyleBackColor = true;
+            this.btnAddNewTshirt.Click += new System.EventHandler(this.btnAddNewTshirt_Click);
+            // 
             // label18
             // 
             resources.ApplyResources(this.label18, "label18");
@@ -845,6 +846,24 @@
             this.panelTshirtMenu.Controls.Add(this.btnAddTshirt);
             this.panelTshirtMenu.Name = "panelTshirtMenu";
             // 
+            // btnRemoveTshirt
+            // 
+            resources.ApplyResources(this.btnRemoveTshirt, "btnRemoveTshirt");
+            this.btnRemoveTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnRemoveTshirt.FlatAppearance.BorderSize = 0;
+            this.btnRemoveTshirt.Name = "btnRemoveTshirt";
+            this.btnRemoveTshirt.UseVisualStyleBackColor = true;
+            this.btnRemoveTshirt.Click += new System.EventHandler(this.btnRemoveTshirt_Click);
+            // 
+            // btnAddTshirt
+            // 
+            resources.ApplyResources(this.btnAddTshirt, "btnAddTshirt");
+            this.btnAddTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddTshirt.FlatAppearance.BorderSize = 0;
+            this.btnAddTshirt.Name = "btnAddTshirt";
+            this.btnAddTshirt.UseVisualStyleBackColor = true;
+            this.btnAddTshirt.Click += new System.EventHandler(this.btnAddTshirt_Click);
+            // 
             // btnTshirtsDetails
             // 
             resources.ApplyResources(this.btnTshirtsDetails, "btnTshirtsDetails");
@@ -901,6 +920,15 @@
             resources.ApplyResources(this.label28, "label28");
             this.label28.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label28.Name = "label28";
+            // 
+            // btnAddNewCustomer
+            // 
+            resources.ApplyResources(this.btnAddNewCustomer, "btnAddNewCustomer");
+            this.btnAddNewCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAddNewCustomer.FlatAppearance.BorderSize = 0;
+            this.btnAddNewCustomer.Name = "btnAddNewCustomer";
+            this.btnAddNewCustomer.UseVisualStyleBackColor = true;
+            this.btnAddNewCustomer.Click += new System.EventHandler(this.btnAddNewCustomer_Click);
             // 
             // label5
             // 
@@ -999,158 +1027,155 @@
             this.openBillFile.FileName = "openBillFile";
             resources.ApplyResources(this.openBillFile, "openBillFile");
             // 
-            // btnAddBillFile
+            // TshirtID
             // 
-            resources.ApplyResources(this.btnAddBillFile, "btnAddBillFile");
-            this.btnAddBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAddBillFile.FlatAppearance.BorderSize = 0;
-            this.btnAddBillFile.Name = "btnAddBillFile";
-            this.btnAddBillFile.UseVisualStyleBackColor = true;
-            this.btnAddBillFile.Click += new System.EventHandler(this.btnAddBillFile_Click);
+            resources.ApplyResources(this.TshirtID, "TshirtID");
+            this.TshirtID.Name = "TshirtID";
+            this.TshirtID.ReadOnly = true;
             // 
-            // btnViewBillFile
+            // TshirtProvider
             // 
-            resources.ApplyResources(this.btnViewBillFile, "btnViewBillFile");
-            this.btnViewBillFile.BackgroundImage = global::FirmaAPP.Properties.Resources.ViewIcon;
-            this.btnViewBillFile.FlatAppearance.BorderSize = 0;
-            this.btnViewBillFile.Name = "btnViewBillFile";
-            this.btnViewBillFile.UseVisualStyleBackColor = true;
-            this.btnViewBillFile.Click += new System.EventHandler(this.btnViewBillFile_Click);
+            resources.ApplyResources(this.TshirtProvider, "TshirtProvider");
+            this.TshirtProvider.Name = "TshirtProvider";
+            this.TshirtProvider.HeaderText = AppTranslations.Provider;
+            this.TshirtProvider.ReadOnly = true;
             // 
-            // btnRemoveBill
+            // TshirtType
             // 
-            resources.ApplyResources(this.btnRemoveBill, "btnRemoveBill");
-            this.btnRemoveBill.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnRemoveBill.FlatAppearance.BorderSize = 0;
-            this.btnRemoveBill.Name = "btnRemoveBill";
-            this.btnRemoveBill.UseVisualStyleBackColor = true;
-            this.btnRemoveBill.Click += new System.EventHandler(this.btnRemoveBill_Click);
+            resources.ApplyResources(this.TshirtType, "TshirtType");
+            this.TshirtType.Name = "TshirtType";
+            this.TshirtType.HeaderText = AppTranslations.Type;
+            this.TshirtType.ReadOnly = true;
             // 
-            // btnAddBill
+            // TshirtColor
             // 
-            resources.ApplyResources(this.btnAddBill, "btnAddBill");
-            this.btnAddBill.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddBill.FlatAppearance.BorderSize = 0;
-            this.btnAddBill.Name = "btnAddBill";
-            this.btnAddBill.UseVisualStyleBackColor = true;
-            this.btnAddBill.Click += new System.EventHandler(this.btnAddBill_Click);
+            resources.ApplyResources(this.TshirtColor, "TshirtColor");
+            this.TshirtColor.Name = "TshirtColor";
+            this.TshirtColor.HeaderText = AppTranslations.Color;
+            this.TshirtColor.ReadOnly = true;
             // 
-            // btnAddOtherPurchaseInGrid
+            // TshirtRating
             // 
-            resources.ApplyResources(this.btnAddOtherPurchaseInGrid, "btnAddOtherPurchaseInGrid");
-            this.btnAddOtherPurchaseInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAddOtherPurchaseInGrid.FlatAppearance.BorderSize = 0;
-            this.btnAddOtherPurchaseInGrid.Name = "btnAddOtherPurchaseInGrid";
-            this.btnAddOtherPurchaseInGrid.UseVisualStyleBackColor = true;
-            this.btnAddOtherPurchaseInGrid.Click += new System.EventHandler(this.btnAddOtherPurchaseInGrid_Click);
+            resources.ApplyResources(this.TshirtRating, "TshirtRating");
+            this.TshirtRating.Name = "TshirtRating";
+            this.TshirtRating.HeaderText = AppTranslations.Rating;
+            this.TshirtRating.ReadOnly = true;
             // 
-            // btnAddNewOtherPurchase
+            // TshirtSex
             // 
-            resources.ApplyResources(this.btnAddNewOtherPurchase, "btnAddNewOtherPurchase");
-            this.btnAddNewOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddNewOtherPurchase.FlatAppearance.BorderSize = 0;
-            this.btnAddNewOtherPurchase.Name = "btnAddNewOtherPurchase";
-            this.btnAddNewOtherPurchase.UseVisualStyleBackColor = true;
-            this.btnAddNewOtherPurchase.Click += new System.EventHandler(this.btnAddNewOtherPurchase_Click);
+            resources.ApplyResources(this.TshirtSex, "TshirtSex");
+            this.TshirtSex.Name = "TshirtSex";
+            this.TshirtSex.ReadOnly = true;
             // 
-            // btnRemoveOtherPurchase
+            // TshirtSize
             // 
-            resources.ApplyResources(this.btnRemoveOtherPurchase, "btnRemoveOtherPurchase");
-            this.btnRemoveOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnRemoveOtherPurchase.FlatAppearance.BorderSize = 0;
-            this.btnRemoveOtherPurchase.Name = "btnRemoveOtherPurchase";
-            this.btnRemoveOtherPurchase.UseVisualStyleBackColor = true;
-            this.btnRemoveOtherPurchase.Click += new System.EventHandler(this.btnRemoveOtherPurchase_Click);
+            resources.ApplyResources(this.TshirtSize, "TshirtSize");
+            this.TshirtSize.Name = "TshirtSize";
+            this.TshirtSize.HeaderText = AppTranslations.Size;
+            this.TshirtSize.ReadOnly = true;
             // 
-            // btnAddOtherPurchase
+            // TshirtQuantity
             // 
-            resources.ApplyResources(this.btnAddOtherPurchase, "btnAddOtherPurchase");
-            this.btnAddOtherPurchase.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddOtherPurchase.FlatAppearance.BorderSize = 0;
-            this.btnAddOtherPurchase.Name = "btnAddOtherPurchase";
-            this.btnAddOtherPurchase.UseVisualStyleBackColor = true;
-            this.btnAddOtherPurchase.Click += new System.EventHandler(this.btnAddOtherPurchase_Click);
+            resources.ApplyResources(this.TshirtQuantity, "TshirtQuantity");
+            this.TshirtQuantity.Name = "TshirtQuantity";
+            this.TshirtQuantity.HeaderText = AppTranslations.Quantity;
+            this.TshirtQuantity.ReadOnly = true;
             // 
-            // btnAddVinylInGrid
+            // TshirtPrice
             // 
-            resources.ApplyResources(this.btnAddVinylInGrid, "btnAddVinylInGrid");
-            this.btnAddVinylInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAddVinylInGrid.FlatAppearance.BorderSize = 0;
-            this.btnAddVinylInGrid.Name = "btnAddVinylInGrid";
-            this.btnAddVinylInGrid.UseVisualStyleBackColor = true;
-            this.btnAddVinylInGrid.Click += new System.EventHandler(this.btnAddVinylInGrid_Click);
+            resources.ApplyResources(this.TshirtPrice, "TshirtPrice");
+            this.TshirtPrice.Name = "TshirtPrice";
+            this.TshirtPrice.HeaderText = AppTranslations.Price;
+            this.TshirtPrice.ReadOnly = true;
             // 
-            // btnAddNewVinyl
+            // VinylID
             // 
-            resources.ApplyResources(this.btnAddNewVinyl, "btnAddNewVinyl");
-            this.btnAddNewVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddNewVinyl.FlatAppearance.BorderSize = 0;
-            this.btnAddNewVinyl.Name = "btnAddNewVinyl";
-            this.btnAddNewVinyl.UseVisualStyleBackColor = true;
-            this.btnAddNewVinyl.Click += new System.EventHandler(this.btnAddNewVinyl_Click);
+            resources.ApplyResources(this.VinylID, "VinylID");
+            this.VinylID.Name = "VinylID";
+            this.VinylID.ReadOnly = true;
             // 
-            // btnRemoveVinyl
+            // VinylName
             // 
-            resources.ApplyResources(this.btnRemoveVinyl, "btnRemoveVinyl");
-            this.btnRemoveVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnRemoveVinyl.FlatAppearance.BorderSize = 0;
-            this.btnRemoveVinyl.Name = "btnRemoveVinyl";
-            this.btnRemoveVinyl.UseVisualStyleBackColor = true;
-            this.btnRemoveVinyl.Click += new System.EventHandler(this.btnRemoveVinyl_Click);
+            resources.ApplyResources(this.VinylName, "VinylName");
+            this.VinylName.Name = "VinylName";
+            this.VinylName.HeaderText = AppTranslations.Name;
+            this.VinylName.ReadOnly = true;
             // 
-            // btnAddVinyl
+            // VinylType
             // 
-            resources.ApplyResources(this.btnAddVinyl, "btnAddVinyl");
-            this.btnAddVinyl.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddVinyl.FlatAppearance.BorderSize = 0;
-            this.btnAddVinyl.Name = "btnAddVinyl";
-            this.btnAddVinyl.UseVisualStyleBackColor = true;
-            this.btnAddVinyl.Click += new System.EventHandler(this.btnAddVinyl_Click);
+            resources.ApplyResources(this.VinylType, "VinylType");
+            this.VinylType.Name = "VinylType";
+            this.VinylType.HeaderText = AppTranslations.Type;
+            this.VinylType.ReadOnly = true;
             // 
-            // btnAddTshirtInGrid
+            // VinylColor
             // 
-            resources.ApplyResources(this.btnAddTshirtInGrid, "btnAddTshirtInGrid");
-            this.btnAddTshirtInGrid.BackgroundImage = global::FirmaAPP.Properties.Resources.Add3Icon;
-            this.btnAddTshirtInGrid.FlatAppearance.BorderSize = 0;
-            this.btnAddTshirtInGrid.Name = "btnAddTshirtInGrid";
-            this.btnAddTshirtInGrid.UseVisualStyleBackColor = true;
-            this.btnAddTshirtInGrid.Click += new System.EventHandler(this.btnAddTshirtInGrid_Click);
+            resources.ApplyResources(this.VinylColor, "VinylColor");
+            this.VinylColor.Name = "VinylColor";
+            this.VinylColor.HeaderText = AppTranslations.Color;
+            this.VinylColor.ReadOnly = true;
             // 
-            // btnAddNewTshirt
+            // VinylRatin
             // 
-            resources.ApplyResources(this.btnAddNewTshirt, "btnAddNewTshirt");
-            this.btnAddNewTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddNewTshirt.FlatAppearance.BorderSize = 0;
-            this.btnAddNewTshirt.Name = "btnAddNewTshirt";
-            this.btnAddNewTshirt.UseVisualStyleBackColor = true;
-            this.btnAddNewTshirt.Click += new System.EventHandler(this.btnAddNewTshirt_Click);
+            resources.ApplyResources(this.VinylRatin, "VinylRatin");
+            this.VinylRatin.Name = "VinylRatin";
+            this.VinylRatin.HeaderText = AppTranslations.Rating;
+            this.VinylRatin.ReadOnly = true;
             // 
-            // btnRemoveTshirt
+            // VinylQuantity
             // 
-            resources.ApplyResources(this.btnRemoveTshirt, "btnRemoveTshirt");
-            this.btnRemoveTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnRemoveTshirt.FlatAppearance.BorderSize = 0;
-            this.btnRemoveTshirt.Name = "btnRemoveTshirt";
-            this.btnRemoveTshirt.UseVisualStyleBackColor = true;
-            this.btnRemoveTshirt.Click += new System.EventHandler(this.btnRemoveTshirt_Click);
+            resources.ApplyResources(this.VinylQuantity, "VinylQuantity");
+            this.VinylQuantity.Name = "VinylQuantity";
+            this.VinylQuantity.HeaderText = AppTranslations.Quantity;
+            this.VinylQuantity.ReadOnly = true;
             // 
-            // btnAddTshirt
+            // VinylProvider
             // 
-            resources.ApplyResources(this.btnAddTshirt, "btnAddTshirt");
-            this.btnAddTshirt.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddTshirt.FlatAppearance.BorderSize = 0;
-            this.btnAddTshirt.Name = "btnAddTshirt";
-            this.btnAddTshirt.UseVisualStyleBackColor = true;
-            this.btnAddTshirt.Click += new System.EventHandler(this.btnAddTshirt_Click);
+            resources.ApplyResources(this.VinylProvider, "VinylProvider");
+            this.VinylProvider.Name = "VinylProvider";
+            this.VinylProvider.HeaderText = AppTranslations.Provider;
+            this.VinylProvider.ReadOnly = true;
             // 
-            // btnAddNewCustomer
+            // OtherPurchaseID
             // 
-            resources.ApplyResources(this.btnAddNewCustomer, "btnAddNewCustomer");
-            this.btnAddNewCustomer.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAddNewCustomer.FlatAppearance.BorderSize = 0;
-            this.btnAddNewCustomer.Name = "btnAddNewCustomer";
-            this.btnAddNewCustomer.UseVisualStyleBackColor = true;
-            this.btnAddNewCustomer.Click += new System.EventHandler(this.btnAddNewCustomer_Click);
+            resources.ApplyResources(this.OtherPurchaseID, "OtherPurchaseID");
+            this.OtherPurchaseID.Name = "OtherPurchaseID";
+            this.OtherPurchaseID.ReadOnly = true;
+            // 
+            // OtherPurchaseName
+            // 
+            resources.ApplyResources(this.OtherPurchaseName, "OtherPurchaseName");
+            this.OtherPurchaseName.Name = "OtherPurchaseName";
+            this.OtherPurchaseName.HeaderText = AppTranslations.Name;
+            this.OtherPurchaseName.ReadOnly = true;
+            // 
+            // OtherPurchaseRating
+            // 
+            resources.ApplyResources(this.OtherPurchaseRating, "OtherPurchaseRating");
+            this.OtherPurchaseRating.Name = "OtherPurchaseRating";
+            this.OtherPurchaseRating.HeaderText = AppTranslations.Rating;
+            this.OtherPurchaseRating.ReadOnly = true;
+            // 
+            // OtherPurchaseDescription
+            // 
+            resources.ApplyResources(this.OtherPurchaseDescription, "OtherPurchaseDescription");
+            this.OtherPurchaseDescription.Name = "OtherPurchaseDescription";
+            this.OtherPurchaseDescription.HeaderText = AppTranslations.Description;
+            this.OtherPurchaseDescription.ReadOnly = true;
+            // 
+            // OtherPurchaseQuantity
+            // 
+            resources.ApplyResources(this.OtherPurchaseQuantity, "OtherPurchaseQuantity");
+            this.OtherPurchaseQuantity.Name = "OtherPurchaseQuantity";
+            this.OtherPurchaseQuantity.HeaderText = AppTranslations.Quantity;
+            this.OtherPurchaseQuantity.ReadOnly = true;
+            // 
+            // OtherPurchaseProvider
+            // 
+            resources.ApplyResources(this.OtherPurchaseProvider, "OtherPurchaseProvider");
+            this.OtherPurchaseProvider.Name = "OtherPurchaseProvider";
+            this.OtherPurchaseProvider.HeaderText = AppTranslations.Provider;
+            this.OtherPurchaseProvider.ReadOnly = true;
             // 
             // frmOrderTshirtSalesDetails
             // 
@@ -1283,6 +1308,24 @@
         private System.Windows.Forms.ComboBox cbVinylProvider;
         private System.Windows.Forms.ComboBox cbOtherPuchaseProvider;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panelBillDetails;
+        private System.Windows.Forms.Panel panelAddBillDetails;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.DateTimePicker dateTimeBill;
+        private System.Windows.Forms.Button btnAddBillFile;
+        private System.Windows.Forms.TextBox tbBillFile;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.ComboBox cbBillStatus;
+        private System.Windows.Forms.Label lbColor;
+        private System.Windows.Forms.TextBox tbBillName;
+        private System.Windows.Forms.RichTextBox tbBillDescription;
+        private System.Windows.Forms.Label lbDescription;
+        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Button btnRemoveBill;
+        private System.Windows.Forms.Button btnAddBill;
+        private System.Windows.Forms.Button btnBillDetails;
+        private System.Windows.Forms.Button btnViewBillFile;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseID;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseName;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseRating;
@@ -1305,23 +1348,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TshirtSize;
         private System.Windows.Forms.DataGridViewTextBoxColumn TshirtQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn TshirtPrice;
-        private System.Windows.Forms.Panel panelBillDetails;
-        private System.Windows.Forms.Panel panelAddBillDetails;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.DateTimePicker dateTimeBill;
-        private System.Windows.Forms.Button btnAddBillFile;
-        private System.Windows.Forms.TextBox tbBillFile;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.ComboBox cbBillStatus;
-        private System.Windows.Forms.Label lbColor;
-        private System.Windows.Forms.TextBox tbBillName;
-        private System.Windows.Forms.RichTextBox tbBillDescription;
-        private System.Windows.Forms.Label lbDescription;
-        private System.Windows.Forms.Label lbName;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Button btnRemoveBill;
-        private System.Windows.Forms.Button btnAddBill;
-        private System.Windows.Forms.Button btnBillDetails;
-        private System.Windows.Forms.Button btnViewBillFile;
     }
 }

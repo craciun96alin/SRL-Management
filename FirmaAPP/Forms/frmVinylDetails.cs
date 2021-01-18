@@ -223,6 +223,29 @@ namespace FirmaAPP
             childForm.Provider = new Provider();
             childForm.ShowDialog();
         }
+        private void btnAddNewVinylsType_Click(object sender, EventArgs e)
+        {
+            frmAttributeVinylsTypeDetails childForm = new frmAttributeVinylsTypeDetails();
+            AttributeVinylsTypeDetailsPresenter presenter = new AttributeVinylsTypeDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.AttributeVinylsType = new AttributeVinylsType();
+            childForm.ShowDialog();
+        }
+
+        private void btnAddNewColor_Click(object sender, EventArgs e)
+        {
+            frmAttributeColorDetails childForm = new frmAttributeColorDetails();
+            AttributeColorDetailsPresenter presenter = new AttributeColorDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.AttributeColor = new AttributeColor();
+            childForm.ShowDialog();
+        }
         #endregion
         #region public functions
         public void AttachMainForm(frmMainForm form)
@@ -257,6 +280,7 @@ namespace FirmaAPP
             this.Init();
         }
         #endregion
+
 
     }
 }

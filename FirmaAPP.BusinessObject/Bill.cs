@@ -1,11 +1,6 @@
 ﻿using FirmaAPP.Common;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirmaAPP.BusinessObject
 {
@@ -13,11 +8,16 @@ namespace FirmaAPP.BusinessObject
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int BillID { get; set; }
+        [LocalizedDisplayName("Name")]
         public string BillName { get; set; }
+        [LocalizedDisplayName("Status")]
         public Enums.BillStatus BillStatus { get; set; }
         public byte[] File { get; set; }
+        [LocalizedDisplayName("File")]
         public string FileName { get; set; }
+        [LocalizedDisplayName("Description")]
         public string Description { get; set; }
+        [LocalizedDisplayName("Date")]
         public DateTime BillDate { get; set; }
         public Order _order { get; set; }
     }

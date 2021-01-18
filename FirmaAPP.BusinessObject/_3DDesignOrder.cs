@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using FirmaAPP.Common;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirmaAPP.BusinessObject
 {
@@ -18,8 +14,9 @@ namespace FirmaAPP.BusinessObject
         
         public int _3DDesignID { get; set; }
         public _3DDesign _3DDesign { get; set; }
-
+        [LocalizedDisplayName("Description")]
         public string Description { get; set; }
+        [LocalizedDisplayName("Price")]
         public float Price { get; set; }
     }
 }

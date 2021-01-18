@@ -35,7 +35,7 @@ namespace FirmaAPP
                     Country = tbCountry.Text.ToString(),
                     County = tbCountry.Text.ToString(),
                     City = tbCity.Text.ToString(),
-                    Adress = tbAdress.Text.ToString(),
+                    Address = tbAdress.Text.ToString(),
                     CUI = tbCUI.Text.ToString(),
                     TVAPaying = rbTVAyes.Checked,
                     Phone = tbPhone.Text.ToString(),
@@ -53,7 +53,7 @@ namespace FirmaAPP
                 tbCountry.Text = value.Country;
                 tbCounty.Text = value.County;
                 tbCity.Text = value.City;
-                tbAdress.Text = value.Adress;
+                tbAdress.Text = value.Address;
                 tbCUI.Text = value.CUI;
                 rbTVAyes.Checked = value.TVAPaying;
                 rbTVAno.Checked = !value.TVAPaying;

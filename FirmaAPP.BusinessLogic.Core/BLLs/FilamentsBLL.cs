@@ -124,10 +124,22 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 List<string> filamentsName = new List<string>();
                 FilamentsDAL fDAL = new FilamentsDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeFilamentsTypeDAL aftDAL = new AttributeFilamentsTypeDAL();
                 var filaments = fDAL.GetFilamentsByProviderId(provider.ProviderID);
                 foreach (Filament f in filaments)
                 {
-                    var filamentName = f.FilamentID+", "+f.Name + ", " + f.Type + ", " + f.Color.Name + ", " + f.Rating;
+                    if (f.Type == null && f.AttributeFilamentsTypeID != null)
+                    {
+                        f.Type = aftDAL.GetAttributeFilamentsTypeByID(f.AttributeFilamentsTypeID);
+                    }
+
+                    if (f.Color == null && f.AttributeColorID != null)
+                    {
+                        f.Color = acDAL.GetAttributeColorByID(f.AttributeColorID);
+                    }
+
+                    var filamentName = f.FilamentID+", "+f.Name + ", " + f.TypeName + ", " + f.ColorName + ", " + f.Rating;
                     filamentsName.Add(filamentName);
                 }
                 return filamentsName;
@@ -144,10 +156,22 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 List<string> filamentsName = new List<string>();
                 FilamentsDAL fDAL = new FilamentsDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeFilamentsTypeDAL aftDAL = new AttributeFilamentsTypeDAL();
                 var filaments = fDAL.GetAllFilaments();
                 foreach (Filament f in filaments)
                 {
-                    var filamentName = f.Name + ", " + f.Type + ", " + f.Color.Name;
+                    if (f.Type == null && f.AttributeFilamentsTypeID != null)
+                    {
+                        f.Type = aftDAL.GetAttributeFilamentsTypeByID(f.AttributeFilamentsTypeID);
+                    }
+
+                    if (f.Color == null && f.AttributeColorID != null)
+                    {
+                        f.Color = acDAL.GetAttributeColorByID(f.AttributeColorID);
+                    }
+
+                    var filamentName = f.Name + ", " + f.TypeName + ", " + f.ColorName;
                     filamentsName.Add(filamentName);
                 }
                 return filamentsName;

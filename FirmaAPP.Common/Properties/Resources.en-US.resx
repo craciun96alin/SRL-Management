@@ -309,4 +309,85 @@
   <data name="Type" xml:space="preserve">
     <value>Type</value>
   </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="BillFolder" xml:space="preserve">
+    <value>Bill Folder</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="County" xml:space="preserve">
+    <value>County</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DeadLineDate" xml:space="preserve">
+    <value>Dead Line</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FinalizeDate" xml:space="preserve">
+    <value>Finalize Date</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="HoursOfWork" xml:space="preserve">
+    <value>Hours Of Work</value>
+  </data>
+  <data name="Infill" xml:space="preserve">
+    <value>Infill</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PrintingTimeInMin" xml:space="preserve">
+    <value>Printing Time(Min)</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="ShippingPrice" xml:space="preserve">
+    <value>Shipping Price</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="TVAPaying" xml:space="preserve">
+    <value>TVA Paying</value>
+  </data>
+  <data name="Wheight" xml:space="preserve">
+    <value>Wheight</value>
+  </data>
+  <data name="_3DDesignFolder" xml:space="preserve">
+    <value>3D Design Folder</value>
+  </data>
+  <data name="_3DPrintFolder" xml:space="preserve">
+    <value>3D Print Folder</value>
+  </data>
 </root>

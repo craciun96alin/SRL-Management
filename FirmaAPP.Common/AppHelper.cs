@@ -11,16 +11,16 @@ using System.Collections;
 
 namespace FirmaAPP.Common
 {
-
+    #region Multi-language Methods
     public class LocalizedDisplayNameAttribute : DisplayNameAttribute
     {
         public LocalizedDisplayNameAttribute(string resourceId)
             : base(GetMessageFromResource(resourceId))
         { }
 
-        private static string GetMessageFromResource(string resourceId)
+        private static string GetMessageFromResource(string resource)
         {
-            // TODO: Return the string from the resource file
+            // Return the string from the resource file
             ResourceManager MyResourceClass =
 new ResourceManager(typeof(Properties.Resources));
 
@@ -28,19 +28,14 @@ new ResourceManager(typeof(Properties.Resources));
                 MyResourceClass.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
             foreach (DictionaryEntry entry in resourceSet)
             {
-                if (entry.Key.ToString() == resourceId)
+                if (entry.Key.ToString() == resource)
                     return entry.Value.ToString();
             }
 
-            //foreach (var a in Properties.Resources)
-            //{
-            //    if (a == resourceId)
-            //        return a;
-            //}
-            return "";
+            return resource;
         }
     }
-
+    #endregion
     public static class AppHelper
     {
 

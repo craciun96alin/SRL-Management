@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVinylDetails));
             this.panelVinylInformations = new System.Windows.Forms.Panel();
+            this.btnAddNewProvider = new System.Windows.Forms.Button();
             this.cbProvider = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.lbTitle = new System.Windows.Forms.Label();
@@ -52,7 +53,8 @@
             this.lbColor = new System.Windows.Forms.Label();
             this.lbType = new System.Windows.Forms.Label();
             this.lbName = new System.Windows.Forms.Label();
-            this.btnAddNewProvider = new System.Windows.Forms.Button();
+            this.btnAddNewColor = new System.Windows.Forms.Button();
+            this.btnAddNewVinylsType = new System.Windows.Forms.Button();
             this.panelVinylInformations.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +62,8 @@
             // panelVinylInformations
             // 
             this.panelVinylInformations.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            this.panelVinylInformations.Controls.Add(this.btnAddNewColor);
+            this.panelVinylInformations.Controls.Add(this.btnAddNewVinylsType);
             this.panelVinylInformations.Controls.Add(this.btnAddNewProvider);
             this.panelVinylInformations.Controls.Add(this.cbProvider);
             this.panelVinylInformations.Controls.Add(this.label10);
@@ -85,6 +89,15 @@
             this.panelVinylInformations.Controls.Add(this.lbName);
             resources.ApplyResources(this.panelVinylInformations, "panelVinylInformations");
             this.panelVinylInformations.Name = "panelVinylInformations";
+            // 
+            // btnAddNewProvider
+            // 
+            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
+            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
+            this.btnAddNewProvider.Name = "btnAddNewProvider";
+            this.btnAddNewProvider.UseVisualStyleBackColor = true;
+            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
             // 
             // cbProvider
             // 
@@ -235,14 +248,23 @@
             this.lbName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbName.Name = "lbName";
             // 
-            // btnAddNewProvider
+            // btnAddNewColor
             // 
-            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
-            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
-            this.btnAddNewProvider.Name = "btnAddNewProvider";
-            this.btnAddNewProvider.UseVisualStyleBackColor = true;
-            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
+            this.btnAddNewColor.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewColor, "btnAddNewColor");
+            this.btnAddNewColor.FlatAppearance.BorderSize = 0;
+            this.btnAddNewColor.Name = "btnAddNewColor";
+            this.btnAddNewColor.UseVisualStyleBackColor = true;
+            this.btnAddNewColor.Click += new System.EventHandler(this.btnAddNewColor_Click);
+            // 
+            // btnAddNewVinylsType
+            // 
+            this.btnAddNewVinylsType.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewVinylsType, "btnAddNewVinylsType");
+            this.btnAddNewVinylsType.FlatAppearance.BorderSize = 0;
+            this.btnAddNewVinylsType.Name = "btnAddNewVinylsType";
+            this.btnAddNewVinylsType.UseVisualStyleBackColor = true;
+            this.btnAddNewVinylsType.Click += new System.EventHandler(this.btnAddNewVinylsType_Click);
             // 
             // frmVinylDetails
             // 
@@ -285,5 +307,7 @@
         private System.Windows.Forms.Label lbType;
         private System.Windows.Forms.Label lbName;
         private System.Windows.Forms.Button btnAddNewProvider;
+        private System.Windows.Forms.Button btnAddNewColor;
+        private System.Windows.Forms.Button btnAddNewVinylsType;
     }
 }

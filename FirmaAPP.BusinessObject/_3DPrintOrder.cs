@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using FirmaAPP.Common;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirmaAPP.BusinessObject
 {
@@ -20,12 +16,16 @@ namespace FirmaAPP.BusinessObject
 
         public int? FilamentID { get; set; }
 
+        [LocalizedDisplayName("Infill")]
         public int Infill { get; set; }
         public Attribute3DPrintsQuality PrintQuality { get; set; }
+        [LocalizedDisplayName("Wheight")]
         public float Wheight { get; set; }
+        [LocalizedDisplayName("PrintingTimeInMin")]
         public int PrintingTimeInMin { get; set; } // Will store the number of min
-
+        [LocalizedDisplayName("Quantity")]
         public int PrintsQuantity { get; set; }
+        [LocalizedDisplayName("TotalPrice")]
         public float TotalPrice { get; set; }
     }
 }

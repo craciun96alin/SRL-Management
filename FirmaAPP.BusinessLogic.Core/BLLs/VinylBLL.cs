@@ -107,10 +107,22 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 List<string> vinylsName = new List<string>();
                 VinylDAL vDAL = new VinylDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeVinylsTypeDAL avtDAL = new AttributeVinylsTypeDAL();
                 var vinyls = vDAL.GetVinylsByProviderId(provider.ProviderID);
                 foreach(Vinyl v in vinyls)
                 {
-                    var vinylName = v.VinylID + ", "+ v.Name + ", " + v.Type + ", " + v.Color.Name + ", " + v.Rating;
+                    if (v.Color == null && v.AttributeColorID != null)
+                    {
+                        v.Color = acDAL.GetAttributeColorByID(v.AttributeColorID);
+                    }
+
+                    if (v.Type == null && v.AttributeVinylsTypeID != null)
+                    {
+                        v.Type = avtDAL.GetAttributeVinylsTypeByID(v.AttributeVinylsTypeID);
+                    }
+
+                    var vinylName = v.VinylID + ", "+ v.Name + ", " + v.TypeName + ", " + v.ColorName + ", " + v.Rating;
                     vinylsName.Add(vinylName);
                 }
                 return vinylsName;
@@ -142,9 +154,21 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 VinylDAL vDAL = new VinylDAL();
                 ProvidersBLL pBLL = new ProvidersBLL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeVinylsTypeDAL avtDAL = new AttributeVinylsTypeDAL();
                 var provider = pBLL.GetProviderByName(providerName);
-                var vinyl = vDAL.GetVinylByNameAndProvider(vinylName,provider.ProviderID);
-                return vinyl;
+                var v = vDAL.GetVinylByNameAndProvider(vinylName,provider.ProviderID);
+
+                    if (v.Color == null && v.AttributeColorID != null)
+                    {
+                        v.Color = acDAL.GetAttributeColorByID(v.AttributeColorID);
+                    }
+
+                    if (v.Type == null && v.AttributeVinylsTypeID != null)
+                    {
+                        v.Type = avtDAL.GetAttributeVinylsTypeByID(v.AttributeVinylsTypeID);
+                    }
+                    return v;
             }
             catch (Exception ex)
             {

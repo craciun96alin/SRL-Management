@@ -1,6 +1,5 @@
 ﻿using FirmaAPP.Common;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace FirmaAPP.BusinessObject
 {
@@ -10,11 +9,15 @@ namespace FirmaAPP.BusinessObject
 
         public int? ProviderID { get; set; }
         public Provider Provider { get; set; }
-        [DisplayName("Furnizor")]
+        [LocalizedDisplayName("Provider")]
         public string ProviderName => Provider != null ? Provider.Name : string.Empty;
-        public string Name { get; set; } 
+        [LocalizedDisplayName("Name")]
+        public string Name { get; set; }
+        [LocalizedDisplayName("Description")]
         public string Description { get; set; }
+        [LocalizedDisplayName("Stock")]
         public float? Stock { get; set; }
+        [LocalizedDisplayName("Rating")]
         public Enums.Rating Rating { get; set; }
 
         public IList<OtherPurchaseOrder> _otherPurchaseOrders { get; set; }

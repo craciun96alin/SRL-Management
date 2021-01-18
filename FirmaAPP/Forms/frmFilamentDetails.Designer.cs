@@ -54,6 +54,9 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.lbTitle = new System.Windows.Forms.Label();
             this.panelFilamentInformations = new System.Windows.Forms.Panel();
+            this.btnAddNewColor = new System.Windows.Forms.Button();
+            this.btnAddNewFilamentsType = new System.Windows.Forms.Button();
+            this.btnAddNewProvider = new System.Windows.Forms.Button();
             this.cbProvider = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btnStar5 = new System.Windows.Forms.Button();
@@ -75,7 +78,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.btnAddNewProvider = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panelFilamentInformations.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownStock)).BeginInit();
@@ -235,6 +237,8 @@
             // 
             // panelFilamentInformations
             // 
+            this.panelFilamentInformations.Controls.Add(this.btnAddNewColor);
+            this.panelFilamentInformations.Controls.Add(this.btnAddNewFilamentsType);
             this.panelFilamentInformations.Controls.Add(this.btnAddNewProvider);
             this.panelFilamentInformations.Controls.Add(this.cbProvider);
             this.panelFilamentInformations.Controls.Add(this.label10);
@@ -260,6 +264,33 @@
             this.panelFilamentInformations.Controls.Add(this.lbName);
             resources.ApplyResources(this.panelFilamentInformations, "panelFilamentInformations");
             this.panelFilamentInformations.Name = "panelFilamentInformations";
+            // 
+            // btnAddNewColor
+            // 
+            this.btnAddNewColor.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewColor, "btnAddNewColor");
+            this.btnAddNewColor.FlatAppearance.BorderSize = 0;
+            this.btnAddNewColor.Name = "btnAddNewColor";
+            this.btnAddNewColor.UseVisualStyleBackColor = true;
+            this.btnAddNewColor.Click += new System.EventHandler(this.btnAddNewColor_Click);
+            // 
+            // btnAddNewFilamentsType
+            // 
+            this.btnAddNewFilamentsType.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewFilamentsType, "btnAddNewFilamentsType");
+            this.btnAddNewFilamentsType.FlatAppearance.BorderSize = 0;
+            this.btnAddNewFilamentsType.Name = "btnAddNewFilamentsType";
+            this.btnAddNewFilamentsType.UseVisualStyleBackColor = true;
+            this.btnAddNewFilamentsType.Click += new System.EventHandler(this.btnAddNewFilamentsType_Click);
+            // 
+            // btnAddNewProvider
+            // 
+            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
+            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
+            this.btnAddNewProvider.Name = "btnAddNewProvider";
+            this.btnAddNewProvider.UseVisualStyleBackColor = true;
+            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
             // 
             // cbProvider
             // 
@@ -407,15 +438,6 @@
             this.button7.Name = "button7";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // btnAddNewProvider
-            // 
-            this.btnAddNewProvider.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            resources.ApplyResources(this.btnAddNewProvider, "btnAddNewProvider");
-            this.btnAddNewProvider.FlatAppearance.BorderSize = 0;
-            this.btnAddNewProvider.Name = "btnAddNewProvider";
-            this.btnAddNewProvider.UseVisualStyleBackColor = true;
-            this.btnAddNewProvider.Click += new System.EventHandler(this.btnAddNewProvider_Click);
-            // 
             // frmFilamentDetails
             // 
             resources.ApplyResources(this, "$this");
@@ -481,5 +503,7 @@
         private System.Windows.Forms.Label lbStock;
         private System.Windows.Forms.Label lbColor;
         private System.Windows.Forms.Button btnAddNewProvider;
+        private System.Windows.Forms.Button btnAddNewColor;
+        private System.Windows.Forms.Button btnAddNewFilamentsType;
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace FirmaAPP
+﻿using FirmaAPP.Common;
+
+namespace FirmaAPP
 {
     partial class frmOrderAcquisitionDetails
     {
@@ -51,12 +53,6 @@
             this.panelOtherPurchaseDetails = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.dataGridOtherPurchase = new System.Windows.Forms.DataGridView();
-            this.OtherPurchaseID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchaseQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OtherPurchasePrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbOtherPurchase = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
             this.btnAddOtherPurchaseInGrid = new System.Windows.Forms.Button();
@@ -75,14 +71,6 @@
             this.panelTshirtDetails = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dataGridTshirt = new System.Windows.Forms.DataGridView();
-            this.TshirtID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtSex = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtSize = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TshirtPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbTshirt = new System.Windows.Forms.GroupBox();
             this.cbTshirtSize = new System.Windows.Forms.ComboBox();
             this.label35 = new System.Windows.Forms.Label();
@@ -110,13 +98,6 @@
             this.panelFilamentDetails = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dataGridFilament = new System.Windows.Forms.DataGridView();
-            this.FilamentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FilamentPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbFilament = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnAddFilamentInGrid = new System.Windows.Forms.Button();
@@ -135,13 +116,6 @@
             this.panelVinylDetails = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridVinyl = new System.Windows.Forms.DataGridView();
-            this.VinylID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylRatin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VinylPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbVinyl = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnAddVinylInGrid = new System.Windows.Forms.Button();
@@ -176,6 +150,34 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
             this.openBillFile = new System.Windows.Forms.OpenFileDialog();
+            this.VinylID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylRatin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VinylPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FilamentPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtColor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtSex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtSize = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TshirtPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchaseQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OtherPurchasePrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelFilamentInformations.SuspendLayout();
             this.panelBillDetails.SuspendLayout();
             this.panelAddBillDetails.SuspendLayout();
@@ -403,41 +405,6 @@
             this.dataGridOtherPurchase.RowTemplate.Height = 24;
             this.dataGridOtherPurchase.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridOtherPurchase_RowsAdded);
             // 
-            // OtherPurchaseID
-            // 
-            resources.ApplyResources(this.OtherPurchaseID, "OtherPurchaseID");
-            this.OtherPurchaseID.Name = "OtherPurchaseID";
-            // 
-            // OtherPurchaseName
-            // 
-            resources.ApplyResources(this.OtherPurchaseName, "OtherPurchaseName");
-            this.OtherPurchaseName.Name = "OtherPurchaseName";
-            this.OtherPurchaseName.ReadOnly = true;
-            // 
-            // OtherPurchaseRating
-            // 
-            resources.ApplyResources(this.OtherPurchaseRating, "OtherPurchaseRating");
-            this.OtherPurchaseRating.Name = "OtherPurchaseRating";
-            this.OtherPurchaseRating.ReadOnly = true;
-            // 
-            // OtherPurchaseDescription
-            // 
-            resources.ApplyResources(this.OtherPurchaseDescription, "OtherPurchaseDescription");
-            this.OtherPurchaseDescription.Name = "OtherPurchaseDescription";
-            this.OtherPurchaseDescription.ReadOnly = true;
-            // 
-            // OtherPurchaseQuantity
-            // 
-            resources.ApplyResources(this.OtherPurchaseQuantity, "OtherPurchaseQuantity");
-            this.OtherPurchaseQuantity.Name = "OtherPurchaseQuantity";
-            this.OtherPurchaseQuantity.ReadOnly = true;
-            // 
-            // OtherPurchasePrice
-            // 
-            resources.ApplyResources(this.OtherPurchasePrice, "OtherPurchasePrice");
-            this.OtherPurchasePrice.Name = "OtherPurchasePrice";
-            this.OtherPurchasePrice.ReadOnly = true;
-            // 
             // gbOtherPurchase
             // 
             resources.ApplyResources(this.gbOtherPurchase, "gbOtherPurchase");
@@ -600,52 +567,6 @@
             this.dataGridTshirt.Name = "dataGridTshirt";
             this.dataGridTshirt.RowTemplate.Height = 24;
             this.dataGridTshirt.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridTshirt_RowsAdded);
-            // 
-            // TshirtID
-            // 
-            resources.ApplyResources(this.TshirtID, "TshirtID");
-            this.TshirtID.Name = "TshirtID";
-            this.TshirtID.ReadOnly = true;
-            // 
-            // TshirtType
-            // 
-            resources.ApplyResources(this.TshirtType, "TshirtType");
-            this.TshirtType.Name = "TshirtType";
-            this.TshirtType.ReadOnly = true;
-            // 
-            // TshirtColor
-            // 
-            resources.ApplyResources(this.TshirtColor, "TshirtColor");
-            this.TshirtColor.Name = "TshirtColor";
-            this.TshirtColor.ReadOnly = true;
-            // 
-            // TshirtRating
-            // 
-            resources.ApplyResources(this.TshirtRating, "TshirtRating");
-            this.TshirtRating.Name = "TshirtRating";
-            this.TshirtRating.ReadOnly = true;
-            // 
-            // TshirtSex
-            // 
-            resources.ApplyResources(this.TshirtSex, "TshirtSex");
-            this.TshirtSex.Name = "TshirtSex";
-            // 
-            // TshirtSize
-            // 
-            resources.ApplyResources(this.TshirtSize, "TshirtSize");
-            this.TshirtSize.Name = "TshirtSize";
-            // 
-            // TshirtQuantity
-            // 
-            resources.ApplyResources(this.TshirtQuantity, "TshirtQuantity");
-            this.TshirtQuantity.Name = "TshirtQuantity";
-            this.TshirtQuantity.ReadOnly = true;
-            // 
-            // TshirtPrice
-            // 
-            resources.ApplyResources(this.TshirtPrice, "TshirtPrice");
-            this.TshirtPrice.Name = "TshirtPrice";
-            this.TshirtPrice.ReadOnly = true;
             // 
             // gbTshirt
             // 
@@ -862,47 +783,6 @@
             this.dataGridFilament.RowTemplate.Height = 24;
             this.dataGridFilament.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridFilament_RowsAdded);
             // 
-            // FilamentID
-            // 
-            resources.ApplyResources(this.FilamentID, "FilamentID");
-            this.FilamentID.Name = "FilamentID";
-            // 
-            // FilamentName
-            // 
-            resources.ApplyResources(this.FilamentName, "FilamentName");
-            this.FilamentName.Name = "FilamentName";
-            this.FilamentName.ReadOnly = true;
-            // 
-            // FilamentType
-            // 
-            resources.ApplyResources(this.FilamentType, "FilamentType");
-            this.FilamentType.Name = "FilamentType";
-            this.FilamentType.ReadOnly = true;
-            // 
-            // FilamentColor
-            // 
-            resources.ApplyResources(this.FilamentColor, "FilamentColor");
-            this.FilamentColor.Name = "FilamentColor";
-            this.FilamentColor.ReadOnly = true;
-            // 
-            // FilamentRating
-            // 
-            resources.ApplyResources(this.FilamentRating, "FilamentRating");
-            this.FilamentRating.Name = "FilamentRating";
-            this.FilamentRating.ReadOnly = true;
-            // 
-            // FilamentQuantity
-            // 
-            resources.ApplyResources(this.FilamentQuantity, "FilamentQuantity");
-            this.FilamentQuantity.Name = "FilamentQuantity";
-            this.FilamentQuantity.ReadOnly = true;
-            // 
-            // FilamentPrice
-            // 
-            resources.ApplyResources(this.FilamentPrice, "FilamentPrice");
-            this.FilamentPrice.Name = "FilamentPrice";
-            this.FilamentPrice.ReadOnly = true;
-            // 
             // gbFilament
             // 
             resources.ApplyResources(this.gbFilament, "gbFilament");
@@ -1068,47 +948,6 @@
             this.dataGridVinyl.Name = "dataGridVinyl";
             this.dataGridVinyl.RowTemplate.Height = 24;
             this.dataGridVinyl.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dataGridVinyl_RowsAdded);
-            // 
-            // VinylID
-            // 
-            resources.ApplyResources(this.VinylID, "VinylID");
-            this.VinylID.Name = "VinylID";
-            // 
-            // VinylName
-            // 
-            resources.ApplyResources(this.VinylName, "VinylName");
-            this.VinylName.Name = "VinylName";
-            this.VinylName.ReadOnly = true;
-            // 
-            // VinylType
-            // 
-            resources.ApplyResources(this.VinylType, "VinylType");
-            this.VinylType.Name = "VinylType";
-            this.VinylType.ReadOnly = true;
-            // 
-            // VinylColor
-            // 
-            resources.ApplyResources(this.VinylColor, "VinylColor");
-            this.VinylColor.Name = "VinylColor";
-            this.VinylColor.ReadOnly = true;
-            // 
-            // VinylRatin
-            // 
-            resources.ApplyResources(this.VinylRatin, "VinylRatin");
-            this.VinylRatin.Name = "VinylRatin";
-            this.VinylRatin.ReadOnly = true;
-            // 
-            // VinylQuantity
-            // 
-            resources.ApplyResources(this.VinylQuantity, "VinylQuantity");
-            this.VinylQuantity.Name = "VinylQuantity";
-            this.VinylQuantity.ReadOnly = true;
-            // 
-            // VinylPrice
-            // 
-            resources.ApplyResources(this.VinylPrice, "VinylPrice");
-            this.VinylPrice.Name = "VinylPrice";
-            this.VinylPrice.ReadOnly = true;
             // 
             // gbVinyl
             // 
@@ -1367,6 +1206,197 @@
             this.openBillFile.FileName = "openBillFile";
             resources.ApplyResources(this.openBillFile, "openBillFile");
             // 
+            // VinylID
+            // 
+            resources.ApplyResources(this.VinylID, "VinylID");
+            this.VinylID.Name = "VinylID";
+            this.VinylID.ReadOnly = true;
+            // 
+            // VinylName
+            // 
+            resources.ApplyResources(this.VinylName, "VinylName");
+            this.VinylName.Name = "VinylName";
+            this.VinylName.HeaderText = AppTranslations.Name;
+            this.VinylName.ReadOnly = true;
+            // 
+            // VinylType
+            // 
+            resources.ApplyResources(this.VinylType, "VinylType");
+            this.VinylType.Name = "VinylType";
+            this.VinylType.HeaderText = AppTranslations.Type;
+            this.VinylType.ReadOnly = true;
+            // 
+            // VinylColor
+            // 
+            resources.ApplyResources(this.VinylColor, "VinylColor");
+            this.VinylColor.Name = "VinylColor";
+            this.VinylColor.HeaderText = AppTranslations.Color;
+            this.VinylColor.ReadOnly = true;
+            // 
+            // VinylRatin
+            // 
+            resources.ApplyResources(this.VinylRatin, "VinylRatin");
+            this.VinylRatin.Name = "VinylRatin";
+            this.VinylRatin.HeaderText = AppTranslations.Rating;
+            this.VinylRatin.ReadOnly = true;
+            // 
+            // VinylQuantity
+            // 
+            resources.ApplyResources(this.VinylQuantity, "VinylQuantity");
+            this.VinylQuantity.Name = "VinylQuantity";
+            this.VinylQuantity.HeaderText = AppTranslations.Quantity;
+            this.VinylQuantity.ReadOnly = true;
+            // 
+            // VinylPrice
+            // 
+            resources.ApplyResources(this.VinylPrice, "VinylPrice");
+            this.VinylPrice.Name = "VinylPrice";
+            this.VinylPrice.HeaderText = AppTranslations.Price;
+            this.VinylPrice.ReadOnly = true;
+            // 
+            // FilamentID
+            // 
+            resources.ApplyResources(this.FilamentID, "FilamentID");
+            this.FilamentID.Name = "FilamentID";
+            this.FilamentID.ReadOnly = true;
+            // 
+            // FilamentName
+            // 
+            resources.ApplyResources(this.FilamentName, "FilamentName");
+            this.FilamentName.Name = "FilamentName";
+            this.FilamentName.HeaderText = AppTranslations.Name;
+            this.FilamentName.ReadOnly = true;
+            // 
+            // FilamentType
+            // 
+            resources.ApplyResources(this.FilamentType, "FilamentType");
+            this.FilamentType.Name = "FilamentType";
+            this.FilamentType.HeaderText = AppTranslations.Type;
+            this.FilamentType.ReadOnly = true;
+            // 
+            // FilamentColor
+            // 
+            resources.ApplyResources(this.FilamentColor, "FilamentColor");
+            this.FilamentColor.Name = "FilamentColor";
+            this.FilamentColor.HeaderText = AppTranslations.Color;
+            this.FilamentColor.ReadOnly = true;
+            // 
+            // FilamentRating
+            // 
+            resources.ApplyResources(this.FilamentRating, "FilamentRating");
+            this.FilamentRating.Name = "FilamentRating";
+            this.FilamentRating.HeaderText = AppTranslations.Rating;
+            this.FilamentRating.ReadOnly = true;
+            // 
+            // FilamentQuantity
+            // 
+            resources.ApplyResources(this.FilamentQuantity, "FilamentQuantity");
+            this.FilamentQuantity.Name = "FilamentQuantity";
+            this.FilamentQuantity.HeaderText = AppTranslations.Quantity;
+            this.FilamentQuantity.ReadOnly = true;
+            // 
+            // FilamentPrice
+            // 
+            resources.ApplyResources(this.FilamentPrice, "FilamentPrice");
+            this.FilamentPrice.Name = "FilamentPrice";
+            this.FilamentPrice.HeaderText = AppTranslations.Price;
+            this.FilamentPrice.ReadOnly = true;
+            // 
+            // TshirtID
+            // 
+            resources.ApplyResources(this.TshirtID, "TshirtID");
+            this.TshirtID.Name = "TshirtID";
+            this.TshirtID.ReadOnly = true;
+            // 
+            // TshirtType
+            // 
+            resources.ApplyResources(this.TshirtType, "TshirtType");
+            this.TshirtType.Name = "TshirtType";
+            this.TshirtType.HeaderText = AppTranslations.Type;
+            this.TshirtType.ReadOnly = true;
+            // 
+            // TshirtColor
+            // 
+            resources.ApplyResources(this.TshirtColor, "TshirtColor");
+            this.TshirtColor.Name = "TshirtColor";
+            this.TshirtColor.HeaderText = AppTranslations.Color;
+            this.TshirtColor.ReadOnly = true;
+            // 
+            // TshirtRating
+            // 
+            resources.ApplyResources(this.TshirtRating, "TshirtRating");
+            this.TshirtRating.Name = "TshirtRating";
+            this.TshirtRating.HeaderText = AppTranslations.Rating;
+            this.TshirtRating.ReadOnly = true;
+            // 
+            // TshirtSex
+            // 
+            resources.ApplyResources(this.TshirtSex, "TshirtSex");
+            this.TshirtSex.Name = "TshirtSex";
+            this.TshirtSex.ReadOnly = true;
+            // 
+            // TshirtSize
+            // 
+            resources.ApplyResources(this.TshirtSize, "TshirtSize");
+            this.TshirtSize.Name = "TshirtSize";
+            this.TshirtSize.HeaderText = AppTranslations.Size;
+            this.TshirtSize.ReadOnly = true;
+            // 
+            // TshirtQuantity
+            // 
+            resources.ApplyResources(this.TshirtQuantity, "TshirtQuantity");
+            this.TshirtQuantity.Name = "TshirtQuantity";
+            this.TshirtQuantity.HeaderText = AppTranslations.Quantity;
+            this.TshirtQuantity.ReadOnly = true;
+            // 
+            // TshirtPrice
+            // 
+            resources.ApplyResources(this.TshirtPrice, "TshirtPrice");
+            this.TshirtPrice.Name = "TshirtPrice";
+            this.TshirtPrice.HeaderText = AppTranslations.Price;
+            this.TshirtPrice.ReadOnly = true;
+            // 
+            // OtherPurchaseID
+            // 
+            resources.ApplyResources(this.OtherPurchaseID, "OtherPurchaseID");
+            this.OtherPurchaseID.Name = "OtherPurchaseID";
+            this.OtherPurchaseID.ReadOnly = true;
+            // 
+            // OtherPurchaseName
+            // 
+            resources.ApplyResources(this.OtherPurchaseName, "OtherPurchaseName");
+            this.OtherPurchaseName.Name = "OtherPurchaseName";
+            this.OtherPurchaseName.HeaderText = AppTranslations.Name;
+            this.OtherPurchaseName.ReadOnly = true;
+            // 
+            // OtherPurchaseRating
+            // 
+            resources.ApplyResources(this.OtherPurchaseRating, "OtherPurchaseRating");
+            this.OtherPurchaseRating.Name = "OtherPurchaseRating";
+            this.OtherPurchaseRating.HeaderText = AppTranslations.Rating;
+            this.OtherPurchaseRating.ReadOnly = true;
+            // 
+            // OtherPurchaseDescription
+            // 
+            resources.ApplyResources(this.OtherPurchaseDescription, "OtherPurchaseDescription");
+            this.OtherPurchaseDescription.Name = "OtherPurchaseDescription";
+            this.OtherPurchaseDescription.HeaderText = AppTranslations.Description;
+            this.OtherPurchaseDescription.ReadOnly = true;
+            // 
+            // OtherPurchaseQuantity
+            // 
+            resources.ApplyResources(this.OtherPurchaseQuantity, "OtherPurchaseQuantity");
+            this.OtherPurchaseQuantity.Name = "OtherPurchaseQuantity";
+            this.OtherPurchaseQuantity.HeaderText = AppTranslations.Quantity;
+            this.OtherPurchaseQuantity.ReadOnly = true;
+            // 
+            // OtherPurchasePrice
+            // 
+            resources.ApplyResources(this.OtherPurchasePrice, "OtherPurchasePrice");
+            this.OtherPurchasePrice.Name = "OtherPurchasePrice";
+            this.OtherPurchasePrice.HeaderText = AppTranslations.Price;
+            this.OtherPurchasePrice.ReadOnly = true;
+            // 
             // frmOrderAcquisitionDetails
             // 
             resources.ApplyResources(this, "$this");
@@ -1523,28 +1553,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.ComboBox cbTshirtSex;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtColor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtSex;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtSize;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtQuantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtPrice;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentColor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentQuantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentPrice;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylColor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylRatin;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylQuantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn VinylPrice;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openBillFile;
         private System.Windows.Forms.Panel panelAddBillDetails;
@@ -1572,5 +1580,27 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseDescription;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchaseQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn OtherPurchasePrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtColor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtRating;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtSex;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtSize;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TshirtPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentColor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentRating;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FilamentPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylColor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylRatin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylQuantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn VinylPrice;
     }
 }

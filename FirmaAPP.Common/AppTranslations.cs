@@ -82,5 +82,19 @@
         public static string Attribute3DPrintsQuality = Properties.Resources.Attribute3DPrintsQuality;
         public static string AttributeColor = Properties.Resources.AttributeColor;
         public static string AttributeTshirtsType = Properties.Resources.AttributeTshirtsType;
+
+        public static string Name = Properties.Resources.Name;
+        public static string Price = Properties.Resources.Price;
+        public static string Type = Properties.Resources.Type;
+        public static string Color = Properties.Resources.Color;
+        public static string Quantity = Properties.Resources.Quantity;
+        public static string Description = Properties.Resources.Description;
+        public static string PrintingTimeInMin = Properties.Resources.PrintingTimeInMin;
+        public static string Weight = Properties.Resources.Wheight;
+        public static string Infill = Properties.Resources.Infill;
+        public static string Quality = Properties.Resources.Quality;
+        public static string Size = Properties.Resources.Size;
+        public static string Rating = "Rating";
+
     }
 }

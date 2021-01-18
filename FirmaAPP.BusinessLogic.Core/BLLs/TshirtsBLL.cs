@@ -100,10 +100,20 @@ namespace FirmaAPP.BusinessLogic.Core
             {
                 List<string> TshirtsName = new List<string>();
                 TshirtsDAL tDAL = new TshirtsDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeTshirtsTypeDAL attDAL = new AttributeTshirtsTypeDAL();
                 var Tshirts = tDAL.GetTshirtsByProviderId(provider.ProviderID);
                 foreach (Tshirt t in Tshirts)
                 {
-                    var TshirtName =  t.Type + ", " + t.Color.Name + ", " + t.Rating;
+                    if (t.Color == null && t.AttributeColorID != null)
+                    {
+                        t.Color = acDAL.GetAttributeColorByID(t.AttributeColorID);
+                    }
+                    if (t.Type == null && t.AttributeTshirtsTypeID != null)
+                    {
+                        t.Type = attDAL.GetAttributeTshirtsTypeByID(t.AttributeTshirtsTypeID);
+                    }
+                    var TshirtName =  t.TypeName + ", " + t.ColorName + ", " + t.Rating;
                     TshirtsName.Add(TshirtName);
                 }
                 return TshirtsName.Distinct().ToList();
@@ -150,7 +160,23 @@ namespace FirmaAPP.BusinessLogic.Core
             try
             {
                 TshirtsDAL tDAL = new TshirtsDAL();
-                return tDAL.GetTshirtByID(tshirtID);
+                ProvidersDAL pDAL = new ProvidersDAL();
+                AttributeColorDAL acDAL = new AttributeColorDAL();
+                AttributeTshirtsTypeDAL attDAL = new AttributeTshirtsTypeDAL();
+                Tshirt t = tDAL.GetTshirtByID(tshirtID);
+                if (t.Provider == null && t.ProviderID != null)
+                {
+                    t.Provider = pDAL.GetProviderById(t.ProviderID);
+                }
+                if (t.Color == null && t.AttributeColorID != null)
+                {
+                    t.Color = acDAL.GetAttributeColorByID(t.AttributeColorID);
+                }
+                if (t.Type == null && t.AttributeTshirtsTypeID != null)
+                {
+                    t.Type = attDAL.GetAttributeTshirtsTypeByID(t.AttributeTshirtsTypeID);
+                }
+                return t;
             }
             catch (Exception ex)
             {

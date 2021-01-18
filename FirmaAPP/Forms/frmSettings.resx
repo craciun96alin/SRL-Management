@@ -117,677 +117,1328 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnConfirm.Text" xml:space="preserve">
-    <value>Confirmă</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 33</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMainSettings.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnBusinessDetails.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btn3DPrintsQuality.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn3DPrintsQuality.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn3DPrintsQuality.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btn3DPrintsQuality.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn3DPrintsQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 128</value>
+  </data>
+  <data name="btn3DPrintsQuality.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="btn3DPrintsQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 32</value>
+  </data>
+  <data name="btn3DPrintsQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn3DPrintsQuality.Text" xml:space="preserve">
+    <value>Calitate Printare 3D</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintsQuality.Name" xml:space="preserve">
+    <value>btn3DPrintsQuality</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintsQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintsQuality.Parent" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintsQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnVinylsType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnVinylsType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnVinylsType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnVinylsType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVinylsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 96</value>
+  </data>
+  <data name="btnVinylsType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="btnVinylsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 32</value>
+  </data>
+  <data name="btnVinylsType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnVinylsType.Text" xml:space="preserve">
+    <value>Tipuri Vinyl</value>
+  </data>
+  <data name="&gt;&gt;btnVinylsType.Name" xml:space="preserve">
+    <value>btnVinylsType</value>
+  </data>
+  <data name="&gt;&gt;btnVinylsType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVinylsType.Parent" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;btnVinylsType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnFilamentsType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnFilamentsType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnFilamentsType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnFilamentsType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFilamentsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 64</value>
+  </data>
+  <data name="btnFilamentsType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="btnFilamentsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 32</value>
+  </data>
+  <data name="btnFilamentsType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnFilamentsType.Text" xml:space="preserve">
+    <value>Tipuri Filament</value>
+  </data>
+  <data name="&gt;&gt;btnFilamentsType.Name" xml:space="preserve">
+    <value>btnFilamentsType</value>
+  </data>
+  <data name="&gt;&gt;btnFilamentsType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilamentsType.Parent" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;btnFilamentsType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnTshirtsType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTshirtsType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnTshirtsType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnTshirtsType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTshirtsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="btnTshirtsType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="btnTshirtsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 32</value>
+  </data>
+  <data name="btnTshirtsType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnTshirtsType.Text" xml:space="preserve">
+    <value>Tipuri Tricou</value>
+  </data>
+  <data name="&gt;&gt;btnTshirtsType.Name" xml:space="preserve">
+    <value>btnTshirtsType</value>
+  </data>
+  <data name="&gt;&gt;btnTshirtsType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTshirtsType.Parent" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;btnTshirtsType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnColors.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnColors.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnColors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnColors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnColors.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="btnColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 32</value>
+  </data>
+  <data name="btnColors.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnColors.Text" xml:space="preserve">
+    <value>Culori</value>
+  </data>
+  <data name="&gt;&gt;btnColors.Name" xml:space="preserve">
+    <value>btnColors</value>
+  </data>
+  <data name="&gt;&gt;btnColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColors.Parent" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;btnColors.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelAttribute.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelAttribute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1082</value>
+  </data>
+  <data name="panelAttribute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 179</value>
+  </data>
+  <data name="panelAttribute.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="panelAttribute.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelAttribute.Name" xml:space="preserve">
+    <value>panelAttribute</value>
+  </data>
+  <data name="&gt;&gt;panelAttribute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAttribute.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;panelAttribute.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAttributes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAttributes.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="btnAttributes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
   </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 529</value>
+  <data name="btnAttributes.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;numericExtraMoney.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnAttributes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
+  <data name="btnAttributes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1036</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="btnBillSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="btnAttributes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>38, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="btnAttributes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 46</value>
+  </data>
+  <data name="btnAttributes.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="btnAttributes.Text" xml:space="preserve">
+    <value>Atribute</value>
+  </data>
+  <data name="btnAttributes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnAttributes.Name" xml:space="preserve">
+    <value>btnAttributes</value>
+  </data>
+  <data name="&gt;&gt;btnAttributes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAttributes.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;btnAttributes.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnConfirm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="&gt;&gt;btn3DPrintFolder.Name" xml:space="preserve">
-    <value>btn3DPrintFolder</value>
-  </data>
-  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;btnBusinessDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericDigitalMoney.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="tbIBAN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 375</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>839, 1153</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;btnAdd3DDesignFolder.Name" xml:space="preserve">
-    <value>btnAdd3DDesignFolder</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="rbTVAno.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tbBillFolderPath.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="btnConfirm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 42</value>
-  </data>
-  <data name="&gt;&gt;btn3DSettings.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="&gt;&gt;tbBusinessName.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="numericExtraMoney.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 536</value>
-  </data>
-  <data name="&gt;&gt;tbBillFolderPath.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnBillSettings.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnConfirm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 3, 1, 3</value>
-  </data>
-  <data name="tbCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 57</value>
-  </data>
-  <data name="btnBusinessDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 397</value>
-  </data>
-  <data name="panelMainSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 1153</value>
-  </data>
-  <data name="&gt;&gt;panelMainSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="rbTVAyes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Plătitor TVA:</value>
-  </data>
-  <data name="tb3DDesignFolderPath.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 33</value>
-  </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>lei</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
-  </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
-    <value>91</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBillDetails.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="panelMainSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 65</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 34</value>
-  </data>
-  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;numericExtraMoney.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 33</value>
-  </data>
-  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="tbBillFolderPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 35</value>
-  </data>
-  <data name="panelMainSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="tbBusinessName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 177</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Țară:</value>
-  </data>
-  <data name="&gt;&gt;rbTVAyes.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="numericCashMoney.TabIndex" type="System.Int32, mscorlib">
-    <value>87</value>
-  </data>
-  <data name="&gt;&gt;tb3DPrintFolderPath.Parent" xml:space="preserve">
-    <value>panel3DDetails</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>*Folder piese:</value>
-  </data>
-  <data name="panelMainSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tbCity.TabIndex" type="System.Int32, mscorlib">
-    <value>73</value>
-  </data>
-  <data name="tbIBAN.TabIndex" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="tbBusinessName.TabIndex" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="panel3DDetails.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;tbCounty.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tb3DDesignFolderPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="btn3DSettings.Text" xml:space="preserve">
-    <value>Setări 3D</value>
-  </data>
-  <data name="btnBillSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="numericDigitalMoney.Size" type="System.Drawing.Size, System.Drawing">
-    <value>456, 22</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;tb3DDesignFolderPath.Name" xml:space="preserve">
-    <value>tb3DDesignFolderPath</value>
-  </data>
-  <data name="&gt;&gt;lbTitle.Name" xml:space="preserve">
-    <value>lbTitle</value>
-  </data>
-  <data name="&gt;&gt;tbCounty.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBillSettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;panelBusinessDetails.Name" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Bani card:</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericCashMoney.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 498</value>
-  </data>
-  <data name="&gt;&gt;btnAdd3DDesignFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;tb3DPrintFolderPath.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tbIBAN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbIBAN.Name" xml:space="preserve">
-    <value>tbIBAN</value>
-  </data>
-  <data name="&gt;&gt;numericExtraMoney.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBillDetails.Name" xml:space="preserve">
-    <value>panelBillDetails</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 34</value>
-  </data>
-  <data name="&gt;&gt;tbBillFolderPath.Name" xml:space="preserve">
-    <value>tbBillFolderPath</value>
-  </data>
-  <data name="btn3DPrintFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>744, 84</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panelBusinessDetails.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="tbNrReg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;rbTVAyes.Name" xml:space="preserve">
-    <value>rbTVAyes</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 33</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;lbTitle.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="btn3DPrintFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 33</value>
-  </data>
-  <data name="btn3DPrintFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 33</value>
-  </data>
-  <data name="&gt;&gt;tb3DDesignFolderPath.Parent" xml:space="preserve">
-    <value>panel3DDetails</value>
-  </data>
-  <data name="&gt;&gt;tbCity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbCounty.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 83</value>
-  </data>
-  <data name="tbBusinessName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 35</value>
-  </data>
-  <data name="rbTVAno.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 28</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 34</value>
-  </data>
-  <data name="tbCUI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="btnAddBill.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;btnConfirm.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tbCountry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBillSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 46</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 368</value>
-  </data>
-  <data name="tbCounty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 146</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>83</value>
-  </data>
-  <data name="&gt;&gt;btnAddBill.Parent" xml:space="preserve">
-    <value>panelBillDetails</value>
-  </data>
-  <data name="btn3DSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>38, 0, 0, 0</value>
-  </data>
-  <data name="btnAdd3DDesignFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnBillSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="btn3DPrintFolder.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
-    <value>panelAddCancelButtons</value>
-  </data>
-  <data name="tbNrReg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 335</value>
-  </data>
-  <data name="panel3DDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 258</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>*Nume:</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 328</value>
-  </data>
-  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="rbTVAyes.TabIndex" type="System.Int32, mscorlib">
-    <value>76</value>
-  </data>
-  <data name="panelAddCancelButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 1036</value>
-  </data>
-  <data name="tbCounty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="label17.TabIndex" type="System.Int32, mscorlib">
-    <value>90</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel3DDetails</value>
-  </data>
-  <data name="&gt;&gt;panelBusinessDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 101</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Oraș:</value>
-  </data>
-  <data name="btnBusinessDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>38, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;tb3DDesignFolderPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="btnAddBill.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 34</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn3DPrintFolder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;btnBillSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tbCountry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="tbBillFolderPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="btnConfirm.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 491</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="panel3DDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
   <data name="btnConfirm.Location" type="System.Drawing.Point, System.Drawing">
     <value>300, 30</value>
+  </data>
+  <data name="btnConfirm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 3, 1, 3</value>
+  </data>
+  <data name="btnConfirm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 42</value>
+  </data>
+  <data name="btnConfirm.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnConfirm.Text" xml:space="preserve">
+    <value>Confirmă</value>
+  </data>
+  <data name="&gt;&gt;btnConfirm.Name" xml:space="preserve">
+    <value>btnConfirm</value>
+  </data>
+  <data name="&gt;&gt;btnConfirm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConfirm.Parent" xml:space="preserve">
+    <value>panelAddCancelButtons</value>
+  </data>
+  <data name="&gt;&gt;btnConfirm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 30</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 3, 20, 3</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 42</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Renunță</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
   </data>
   <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnAddBill.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>panelAddCancelButtons</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="btnBusinessDetails.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
+  <data name="panelAddCancelButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="&gt;&gt;rbTVAno.Name" xml:space="preserve">
-    <value>rbTVAno</value>
+  <data name="panelAddCancelButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1261</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panelAddCancelButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>60, 3, 60, 3</value>
   </data>
-  <data name="btnAddBill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>744, 29</value>
+  <data name="panelAddCancelButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>300, 30, 300, 40</value>
   </data>
-  <data name="&gt;&gt;lbTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rbTVAno.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;btnBusinessDetails.Name" xml:space="preserve">
-    <value>btnBusinessDetails</value>
-  </data>
-  <data name="btnBusinessDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>panelBillDetails</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>268, 9</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>*Folder proiectare:</value>
+  <data name="panelAddCancelButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 112</value>
   </data>
   <data name="panelAddCancelButtons.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
   </data>
-  <data name="rbTVAno.TabIndex" type="System.Int32, mscorlib">
-    <value>77</value>
+  <data name="&gt;&gt;panelAddCancelButtons.Name" xml:space="preserve">
+    <value>panelAddCancelButtons</value>
   </data>
-  <data name="&gt;&gt;btnBusinessDetails.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelAddCancelButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAddCancelButtons.Parent" xml:space="preserve">
     <value>panelMainSettings</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 33</value>
+  <data name="&gt;&gt;panelAddCancelButtons.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 529</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>lei</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
     <value>panelBusinessDetails</value>
   </data>
-  <data name="tbCountry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 108</value>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Bani casă:</value>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 491</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>lei</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 453</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 33</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>lei</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericExtraMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 536</value>
+  </data>
+  <data name="numericExtraMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 22</value>
+  </data>
+  <data name="numericExtraMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;numericExtraMoney.Name" xml:space="preserve">
+    <value>numericExtraMoney</value>
+  </data>
+  <data name="&gt;&gt;numericExtraMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericExtraMoney.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;numericExtraMoney.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericCashMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 498</value>
+  </data>
+  <data name="numericCashMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 22</value>
+  </data>
+  <data name="numericCashMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;numericCashMoney.Name" xml:space="preserve">
+    <value>numericCashMoney</value>
+  </data>
+  <data name="&gt;&gt;numericCashMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericCashMoney.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;numericCashMoney.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numericDigitalMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 460</value>
+  </data>
+  <data name="numericDigitalMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 22</value>
+  </data>
+  <data name="numericDigitalMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;numericDigitalMoney.Name" xml:space="preserve">
+    <value>numericDigitalMoney</value>
+  </data>
+  <data name="&gt;&gt;numericDigitalMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericDigitalMoney.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;numericDigitalMoney.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 529</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 33</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Bani extra:</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
   </data>
   <data name="&gt;&gt;label13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnBusinessDetails.Text" xml:space="preserve">
-    <value>Detalii firmă</value>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
   </data>
-  <data name="lbTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 30pt</value>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="btnAdd3DDesignFolder.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 491</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 33</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Bani casă:</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 453</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 33</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Bani card:</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbNrReg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 335</value>
+  </data>
+  <data name="tbNrReg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbNrReg.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;tbNrReg.Name" xml:space="preserve">
+    <value>tbNrReg</value>
+  </data>
+  <data name="&gt;&gt;tbNrReg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbNrReg.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbNrReg.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 328</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 33</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Nr. Reg (J):</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbIBAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 375</value>
+  </data>
+  <data name="tbIBAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbIBAN.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;tbIBAN.Name" xml:space="preserve">
+    <value>tbIBAN</value>
+  </data>
+  <data name="&gt;&gt;tbIBAN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIBAN.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbIBAN.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 368</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>IBAN:</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="panelMainSettings.AutoScroll" type="System.Boolean, mscorlib">
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 406</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 33</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Plătitor TVA:</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rbTVAno.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="rbTVAno.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="rbTVAno.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 408</value>
+  </data>
+  <data name="rbTVAno.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="rbTVAno.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="rbTVAno.Text" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="&gt;&gt;rbTVAno.Name" xml:space="preserve">
+    <value>rbTVAno</value>
+  </data>
+  <data name="&gt;&gt;rbTVAno.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTVAno.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;rbTVAno.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rbTVAyes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTVAyes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt</value>
+  </data>
+  <data name="rbTVAyes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 408</value>
+  </data>
+  <data name="rbTVAyes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 28</value>
+  </data>
+  <data name="rbTVAyes.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="rbTVAyes.Text" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="&gt;&gt;rbTVAyes.Name" xml:space="preserve">
+    <value>rbTVAyes</value>
   </data>
   <data name="&gt;&gt;rbTVAyes.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;rbTVAyes.Parent" xml:space="preserve">
     <value>panelBusinessDetails</value>
   </data>
-  <data name="tb3DPrintFolderPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 90</value>
+  <data name="&gt;&gt;rbTVAyes.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="btnBillSettings.Text" xml:space="preserve">
-    <value>Setări factură</value>
+  <data name="tbAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 223</value>
+  </data>
+  <data name="tbAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 96</value>
+  </data>
+  <data name="tbAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="tbAddress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbAddress.Name" xml:space="preserve">
+    <value>tbAddress</value>
+  </data>
+  <data name="&gt;&gt;tbAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAddress.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbAddress.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 224</value>
   </data>
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 0, 3, 5</value>
   </data>
-  <data name="btn3DSettings.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Adresă:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 184</value>
+  </data>
+  <data name="tbCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbCity.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;tbCity.Name" xml:space="preserve">
+    <value>tbCity</value>
+  </data>
+  <data name="&gt;&gt;tbCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCity.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbCity.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 177</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Oraș:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tbCounty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 146</value>
+  </data>
+  <data name="tbCounty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbCounty.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;tbCounty.Name" xml:space="preserve">
+    <value>tbCounty</value>
+  </data>
+  <data name="&gt;&gt;tbCounty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCounty.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbCounty.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 139</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Județ:</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tbCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 108</value>
+  </data>
+  <data name="tbCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;tbCountry.Name" xml:space="preserve">
+    <value>tbCountry</value>
+  </data>
+  <data name="&gt;&gt;tbCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCountry.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbCountry.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 101</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 33</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Țară:</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tbCUI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 72</value>
+  </data>
+  <data name="tbCUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbCUI.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;tbCUI.Name" xml:space="preserve">
+    <value>tbCUI</value>
+  </data>
+  <data name="&gt;&gt;tbCUI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCUI.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbCUI.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 65</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 34</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>*CUI:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="tbBusinessName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 35</value>
+  </data>
+  <data name="tbBusinessName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbBusinessName.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;tbBusinessName.Name" xml:space="preserve">
+    <value>tbBusinessName</value>
+  </data>
+  <data name="&gt;&gt;tbBusinessName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBusinessName.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;tbBusinessName.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 34</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>*Nume:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="panelBusinessDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelBusinessDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 443</value>
+  </data>
+  <data name="panelBusinessDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 593</value>
+  </data>
+  <data name="panelBusinessDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="panelBusinessDetails.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelBusinessDetails.Name" xml:space="preserve">
+    <value>panelBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;panelBusinessDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelBusinessDetails.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;panelBusinessDetails.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnBusinessDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnBusinessDetails.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBusinessDetails.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="btnBusinessDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 397</value>
+  </data>
+  <data name="btnBusinessDetails.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>38, 0, 0, 0</value>
+  </data>
+  <data name="btnBusinessDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 46</value>
+  </data>
+  <data name="btnBusinessDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnBusinessDetails.Text" xml:space="preserve">
+    <value>Detalii firmă</value>
+  </data>
+  <data name="btnBusinessDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnBusinessDetails.Name" xml:space="preserve">
+    <value>btnBusinessDetails</value>
+  </data>
+  <data name="&gt;&gt;btnBusinessDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBusinessDetails.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;btnBusinessDetails.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn3DPrintFolder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btn3DPrintFolder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn3DPrintFolder.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn3DPrintFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 84</value>
+  </data>
+  <data name="btn3DPrintFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 33</value>
+  </data>
+  <data name="btn3DPrintFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="btn3DPrintFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintFolder.Name" xml:space="preserve">
+    <value>btn3DPrintFolder</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintFolder.Parent" xml:space="preserve">
+    <value>panel3DDetails</value>
+  </data>
+  <data name="&gt;&gt;btn3DPrintFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tb3DPrintFolderPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 90</value>
+  </data>
+  <data name="tb3DPrintFolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tb3DPrintFolderPath.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;tb3DPrintFolderPath.Name" xml:space="preserve">
+    <value>tb3DPrintFolderPath</value>
+  </data>
+  <data name="&gt;&gt;tb3DPrintFolderPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb3DPrintFolderPath.Parent" xml:space="preserve">
+    <value>panel3DDetails</value>
+  </data>
+  <data name="&gt;&gt;tb3DPrintFolderPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 83</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 34</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>*Folder piese:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel3DDetails</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAdd3DDesignFolder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAdd3DDesignFolder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="btnAdd3DDesignFolder.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -795,789 +1446,381 @@
   <data name="btnAdd3DDesignFolder.Location" type="System.Drawing.Point, System.Drawing">
     <value>744, 29</value>
   </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 33</value>
-  </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 33</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 34</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 224</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panelBusinessDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 443</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;panelAddCancelButtons.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="numericCashMoney.Size" type="System.Drawing.Size, System.Drawing">
-    <value>456, 22</value>
-  </data>
-  <data name="&gt;&gt;rbTVAyes.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="lbTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 33</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="tbCUI.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 72</value>
-  </data>
-  <data name="btn3DPrintFolder.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
-  </data>
-  <data name="&gt;&gt;tbAddress.Name" xml:space="preserve">
-    <value>tbAddress</value>
-  </data>
-  <data name="tbCUI.TabIndex" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="btnConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="tbAddress.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="&gt;&gt;panel3DDetails.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tb3DDesignFolderPath.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="btnAddBill.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnAddBill.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;panelBusinessDetails.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;numericCashMoney.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnAddBill.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnAdd3DDesignFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 33</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnAdd3DDesignFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
   </data>
-  <data name="&gt;&gt;btn3DSettings.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="btnAdd3DDesignFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
-  <data name="tbCounty.TabIndex" type="System.Int32, mscorlib">
-    <value>71</value>
+  <data name="&gt;&gt;btnAdd3DDesignFolder.Name" xml:space="preserve">
+    <value>btnAdd3DDesignFolder</value>
   </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="panelBillDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnBusinessDetails.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Județ:</value>
-  </data>
-  <data name="btnCancel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 3, 20, 3</value>
-  </data>
-  <data name="&gt;&gt;btn3DPrintFolder.Parent" xml:space="preserve">
-    <value>panel3DDetails</value>
-  </data>
-  <data name="panelBusinessDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 593</value>
-  </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="btn3DSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>84</value>
-  </data>
-  <data name="tbAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 223</value>
-  </data>
-  <data name="&gt;&gt;panel3DDetails.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="panelBillDetails.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnBusinessDetails.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>70</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericDigitalMoney.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;tbCUI.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="lbTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>panel3DDetails</value>
-  </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>748, 529</value>
-  </data>
-  <data name="&gt;&gt;tbBusinessName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 78</value>
-  </data>
-  <data name="&gt;&gt;tbBillFolderPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>85</value>
-  </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="rbTVAyes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 408</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 28</value>
-  </data>
-  <data name="panelBillDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;tb3DPrintFolderPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panelBusinessDetails.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;panelBillDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;btnAdd3DDesignFolder.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="rbTVAyes.Text" xml:space="preserve">
-    <value>Da</value>
-  </data>
-  <data name="rbTVAyes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="tbCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 184</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Adresă:</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>*CUI:</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmSettings</value>
-  </data>
-  <data name="&gt;&gt;numericCashMoney.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="btnBusinessDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;numericCashMoney.Name" xml:space="preserve">
-    <value>numericCashMoney</value>
-  </data>
-  <data name="tbAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 96</value>
-  </data>
-  <data name="&gt;&gt;tbCity.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>748, 453</value>
-  </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>lei</value>
-  </data>
-  <data name="&gt;&gt;tbNrReg.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;tbAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tb3DDesignFolderPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 35</value>
-  </data>
-  <data name="btnBillSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13pt</value>
-  </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>lei</value>
-  </data>
-  <data name="panelBusinessDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;panelAddCancelButtons.Name" xml:space="preserve">
-    <value>panelAddCancelButtons</value>
-  </data>
-  <data name="&gt;&gt;tbCountry.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 33</value>
-  </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;rbTVAno.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Bani extra:</value>
-  </data>
-  <data name="numericDigitalMoney.TabIndex" type="System.Int32, mscorlib">
-    <value>86</value>
-  </data>
-  <data name="&gt;&gt;numericDigitalMoney.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tbNrReg.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="&gt;&gt;panel3DDetails.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddBill.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnAdd3DDesignFolder.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="btnCancel.Text" xml:space="preserve">
-    <value>Renunță</value>
-  </data>
-  <data name="&gt;&gt;tbBusinessName.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;tbCity.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Nr. Reg (J):</value>
-  </data>
-  <data name="&gt;&gt;btnBillSettings.Name" xml:space="preserve">
-    <value>btnBillSettings</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="btn3DPrintFolder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="tb3DPrintFolderPath.TabIndex" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="panelAddCancelButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>300, 30, 300, 40</value>
-  </data>
-  <data name="panelBillDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
-  </data>
-  <data name="lbTitle.Text" xml:space="preserve">
-    <value>Setările aplicației</value>
-  </data>
-  <data name="panelAddCancelButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>60, 3, 60, 3</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;numericDigitalMoney.Name" xml:space="preserve">
-    <value>numericDigitalMoney</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>81</value>
-  </data>
-  <data name="panel3DDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;numericCashMoney.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
-  </data>
-  <data name="&gt;&gt;panelAddCancelButtons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelMainSettings.Name" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="rbTVAyes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 28</value>
-  </data>
-  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 42</value>
-  </data>
-  <data name="&gt;&gt;tbCounty.Name" xml:space="preserve">
-    <value>tbCounty</value>
-  </data>
-  <data name="&gt;&gt;panelMainSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panelBusinessDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
-  </data>
-  <data name="&gt;&gt;btn3DPrintFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 139</value>
-  </data>
-  <data name="&gt;&gt;tbCUI.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBillSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>panelMainSettings</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="numericDigitalMoney.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 460</value>
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;rbTVAno.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="tbIBAN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 30</value>
-  </data>
-  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 33</value>
-  </data>
-  <data name="btn3DSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="tbCountry.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
-  </data>
-  <data name="&gt;&gt;openFolder.Name" xml:space="preserve">
-    <value>openFolder</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbIBAN.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btnBillSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 78</value>
-  </data>
-  <data name="btnConfirm.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="btn3DSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 212</value>
-  </data>
-  <data name="btn3DSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 46</value>
-  </data>
-  <data name="&gt;&gt;tbIBAN.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="numericExtraMoney.Size" type="System.Drawing.Size, System.Drawing">
-    <value>456, 22</value>
-  </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;btnAddBill.Name" xml:space="preserve">
-    <value>btnAddBill</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 28</value>
-  </data>
-  <data name="tb3DPrintFolderPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 22</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 33</value>
-  </data>
-  <data name="&gt;&gt;btn3DPrintFolder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelMainSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>748, 491</value>
-  </data>
-  <data name="btn3DSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>*Folder facturi:</value>
-  </data>
-  <data name="&gt;&gt;openFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>IBAN:</value>
   </data>
   <data name="&gt;&gt;btnAdd3DDesignFolder.Parent" xml:space="preserve">
     <value>panel3DDetails</value>
   </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnAdd3DDesignFolder.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;tbCUI.Name" xml:space="preserve">
-    <value>tbCUI</value>
+  <data name="tb3DDesignFolderPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 35</value>
+  </data>
+  <data name="tb3DDesignFolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tb3DDesignFolderPath.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;tb3DDesignFolderPath.Name" xml:space="preserve">
+    <value>tb3DDesignFolderPath</value>
+  </data>
+  <data name="&gt;&gt;tb3DDesignFolderPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb3DDesignFolderPath.Parent" xml:space="preserve">
+    <value>panel3DDetails</value>
+  </data>
+  <data name="&gt;&gt;tb3DDesignFolderPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 18pt</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 28</value>
   </data>
-  <data name="rbTVAno.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.8pt</value>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
   </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 34</value>
   </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 453</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>*Folder proiectare:</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Setări</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="&gt;&gt;lbTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel3DDetails</value>
   </data>
-  <data name="btnAdd3DDesignFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 33</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
+  <data name="panel3DDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;tbAddress.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
+  <data name="panel3DDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 258</value>
   </data>
-  <data name="numericExtraMoney.TabIndex" type="System.Int32, mscorlib">
-    <value>88</value>
+  <data name="panel3DDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 139</value>
   </data>
-  <data name="&gt;&gt;tbNrReg.Name" xml:space="preserve">
-    <value>tbNrReg</value>
+  <data name="panel3DDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
-  <data name="&gt;&gt;btn3DSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;tbCUI.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnAdd3DDesignFolder.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;tbNrReg.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="btnBusinessDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 46</value>
-  </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
-  <data name="tbNrReg.TabIndex" type="System.Int32, mscorlib">
-    <value>82</value>
+  <data name="panel3DDetails.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;panel3DDetails.Name" xml:space="preserve">
     <value>panel3DDetails</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 28</value>
+  <data name="&gt;&gt;panel3DDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rbTVAno.Text" xml:space="preserve">
-    <value>Nu</value>
-  </data>
-  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
-  </data>
-  <data name="&gt;&gt;tbBillFolderPath.Parent" xml:space="preserve">
-    <value>panelBillDetails</value>
-  </data>
-  <data name="&gt;&gt;btnConfirm.Parent" xml:space="preserve">
-    <value>panelAddCancelButtons</value>
-  </data>
-  <data name="&gt;&gt;panelAddCancelButtons.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnBillSettings.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel3DDetails.Parent" xml:space="preserve">
     <value>panelMainSettings</value>
   </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
+  <data name="&gt;&gt;panel3DDetails.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="panelBillDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 88</value>
+  <data name="btn3DSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;btnConfirm.Name" xml:space="preserve">
-    <value>btnConfirm</value>
+  <data name="btn3DSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;btnAddBill.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btn3DSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
   </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 18pt</value>
+  <data name="btn3DSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 212</value>
   </data>
-  <data name="&gt;&gt;tbCountry.Name" xml:space="preserve">
-    <value>tbCountry</value>
+  <data name="btn3DSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>38, 0, 0, 0</value>
   </data>
-  <data name="tbAddress.Text" xml:space="preserve">
-    <value />
+  <data name="btn3DSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 46</value>
   </data>
-  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 5</value>
+  <data name="btn3DSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;tbAddress.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 406</value>
-  </data>
-  <data name="btnAdd3DDesignFolder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="panel3DDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 139</value>
-  </data>
-  <data name="panelAddCancelButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>839, 112</value>
-  </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 33</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;tb3DPrintFolderPath.Name" xml:space="preserve">
-    <value>tb3DPrintFolderPath</value>
-  </data>
-  <data name="rbTVAno.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 408</value>
-  </data>
-  <data name="&gt;&gt;tbBusinessName.Name" xml:space="preserve">
-    <value>tbBusinessName</value>
-  </data>
-  <data name="&gt;&gt;tbCity.Name" xml:space="preserve">
-    <value>tbCity</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnConfirm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btn3DSettings.Text" xml:space="preserve">
+    <value>Setări 3D</value>
   </data>
   <data name="btn3DSettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;tbCountry.Parent" xml:space="preserve">
-    <value>panelBusinessDetails</value>
-  </data>
-  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Times New Roman, 16.2pt</value>
-  </data>
   <data name="&gt;&gt;btn3DSettings.Name" xml:space="preserve">
     <value>btn3DSettings</value>
   </data>
-  <data name="&gt;&gt;numericExtraMoney.Name" xml:space="preserve">
-    <value>numericExtraMoney</value>
+  <data name="&gt;&gt;btn3DSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelBillDetails.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;btn3DSettings.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
   </data>
-  <data name="panelAddCancelButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="&gt;&gt;btn3DSettings.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAddBill.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAddBill.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddBill.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddBill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 29</value>
+  </data>
+  <data name="btnAddBill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 33</value>
+  </data>
+  <data name="btnAddBill.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="btnAddBill.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnAddBill.Name" xml:space="preserve">
+    <value>btnAddBill</value>
+  </data>
+  <data name="&gt;&gt;btnAddBill.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddBill.Parent" xml:space="preserve">
+    <value>panelBillDetails</value>
+  </data>
+  <data name="&gt;&gt;btnAddBill.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbBillFolderPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 35</value>
+  </data>
+  <data name="tbBillFolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="tbBillFolderPath.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;tbBillFolderPath.Name" xml:space="preserve">
+    <value>tbBillFolderPath</value>
+  </data>
+  <data name="&gt;&gt;tbBillFolderPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBillFolderPath.Parent" xml:space="preserve">
+    <value>panelBillDetails</value>
+  </data>
+  <data name="&gt;&gt;tbBillFolderPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 34</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>*Folder facturi:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panelBillDetails</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelBillDetails.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="panelBillDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="panelBillDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 88</value>
+  </data>
+  <data name="panelBillDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="panelBillDetails.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelBillDetails.Name" xml:space="preserve">
+    <value>panelBillDetails</value>
+  </data>
+  <data name="&gt;&gt;panelBillDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelBillDetails.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;panelBillDetails.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
+  <data name="btnBillSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
-  </metadata>
+  <data name="btnBillSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBillSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13pt</value>
+  </data>
+  <data name="btnBillSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 78</value>
+  </data>
+  <data name="btnBillSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>38, 0, 0, 0</value>
+  </data>
+  <data name="btnBillSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 46</value>
+  </data>
+  <data name="btnBillSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnBillSettings.Text" xml:space="preserve">
+    <value>Setări factură</value>
+  </data>
+  <data name="btnBillSettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnBillSettings.Name" xml:space="preserve">
+    <value>btnBillSettings</value>
+  </data>
+  <data name="&gt;&gt;btnBillSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBillSettings.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;btnBillSettings.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 30pt</value>
+  </data>
+  <data name="lbTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 9</value>
+  </data>
+  <data name="lbTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 5</value>
+  </data>
+  <data name="lbTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 57</value>
+  </data>
+  <data name="lbTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbTitle.Text" xml:space="preserve">
+    <value>Setările aplicației</value>
+  </data>
+  <data name="&gt;&gt;lbTitle.Name" xml:space="preserve">
+    <value>lbTitle</value>
+  </data>
+  <data name="&gt;&gt;lbTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTitle.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 78</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelMainSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelMainSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelMainSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>839, 1055</value>
+  </data>
+  <data name="panelMainSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelMainSettings.Name" xml:space="preserve">
+    <value>panelMainSettings</value>
+  </data>
+  <data name="&gt;&gt;panelMainSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMainSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMainSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="openFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -1587,4 +1830,25 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>839, 1055</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="&gt;&gt;openFolder.Name" xml:space="preserve">
+    <value>openFolder</value>
+  </data>
+  <data name="&gt;&gt;openFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

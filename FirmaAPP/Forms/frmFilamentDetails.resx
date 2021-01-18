@@ -122,7 +122,7 @@
     <value>162, 117</value>
   </data>
   <data name="cbProviders.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 24</value>
+    <value>329, 25</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cbProviders.TabIndex" type="System.Int32, mscorlib">
@@ -283,7 +283,7 @@
     <value>162, 231</value>
   </data>
   <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 24</value>
+    <value>329, 25</value>
   </data>
   <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -298,7 +298,7 @@
     <value>162, 192</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 24</value>
+    <value>329, 25</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -535,7 +535,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbName.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>24</value>
   </data>
   <data name="lbType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -568,7 +568,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbType.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>23</value>
   </data>
   <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 153</value>
@@ -589,7 +589,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="cbType.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 192</value>
@@ -610,7 +610,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;cbType.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="btnConfirm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -640,7 +640,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnConfirm.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -670,7 +670,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="lbTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -703,7 +703,79 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
+  </data>
+  <data name="btnAddNewColor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAddNewColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddNewColor.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddNewColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddNewColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 228</value>
+  </data>
+  <data name="btnAddNewColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="btnAddNewColor.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="btnAddNewColor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewColor.Name" xml:space="preserve">
+    <value>btnAddNewColor</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewColor.Parent" xml:space="preserve">
+    <value>panelFilamentInformations</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddNewFilamentsType.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAddNewFilamentsType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddNewFilamentsType.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddNewFilamentsType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddNewFilamentsType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 189</value>
+  </data>
+  <data name="btnAddNewFilamentsType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="btnAddNewFilamentsType.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="btnAddNewFilamentsType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewFilamentsType.Name" xml:space="preserve">
+    <value>btnAddNewFilamentsType</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewFilamentsType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewFilamentsType.Parent" xml:space="preserve">
+    <value>panelFilamentInformations</value>
+  </data>
+  <data name="&gt;&gt;btnAddNewFilamentsType.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnAddNewProvider.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -718,7 +790,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnAddNewProvider.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 111</value>
+    <value>519, 114</value>
   </data>
   <data name="btnAddNewProvider.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 30</value>
@@ -739,7 +811,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnAddNewProvider.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="cbProvider.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 116</value>
@@ -760,7 +832,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;cbProvider.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -793,7 +865,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="btnStar5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -823,7 +895,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnStar5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="btnStar4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -853,7 +925,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnStar4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="btnStar3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -883,7 +955,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnStar3.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="btnStar2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -913,7 +985,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnStar2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="btnStar1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -943,7 +1015,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;btnStar1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="lbgrame.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -976,7 +1048,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbgrame.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="numericUpDownStock.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 271</value>
@@ -997,7 +1069,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;numericUpDownStock.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="cbColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 231</value>
@@ -1018,7 +1090,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;cbColor.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="tbDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 351</value>
@@ -1042,7 +1114,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;tbDescription.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
   </data>
   <data name="lbDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1075,7 +1147,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbDescription.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>19</value>
   </data>
   <data name="lbRating.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1108,7 +1180,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbRating.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>20</value>
   </data>
   <data name="lbStock.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1141,7 +1213,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbStock.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>21</value>
   </data>
   <data name="lbColor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1174,7 +1246,7 @@
     <value>panelFilamentInformations</value>
   </data>
   <data name="&gt;&gt;lbColor.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>22</value>
   </data>
   <data name="panelFilamentInformations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>

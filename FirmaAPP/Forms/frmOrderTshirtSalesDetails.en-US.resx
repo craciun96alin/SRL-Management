@@ -118,6 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnBillDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBillDetails.Text" xml:space="preserve">
+    <value>Bill Details</value>
+  </data>
+  <data name="btnOtherPurchaseDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOtherPurchaseDetails.Text" xml:space="preserve">
+    <value>Others Details</value>
+  </data>
+  <data name="btnVinylDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnVinylDetails.Text" xml:space="preserve">
+    <value>Vinyl Details</value>
+  </data>
+  <data name="btnTshirtsDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTshirtsDetails.Text" xml:space="preserve">
+    <value>T-shirt Details</value>
+  </data>
+  <data name="btnOrderDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOrderDetails.Text" xml:space="preserve">
+    <value>Order Details</value>
+  </data>
   <data name="labelTotalPrice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -209,11 +239,8 @@
   <data name="btnAddBill.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnBillDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnBillDetails.Text" xml:space="preserve">
-    <value>Bill Details</value>
+  <data name="gbOtherPurchase.Text" xml:space="preserve">
+    <value>Add object</value>
   </data>
   <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -269,20 +296,14 @@
   <data name="label26.Text" xml:space="preserve">
     <value>*Object:</value>
   </data>
-  <data name="gbOtherPurchase.Text" xml:space="preserve">
-    <value>Add object</value>
-  </data>
   <data name="btnRemoveOtherPurchase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnAddOtherPurchase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnOtherPurchaseDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnOtherPurchaseDetails.Text" xml:space="preserve">
-    <value>Others Details</value>
+  <data name="gbVinyl.Text" xml:space="preserve">
+    <value>Add vinyl</value>
   </data>
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -332,20 +353,14 @@
   <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="gbVinyl.Text" xml:space="preserve">
-    <value>Add vinyl</value>
-  </data>
   <data name="btnRemoveVinyl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnAddVinyl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnVinylDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnVinylDetails.Text" xml:space="preserve">
-    <value>Vinyl Details</value>
+  <data name="gbTshirt.Text" xml:space="preserve">
+    <value>Add T-shirt</value>
   </data>
   <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -446,20 +461,11 @@
   <data name="label21.Text" xml:space="preserve">
     <value>*T-shirt:</value>
   </data>
-  <data name="gbTshirt.Text" xml:space="preserve">
-    <value>Add T-shirt</value>
-  </data>
   <data name="btnRemoveTshirt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnAddTshirt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="btnTshirtsDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnTshirtsDetails.Text" xml:space="preserve">
-    <value>T-shirt Details</value>
   </data>
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -530,12 +536,6 @@
   <data name="label10.Text" xml:space="preserve">
     <value>*Customer:</value>
   </data>
-  <data name="btnOrderDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnOrderDetails.Text" xml:space="preserve">
-    <value>Order Details</value>
-  </data>
   <data name="lbTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -544,9 +544,6 @@
   </data>
   <data name="lbTitle.Text" xml:space="preserve">
     <value>T-shirt Order Details</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>T-shirt Order</value>

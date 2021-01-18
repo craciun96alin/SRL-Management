@@ -30,9 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSettings));
             this.panelMainSettings = new System.Windows.Forms.Panel();
-            this.panelAddCancelButtons = new System.Windows.Forms.Panel();
-            this.btnConfirm = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.panelAttribute = new System.Windows.Forms.Panel();
             this.btn3DPrintsQuality = new System.Windows.Forms.Button();
             this.btnVinylsType = new System.Windows.Forms.Button();
@@ -40,6 +37,9 @@
             this.btnTshirtsType = new System.Windows.Forms.Button();
             this.btnColors = new System.Windows.Forms.Button();
             this.btnAttributes = new System.Windows.Forms.Button();
+            this.panelAddCancelButtons = new System.Windows.Forms.Panel();
+            this.btnConfirm = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.panelBusinessDetails = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -87,8 +87,8 @@
             this.lbTitle = new System.Windows.Forms.Label();
             this.openFolder = new System.Windows.Forms.FolderBrowserDialog();
             this.panelMainSettings.SuspendLayout();
-            this.panelAddCancelButtons.SuspendLayout();
             this.panelAttribute.SuspendLayout();
+            this.panelAddCancelButtons.SuspendLayout();
             this.panelBusinessDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericExtraMoney)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericCashMoney)).BeginInit();
@@ -102,9 +102,9 @@
             // 
             resources.ApplyResources(this.panelMainSettings, "panelMainSettings");
             this.panelMainSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
-            this.panelMainSettings.Controls.Add(this.panelAddCancelButtons);
             this.panelMainSettings.Controls.Add(this.panelAttribute);
             this.panelMainSettings.Controls.Add(this.btnAttributes);
+            this.panelMainSettings.Controls.Add(this.panelAddCancelButtons);
             this.panelMainSettings.Controls.Add(this.panelBusinessDetails);
             this.panelMainSettings.Controls.Add(this.btnBusinessDetails);
             this.panelMainSettings.Controls.Add(this.panel3DDetails);
@@ -113,29 +113,6 @@
             this.panelMainSettings.Controls.Add(this.btnBillSettings);
             this.panelMainSettings.Controls.Add(this.panel1);
             this.panelMainSettings.Name = "panelMainSettings";
-            // 
-            // panelAddCancelButtons
-            // 
-            this.panelAddCancelButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
-            this.panelAddCancelButtons.Controls.Add(this.btnConfirm);
-            this.panelAddCancelButtons.Controls.Add(this.btnCancel);
-            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
-            this.panelAddCancelButtons.Name = "panelAddCancelButtons";
-            // 
-            // btnConfirm
-            // 
-            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
-            resources.ApplyResources(this.btnConfirm, "btnConfirm");
-            this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.UseVisualStyleBackColor = false;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.Red;
-            resources.ApplyResources(this.btnCancel, "btnCancel");
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.UseVisualStyleBackColor = false;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // panelAttribute
             // 
@@ -219,6 +196,30 @@
             this.btnAttributes.Name = "btnAttributes";
             this.btnAttributes.UseVisualStyleBackColor = false;
             this.btnAttributes.Click += new System.EventHandler(this.btnAttributes_Click);
+            // 
+            // panelAddCancelButtons
+            // 
+            this.panelAddCancelButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(18)))));
+            this.panelAddCancelButtons.Controls.Add(this.btnConfirm);
+            this.panelAddCancelButtons.Controls.Add(this.btnCancel);
+            resources.ApplyResources(this.panelAddCancelButtons, "panelAddCancelButtons");
+            this.panelAddCancelButtons.Name = "panelAddCancelButtons";
+            // 
+            // btnConfirm
+            // 
+            this.btnConfirm.BackColor = System.Drawing.Color.Lime;
+            resources.ApplyResources(this.btnConfirm, "btnConfirm");
+            this.btnConfirm.Name = "btnConfirm";
+            this.btnConfirm.UseVisualStyleBackColor = false;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // panelBusinessDetails
             // 
@@ -572,8 +573,8 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmSettings_FormClosed);
             this.Load += new System.EventHandler(this.frmSettings_Load);
             this.panelMainSettings.ResumeLayout(false);
-            this.panelAddCancelButtons.ResumeLayout(false);
             this.panelAttribute.ResumeLayout(false);
+            this.panelAddCancelButtons.ResumeLayout(false);
             this.panelBusinessDetails.ResumeLayout(false);
             this.panelBusinessDetails.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericExtraMoney)).EndInit();

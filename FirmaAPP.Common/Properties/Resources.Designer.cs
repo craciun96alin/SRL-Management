@@ -70,6 +70,15 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Folder proiectări 3D.
+        /// </summary>
+        internal static string _3DDesignFolder {
+            get {
+                return ResourceManager.GetString("_3DDesignFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Piesa 3D.
         /// </summary>
         internal static string _3DPrint {
@@ -79,11 +88,29 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Folder printări 3D.
+        /// </summary>
+        internal static string _3DPrintFolder {
+            get {
+                return ResourceManager.GetString("_3DPrintFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Comanda de achiziție.
         /// </summary>
         internal static string AcquisitionOrder {
             get {
                 return ResourceManager.GetString("AcquisitionOrder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adresă.
+        /// </summary>
+        internal static string Address {
+            get {
+                return ResourceManager.GetString("Address", resourceCulture);
             }
         }
         
@@ -142,7 +169,7 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Factura.
+        ///   Looks up a localized string similar to Factură.
         /// </summary>
         internal static string Bill {
             get {
@@ -156,6 +183,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string BillAcquisitionType {
             get {
                 return ResourceManager.GetString("BillAcquisitionType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder facturi.
+        /// </summary>
+        internal static string BillFolder {
+            get {
+                return ResourceManager.GetString("BillFolder", resourceCulture);
             }
         }
         
@@ -178,6 +214,15 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Oraș.
+        /// </summary>
+        internal static string City {
+            get {
+                return ResourceManager.GetString("City", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Culoare.
         /// </summary>
         internal static string Color {
@@ -187,11 +232,56 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Țara.
+        /// </summary>
+        internal static string Country {
+            get {
+                return ResourceManager.GetString("Country", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Județ.
+        /// </summary>
+        internal static string County {
+            get {
+                return ResourceManager.GetString("County", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dată creare.
+        /// </summary>
+        internal static string CreationDate {
+            get {
+                return ResourceManager.GetString("CreationDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clientul.
         /// </summary>
         internal static string Customer {
             get {
                 return ResourceManager.GetString("Customer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dată.
+        /// </summary>
+        internal static string Date {
+            get {
+                return ResourceManager.GetString("Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Termen limită.
+        /// </summary>
+        internal static string DeadLineDate {
+            get {
+                return ResourceManager.GetString("DeadLineDate", resourceCulture);
             }
         }
         
@@ -250,6 +340,15 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fișier.
+        /// </summary>
+        internal static string File {
+            get {
+                return ResourceManager.GetString("File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fișierul nu este disponibil! Verificați adresa fișierului din setări!.
         /// </summary>
         internal static string FileDoNotExist {
@@ -259,11 +358,56 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Data finalizare.
+        /// </summary>
+        internal static string FinalizeDate {
+            get {
+                return ResourceManager.GetString("FinalizeDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Înainte de a adăuga facturi trebuie să definești folder-ul destinat facturilor din setări!.
         /// </summary>
         internal static string FirstDefineBillDirectory {
             get {
                 return ResourceManager.GetString("FirstDefineBillDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prenume.
+        /// </summary>
+        internal static string FirstName {
+            get {
+                return ResourceManager.GetString("FirstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ore de muncă.
+        /// </summary>
+        internal static string HoursOfWork {
+            get {
+                return ResourceManager.GetString("HoursOfWork", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Umplere.
+        /// </summary>
+        internal static string Infill {
+            get {
+                return ResourceManager.GetString("Infill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nume.
+        /// </summary>
+        internal static string LastName {
+            get {
+                return ResourceManager.GetString("LastName", resourceCulture);
             }
         }
         
@@ -340,11 +484,56 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Parolă.
+        /// </summary>
+        internal static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Parolele introduse nu sunt similare!.
         /// </summary>
         internal static string PasswordsDoseNotMatch {
             get {
                 return ResourceManager.GetString("PasswordsDoseNotMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Telefon.
+        /// </summary>
+        internal static string Phone {
+            get {
+                return ResourceManager.GetString("Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preț.
+        /// </summary>
+        internal static string Price {
+            get {
+                return ResourceManager.GetString("Price", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timp de printare(min).
+        /// </summary>
+        internal static string PrintingTimeInMin {
+            get {
+                return ResourceManager.GetString("PrintingTimeInMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proiect.
+        /// </summary>
+        internal static string Project {
+            get {
+                return ResourceManager.GetString("Project", resourceCulture);
             }
         }
         
@@ -394,6 +583,24 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Calitate.
+        /// </summary>
+        internal static string Quality {
+            get {
+                return ResourceManager.GetString("Quality", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cantitate.
+        /// </summary>
+        internal static string Quantity {
+            get {
+                return ResourceManager.GetString("Quantity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to a fost șters!.
         /// </summary>
         internal static string RemoveWithSuccess {
@@ -435,6 +642,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string Settings {
             get {
                 return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preț transport.
+        /// </summary>
+        internal static string ShippingPrice {
+            get {
+                return ResourceManager.GetString("ShippingPrice", resourceCulture);
             }
         }
         
@@ -493,6 +709,15 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Preț total.
+        /// </summary>
+        internal static string TotalPrice {
+            get {
+                return ResourceManager.GetString("TotalPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tricoul.
         /// </summary>
         internal static string Tshirt {
@@ -507,6 +732,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string TshirtIsNotInStock {
             get {
                 return ResourceManager.GetString("TshirtIsNotInStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plătitor TVA.
+        /// </summary>
+        internal static string TVAPaying {
+            get {
+                return ResourceManager.GetString("TVAPaying", resourceCulture);
             }
         }
         
@@ -624,6 +858,15 @@ namespace FirmaAPP.Common.Properties {
         internal static string Welcome {
             get {
                 return ResourceManager.GetString("Welcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Greutate.
+        /// </summary>
+        internal static string Wheight {
+            get {
+                return ResourceManager.GetString("Wheight", resourceCulture);
             }
         }
         

@@ -195,9 +195,18 @@ namespace FirmaAPP.BusinessLogic.UIConnector
             }
         }
 
-        public Attribute3DPrintsQuality GeAttribute3DPrintsQualityByName(string v)
+        public Attribute3DPrintsQuality GeAttribute3DPrintsQualityByName(string Name)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Attribute3DPrintsQualityBLL aBLL = new Attribute3DPrintsQualityBLL();
+                var printQuality = aBLL.GetAttribute3DPrintsQualityByName(Name);
+                return printQuality;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public List<_3DPrintOrder> Get3DPrintOrdersByOrderID(int orderID)

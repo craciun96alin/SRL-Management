@@ -791,6 +791,7 @@ namespace FirmaAPP
         {
             try
             {
+                cbTshirt.Text = string.Empty;
                 cbTshirt.DataSource = _presenter.GetTshirtsNameByProvider(providerName);
             }
             catch (Exception ex)

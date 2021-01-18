@@ -90,5 +90,19 @@ namespace FirmaAPP.BusinessLogic.Core
                 throw ex;
             }
         }
+
+        public Attribute3DPrintsQuality GetAttribute3DPrintsQualityByName(string name)
+        {
+            try
+            {
+                Attribute3DPrintsQualityDAL pqDAL = new Attribute3DPrintsQualityDAL();
+                var printsQuality = pqDAL.GetAttribute3DPrintsQualityByName(name);
+                return printsQuality;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

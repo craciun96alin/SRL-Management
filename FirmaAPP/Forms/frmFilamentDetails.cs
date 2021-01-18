@@ -229,6 +229,29 @@ namespace FirmaAPP
             childForm.Provider = new Provider();
             childForm.ShowDialog();
         }
+        private void btnAddNewColor_Click(object sender, EventArgs e)
+        {
+            frmAttributeColorDetails childForm = new frmAttributeColorDetails();
+            AttributeColorDetailsPresenter presenter = new AttributeColorDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.AttributeColor = new AttributeColor();
+            childForm.ShowDialog();
+        }
+
+        private void btnAddNewFilamentsType_Click(object sender, EventArgs e)
+        {
+            frmAttributeFilamentsTypeDetails childForm = new frmAttributeFilamentsTypeDetails();
+            AttributeFilamentsTypeDetailsPresenter presenter = new AttributeFilamentsTypeDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.AttributeFilamentsType = new AttributeFilamentsType();
+            childForm.ShowDialog();
+        }
         #endregion
         #region public functions
         public void AttachMainForm(frmMainForm form)
