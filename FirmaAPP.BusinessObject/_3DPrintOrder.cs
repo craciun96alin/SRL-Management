@@ -10,6 +10,7 @@ namespace FirmaAPP.BusinessObject
         public int? Attribute3DPrintsQualityID { get; set; }
         public int OrderID { get; set; }
         public Order Order { get; set; }
+        public Attribute3DPrintsQuality PrintQuality { get; set; }
 
         public int _3DPrintID { get; set; }
         public _3DPrint _3DPrint { get; set; }
@@ -18,11 +19,12 @@ namespace FirmaAPP.BusinessObject
 
         [LocalizedDisplayName("Infill")]
         public int Infill { get; set; }
-        public Attribute3DPrintsQuality PrintQuality { get; set; }
         [LocalizedDisplayName("Wheight")]
         public float Wheight { get; set; }
         [LocalizedDisplayName("PrintingTimeInMin")]
         public int PrintingTimeInMin { get; set; } // Will store the number of min
+        [LocalizedDisplayName("Quality")]
+        public string Quality => PrintQuality != null ? PrintQuality.Name : string.Empty;
         [LocalizedDisplayName("Quantity")]
         public int PrintsQuantity { get; set; }
         [LocalizedDisplayName("TotalPrice")]

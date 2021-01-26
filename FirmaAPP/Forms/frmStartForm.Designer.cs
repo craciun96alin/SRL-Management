@@ -95,6 +95,7 @@
             this.MaximizeBox = false;
             this.Name = "frmStartForm";
             this.Style = MetroFramework.MetroColorStyle.Black;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmStartForm_FormClosed);
             this.Load += new System.EventHandler(this.frmStartForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

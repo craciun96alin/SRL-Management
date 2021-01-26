@@ -128,5 +128,10 @@ namespace FirmaAPP
             this.ResetText();
             this.Text = "Welcome:"; //AppTranslations.Welcome;
         }
+
+        private void frmStartForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

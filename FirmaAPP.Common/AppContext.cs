@@ -19,5 +19,7 @@ namespace FirmaAPP.Common
         public static string Folder3DDesignPath;
         //
         public static string Folder3DPrintPath;
+        //
+        public static string StringConnection;
     }
 }

@@ -8,9 +8,40 @@ using System.ComponentModel;
 using System.Resources;
 using System.Globalization;
 using System.Collections;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace FirmaAPP.Common
 {
+
+
+
+    #region Sql Helper
+    public class SQLHelper
+    {
+        SqlConnection cn;
+
+        public SQLHelper(string connectionString)
+        {
+            cn = new SqlConnection(connectionString);
+        }
+
+        public bool IsConnected
+        {
+            get
+            {
+                if(cn.State == System.Data.ConnectionState.Closed)
+                {
+                    var a = cn.RetrieveStatistics();
+                    cn.Open();
+                }
+                return true;
+            }
+        }
+    }
+
+    #endregion
+
     #region Multi-language Methods
     public class LocalizedDisplayNameAttribute : DisplayNameAttribute
     {
@@ -38,7 +69,26 @@ new ResourceManager(typeof(Properties.Resources));
     #endregion
     public static class AppHelper
     {
-
+        #region Connection String helper
+        public class ConnectionString
+        {
+            Configuration config;
+            public ConnectionString()
+            {
+                config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            }
+            public string Get(string key = "cn")
+            {
+                return config.ConnectionStrings.ConnectionStrings[0].ConnectionString;
+            }
+            public void Set(string value, string key = "cn")
+            {
+                config.ConnectionStrings.ConnectionStrings[0].ConnectionString = value;
+                config.ConnectionStrings.ConnectionStrings[0].ProviderName = "System.Data.SqlClient";
+                config.Save(ConfigurationSaveMode.Modified);
+            }
+        }
+        #endregion
 
         //This is used to update db safety
         public static void DetachLocal<T>(this DbContext context, T t, int entryId)

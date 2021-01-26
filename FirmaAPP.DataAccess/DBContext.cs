@@ -11,7 +11,11 @@ namespace FirmaAPP.DataAccess
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=Test3;Trusted_Connection=True"); // For Testing 2 TO DO
+            string ConnectionString1 = "Server=DESKTOP-2E6H092;Database=Test3;Trusted_Connection=True";
+            string ConnectionString2 = "Server =" + Environment.MachineName + "; Database = Test3; Trusted_Connection = True";
+            string ConnectionString3 = "Server = (local) ; Database = Test3; Trusted_Connection = True";
+            AppHelper.ConnectionString connectionString = new AppHelper.ConnectionString();
+            optionsBuilder.UseSqlServer(connectionString.Get()); // For Testing 2 TO DO
 
             //optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=EFCore-FirmaDB;Trusted_Connection=True"); // For Testing
             // optionsBuilder.UseSqlServer("Server=DESKTOP-2E6H092;Database=SRLDB;Trusted_Connection=True"); // The good one
@@ -317,6 +321,9 @@ namespace FirmaAPP.DataAccess
                 .HasOne<_3DPrint>(_3dd => _3dd._3DPrint)
                 .WithMany(op => op._3DPrintOrders)
                 .HasForeignKey(_3dd => _3dd._3DPrintID);
+
+            modelBuilder.Entity<_3DPrintOrder>().Ignore(f => f.Quality);
+            modelBuilder.Entity<_3DPrintOrder>().Ignore(f => f.PrintQuality);
         }
 
         private void SetUpAppSettings(ModelBuilder modelBuilder)
