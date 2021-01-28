@@ -390,10 +390,4 @@
   <data name="_3DPrintFolder" xml:space="preserve">
     <value>Folder printări 3D</value>
   </data>
-  <data name="ServerAndDataBaseNameMandatory" xml:space="preserve">
-    <value>Fields that are mark with * are mandatory!</value>
-  </data>
-  <data name="VerifyConnection" xml:space="preserve">
-    <value> You must set the database name for the first login! If the problem persists please check the connection to the server!</value>
-  </data>
 </root>

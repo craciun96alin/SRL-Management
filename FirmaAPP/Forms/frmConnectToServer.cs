@@ -1,12 +1,15 @@
 ﻿using FirmaAPP.Common;
 using System;
 using System.Windows.Forms;
-using AppContext = FirmaAPP.Common.AppContext;
 
 namespace FirmaAPP
 {
     public partial class frmConnectToServer : Form
     {
+        //Strings are not in the AppTranslation because they should not set cultureInfo at this moment!
+        private static string ServerAndDataBaseNameMandatory = "Fields that are mark with * are mandatory!";
+        private static string VerifyConnection = "You must set the database name for the first login! If the problem persists please check the connection to the server!";
+        private static string Warning = "Warning!";
         AppHelper.ConnectionString cn = new AppHelper.ConnectionString();
 
         public frmConnectToServer()
@@ -17,16 +20,12 @@ namespace FirmaAPP
         private void frmConnectToServer_Load(object sender, EventArgs e)
         {
             txtServer.Text = string.Format(@"{0}\SQLEXPRESS", Environment.MachineName.ToString());
-
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
             if (txtServer.Text != string.Empty && txtDatabaseName.Text != string.Empty)
             {
-
-
-
                 string connectionString =
           string.Format("Data Source = {0}; Initial Catalog = {1};User ID = {2}; Password = {3}; Trusted_Connection=True;",
           txtServer.Text, txtDatabaseName.Text, txtUserName.Text, txtPassword.Text);
@@ -48,13 +47,13 @@ namespace FirmaAPP
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(AppTranslations.VerifyConnection, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(VerifyConnection, Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
 
             else
             {
-                MessageBox.Show(AppTranslations.ServerAndDataBaseNameMandatory, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(ServerAndDataBaseNameMandatory, Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -73,7 +72,7 @@ namespace FirmaAPP
             catch (Exception ex)
             {
                 this.Visible = true;
-                    MessageBox.Show(AppTranslations.VerifyConnection, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(VerifyConnection, Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
         }

@@ -637,15 +637,6 @@ namespace FirmaAPP.Common.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Fields that are mark with * are mandatory!.
-        /// </summary>
-        internal static string ServerAndDataBaseNameMandatory {
-            get {
-                return ResourceManager.GetString("ServerAndDataBaseNameMandatory", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Setările.
         /// </summary>
         internal static string Settings {
@@ -768,15 +759,6 @@ namespace FirmaAPP.Common.Properties {
         internal static string User {
             get {
                 return ResourceManager.GetString("User", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to  You must set the database name for the first login! If the problem persists please check the connection to the server!.
-        /// </summary>
-        internal static string VerifyConnection {
-            get {
-                return ResourceManager.GetString("VerifyConnection", resourceCulture);
             }
         }
         
