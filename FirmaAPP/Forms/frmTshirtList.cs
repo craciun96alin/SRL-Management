@@ -116,6 +116,23 @@ namespace FirmaAPP
         {
             editTshirt((Tshirt)dataGridTshirts.Rows[e.RowIndex].DataBoundItem);
         }
+        private void btnDuplicate_Click(object sender, EventArgs e)
+        {
+            if (VerifySelectedRowForEdit())
+            {
+                Tshirt t = (Tshirt)dataGridTshirts.Rows[dataGridTshirts.SelectedRows[0].Index].DataBoundItem;
+                t.TshirtID = 0;
+                frmTshirtDetails childForm = new frmTshirtDetails();
+                TshirtDetailsPresenter presenter = new TshirtDetailsPresenter(childForm);
+                childForm.MdiParent = this.MdiParent;
+                childForm.AttachMainForm(_mainForm);
+                childForm.AttachParentForm(this);
+                childForm.AttachPresenter(presenter);
+                childForm.Init();
+                childForm.Tshirt = t;
+                childForm.ShowDialog();
+            }
+        }
         #endregion
         #region private functions
         private void editTshirt(Tshirt tshirt)

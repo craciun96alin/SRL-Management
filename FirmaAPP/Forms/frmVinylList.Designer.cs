@@ -30,15 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVinylList));
             this.panelVinylMenu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnDuplicate = new System.Windows.Forms.Button();
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEdit = new System.Windows.Forms.Label();
             this.lbDelete = new System.Windows.Forms.Label();
-            this.lbAdd = new System.Windows.Forms.Label();
-            this.panelFilamentGrid = new System.Windows.Forms.Panel();
-            this.dataGridVinyl = new System.Windows.Forms.DataGridView();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.lbAdd = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.panelFilamentGrid = new System.Windows.Forms.Panel();
+            this.dataGridVinyl = new System.Windows.Forms.DataGridView();
             this.panelVinylMenu.SuspendLayout();
             this.panelCUDFilament.SuspendLayout();
             this.panelFilamentGrid.SuspendLayout();
@@ -49,8 +51,24 @@
             // 
             resources.ApplyResources(this.panelVinylMenu, "panelVinylMenu");
             this.panelVinylMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
+            this.panelVinylMenu.Controls.Add(this.label1);
+            this.panelVinylMenu.Controls.Add(this.btnDuplicate);
             this.panelVinylMenu.Controls.Add(this.panelCUDFilament);
             this.panelVinylMenu.Name = "panelVinylMenu";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Name = "label1";
+            // 
+            // btnDuplicate
+            // 
+            resources.ApplyResources(this.btnDuplicate, "btnDuplicate");
+            this.btnDuplicate.BackgroundImage = global::FirmaAPP.Properties.Resources.duplicate_icon_png_40235;
+            this.btnDuplicate.Name = "btnDuplicate";
+            this.btnDuplicate.UseVisualStyleBackColor = true;
+            this.btnDuplicate.Click += new System.EventHandler(this.btnDuplicate_Click);
             // 
             // panelCUDFilament
             // 
@@ -77,11 +95,35 @@
             this.lbDelete.Name = "lbDelete";
             this.lbDelete.Click += new System.EventHandler(this.lbDelete_Click);
             // 
+            // btnEdit
+            // 
+            resources.ApplyResources(this.btnEdit, "btnEdit");
+            this.btnEdit.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnDelete
+            // 
+            resources.ApplyResources(this.btnDelete, "btnDelete");
+            this.btnDelete.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // lbAdd
             // 
             resources.ApplyResources(this.lbAdd, "lbAdd");
             this.lbAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbAdd.Name = "lbAdd";
+            // 
+            // btnAdd
+            // 
+            resources.ApplyResources(this.btnAdd, "btnAdd");
+            this.btnAdd.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // panelFilamentGrid
             // 
@@ -106,30 +148,6 @@
             this.dataGridVinyl.RowTemplate.Height = 24;
             this.dataGridVinyl.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridVinyl_CellDoubleClick);
             // 
-            // btnEdit
-            // 
-            resources.ApplyResources(this.btnEdit, "btnEdit");
-            this.btnEdit.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-            // 
-            // btnDelete
-            // 
-            resources.ApplyResources(this.btnDelete, "btnDelete");
-            this.btnDelete.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnAdd
-            // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
-            this.btnAdd.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
             // frmVinylList
             // 
             resources.ApplyResources(this, "$this");
@@ -141,6 +159,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmVinylList_FormClosed);
             this.Load += new System.EventHandler(this.frmVinylList_Load);
             this.panelVinylMenu.ResumeLayout(false);
+            this.panelVinylMenu.PerformLayout();
             this.panelCUDFilament.ResumeLayout(false);
             this.panelCUDFilament.PerformLayout();
             this.panelFilamentGrid.ResumeLayout(false);
@@ -161,5 +180,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Panel panelFilamentGrid;
         private System.Windows.Forms.DataGridView dataGridVinyl;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnDuplicate;
     }
 }

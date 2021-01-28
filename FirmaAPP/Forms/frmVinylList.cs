@@ -108,6 +108,23 @@ namespace FirmaAPP
         {
             editVinyl((Vinyl)dataGridVinyl.Rows[e.RowIndex].DataBoundItem);
         }
+        private void btnDuplicate_Click(object sender, EventArgs e)
+        {
+            if (VerifySelectedRowForEdit())
+            {
+                Vinyl v = (Vinyl)dataGridVinyl.Rows[dataGridVinyl.SelectedRows[0].Index].DataBoundItem;
+                v.VinylID = 0;
+                frmVinylDetails childForm = new frmVinylDetails();
+                VinylDetailsPresenter presenter = new VinylDetailsPresenter(childForm);
+                childForm.MdiParent = this.MdiParent;
+                childForm.AttachMainForm(_mainForm);
+                childForm.AttachParentForm(this);
+                childForm.AttachPresenter(presenter);
+                childForm.Init();
+                childForm.Vinyl = v;
+                childForm.ShowDialog();
+            }
+        }
         #endregion
         #region private functions
         private void editVinyl(Vinyl vinyl)

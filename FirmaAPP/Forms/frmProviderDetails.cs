@@ -32,7 +32,7 @@ namespace FirmaAPP
                     ProviderID = this.ProviderId,
                     Name = tbName.Text.ToString(),
                     Country = tbCountry.Text.ToString(),
-                    County = tbCountry.Text.ToString(),
+                    County = tbCounty.Text.ToString(),
                     City = tbCity.Text.ToString(),
                     Adress = tbAdress.Text.ToString(),
                     CUI = tbCUI.Text.ToString(),

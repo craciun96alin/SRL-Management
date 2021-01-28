@@ -92,15 +92,15 @@ namespace FirmaAPP
             // 
             // pnlSubMenu3D
             // 
-            resources.ApplyResources(this.pnlSubMenu3D, "pnlSubMenu3D");
             this.pnlSubMenu3D.Controls.Add(this.btn3DDesign);
             this.pnlSubMenu3D.Controls.Add(this.btn3DPrint);
+            resources.ApplyResources(this.pnlSubMenu3D, "pnlSubMenu3D");
             this.pnlSubMenu3D.Name = "pnlSubMenu3D";
             // 
             // btn3DDesign
             // 
-            resources.ApplyResources(this.btn3DDesign, "btn3DDesign");
             this.btn3DDesign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btn3DDesign, "btn3DDesign");
             this.btn3DDesign.FlatAppearance.BorderSize = 0;
             this.btn3DDesign.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn3DDesign.Name = "btn3DDesign";
@@ -109,8 +109,8 @@ namespace FirmaAPP
             // 
             // btn3DPrint
             // 
-            resources.ApplyResources(this.btn3DPrint, "btn3DPrint");
             this.btn3DPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btn3DPrint, "btn3DPrint");
             this.btn3DPrint.FlatAppearance.BorderSize = 0;
             this.btn3DPrint.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn3DPrint.Name = "btn3DPrint";
@@ -137,23 +137,23 @@ namespace FirmaAPP
             // 
             // pnlSubMenuOrders
             // 
-            resources.ApplyResources(this.pnlSubMenuOrders, "pnlSubMenuOrders");
             this.pnlSubMenuOrders.Controls.Add(this.pnlSubMenuSellingOrders);
             this.pnlSubMenuOrders.Controls.Add(this.btnOrderForSell);
             this.pnlSubMenuOrders.Controls.Add(this.btnOrderForBuy);
+            resources.ApplyResources(this.pnlSubMenuOrders, "pnlSubMenuOrders");
             this.pnlSubMenuOrders.Name = "pnlSubMenuOrders";
             // 
             // pnlSubMenuSellingOrders
             // 
-            resources.ApplyResources(this.pnlSubMenuSellingOrders, "pnlSubMenuSellingOrders");
             this.pnlSubMenuSellingOrders.Controls.Add(this.btnSelling3DOrders);
             this.pnlSubMenuSellingOrders.Controls.Add(this.btnSellingTshirtOrders);
+            resources.ApplyResources(this.pnlSubMenuSellingOrders, "pnlSubMenuSellingOrders");
             this.pnlSubMenuSellingOrders.Name = "pnlSubMenuSellingOrders";
             // 
             // btnSelling3DOrders
             // 
-            resources.ApplyResources(this.btnSelling3DOrders, "btnSelling3DOrders");
             this.btnSelling3DOrders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnSelling3DOrders, "btnSelling3DOrders");
             this.btnSelling3DOrders.FlatAppearance.BorderSize = 0;
             this.btnSelling3DOrders.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSelling3DOrders.Name = "btnSelling3DOrders";
@@ -162,8 +162,8 @@ namespace FirmaAPP
             // 
             // btnSellingTshirtOrders
             // 
-            resources.ApplyResources(this.btnSellingTshirtOrders, "btnSellingTshirtOrders");
             this.btnSellingTshirtOrders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnSellingTshirtOrders, "btnSellingTshirtOrders");
             this.btnSellingTshirtOrders.FlatAppearance.BorderSize = 0;
             this.btnSellingTshirtOrders.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSellingTshirtOrders.Name = "btnSellingTshirtOrders";
@@ -172,8 +172,8 @@ namespace FirmaAPP
             // 
             // btnOrderForSell
             // 
-            resources.ApplyResources(this.btnOrderForSell, "btnOrderForSell");
             this.btnOrderForSell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnOrderForSell, "btnOrderForSell");
             this.btnOrderForSell.FlatAppearance.BorderSize = 0;
             this.btnOrderForSell.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnOrderForSell.Name = "btnOrderForSell";
@@ -182,8 +182,8 @@ namespace FirmaAPP
             // 
             // btnOrderForBuy
             // 
-            resources.ApplyResources(this.btnOrderForBuy, "btnOrderForBuy");
             this.btnOrderForBuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnOrderForBuy, "btnOrderForBuy");
             this.btnOrderForBuy.FlatAppearance.BorderSize = 0;
             this.btnOrderForBuy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnOrderForBuy.Name = "btnOrderForBuy";
@@ -201,15 +201,15 @@ namespace FirmaAPP
             // 
             // pnlSubMenuProvidersCustomers
             // 
-            resources.ApplyResources(this.pnlSubMenuProvidersCustomers, "pnlSubMenuProvidersCustomers");
             this.pnlSubMenuProvidersCustomers.Controls.Add(this.btnCustomer);
             this.pnlSubMenuProvidersCustomers.Controls.Add(this.btnProvider);
+            resources.ApplyResources(this.pnlSubMenuProvidersCustomers, "pnlSubMenuProvidersCustomers");
             this.pnlSubMenuProvidersCustomers.Name = "pnlSubMenuProvidersCustomers";
             // 
             // btnCustomer
             // 
-            resources.ApplyResources(this.btnCustomer, "btnCustomer");
             this.btnCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnCustomer, "btnCustomer");
             this.btnCustomer.FlatAppearance.BorderSize = 0;
             this.btnCustomer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnCustomer.Name = "btnCustomer";
@@ -218,8 +218,8 @@ namespace FirmaAPP
             // 
             // btnProvider
             // 
-            resources.ApplyResources(this.btnProvider, "btnProvider");
             this.btnProvider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnProvider, "btnProvider");
             this.btnProvider.FlatAppearance.BorderSize = 0;
             this.btnProvider.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnProvider.Name = "btnProvider";
@@ -237,34 +237,34 @@ namespace FirmaAPP
             // 
             // panelMessageBox
             // 
-            resources.ApplyResources(this.panelMessageBox, "panelMessageBox");
             this.panelMessageBox.BackColor = System.Drawing.Color.Transparent;
             this.panelMessageBox.Controls.Add(this.tbInfo);
             this.panelMessageBox.Controls.Add(this.label1);
+            resources.ApplyResources(this.panelMessageBox, "panelMessageBox");
             this.panelMessageBox.Name = "panelMessageBox";
             // 
             // tbInfo
             // 
-            resources.ApplyResources(this.tbInfo, "tbInfo");
             this.tbInfo.BackColor = System.Drawing.Color.Lavender;
             this.tbInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbInfo.ContextMenuStrip = this.contextMenuStripInfoBox;
             this.tbInfo.Cursor = System.Windows.Forms.Cursors.Arrow;
+            resources.ApplyResources(this.tbInfo, "tbInfo");
             this.tbInfo.Name = "tbInfo";
             this.tbInfo.ReadOnly = true;
             // 
             // contextMenuStripInfoBox
             // 
-            resources.ApplyResources(this.contextMenuStripInfoBox, "contextMenuStripInfoBox");
             this.contextMenuStripInfoBox.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStripInfoBox.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.refreshToolStripMenuItem});
             this.contextMenuStripInfoBox.Name = "contextMenuStripInfoBox";
+            resources.ApplyResources(this.contextMenuStripInfoBox, "contextMenuStripInfoBox");
             // 
             // refreshToolStripMenuItem
             // 
-            resources.ApplyResources(this.refreshToolStripMenuItem, "refreshToolStripMenuItem");
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
+            resources.ApplyResources(this.refreshToolStripMenuItem, "refreshToolStripMenuItem");
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // label1
@@ -275,17 +275,17 @@ namespace FirmaAPP
             // 
             // pnlSubMenuSupplies
             // 
-            resources.ApplyResources(this.pnlSubMenuSupplies, "pnlSubMenuSupplies");
             this.pnlSubMenuSupplies.Controls.Add(this.btnOtherPurchase);
             this.pnlSubMenuSupplies.Controls.Add(this.btnVinyl);
             this.pnlSubMenuSupplies.Controls.Add(this.BtnFilament);
             this.pnlSubMenuSupplies.Controls.Add(this.btnTshirt);
+            resources.ApplyResources(this.pnlSubMenuSupplies, "pnlSubMenuSupplies");
             this.pnlSubMenuSupplies.Name = "pnlSubMenuSupplies";
             // 
             // btnOtherPurchase
             // 
-            resources.ApplyResources(this.btnOtherPurchase, "btnOtherPurchase");
             this.btnOtherPurchase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnOtherPurchase, "btnOtherPurchase");
             this.btnOtherPurchase.FlatAppearance.BorderSize = 0;
             this.btnOtherPurchase.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnOtherPurchase.Name = "btnOtherPurchase";
@@ -294,8 +294,8 @@ namespace FirmaAPP
             // 
             // btnVinyl
             // 
-            resources.ApplyResources(this.btnVinyl, "btnVinyl");
             this.btnVinyl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnVinyl, "btnVinyl");
             this.btnVinyl.FlatAppearance.BorderSize = 0;
             this.btnVinyl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVinyl.Name = "btnVinyl";
@@ -304,8 +304,8 @@ namespace FirmaAPP
             // 
             // BtnFilament
             // 
-            resources.ApplyResources(this.BtnFilament, "BtnFilament");
             this.BtnFilament.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.BtnFilament, "BtnFilament");
             this.BtnFilament.FlatAppearance.BorderSize = 0;
             this.BtnFilament.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BtnFilament.Name = "BtnFilament";
@@ -314,8 +314,8 @@ namespace FirmaAPP
             // 
             // btnTshirt
             // 
-            resources.ApplyResources(this.btnTshirt, "btnTshirt");
             this.btnTshirt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(3)))), ((int)(((byte)(51)))));
+            resources.ApplyResources(this.btnTshirt, "btnTshirt");
             this.btnTshirt.FlatAppearance.BorderSize = 0;
             this.btnTshirt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTshirt.Name = "btnTshirt";
@@ -333,16 +333,16 @@ namespace FirmaAPP
             // 
             // LogoPanel
             // 
-            resources.ApplyResources(this.LogoPanel, "LogoPanel");
             this.LogoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(7)))), ((int)(((byte)(27)))));
             this.LogoPanel.BackgroundImage = global::FirmaAPP.Properties.Resources.pidped_logo_alb;
+            resources.ApplyResources(this.LogoPanel, "LogoPanel");
             this.LogoPanel.Name = "LogoPanel";
             // 
             // panelChildForms
             // 
-            resources.ApplyResources(this.panelChildForms, "panelChildForms");
             this.panelChildForms.BackColor = System.Drawing.Color.White;
             this.panelChildForms.BackgroundImage = global::FirmaAPP.Properties.Resources.etisst_logo_negru;
+            resources.ApplyResources(this.panelChildForms, "panelChildForms");
             this.panelChildForms.Name = "panelChildForms";
             this.panelChildForms.Layout += new System.Windows.Forms.LayoutEventHandler(this.frmMainForm_LayoutChange);
             this.panelChildForms.Resize += new System.EventHandler(this.panelChildForms_Resize);

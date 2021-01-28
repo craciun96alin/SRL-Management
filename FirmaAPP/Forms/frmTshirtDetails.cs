@@ -230,18 +230,6 @@ namespace FirmaAPP
         }
         private void btnAddNewTshirtsType_Click(object sender, EventArgs e)
         {
-            frmAttributeColorDetails childForm = new frmAttributeColorDetails();
-            AttributeColorDetailsPresenter presenter = new AttributeColorDetailsPresenter(childForm);
-            childForm.MdiParent = this.MdiParent;
-            childForm.AttachMainForm(_mainForm);
-            childForm.AttachParentForm(this);
-            childForm.AttachPresenter(presenter);
-            childForm.AttributeColor = new AttributeColor();
-            childForm.ShowDialog();
-        }
-
-        private void btnAddNewColor_Click(object sender, EventArgs e)
-        {
             frmAttributeTshirtsTypeDetails childForm = new frmAttributeTshirtsTypeDetails();
             AttributeTshirtsTypeDetailsPresenter presenter = new AttributeTshirtsTypeDetailsPresenter(childForm);
             childForm.MdiParent = this.MdiParent;
@@ -249,6 +237,18 @@ namespace FirmaAPP
             childForm.AttachParentForm(this);
             childForm.AttachPresenter(presenter);
             childForm.AttributeTshirtsType = new AttributeTshirtsType();
+            childForm.ShowDialog();
+        }
+
+        private void btnAddNewColor_Click(object sender, EventArgs e)
+        {
+            frmAttributeColorDetails childForm = new frmAttributeColorDetails();
+            AttributeColorDetailsPresenter presenter = new AttributeColorDetailsPresenter(childForm);
+            childForm.MdiParent = this.MdiParent;
+            childForm.AttachMainForm(_mainForm);
+            childForm.AttachParentForm(this);
+            childForm.AttachPresenter(presenter);
+            childForm.AttributeColor = new AttributeColor();
             childForm.ShowDialog();
         }
         #endregion

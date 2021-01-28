@@ -96,5 +96,7 @@
         public static string Size = Properties.Resources.Size;
         public static string Rating = "Rating";
 
+        public static string ServerAndDataBaseNameMandatory = Properties.Resources.ServerAndDataBaseNameMandatory;
+        public static string VerifyConnection = Properties.Resources.VerifyConnection;
     }
 }

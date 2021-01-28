@@ -43,27 +43,27 @@ namespace FirmaAPP.Common
 
         public enum Sex
         {
-            M = 1,
-            F = 2,
-            Unisex = 3,
+            M = 0,
+            F = 1,
+            Unisex = 2,
         }
 
         public enum TshirtSize
         {
-            XS = 1,
-            S = 2,
-            M = 3,
-            L = 4,
-            XL = 5,
-            XXL = 6,
-            XXXL = 7,
-            XXXXL = 8,
-            XXXXXL = 9,
-            Copii_4ani = 10,
-            Copii_6ani = 11,
-            Copii_8ani = 12,
-            Copii_10ani = 13,
-            Copii_12ani = 14
+            XS = 0,
+            S = 1,
+            M = 2,
+            L = 3,
+            XL = 4,
+            XXL = 5,
+            XXXL = 6,
+            XXXXL = 7,
+            XXXXXL = 8,
+            Child_4y = 9,
+            Child_6y = 10,
+            Child_8y = 11,
+            Child_10y = 12,
+            Child_12y = 13
         }
 
         public enum OrderStatus

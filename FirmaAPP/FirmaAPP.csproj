@@ -385,6 +385,9 @@
     <EmbeddedResource Include="Forms\frmBillDetails.resx">
       <DependentUpon>frmBillDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmConnectToServer.en-US.resx">
+      <DependentUpon>frmConnectToServer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmConnectToServer.resx">
       <DependentUpon>frmConnectToServer.cs</DependentUpon>
     </EmbeddedResource>
@@ -651,6 +654,9 @@
       <Project>{D8DDC2AD-3CF8-4729-9F38-7E93D7CD9194}</Project>
       <Name>FirmaAPP.DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\duplicate-icon-png-40235.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

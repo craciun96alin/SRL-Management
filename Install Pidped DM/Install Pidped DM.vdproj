@@ -10362,7 +10362,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Install Pidped DM"
         "ProductCode" = "8:{C0343AF5-4FB7-4B4B-84F4-F4AD33BDECFD}"
-        "PackageCode" = "8:{9C17193E-4FD9-4836-AD0C-2648412185C5}"
+        "PackageCode" = "8:{410C6858-8F99-4A6C-A8A2-804E13503ED8}"
         "UpgradeCode" = "8:{B331135C-F0FB-446C-8711-A441F66BB659}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

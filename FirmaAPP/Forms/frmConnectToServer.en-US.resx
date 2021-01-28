@@ -118,53 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 18</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Duplicate</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Database Name:</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbEditFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="txtServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
   </data>
-  <data name="lbEditFilament.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 30</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
   </data>
-  <data name="lbEditFilament.Text" xml:space="preserve">
-    <value>Edit</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Username:</value>
   </data>
-  <data name="lbDeleteFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
   </data>
-  <data name="lbDeleteFilament.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 30</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Password:</value>
   </data>
-  <data name="lbDeleteFilament.Text" xml:space="preserve">
-    <value>Delete</value>
+  <data name="txtDatabaseName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
   </data>
-  <data name="btnEditFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="txtUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
   </data>
-  <data name="btnDeleteFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
   </data>
-  <data name="lbAddFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="btnConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 40</value>
   </data>
-  <data name="lbAddFilament.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 79</value>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>Connect</value>
   </data>
-  <data name="lbAddFilament.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 18</value>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 18</value>
   </data>
-  <data name="lbAddFilament.Text" xml:space="preserve">
-    <value>Add</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>*If you are unable to connect, please read the documentation!</value>
   </data>
-  <data name="btnAddFilament.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Filaments List</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>423, 264</value>
   </data>
 </root>

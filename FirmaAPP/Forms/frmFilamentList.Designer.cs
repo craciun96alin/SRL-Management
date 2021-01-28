@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFilamentList));
             this.panelFilamentMenu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnDuplicate = new System.Windows.Forms.Button();
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEditFilament = new System.Windows.Forms.Label();
             this.lbDeleteFilament = new System.Windows.Forms.Label();
@@ -47,20 +49,36 @@
             // 
             // panelFilamentMenu
             // 
-            this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
-            this.panelFilamentMenu.Controls.Add(this.panelCUDFilament);
             resources.ApplyResources(this.panelFilamentMenu, "panelFilamentMenu");
+            this.panelFilamentMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
+            this.panelFilamentMenu.Controls.Add(this.label1);
+            this.panelFilamentMenu.Controls.Add(this.btnDuplicate);
+            this.panelFilamentMenu.Controls.Add(this.panelCUDFilament);
             this.panelFilamentMenu.Name = "panelFilamentMenu";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Name = "label1";
+            // 
+            // btnDuplicate
+            // 
+            resources.ApplyResources(this.btnDuplicate, "btnDuplicate");
+            this.btnDuplicate.BackgroundImage = global::FirmaAPP.Properties.Resources.duplicate_icon_png_40235;
+            this.btnDuplicate.Name = "btnDuplicate";
+            this.btnDuplicate.UseVisualStyleBackColor = true;
+            this.btnDuplicate.Click += new System.EventHandler(this.btnDuplicate_Click);
             // 
             // panelCUDFilament
             // 
+            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Controls.Add(this.lbEditFilament);
             this.panelCUDFilament.Controls.Add(this.lbDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.btnEditFilament);
             this.panelCUDFilament.Controls.Add(this.btnDeleteFilament);
             this.panelCUDFilament.Controls.Add(this.lbAddFilament);
             this.panelCUDFilament.Controls.Add(this.btnAddFilament);
-            resources.ApplyResources(this.panelCUDFilament, "panelCUDFilament");
             this.panelCUDFilament.Name = "panelCUDFilament";
             // 
             // lbEditFilament
@@ -79,16 +97,16 @@
             // 
             // btnEditFilament
             // 
-            this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
             resources.ApplyResources(this.btnEditFilament, "btnEditFilament");
+            this.btnEditFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.EditIcon;
             this.btnEditFilament.Name = "btnEditFilament";
             this.btnEditFilament.UseVisualStyleBackColor = true;
             this.btnEditFilament.Click += new System.EventHandler(this.btnEditFilament_Click);
             // 
             // btnDeleteFilament
             // 
-            this.btnDeleteFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             resources.ApplyResources(this.btnDeleteFilament, "btnDeleteFilament");
+            this.btnDeleteFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.DeleteIcon;
             this.btnDeleteFilament.Name = "btnDeleteFilament";
             this.btnDeleteFilament.UseVisualStyleBackColor = true;
             this.btnDeleteFilament.Click += new System.EventHandler(this.btnDeleteFilament_Click);
@@ -101,20 +119,21 @@
             // 
             // btnAddFilament
             // 
-            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             resources.ApplyResources(this.btnAddFilament, "btnAddFilament");
+            this.btnAddFilament.BackgroundImage = global::FirmaAPP.Properties.Resources.AddIcon;
             this.btnAddFilament.Name = "btnAddFilament";
             this.btnAddFilament.UseVisualStyleBackColor = true;
             this.btnAddFilament.Click += new System.EventHandler(this.btnAddFilament_Click);
             // 
             // panelFilamentGrid
             // 
-            this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
             resources.ApplyResources(this.panelFilamentGrid, "panelFilamentGrid");
+            this.panelFilamentGrid.Controls.Add(this.dataGridFilament);
             this.panelFilamentGrid.Name = "panelFilamentGrid";
             // 
             // dataGridFilament
             // 
+            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.AllowUserToAddRows = false;
             this.dataGridFilament.AllowUserToDeleteRows = false;
             this.dataGridFilament.AllowUserToOrderColumns = true;
@@ -123,7 +142,6 @@
             this.dataGridFilament.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridFilament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridFilament.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataGridFilament, "dataGridFilament");
             this.dataGridFilament.Name = "dataGridFilament";
             this.dataGridFilament.ReadOnly = true;
             this.dataGridFilament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -141,6 +159,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmFilament_FormClosed);
             this.Load += new System.EventHandler(this.frmFilament_Load);
             this.panelFilamentMenu.ResumeLayout(false);
+            this.panelFilamentMenu.PerformLayout();
             this.panelCUDFilament.ResumeLayout(false);
             this.panelCUDFilament.PerformLayout();
             this.panelFilamentGrid.ResumeLayout(false);
@@ -161,5 +180,7 @@
         private System.Windows.Forms.Label lbEditFilament;
         private System.Windows.Forms.Panel panelFilamentGrid;
         private System.Windows.Forms.DataGridView dataGridFilament;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnDuplicate;
     }
 }

@@ -155,6 +155,23 @@ namespace FirmaAPP
         {
             deleteFilament();
         }
+        private void btnDuplicate_Click(object sender, EventArgs e)
+        {
+            if (VerifySelectedRowForEditing())
+            {
+                Filament f = (Filament)dataGridFilament.Rows[dataGridFilament.SelectedRows[0].Index].DataBoundItem;
+                f.FilamentID = 0;
+                frmFilamentDetails childForm = new frmFilamentDetails();
+                FilamentDetailsPresenter presenter = new FilamentDetailsPresenter(childForm);
+                childForm.MdiParent = this.MdiParent;
+                childForm.AttachMainForm(_mainForm);
+                childForm.AttachParentForm(this);
+                childForm.AttachPresenter(presenter);
+                childForm.Init();
+                childForm.Filament = f;
+                childForm.ShowDialog();
+            }
+        }
         #endregion
         #region private functions
         private void editFilament(Filament filament)

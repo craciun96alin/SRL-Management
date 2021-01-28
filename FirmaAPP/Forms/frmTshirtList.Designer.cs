@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTshirtsList));
             this.panelVinylMenu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelCUDFilament = new System.Windows.Forms.Panel();
             this.lbEdit = new System.Windows.Forms.Label();
             this.lbDelete = new System.Windows.Forms.Label();
@@ -37,6 +38,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.lbAdd = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnDuplicate = new System.Windows.Forms.Button();
             this.panelFilamentGrid = new System.Windows.Forms.Panel();
             this.dataGridTshirts = new System.Windows.Forms.DataGridView();
             this.panelVinylMenu.SuspendLayout();
@@ -49,8 +51,16 @@
             // 
             resources.ApplyResources(this.panelVinylMenu, "panelVinylMenu");
             this.panelVinylMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(7)))), ((int)(((byte)(11)))));
+            this.panelVinylMenu.Controls.Add(this.label1);
             this.panelVinylMenu.Controls.Add(this.panelCUDFilament);
+            this.panelVinylMenu.Controls.Add(this.btnDuplicate);
             this.panelVinylMenu.Name = "panelVinylMenu";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Name = "label1";
             // 
             // panelCUDFilament
             // 
@@ -107,6 +117,14 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // btnDuplicate
+            // 
+            resources.ApplyResources(this.btnDuplicate, "btnDuplicate");
+            this.btnDuplicate.BackgroundImage = global::FirmaAPP.Properties.Resources.duplicate_icon_png_40235;
+            this.btnDuplicate.Name = "btnDuplicate";
+            this.btnDuplicate.UseVisualStyleBackColor = true;
+            this.btnDuplicate.Click += new System.EventHandler(this.btnDuplicate_Click);
+            // 
             // panelFilamentGrid
             // 
             resources.ApplyResources(this.panelFilamentGrid, "panelFilamentGrid");
@@ -141,6 +159,7 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmTshirtsList_FormClosed);
             this.Load += new System.EventHandler(this.frmTshirtsList_Load);
             this.panelVinylMenu.ResumeLayout(false);
+            this.panelVinylMenu.PerformLayout();
             this.panelCUDFilament.ResumeLayout(false);
             this.panelCUDFilament.PerformLayout();
             this.panelFilamentGrid.ResumeLayout(false);
@@ -161,5 +180,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Panel panelFilamentGrid;
         private System.Windows.Forms.DataGridView dataGridTshirts;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnDuplicate;
     }
 }

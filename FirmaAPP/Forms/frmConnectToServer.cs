@@ -39,7 +39,7 @@ namespace FirmaAPP
                     if (sqlHelper.IsConnected)
                     {
                         cn.Set(connectionString);
-                        MessageBox.Show("Succes", "Message", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        //MessageBox.Show("Succes", "Message", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         frmStartForm startForm = new frmStartForm();
                         startForm.Show();
                         this.Visible = false;
@@ -48,13 +48,13 @@ namespace FirmaAPP
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Me", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show(AppTranslations.VerifyConnection, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
 
             else
             {
-                MessageBox.Show("Verificati campurile mandatory", "Message", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show(AppTranslations.ServerAndDataBaseNameMandatory, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -73,7 +73,8 @@ namespace FirmaAPP
             catch (Exception ex)
             {
                 this.Visible = true;
-                MessageBox.Show("Aparent conectarea default nu poate fi accesata, va rugam completati manual datele!", "Me", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show(AppTranslations.VerifyConnection, AppTranslations.Warning, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
         }
     }
